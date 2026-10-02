@@ -1,5 +1,47 @@
 # Mathematics package progress
 
+## 1 October 2026 — universal framing and supplied outside review plan
+
+- State and prove the established universal autocorrelation equivalence on finite abelian groups, with zero-frequency and binary-admissibility conditions explicit.
+- Connect that framework to G's six-point constructive claim; distinguish measurement information from crystal formation.
+- Incorporate the supplied review as reported checks, not locally reproduced external results, and map the remaining free-parameter proof obligations.
+- Verify Rosenblatt–Seymour attribution against an accessible primary source; retain any full-text access limit.
+- Obtain a separate adversarial read and run the existing bounded checks; expected computation under two CPU minutes, with no new exhaustive census or solver replay.
+- Record the exact changed files and validation boundaries before a local checkpoint; select no public visibility, license or outreach.
+
+**Completed framing — [PROVED], in-house exposition of established
+identities.** [The universal formulation](docs/UNIVERSAL_THEOREM.md)
+contains the complete four-way autocorrelation/Fourier/spectral-unit/
+pair-functional proof and binary constraint. A
+[separate attack](docs/UNIVERSAL_REVIEW.md) found no correctness blocker.
+This is classical harmonic analysis, not a newly discovered universal
+crystal law or an all-cardinality constructive classification.
+The references now credit Rosenblatt–Seymour1982 with original full-proof
+access unresolved, and Rosenblatt1984's freshly read complete cyclic
+factorization proof. Signed/rational factors may violate binary constraints.
+
+**[COMPUTED] Four fresh structural checks passed without site packages.**
+Using the existing independent checkers in a disposable copy, `python -S`
+passed height growth, HR/BF, all315 DAG strata and the620 terminal mechanisms.
+No DAG audit report was reused. The DAG covered10602nodes and658894integral
+lattice inclusions in56.687seconds; total isolation/replay took65.232seconds.
+The [receipt and input hashes](docs/STRUCTURAL_REPLAY.json) retain the exact
+commands. No line-solver proof was regenerated; this local run does not
+replace specialist scrutiny of encoding, coverage and written reductions.
+The14-command bounded suite passed in46.783seconds before these explanatory
+edits. Final document/provenance audit follows the public-manifest refresh;
+its local receipt is `.reproduction/universal-final-audit.json`.
+
+The supplied outside-review report remains **reported evidence** for its
+bounded n12..44 census/grammar,135 bound and n6..120 Bloom checks; its raw
+implementation/logs were not inspected. The alternate D-menu equivalence
+remains unverified. The [assessment reply](docs/ASSESSMENT_REPLY.md) and
+[reproduction guide](docs/REPRODUCING.md) now give the exact scope and
+dependency-free fresh commands, including the resume-hash limitation.
+All inherited proofs/code/certificates/reference assets remain byte-identical.
+This is a local documentation checkpoint, with no new GitHub push,
+visibility, license or outreach decision.
+
 ## 1 October 2026 — standalone sharing package
 
 - Package the reviewed six-point grammar G, all-modulus Bloom theorem AP

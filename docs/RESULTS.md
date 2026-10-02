@@ -13,6 +13,13 @@ or complete proof-assistant certification. Historical novelty remains
 unestablished; the classical constructions and general counting methods
 are credited in [REFERENCES.md](REFERENCES.md).
 
+For the universal backdrop, see
+[the autocorrelation theorem and binary constraint](UNIVERSAL_THEOREM.md).
+Equal autocorrelation, Fourier magnitudes and spectral-unit convolution
+are classical at every support size; Rosenblatt's cyclic factorization is
+also all-cardinality prior art. The six-point result supplies additional
+constructive structure within the binary constraint.
+
 ## Definitions
 
 For a positive integer $n$, write $\mathbb Z_n=\mathbb Z/n\mathbb Z$.

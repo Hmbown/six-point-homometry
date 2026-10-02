@@ -6,6 +6,16 @@ assess the exact claim below. It is AI-assisted working research with written
 proofs and separate internal attacks; correctness and novelty still require
 independent specialist assessment.
 
+The clean universal backdrop is classical: for weighted signals on any
+finite abelian group, equal autocorrelation is equivalent to equal Fourier
+magnitudes and to convolution by a spectral unit. Rosenblatt's 1984
+Theorem 3.6 also gives unrestricted factor reversal in every cyclic group.
+Those factors need not be binary, sparse or positive. G's specific claim
+is a complete finite grammar **inside the six-point binary constraint**.
+The [universal formulation and full elementary proof](UNIVERSAL_THEOREM.md)
+make that distinction explicit; unrestricted lost-phase and factor-flip
+characterizations are not proposed as new results.
+
 **Theorem G (claimed, internally reviewed, computer-assisted).** For every
 positive integer $n$, let the vertices be the translation/reflection classes
 of six-element subsets of $\mathbb Z_n$. Add the edges specified by the
@@ -84,3 +94,34 @@ this outline as an established theorem.
 The separate proofs, reviews and computational certificates are packaged.
 The fresh standalone verification passed 18 commands; that run does not
 regenerate every exhaustive enumeration, structural stratum or solver proof.
+
+## Follow-up to the supplied independent-check report
+
+The user supplied a report claiming separately implemented agreement for
+censuses and connectivity at n=12 through44, the135 bound, and Bloom
+pair counts at n=6 through120. Its raw implementation and logs have not
+been inspected here. These are useful reported checks of their stated
+scope; they do not independently establish the free-parameter argument.
+The report's alternate D exchange menu also leaves correspondence with
+G's exact equal-sum/periodic-weight criterion unchecked.
+
+Two refinements follow from source inspection and local verification:
+
+- Rosenblatt–Seymour1982 is now credited, with original full-text access
+  explicitly unresolved. Rosenblatt1984's cyclic factorization theorem
+  and complete proof were read. General algebraic factorization is prior
+  art; the six-point constructive constraint and proof completeness are
+  the claims requiring assessment.
+- The positive-rank structural checkers already use standard Python.
+  A fresh isolated replay with site packages disabled passed height
+  growth, HR/BF, all315 DAG strata/10,602nodes, and all620 terminal
+  mechanisms. A blocked package registry therefore need not prevent
+  these particular checks. Exact fresh commands and their separate
+  obligations are in the [reproduction guide](REPRODUCING.md).
+
+This local replay used the existing independent checking programs. It did
+not supply a new external implementation, regenerate the line-solver
+proofs, or establish that every logical reduction and checker predicate
+is correct. Those remain the appropriate focus for a human specialist.
+The grammar is sufficient as claimed; minimality, unique normal forms,
+disjoint mechanism counts and historical priority remain unresolved.

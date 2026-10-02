@@ -59,6 +59,63 @@ the repository does not silently download missing evidence.
 
 ## Independent proof-certificate replays
 
+### Structural checks without a package registry
+
+The height-growth, HR/BF, complete low-rank DAG and terminal-mechanism
+checkers use Python's standard library only. Their transitive imports do
+not require NumPy, SymPy or the discovery builders. This is distinct from
+the full default suite's package requirements.
+
+Use a **disposable copy** of the repository: the growth and terminal
+programs write inherited result locations. From that copy, run:
+
+```sh
+mkdir -p .reproduction
+python3.12 -S tests/test_six_free_rank_growth.py
+python3.12 -S tests/test_six_cylinder_branches_review.py --out .reproduction/cylinder.json
+python3.12 -S tests/test_six_free_dag_review.py --require-complete --out .reproduction/dag-fresh
+python3.12 -S tests/test_six_low_rank_mechanisms_review.py
+```
+
+The `-S` option disables installed site packages. A fresh isolated run on
+1 October 2026 passed all four commands with that option: height growth,
+HR/BF, all 315 DAG strata and the separate 620-terminal mechanism check.
+The DAG run checked 10,602 nodes and 658,894 integral lattice inclusions;
+the four commands plus isolation took about 65 seconds on that host.
+This is a measured local runtime, not a promise for another machine.
+
+| Checker | Obligation |
+|---|---|
+| Growth | Exhaustive height-span and permutation-orbit coverage; generic heights for all 104+211 strata. |
+| HR/BF | High-rank and Bloom-cylinder reductions, with explicit integral witnesses. |
+| DAG | Cross-match orbits, roots, signed branches, decreasing residual multiplicity, Smith witnesses and two-way integral lattice inclusions. |
+| Terminals | Construction identities, complete residual cyclic-character covers and half-coset degeneration controls. |
+
+The terminal checker alone is insufficient for exhaustive coverage.
+Passing these programs checks their stated predicates against the supplied
+certificates; a specialist should also inspect the predicates and the
+written reductions that connect them to an arbitrary input pair.
+
+For **fresh** DAG verification, omit `--resume` and use a new output
+directory. The optional resume key covers the compressed DAG and cross-file
+hashes only; it does not bind checker-source or height-file hashes, nor
+recompute skipped predicates. Thus `complete: true` in a resumed run is
+not evidence of a fresh replay. The old 9.25-second saved run was a resumed
+tail; the new complete DAG replay took approximately 56.7 seconds.
+
+The real-line branch remains a separate solver obligation. With cvc5 1.4.1
+available, its independent encodings can be run in the disposable copy:
+
+```sh
+python3.12 tests/test_six_integer_review.py --module-dir '' --timeout 60 --out .reproduction/line-strict
+python3.12 tests/test_six_integer_review.py --module-dir '' --weighted --order-matches --timeout 60 --out .reproduction/line-weighted
+```
+
+Those rebuild independent strict and repeated-atom models and request
+internally checked solver proofs. They need the stated solver, and do not
+constitute external verification by a small proof kernel. They were not
+regenerated in the 1 October framing/structural follow-up.
+
 The following original commands can write outputs. Run them in a disposable
 clone, or use the wrapper's `--suite certificates`, which executes them in a
 temporary copy. Start with a per-command limit of ten minutes; treat a timeout
@@ -73,10 +130,11 @@ low-rank terminal checker and the finite-torsion checker. The full structural
 low-rank cover is a separate, resumable command:
 
 ```sh
-python tests/test_six_free_dag_review.py --resume --require-complete --out .reproduction/structural-review
+python tests/test_six_free_dag_review.py --require-complete --out .reproduction/structural-review-fresh
 ```
 
-`--resume` uses input hashes to reuse matching saved work. Reusing a prior
+Add `--resume` to continue interrupted work; it uses input hashes to reuse
+matching saved work. Reusing a prior
 record is not a fresh replay of the skipped calculation. With a new output
 directory, this command reconstructs all 315 strata and checks the integral
 lattice witnesses. Inspect `summary.json` for `complete: true`. Detailed

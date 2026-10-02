@@ -18,13 +18,13 @@
     },
     {
       "path": "PROGRESS.md",
-      "sha256": "0a99d1cbaff361e229b3413d6963e3c2dbce137c4eacf06d9a3474b2bf591d56",
-      "bytes": 3457
+      "sha256": "aee10903e14153ad6f5121360e6cc28c48b353fadd815a4b3049e416747cc963",
+      "bytes": 6517
     },
     {
       "path": "README.md",
-      "sha256": "1ab540bdd7cbab73ac184159ff5dea8f17a296ad40d2c1e0ea70b36feb7c26f8",
-      "bytes": 5384
+      "sha256": "ef2f03c904596f6f1906b84ea8e56aa10b82abf67464f60f8229ff4d96cb6d7f",
+      "bytes": 5820
     },
     {
       "path": "REPORT.md",
@@ -38,8 +38,8 @@
     },
     {
       "path": "docs/ASSESSMENT_REPLY.md",
-      "sha256": "e72c06d4dac58aa75ee7fd663364a91e67ff52707933572f1ea40b5516907677",
-      "bytes": 5249
+      "sha256": "f023eef4e5cde8d309a2f730ba35a2acdb7b4686674e861ea5e9c22b965952cf",
+      "bytes": 7652
     },
     {
       "path": "docs/EXPORT_MANIFEST.json",
@@ -63,18 +63,33 @@
     },
     {
       "path": "docs/REFERENCES.md",
-      "sha256": "dfbc67dd895084636929061281a77bdea1e794f35d711e5154260e1c376b37f9",
-      "bytes": 7540
+      "sha256": "ebb14da8eaafa3f6d7d71d14c91bb6a50242191fd11866a01da0b1a2758070a5",
+      "bytes": 9259
     },
     {
       "path": "docs/REPRODUCING.md",
-      "sha256": "703388438710e2735b8950c84f0b2880ba821e4ef6d562319be96ef66c5e784e",
-      "bytes": 6148
+      "sha256": "601ee93db00f2a3a7e3e2b232d723cdc668af49f78b5a516733a7ae8e23f7096",
+      "bytes": 9278
     },
     {
       "path": "docs/RESULTS.md",
-      "sha256": "66c0f5065de0ada84c8a225381d6cb23b0c077104f073f9003685dfa043620b9",
-      "bytes": 10881
+      "sha256": "71d37ee21058e96c1dcd3a963368d4132a7891f38a468136eb72ea6470575ef0",
+      "bytes": 11261
+    },
+    {
+      "path": "docs/STRUCTURAL_REPLAY.json",
+      "sha256": "45b3b540b632e2ce02826c0bacf7e6675ea43715146871a8d33b092643f1d8b8",
+      "bytes": 99111
+    },
+    {
+      "path": "docs/UNIVERSAL_REVIEW.md",
+      "sha256": "bfb86764a7abaacbfc11d9d809343aae6a10f54dac0848b62616ec52dd3873f9",
+      "bytes": 8792
+    },
+    {
+      "path": "docs/UNIVERSAL_THEOREM.md",
+      "sha256": "9174902f0a35e3e47812848134f484b4e286bc50a4580c53a4f4799787f28d7c",
+      "bytes": 10957
     },
     {
       "path": "notes/2026-09-30-six-bloom-cylinders.md",

@@ -13,6 +13,17 @@ fixed supports and generic bases have different hypotheses.
 
 ## Classical six-point constructions
 
+**Joseph Rosenblatt and Paul D. Seymour.** “The Structure of Homometric
+Sets.” *SIAM Journal on Algebraic Discrete Methods* **3**(3) (1982),
+343–350. [DOI](https://doi.org/10.1137/0603035).
+Publisher metadata and abstract verified. The original full text was
+inaccessible; its proof was not read. Rosenblatt's 1984 primary paper,
+Theorem 2.4, p.322, attributes the torsion-free joint factorization to this
+source. That restatement allows signed factors over a conjugation-closed
+unique factorization domain. It is an antecedent of the integer algebraic
+backbone; the abstract alone does not establish a six-point classification
+or settle overlap with this repository's full line theorem.
+
 **G. S. Yovanof and S. W. Golomb.** “The Polynomial Model in the Study of
 Counterexamples to S. Piccard's Theorem.” *Ars Combinatoria* **48** (1998),
 43–63. [Publisher scan](https://combinatorialpress.com/article/ars/Volume%20048/volume-48-paper-4.pdf).
@@ -54,6 +65,22 @@ This supplies the four-point classification and spectral-unit background,
 under the source's coefficient-field hypotheses. Theorem 3.9 credits joint
 work with Joel Berman; he is not a bibliographic coauthor. It does not
 classify cyclic six-point sets.
+
+**Fresh factorization reading, 1 October 2026:** the primary scan's
+pp.319–330 were inspected as text and rendered pages. Theorem 3.6 and its
+complete proof, pp.327–328, give joint factor reversal for every cyclic
+group and every cardinality, over a conjugation-closed field, with signs
+and translations. Factors can be signed or rational and need not be
+binary or sparse. Theorem 4.1 and proof, pp.329–330, treat arbitrary
+abelian groups with the necessary half-group enlargement. These are
+classical all-cardinality algebraic characterizations; they do not
+supply the finite six-point admissible-construction grammar or its counts.
+Theorem 2.4, p.322, is explicitly a restatement of Rosenblatt–Seymour,
+whose original proof remains unread. The cyclic factorization proof's
+references to “Lemma 3.3” point to the zero-support projector lemma
+numbered 3.2 in the scan. See the
+[universal formulation](UNIVERSAL_THEOREM.md) for the distinction between
+algebraic equivalence and binary constructive completeness.
 
 **William Q. Erickson and Nicholas B. Jones.** “Homometric subsets of
 $\mathbb Z_n$ with cardinality 5: classification and enumeration.”

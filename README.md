@@ -32,6 +32,13 @@ other classical antecedents are explicitly credited.
 For an independent assessment, use the [precise claim and proof summary](docs/ASSESSMENT_REPLY.md)
 with the linked full proof and component certificates.
 
+The [universal mathematical formulation](docs/UNIVERSAL_THEOREM.md) states
+the classical equivalence between autocorrelation, Fourier magnitudes,
+spectral-unit convolution and every displacement-dependent pair functional.
+It applies to all finite abelian groups and support sizes. G adds a
+constructive grammar within the six-point binary constraint; the universal
+identity and unrestricted factor reversal are established prior work.
+
 ## A concrete example
 
 In $\mathbb Z/21\mathbb Z$, the sets
