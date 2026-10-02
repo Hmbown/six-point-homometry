@@ -55,6 +55,10 @@ def main() -> int:
     env = os.environ.copy()
     env.pop('PYTHONPATH', None)
     env['PYTHONNOUSERSITE'] = '1'
+    # SymPy's exact simplification path can depend on hashed expression order.
+    # A recorded seed makes the same predicates reproducible across platforms.
+    env['PYTHONHASHSEED'] = '1'
+    env['PYTHONUNBUFFERED'] = '1'
     started = time.monotonic()
     # Never copy a virtual environment, .git directory or previous run output.
     with tempfile.TemporaryDirectory(prefix='homometry-verification-') as directory:

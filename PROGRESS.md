@@ -47,3 +47,14 @@ GitHub destination is `Hmbown/six-point-homometry`; use private visibility
 until a public-access preference is supplied. Hosted CI is a separate gate
 from this local verification. This extraction adds no new theorem, establishes
 no novelty or external peer review, and selects no reuse license.
+
+**Runtime follow-up:** the first hosted Ubuntu/Python3.12.14 bounded run
+passed its first eleven commands, then timed out in the exact SymPy
+weighted-six review at the 180-second limit. A separate reviewer confirmed
+hash-order-dependent stalls under seed 0 and complete subsecond runs under
+seeds 1, 2, 3, 4, 5, 10, 42 and 999. The wrapper now records seed 1 and
+unbuffered subprocess output; its real-subprocess regression proves it
+overrides a caller's seed 0. Mathematical sources and assertions are unchanged,
+and timeouts still fail the gate. Full corrected local/hosted receipts are
+kept separately from the initial run. This runtime repair is not proof
+evidence for a new theorem.

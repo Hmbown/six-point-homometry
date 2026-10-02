@@ -21,6 +21,16 @@ original certificate files stay unchanged. Logs and an exact command/exit
 receipt are saved under the ignored `.reproduction/` directory. A nonzero
 exit or timeout is a failed gate, not a successful partial check.
 
+The wrapper also sets `PYTHONHASHSEED=1` and `PYTHONUNBUFFERED=1` for each
+fresh subprocess. The first hosted Linux run timed out in the exact SymPy
+weighted-six review. Separate local controls found hash-order-dependent
+runtime: seed 0 could stall after a completed assertion group, while seeds
+1, 2, 3, 42 and 99 completed the same predicates in under a second.
+The recorded seed makes execution reproducible; unbuffered output preserves
+progress if a later gate times out. No mathematical assertion is skipped and
+the original time limit is retained. If running the individual SymPy checker
+directly, use `PYTHONHASHSEED=1 python tests/test_weighted_six_review.py`.
+
 The default suite covers:
 
 - Ten immutable reference regressions and five environment controls.

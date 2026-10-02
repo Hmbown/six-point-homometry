@@ -18,8 +18,8 @@
     },
     {
       "path": "PROGRESS.md",
-      "sha256": "bb1bb50822e360e2215f4dd4dd81ab8049aaf18a50f9a064dfde5ef00f815d44",
-      "bytes": 2768
+      "sha256": "0a99d1cbaff361e229b3413d6963e3c2dbce137c4eacf06d9a3474b2bf591d56",
+      "bytes": 3457
     },
     {
       "path": "README.md",
@@ -48,8 +48,8 @@
     },
     {
       "path": "docs/PACKAGE_REVIEW.md",
-      "sha256": "b9ab2fa06b8a8a3d385cf1a94247330b513a45f898d0dadfac6963f158b7eab3",
-      "bytes": 6241
+      "sha256": "91fa2a57e1cb9652cc0b9e33878be773790737c2a6319cf5c9a5c66fff4df056",
+      "bytes": 7771
     },
     {
       "path": "docs/PROOF_OUTLINE.md",
@@ -68,8 +68,8 @@
     },
     {
       "path": "docs/REPRODUCING.md",
-      "sha256": "3e802256131198ae512865d25dc12c2297d343574f747e75d55e775c40c03310",
-      "bytes": 5478
+      "sha256": "703388438710e2735b8950c84f0b2880ba821e4ef6d562319be96ef66c5e784e",
+      "bytes": 6148
     },
     {
       "path": "docs/RESULTS.md",
@@ -11748,8 +11748,8 @@
     },
     {
       "path": "scripts/verify.py",
-      "sha256": "a078ca29e35f514ae46a10284348417b32499a910cb2c2d6af725684b9db3453",
-      "bytes": 4529
+      "sha256": "b5fd2348c49a966d6b5b53f4a989a1558ef25988eb4ebb481446da2befe3b889",
+      "bytes": 4753
     },
     {
       "path": "src/fastcensus.c",
@@ -12218,8 +12218,8 @@
     },
     {
       "path": "tests/test_verify_runner.py",
-      "sha256": "75ecf730aef4b32e1296968a836185c219239250f97a240c8e13dc0aecae7986",
-      "bytes": 3713
+      "sha256": "1a6644b518854f5deaa4f174fd734b6dec0982b1194a5a5ef4ea79d78f66ade2",
+      "bytes": 3930
     },
     {
       "path": "tests/test_weighted_six_incidence.py",

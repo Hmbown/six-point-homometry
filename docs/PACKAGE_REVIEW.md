@@ -110,3 +110,30 @@ attacks and documented checker obligations remain part of the trust boundary.
 The proofs' theorem status, unresolved historical priority, absent external
 peer review and absent complete proof-assistant validation remain as stated
 in the [result map](RESULTS.md). No license or authorship conclusion is added.
+
+## Hosted-runtime follow-up
+
+The initial Linux quick CI run reached `tests/test_weighted_six_review.py`
+and timed out at its unchanged 180-second command limit. Earlier gates
+passed. This is a failed hosted verification gate; the prior local pass
+does not supersede it. The timed-out program performs exact SymPy/Fraction
+arithmetic and has no NumPy or numerical SVD dependency.
+
+**[COMPUTED]** This reviewer independently reproduced a seed-0 timeout
+after two completed checks using a four-second diagnostic limit. Seeds
+1, 2, 3, 4, 5, 10, 42 and 999 each completed all four assertions in
+0.65–0.81 seconds. Other seed-0 diagnostics can pass, so the observed
+failure is a possible stall, not a claim that every seed-0 invocation fails.
+These controls identify runtime variability; they do not prove an upstream
+SymPy defect or alter the theorem's mathematical predicates.
+
+The wrapper now starts every checking subprocess with `PYTHONHASHSEED=1`
+and `PYTHONUNBUFFERED=1`. This makes the selected hash order reproducible
+and retains progress output if a gate stalls. A real subprocess regression
+checks that even a caller providing seed 0 is overridden before Python
+starts; this reviewer reran all three wrapper tests successfully. All
+mathematical sources, assertions and timeout/failure behavior are retained.
+
+The corrected full local suite and corrected hosted run remain pending at
+this follow-up checkpoint. Their eventual results must be recorded separately;
+the runtime adjustment alone is not a successful CI result.

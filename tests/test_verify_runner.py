@@ -43,10 +43,13 @@ class VerifyRunnerTests(unittest.TestCase):
                 'import os\nfrom pathlib import Path\n'
                 'assert "PYTHONPATH" not in os.environ\n'
                 'assert os.environ["PYTHONNOUSERSITE"] == "1"\n'
+                'assert os.environ["PYTHONHASHSEED"] == "1"\n'
+                'assert os.environ["PYTHONUNBUFFERED"] == "1"\n'
                 'assert not Path(".venv").exists()\n'
                 'assert not Path(".git").exists()\n'
                 'Path("results/archive.json").write_text("changed in scratch")\n')
-            with patch.dict(os.environ, {'PYTHONPATH': str(repo/'unwanted')}):
+            with patch.dict(os.environ, {'PYTHONPATH': str(repo/'unwanted'),
+                                         'PYTHONHASHSEED': '0', 'PYTHONUNBUFFERED': '0'}):
                 code, receipt = self.run_gate(repo, ('tests/check.py',))
             self.assertEqual(code, 0)
             self.assertTrue(receipt['all_commands_passed'])
