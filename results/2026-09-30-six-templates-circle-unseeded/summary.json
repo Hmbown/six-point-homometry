@@ -1,0 +1,79 @@
+{
+  "status": "sat",
+  "preload_max": 0,
+  "plane_count": 5,
+  "models": [
+    {
+      "n": 96,
+      "a": [
+        0,
+        7,
+        17,
+        24,
+        55,
+        65
+      ],
+      "b": [
+        0,
+        7,
+        17,
+        55,
+        65,
+        72
+      ],
+      "matchings": 512,
+      "learned": 2,
+      "min_rank": 8,
+      "iteration": 0
+    },
+    {
+      "n": 224,
+      "a": [
+        0,
+        15,
+        30,
+        56,
+        127,
+        142
+      ],
+      "b": [
+        0,
+        15,
+        30,
+        86,
+        112,
+        127
+      ],
+      "matchings": 288,
+      "learned": 1,
+      "min_rank": 9,
+      "iteration": 1
+    },
+    {
+      "n": 12,
+      "a": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        8
+      ],
+      "b": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "matchings": 6912,
+      "learned": 2,
+      "min_rank": 9,
+      "iteration": 2
+    }
+  ],
+  "seconds": 19.01453770895023,
+  "warning": "Exploratory solver result; no reviewed classification conclusion.",
+  "source_sha256": "d8c98569d85b72a263c4a26e20cca048c7a9678a7fe51ac86191a557bd7d0cd4"
+}

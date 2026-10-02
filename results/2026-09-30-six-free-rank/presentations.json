@@ -1,0 +1,10 @@
+{
+  "status": "COMPUTED-UNVALIDATED until independent exhaustive audit and proof review",
+  "counts": {
+    "trivial": 555,
+    "collision": 13916,
+    "block": 4
+  },
+  "orbits": 25,
+  "seconds": 16.257270875037648
+}

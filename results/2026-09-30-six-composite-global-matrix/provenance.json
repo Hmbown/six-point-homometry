@@ -1,0 +1,19 @@
+{
+  "status": "COMPUTED",
+  "scope": "exact exhaustive finite matching certificates; GM/GE accepted by separate fresh review for gcd(n,6)=1",
+  "files": {
+    "src/six_composite_matching.cpp": "25acb01045790c6721b4372148370cf391804a35bd4bad2797c695a2bdf187dd",
+    "tests/test_six_composite_matching.py": "1c867b2370f93d4c2febac349ce748f647ba2d1c95148be0b05c6d07c3879aef",
+    "notes/2026-09-30-six-composite-global-matrix.md": "f3d7d47ee12b318c49cc81f390dd5a66cedc595cb6f7bda67dcc74ea3c5faef4",
+    "results/2026-09-30-six-composite-global-matrix/matching-certificate.json": "01feec2da14a77715489c43ac206f936098f89e2627a10b09825a051aff73f0a",
+    "results/2026-09-30-six-composite-global-matrix/endpoint-certificate.json": "c47fcccc2e684c5d0d317503cd6cf8ebae2faaafbc292ce092636db83e9d3930",
+    "results/2026-09-30-six-composite-global-matrix/independent-audit.json": "b3e062e66ae81dc7999f66c26769913c4b453993fc9aa76675ce5b8d526cbbd5",
+    "results/2026-09-30-six-composite-global-matrix/field31-graph.json": "f878647b41d2715d3bc68d3a05700a1acf90e3e78e3b06ae0ccee33905071773",
+    "results/2026-09-30-six-composite-global-matrix/README.md": "60005bc56747b658b26061a91c877149f23c6eefcdb24423a0b709b72001b3fa"
+  },
+  "review": {
+    "path": "notes/2026-09-30-six-composite-global-review.md",
+    "sha256": "71f720b174632db628a012191007123bf29a860572b5a79b09abb40a68efaa21",
+    "status": "accepted stated scopes, in-house"
+  }
+}

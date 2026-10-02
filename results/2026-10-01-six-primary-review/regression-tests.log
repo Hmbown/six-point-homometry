@@ -1,0 +1,10 @@
+test_all_finite_images_against_separate_gap_keys (__main__.FreshAuditTests.test_all_finite_images_against_separate_gap_keys) ... ok
+test_different_pivot_affordability_slice (__main__.FreshAuditTests.test_different_pivot_affordability_slice) ... ok
+test_independent_even_shared_endpoint_exhibits (__main__.FreshAuditTests.test_independent_even_shared_endpoint_exhibits) ... ok
+test_raw_catalogue_preserves_nonunit_scales (__main__.FreshAuditTests.test_raw_catalogue_preserves_nonunit_scales) ... ok
+test_saved_complete_tables_every_histogram_entry (__main__.FreshAuditTests.test_saved_complete_tables_every_histogram_entry) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.420s
+
+OK

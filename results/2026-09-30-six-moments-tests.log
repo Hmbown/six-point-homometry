@@ -1,0 +1,1 @@
+{'status': 'PASS exact exploratory identity controls; no completeness claim', 'direct_root_checks': 434, 'symbolic_checks': 10, 'bloom_controls': 7, 'repeated_support_controls': 3, 'nonzero_elimination_parameter': 5, 'seconds': 2.049}

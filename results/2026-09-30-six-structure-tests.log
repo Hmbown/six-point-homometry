@@ -1,0 +1,5 @@
+PASS test_bloom_free_identity
+PASS test_dyad_identity_and_decomposition
+PASS test_shape_complete_small
+PASS test_exact_lifts_and_caps
+PASS test_inventory_basics

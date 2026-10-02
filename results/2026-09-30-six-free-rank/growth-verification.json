@@ -1,0 +1,15 @@
+{
+  "3": {
+    "spans": 43770,
+    "orbits": 104,
+    "total_matchings": 31293016,
+    "largest": 26542080
+  },
+  "4": {
+    "spans": 116401,
+    "orbits": 211,
+    "total_matchings": 491103220864,
+    "largest": 445906944000
+  },
+  "seconds": 2.621186833945103
+}

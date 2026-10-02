@@ -1,0 +1,74 @@
+{
+  "schema": "six-generation-v1",
+  "n": 400012,
+  "input_a": [
+    0,
+    1,
+    3,
+    100003,
+    200007,
+    200009
+  ],
+  "input_b": [
+    100004,
+    100006,
+    200006,
+    300009,
+    300010,
+    300012
+  ],
+  "a": [
+    0,
+    1,
+    3,
+    100003,
+    200007,
+    200009
+  ],
+  "b": [
+    0,
+    1,
+    3,
+    200007,
+    200009,
+    300009
+  ],
+  "input_alignment_a": {
+    "sign": 1,
+    "shift": 0
+  },
+  "input_alignment_b": {
+    "sign": 1,
+    "shift": 100003
+  },
+  "ordinary_support": {
+    "modulus": 400012,
+    "scale": 1
+  },
+  "validation": "exact-sparse-intervals-and-anchored-TI",
+  "route": "direct",
+  "certificate": {
+    "label": "L7",
+    "order": 4,
+    "b_sign": 1,
+    "b_shift": 300009
+  },
+  "vertices": [
+    [
+      0,
+      1,
+      3,
+      100003,
+      200007,
+      200009
+    ],
+    [
+      0,
+      1,
+      3,
+      200007,
+      200009,
+      300009
+    ]
+  ]
+}

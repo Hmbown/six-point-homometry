@@ -1,0 +1,11 @@
+124 {'swap': 6850, 'dyad': 19795, 'halfturn': 1022, 'Bloom': 1130, 'reflect': 563, 'halfcoset': 1305, 'R': 15, 'unit': 5} 4.255
+125 {'Bloom': 1180} 0.258
+126 {'dyad': 17713, 'swap': 13216, 'Bloom': 1172, 'reflect': 550, 'translate': 8, 'halfturn': 16, 'halfcoset': 140, 'unit': 3, 'R': 13, 'gap': 3} 3.426
+127 {'Bloom': 1218} 0.271
+128 {'swap': 7517, 'dyad': 21865, 'halfturn': 1081, 'Bloom': 1210, 'reflect': 567, 'halfcoset': 1395, 'gap': 8, 'translate': 2} 4.242
+129 {'dyad': 2325, 'Bloom': 1260, 'swap': 2041, 'reflect': 611} 0.827
+130 {'swap': 12576, 'dyad': 17154, 'Bloom': 1250} 3.231
+131 {'Bloom': 1300} 0.295
+132 {'swap': 10333, 'dyad': 26512, 'halfturn': 1196, 'Bloom': 1291, 'reflect': 1294, 'halfcoset': 1638, 'R': 1} 5.466
+133 {'Bloom': 1344, 'R': 9} 0.324
+n=134 awaiting census

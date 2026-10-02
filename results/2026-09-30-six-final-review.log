@@ -1,0 +1,18 @@
+PASS determinant_checker
+PASS incidence_minors
+PASS formal_identities
+PASS constructive_lift
+PASS antipodal_and_minor_caveats
+PASS saved_shadow_certificates
+PASS parametric_purely_cyclic_families
+PASS dyad_extension
+PASS nonnegative_decomposition_edge_cases
+PASS order_six_generator
+PASS direct_sum_exclusion
+checked shell payloads through n=12
+checked shell payloads through n=24
+checked shell payloads through n=36
+checked shell payloads through n=48
+checked shell payloads through n=60
+PASS saved_shell_certificates
+PASS all independent attacks (4.95s)

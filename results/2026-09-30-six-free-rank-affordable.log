@@ -1,0 +1,262 @@
+starting rank 3 orbits 98 matchings 285784
+presentations 1000 {'trivial': 18, 'collision': 982} seconds 1.09
+presentations 2000 {'trivial': 27, 'collision': 1973} seconds 2.18
+presentations 3000 {'trivial': 34, 'collision': 2966} seconds 3.26
+presentations 4000 {'trivial': 42, 'collision': 3958} seconds 4.34
+presentations 5000 {'trivial': 47, 'collision': 4953} seconds 5.4
+presentations 6000 {'trivial': 52, 'collision': 5948} seconds 6.48
+presentations 7000 {'trivial': 66, 'collision': 6934} seconds 7.55
+presentations 8000 {'trivial': 73, 'collision': 7927} seconds 8.62
+presentations 9000 {'trivial': 78, 'collision': 8922} seconds 9.69
+presentations 10000 {'trivial': 87, 'collision': 9913} seconds 10.75
+presentations 11000 {'trivial': 103, 'collision': 10897} seconds 11.83
+presentations 12000 {'trivial': 114, 'collision': 11886} seconds 12.91
+presentations 13000 {'trivial': 124, 'collision': 12876} seconds 14.0
+presentations 14000 {'trivial': 130, 'collision': 13870} seconds 15.09
+presentations 15000 {'trivial': 142, 'collision': 14858} seconds 16.19
+presentations 16000 {'trivial': 154, 'collision': 15846} seconds 17.27
+presentations 17000 {'trivial': 162, 'collision': 16838} seconds 18.34
+presentations 18000 {'trivial': 167, 'collision': 17833} seconds 19.41
+presentations 19000 {'trivial': 176, 'collision': 18824} seconds 20.48
+presentations 20000 {'trivial': 189, 'collision': 19811} seconds 21.56
+presentations 21000 {'trivial': 193, 'collision': 20807} seconds 22.62
+presentations 22000 {'trivial': 202, 'collision': 21798} seconds 23.69
+presentations 23000 {'trivial': 212, 'collision': 22788} seconds 24.78
+presentations 24000 {'trivial': 219, 'collision': 23781} seconds 25.84
+presentations 25000 {'trivial': 227, 'collision': 24773} seconds 26.95
+presentations 26000 {'trivial': 233, 'collision': 25767} seconds 28.01
+presentations 27000 {'trivial': 250, 'collision': 26750} seconds 29.09
+presentations 28000 {'trivial': 258, 'collision': 27742} seconds 30.16
+presentations 29000 {'trivial': 264, 'collision': 28736} seconds 31.23
+presentations 30000 {'trivial': 274, 'collision': 29726} seconds 32.3
+presentations 31000 {'trivial': 290, 'collision': 30710} seconds 33.4
+presentations 32000 {'trivial': 304, 'collision': 31696} seconds 34.53
+presentations 33000 {'trivial': 309, 'collision': 32691} seconds 35.68
+presentations 34000 {'trivial': 314, 'collision': 33686} seconds 36.95
+presentations 35000 {'trivial': 326, 'collision': 34674} seconds 38.78
+presentations 36000 {'trivial': 334, 'collision': 35666} seconds 40.08
+presentations 37000 {'trivial': 339, 'collision': 36661} seconds 43.21
+presentations 38000 {'trivial': 348, 'collision': 37652} seconds 46.52
+presentations 39000 {'trivial': 353, 'collision': 38647} seconds 48.89
+presentations 40000 {'trivial': 362, 'collision': 39638} seconds 51.86
+presentations 41000 {'trivial': 375, 'collision': 40625} seconds 53.91
+orbit 1 {'trivial': 384, 'collision': 41088} 57.87
+orbit 3 {'trivial': 36, 'collision': 252} 58.79
+presentations 42000 {'trivial': 448, 'collision': 41552} seconds 59.47
+orbit 4 {'trivial': 112, 'collision': 1040} 62.31
+presentations 43000 {'trivial': 539, 'collision': 42461} seconds 62.57
+presentations 44000 {'trivial': 581, 'collision': 43419} seconds 64.29
+presentations 45000 {'trivial': 636, 'collision': 44364} seconds 65.66
+presentations 46000 {'trivial': 678, 'collision': 45322} seconds 67.07
+presentations 47000 {'trivial': 728, 'collision': 46272} seconds 68.48
+presentations 48000 {'trivial': 780, 'collision': 47220} seconds 69.96
+presentations 49000 {'trivial': 816, 'collision': 48184} seconds 71.9
+presentations 50000 {'trivial': 881, 'collision': 49119} seconds 73.45
+presentations 51000 {'trivial': 924, 'collision': 50076} seconds 75.93
+presentations 52000 {'trivial': 972, 'collision': 51028} seconds 78.93
+presentations 53000 {'trivial': 1020, 'collision': 51980} seconds 82.34
+presentations 54000 {'trivial': 1068, 'collision': 52932} seconds 85.4
+presentations 55000 {'trivial': 1116, 'collision': 53884} seconds 87.38
+presentations 56000 {'trivial': 1160, 'collision': 54840} seconds 89.02
+presentations 57000 {'trivial': 1228, 'collision': 55772} seconds 90.81
+presentations 58000 {'trivial': 1260, 'collision': 56740} seconds 92.55
+presentations 59000 {'trivial': 1312, 'collision': 57688} seconds 94.29
+presentations 60000 {'trivial': 1356, 'collision': 58644} seconds 95.9
+presentations 61000 {'trivial': 1406, 'collision': 59594} seconds 97.13
+orbit 5 {'trivial': 896, 'collision': 17536} 98.4
+presentations 62000 {'trivial': 1468, 'collision': 60532} seconds 99.21
+presentations 63000 {'trivial': 1502, 'collision': 61498} seconds 100.42
+presentations 64000 {'trivial': 1548, 'collision': 62452} seconds 101.57
+presentations 65000 {'trivial': 1589, 'collision': 63411} seconds 102.75
+presentations 66000 {'trivial': 1644, 'collision': 64356} seconds 103.99
+presentations 67000 {'trivial': 1697, 'collision': 65303} seconds 105.14
+presentations 68000 {'trivial': 1746, 'collision': 66254} seconds 106.31
+presentations 69000 {'trivial': 1792, 'collision': 67208} seconds 107.6
+presentations 70000 {'trivial': 1842, 'collision': 68158} seconds 108.86
+presentations 71000 {'trivial': 1887, 'collision': 69113} seconds 109.98
+presentations 72000 {'trivial': 1938, 'collision': 70062} seconds 111.12
+presentations 73000 {'trivial': 1995, 'collision': 71005} seconds 112.28
+presentations 74000 {'trivial': 2030, 'collision': 71970} seconds 113.41
+presentations 75000 {'trivial': 2088, 'collision': 72912} seconds 114.56
+presentations 76000 {'trivial': 2126, 'collision': 73874} seconds 115.72
+presentations 77000 {'trivial': 2183, 'collision': 74817} seconds 116.84
+presentations 78000 {'trivial': 2230, 'collision': 75770} seconds 118.01
+presentations 79000 {'trivial': 2293, 'collision': 76707} seconds 119.18
+presentations 80000 {'trivial': 2328, 'collision': 77672} seconds 120.35
+presentations 81000 {'trivial': 2378, 'collision': 78622} seconds 121.54
+presentations 82000 {'trivial': 2406, 'collision': 79594} seconds 122.76
+presentations 83000 {'trivial': 2472, 'collision': 80528} seconds 124.02
+presentations 84000 {'trivial': 2524, 'collision': 81476} seconds 125.26
+presentations 85000 {'trivial': 2580, 'collision': 82420} seconds 126.49
+presentations 86000 {'trivial': 2613, 'collision': 83387} seconds 127.74
+presentations 87000 {'trivial': 2662, 'collision': 84338} seconds 129.01
+presentations 88000 {'trivial': 2699, 'collision': 85301} seconds 130.11
+presentations 89000 {'trivial': 2758, 'collision': 86242} seconds 131.24
+presentations 90000 {'trivial': 2804, 'collision': 87196} seconds 132.35
+presentations 91000 {'trivial': 2856, 'collision': 88144} seconds 133.46
+presentations 92000 {'trivial': 2901, 'collision': 89099} seconds 134.57
+presentations 93000 {'trivial': 2952, 'collision': 90048} seconds 135.69
+presentations 94000 {'trivial': 2996, 'collision': 91004} seconds 136.79
+presentations 95000 {'trivial': 3046, 'collision': 91954} seconds 137.91
+presentations 96000 {'trivial': 3100, 'collision': 92900} seconds 139.04
+presentations 97000 {'trivial': 3135, 'collision': 93865} seconds 140.14
+presentations 98000 {'trivial': 3189, 'collision': 94811} seconds 141.26
+presentations 99000 {'trivial': 3230, 'collision': 95770} seconds 142.41
+presentations 100000 {'trivial': 3283, 'collision': 96717} seconds 143.55
+presentations 101000 {'trivial': 3334, 'collision': 97666} seconds 144.68
+presentations 102000 {'trivial': 3396, 'collision': 98604} seconds 145.83
+presentations 103000 {'trivial': 3431, 'collision': 99569} seconds 146.95
+presentations 104000 {'trivial': 3477, 'collision': 100523} seconds 148.18
+presentations 105000 {'trivial': 3506, 'collision': 101494} seconds 149.32
+presentations 106000 {'trivial': 3571, 'collision': 102429} seconds 150.44
+presentations 107000 {'trivial': 3623, 'collision': 103377} seconds 151.58
+orbit 6 {'trivial': 2216, 'collision': 43864} 154.08
+orbit 7 {'trivial': 8} 154.1
+orbit 8 {'trivial': 8} 154.12
+orbit 9 {'trivial': 24} 154.18
+orbit 10 {'trivial': 24} 154.24
+orbit 11 {'trivial': 48} 154.35
+orbit 12 {'trivial': 72} 154.53
+orbit 13 {'trivial': 24, 'collision': 168} 154.78
+presentations 108000 {'trivial': 4052, 'collision': 103948} seconds 155.25
+orbit 14 {'trivial': 288} 155.47
+orbit 15 {'trivial': 84, 'collision': 492} 156.21
+presentations 109000 {'trivial': 4272, 'collision': 104728} seconds 156.64
+orbit 16 {'trivial': 56, 'collision': 328} 156.72
+presentations 110000 {'trivial': 4388, 'collision': 105612} seconds 157.91
+presentations 111000 {'trivial': 4500, 'collision': 106500} seconds 159.12
+orbit 17 {'trivial': 316, 'collision': 2564} 160.42
+orbit 18 {'trivial': 48} 160.53
+orbit 19 {'trivial': 8} 160.55
+presentations 112000 {'trivial': 4668, 'collision': 107332} seconds 160.59
+orbit 21 {'trivial': 16} 160.59
+orbit 22 {'trivial': 8} 160.61
+orbit 23 {'trivial': 56, 'collision': 328} 161.12
+orbit 24 {'trivial': 24} 161.17
+orbit 25 {'trivial': 36, 'collision': 252} 161.54
+presentations 113000 {'trivial': 4816, 'collision': 108184} seconds 161.9
+presentations 114000 {'trivial': 4852, 'collision': 109148} seconds 163.02
+presentations 115000 {'trivial': 4888, 'collision': 110112} seconds 164.19
+presentations 116000 {'trivial': 4923, 'collision': 111077} seconds 165.32
+presentations 117000 {'trivial': 4960, 'collision': 112040} seconds 166.45
+presentations 118000 {'trivial': 5008, 'collision': 112992} seconds 167.59
+presentations 119000 {'trivial': 5056, 'collision': 113944} seconds 168.74
+presentations 120000 {'trivial': 5104, 'collision': 114896} seconds 169.94
+presentations 121000 {'trivial': 5148, 'collision': 115852} seconds 171.09
+orbit 26 {'trivial': 384, 'collision': 8832} 172.53
+orbit 27 {'trivial': 8} 172.55
+orbit 28 {'trivial': 8} 172.57
+presentations 122000 {'trivial': 5194, 'collision': 116806} seconds 172.64
+presentations 123000 {'trivial': 5206, 'collision': 117788, 'block': 6} seconds 173.73
+presentations 124000 {'trivial': 5214, 'collision': 118780, 'block': 6} seconds 174.81
+presentations 125000 {'trivial': 5220, 'collision': 119774, 'block': 6} seconds 175.88
+presentations 126000 {'trivial': 5229, 'collision': 120759, 'block': 12} seconds 176.97
+presentations 127000 {'trivial': 5236, 'collision': 121748, 'block': 16} seconds 178.07
+presentations 128000 {'trivial': 5250, 'collision': 122726, 'block': 24} seconds 179.17
+presentations 129000 {'trivial': 5260, 'collision': 123716, 'block': 24} seconds 180.3
+presentations 130000 {'trivial': 5270, 'collision': 124700, 'block': 30} seconds 181.99
+presentations 131000 {'trivial': 5276, 'collision': 125694, 'block': 30} seconds 183.41
+presentations 132000 {'trivial': 5288, 'collision': 126676, 'block': 36} seconds 184.52
+presentations 133000 {'trivial': 5294, 'collision': 127667, 'block': 39} seconds 185.6
+presentations 134000 {'trivial': 5302, 'collision': 128656, 'block': 42} seconds 186.67
+presentations 135000 {'trivial': 5310, 'collision': 129648, 'block': 42} seconds 187.74
+presentations 136000 {'trivial': 5320, 'collision': 130632, 'block': 48} seconds 188.88
+presentations 137000 {'trivial': 5330, 'collision': 131622, 'block': 48} seconds 189.97
+presentations 138000 {'trivial': 5344, 'collision': 132596, 'block': 60} seconds 191.08
+presentations 139000 {'trivial': 5348, 'collision': 133592, 'block': 60} seconds 192.16
+presentations 140000 {'trivial': 5358, 'collision': 134576, 'block': 66} seconds 193.25
+presentations 141000 {'trivial': 5366, 'collision': 135568, 'block': 66} seconds 194.34
+presentations 142000 {'trivial': 5372, 'collision': 136562, 'block': 66} seconds 195.42
+orbit 29 {'trivial': 192, 'collision': 20472, 'block': 72} 197.02
+presentations 143000 {'trivial': 5431, 'collision': 137497, 'block': 72} seconds 197.43
+orbit 30 {'trivial': 84, 'collision': 492} 197.77
+orbit 31 {'trivial': 8} 197.79
+orbit 32 {'trivial': 24} 197.85
+orbit 33 {'trivial': 8} 197.87
+orbit 34 {'trivial': 24, 'collision': 168} 198.11
+orbit 35 {'trivial': 24, 'collision': 168} 198.36
+presentations 144000 {'trivial': 5588, 'collision': 138340, 'block': 72} seconds 198.76
+orbit 37 {'trivial': 84, 'collision': 780} 199.43
+presentations 145000 {'trivial': 5706, 'collision': 139208, 'block': 86} seconds 200.02
+orbit 38 {'trivial': 112, 'collision': 628, 'block': 28} 200.45
+presentations 146000 {'trivial': 5820, 'collision': 140062, 'block': 118} seconds 201.29
+presentations 147000 {'trivial': 5910, 'collision': 140944, 'block': 146} seconds 202.48
+orbit 39 {'trivial': 200, 'collision': 2044, 'block': 60} 203.31
+presentations 148000 {'trivial': 5972, 'collision': 141868, 'block': 160} seconds 203.77
+presentations 149000 {'trivial': 6004, 'collision': 142834, 'block': 162} seconds 205.04
+presentations 150000 {'trivial': 6028, 'collision': 143808, 'block': 164} seconds 206.14
+presentations 151000 {'trivial': 6060, 'collision': 144772, 'block': 168} seconds 207.25
+presentations 152000 {'trivial': 6092, 'collision': 145740, 'block': 168} seconds 208.39
+presentations 153000 {'trivial': 6116, 'collision': 146716, 'block': 168} seconds 209.51
+presentations 154000 {'trivial': 6140, 'collision': 147692, 'block': 168} seconds 210.83
+presentations 155000 {'trivial': 6172, 'collision': 148656, 'block': 172} seconds 211.96
+presentations 156000 {'trivial': 6211, 'collision': 149609, 'block': 180} seconds 213.18
+presentations 157000 {'trivial': 6239, 'collision': 150581, 'block': 180} seconds 214.32
+presentations 158000 {'trivial': 6272, 'collision': 151547, 'block': 181} seconds 215.54
+presentations 159000 {'trivial': 6316, 'collision': 152496, 'block': 188} seconds 216.7
+presentations 160000 {'trivial': 6360, 'collision': 153448, 'block': 192} seconds 217.86
+presentations 161000 {'trivial': 6384, 'collision': 154422, 'block': 194} seconds 219.05
+presentations 162000 {'trivial': 6408, 'collision': 155392, 'block': 200} seconds 220.2
+presentations 163000 {'trivial': 6448, 'collision': 156352, 'block': 200} seconds 221.36
+presentations 164000 {'trivial': 6472, 'collision': 157328, 'block': 200} seconds 222.51
+presentations 165000 {'trivial': 6496, 'collision': 158304, 'block': 200} seconds 223.62
+presentations 166000 {'trivial': 6528, 'collision': 159272, 'block': 200} seconds 224.78
+presentations 167000 {'trivial': 6552, 'collision': 160244, 'block': 204} seconds 225.96
+presentations 168000 {'trivial': 6592, 'collision': 161196, 'block': 212} seconds 227.11
+presentations 169000 {'trivial': 6628, 'collision': 162160, 'block': 212} seconds 228.3
+presentations 170000 {'trivial': 6658, 'collision': 163124, 'block': 218} seconds 229.45
+presentations 171000 {'trivial': 6708, 'collision': 164068, 'block': 224} seconds 230.62
+presentations 172000 {'trivial': 6740, 'collision': 165036, 'block': 224} seconds 231.75
+presentations 173000 {'trivial': 6764, 'collision': 166012, 'block': 224} seconds 232.88
+presentations 174000 {'trivial': 6795, 'collision': 166981, 'block': 224} seconds 234.09
+presentations 175000 {'trivial': 6828, 'collision': 167944, 'block': 228} seconds 235.42
+presentations 176000 {'trivial': 6852, 'collision': 168920, 'block': 228} seconds 236.58
+presentations 177000 {'trivial': 6876, 'collision': 169888, 'block': 236} seconds 237.92
+presentations 178000 {'trivial': 6908, 'collision': 170856, 'block': 236} seconds 239.32
+presentations 179000 {'trivial': 6944, 'collision': 171816, 'block': 240} seconds 241.2
+presentations 180000 {'trivial': 6972, 'collision': 172780, 'block': 248} seconds 242.39
+presentations 181000 {'trivial': 7008, 'collision': 173744, 'block': 248} seconds 243.56
+presentations 182000 {'trivial': 7050, 'collision': 174694, 'block': 256} seconds 246.45
+presentations 183000 {'trivial': 7096, 'collision': 175648, 'block': 256} seconds 251.01
+presentations 184000 {'trivial': 7120, 'collision': 176624, 'block': 256} seconds 255.31
+presentations 185000 {'trivial': 7144, 'collision': 177600, 'block': 256} seconds 259.1
+presentations 186000 {'trivial': 7184, 'collision': 178560, 'block': 256} seconds 263.05
+presentations 187000 {'trivial': 7208, 'collision': 179532, 'block': 260} seconds 267.28
+presentations 188000 {'trivial': 7232, 'collision': 180504, 'block': 264} seconds 271.41
+presentations 189000 {'trivial': 7264, 'collision': 181468, 'block': 268} seconds 274.06
+presentations 190000 {'trivial': 7288, 'collision': 182440, 'block': 272} seconds 276.44
+presentations 191000 {'trivial': 7328, 'collision': 183392, 'block': 280} seconds 280.07
+presentations 192000 {'trivial': 7364, 'collision': 184356, 'block': 280} seconds 284.23
+presentations 193000 {'trivial': 7391, 'collision': 185329, 'block': 280} seconds 287.71
+presentations 194000 {'trivial': 7444, 'collision': 186268, 'block': 288} seconds 291.11
+presentations 195000 {'trivial': 7476, 'collision': 187234, 'block': 290} seconds 296.57
+presentations 196000 {'trivial': 7500, 'collision': 188208, 'block': 292} seconds 300.9
+presentations 197000 {'trivial': 7528, 'collision': 189180, 'block': 292} seconds 303.81
+presentations 198000 {'trivial': 7563, 'collision': 190145, 'block': 292} seconds 305.62
+Traceback (most recent call last):
+  File "<stdin>", line 10, in <module>
+  File "./src/six_free_rank.py", line 269, in classify_presentations
+    for x in a:
+                
+  File "./.venv/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py", line 116, in smith_normal_decomp
+    invs, s, t = _smith_normal_decomp(m, domain, shape=shape, full=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./.venv/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py", line 237, in _smith_normal_decomp
+    ret = _smith_normal_decomp(lower_right, domain,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./.venv/lib/python3.12/site-packages/sympy/polys/matrices/normalforms.py", line 244, in _smith_normal_decomp
+    s = s2 * s
+        ~~~^~~
+  File "./.venv/lib/python3.12/site-packages/sympy/polys/matrices/domainmatrix.py", line 1353, in __mul__
+    return A.matmul(B)
+           ^^^^^^^^^^^
+  File "./.venv/lib/python3.12/site-packages/sympy/polys/matrices/domainmatrix.py", line 1601, in matmul
+    return A.from_rep(A.rep.matmul(B.rep))
+                      ^^^^^^^^^^^^^^^^^^^
+  File "./.venv/lib/python3.12/site-packages/sympy/polys/matrices/ddm.py", line 702, in matmul
+    c = a.zeros((m, n), a.domain)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./.venv/lib/python3.12/site-packages/sympy/polys/matrices/ddm.py", line 594, in zeros
+    return DDM(rowslist, shape, domain)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "strata": 315,
+  "expected_strata": 315,
+  "seconds": 9.249675167025998,
+  "totals": {
+    "cross_bijections": 4822240,
+    "roots": 328473,
+    "nodes": 10602,
+    "branches": 974,
+    "lattice_inclusions": 658894
+  },
+  "status": "Independent structural cover audit only; terminal mechanism proof audited separately"
+}

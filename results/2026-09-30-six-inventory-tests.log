@@ -1,0 +1,2 @@
+PASS Bloom identity and modular certificates against reference
+PASS six-note inventory endpoint certificates n=12..60

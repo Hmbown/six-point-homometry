@@ -1,0 +1,12 @@
+{
+  "solver": "cvc5",
+  "version": "1.4.1",
+  "proofs_produced_and_internally_checked": true,
+  "seconds": 4.758350708987564,
+  "input": "results/2026-09-30-six-integer-smt/count.smt2",
+  "source_sha256": "ad3c611e74777bb33a938e44304d087a8838b5dea8fcb05afef15eea490a5625",
+  "output": [
+    "unsat"
+  ],
+  "status": "EXPERIMENTAL-SOLVER-RESULT"
+}

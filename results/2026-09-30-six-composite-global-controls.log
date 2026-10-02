@@ -1,0 +1,36 @@
+n=121 rows=121/121 pairs=1100 seconds=0.076
+n=121 complete pairs=1100 unit_pairs=0 non12=0 nonG=0 shared_endpoints=0 certificate_bytes=54717
+n=143 rows=143/143 pairs=1562 seconds=0.107
+n=143 complete pairs=1562 unit_pairs=0 non12=0 nonG=0 shared_endpoints=0 certificate_bytes=79848
+n=187 rows=187/187 pairs=2728 seconds=0.190
+n=187 complete pairs=2728 unit_pairs=0 non12=0 nonG=0 shared_endpoints=0 certificate_bytes=141511
+n=209 rows=209/209 pairs=3432 seconds=0.232
+n=209 complete pairs=3432 unit_pairs=0 non12=0 nonG=0 shared_endpoints=0 certificate_bytes=178202
+n=341 rows=341/341 pairs=9350 seconds=0.674
+n=341 complete pairs=9350 unit_pairs=0 non12=0 nonG=0 shared_endpoints=5 certificate_bytes=507919
+n=25 rows=25/25 pairs=30 seconds=0.003
+n=25 complete pairs=30 unit_pairs=0 non12=0 nonG=0 shared_endpoints=0 certificate_bytes=2560
+n=35 rows=35/35 pairs=72 seconds=0.007
+n=35 complete pairs=72 unit_pairs=0 non12=0 nonG=0 shared_endpoints=0 certificate_bytes=4733
+n=49 rows=49/49 pairs=154 seconds=0.012
+n=49 complete pairs=154 unit_pairs=0 non12=0 nonG=0 shared_endpoints=0 certificate_bytes=8542
+n=55 rows=55/55 pairs=200 seconds=0.016
+n=55 complete pairs=200 unit_pairs=0 non12=0 nonG=0 shared_endpoints=0 certificate_bytes=10977
+n=65 rows=65/65 pairs=290 seconds=0.039
+n=65 complete pairs=290 unit_pairs=0 non12=0 nonG=0 shared_endpoints=0 certificate_bytes=15438
+n=77 rows=77/77 pairs=420 seconds=0.047
+n=77 complete pairs=420 unit_pairs=0 non12=0 nonG=0 shared_endpoints=0 certificate_bytes=21947
+n=91 rows=91/91 pairs=602 seconds=0.070
+n=91 complete pairs=602 unit_pairs=0 non12=0 nonG=0 shared_endpoints=0 certificate_bytes=31042
+n=25 completed certificate reused
+n=35 completed certificate reused
+n=49 completed certificate reused
+n=55 completed certificate reused
+n=65 completed certificate reused
+n=77 completed certificate reused
+n=91 completed certificate reused
+n=121 completed certificate reused
+n=143 completed certificate reused
+n=187 completed certificate reused
+n=209 completed certificate reused
+n=341 completed certificate reused

@@ -1,0 +1,494 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.88in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,array,microtype,xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small Six-point homometry over fields}
+\fancyhead[R]{\small Research note, 30 September 2026}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}
+\setlength{\parskip}{3pt}
+\setlength{\parindent}{1.2em}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\renewcommand{\thetheorem}{\Alph{theorem}}
+\renewcommand{\thecorollary}{\Alph{corollary}}
+\setcounter{corollary}{3}
+\newcommand{\F}{\mathbb F}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\TI}{\mathrm{T/I}}
+\newcommand{\Om}{\Omega_K}
+\newcommand{\status}[1]{\textsf{[#1]}}
+\newcommand{\filepath}[1]{\path{#1}}
+\title{Six-point homometry over fields:\\exact classification and counting of a classical family}
+\author{}
+\date{30 September 2026}
+\hypersetup{pdftitle={Six-point homometry over fields: exact classification and counting of a classical family},pdfauthor={},pdfsubject={Direct algebraic classification of the Bloom image, with explicit computer-assisted cyclic total-count dependencies}}
+\begin{document}
+\maketitle\thispagestyle{empty}
+\begin{abstract}
+We classify the image of a classical two-parameter pair of homometric
+six-point configurations under translation and inversion over fields of
+characteristic different from $2,3,11$. Twelve explicit parameter symmetries
+account for every identification, including coincidences after projection.
+Centered moments reduce the classification to a cubic root-permutation
+problem. Over finite fields this gives exact counts; a single endpoint
+determines its partner except in characteristic $31$, where an explicit
+counterexample is given. These are direct algebraic results. Total counts
+for six-subsets of prime cyclic groups additionally use an earlier
+computer-assisted completeness theorem and finite census. No historical
+novelty, external peer review, or proof-assistant certification is asserted.
+\end{abstract}
+
+\section{The problem and the counted object}
+For a finite subset $A$ of the additive group of a field $K$, define its
+directed autocorrelation by
+\[
+ c_A(h)=\#\{(x,y)\in A^2:x-y=h\}\qquad(h\in K).
+\]
+Sets are \emph{homometric} if their autocorrelations agree. This is a
+reconstruction problem from a difference multiset; it is relevant to
+crystallographic phase retrieval, sparse support recovery, and the cyclic
+beltway problem, as well as to musical interval content. For $K=\F_p$ with
+$p$ an odd prime, it is equivalent to equality of cyclic interval-class
+vectors. For $K=\F_{p^r}$ with $r>1$, the additive group is
+$(\Z/p\Z)^r$, not the cyclic group $\Z/p^r\Z$.
+
+Two sets are \emph{rigidly equivalent} if $B=\epsilon A+t$, where
+$\epsilon\in\{1,-1\}$ and $t\in K$; write $[A]$ for a rigid class.
+General nonzero scalar multiplication is \emph{not} identified. With
+$v=(a,b)^T\in K^2$, consider the classical configurations
+\begin{align*}
+ X_v&=\{0,a,b-2a,2b-2a,2b,3b-a\},\\
+ Y_v&=\{0,a,b+2a,2b-a,2b+a,3b-a\}.
+\end{align*}
+Let $\Om$ consist of parameters for which each list has six distinct
+entries, and put $\Phi(v)=\{[X_v],[Y_v]\}$. The endpoints of this
+unordered pair may be translated and inverted independently.
+We call the image of $\Phi$ the \emph{Bloom image}; this is terminology
+for a classical family, not a priority assertion.
+
+Postpischil--Gilbert give these formulas and their triangular projection
+geometry \cite[\S\S3,7]{pg}. The issue here is the exact quotient after
+projection into a field. Formal symmetries alone do not exclude accidental
+identifications. The moment argument below supplies that missing step,
+without a distinct-distance assumption or a real ordering. Theorems A--C
+concern this specified image. They do not by themselves classify every
+homometric six-subset of every additive group.
+
+\newpage
+\section{Direct algebraic results}
+Throughout Theorems A--C, $K$ has characteristic different from $2,3,11$.
+The results are \status{PROVED}, in-house, with a separate adversarial
+review recorded in the accompanying project note. The proofs below are
+algebraic; finite computations are supporting checks.
+
+\begin{theorem}[exact image classification]\label{thm:A}
+Every $v\in\Om$ gives two homometric, different rigid classes. Put
+\[
+ R=\begin{pmatrix}0&-1\\1&-1\end{pmatrix},\qquad
+ T=\begin{pmatrix}0&1\\1&0\end{pmatrix},\qquad
+ G=\{\pm I,\pm R,\pm R^2,\pm T,\pm RT,\pm R^2T\}.
+\]
+Then $G$ is a group of order twelve, isomorphic to $S_3\times C_2$,
+which acts freely on $\Om$ and preserves $\Phi$. For $v,w\in\Om$,
+\[
+ \Phi(v)=\Phi(w)\quad\Longleftrightarrow\quad w\in Gv
+ \quad\Longleftrightarrow\quad
+ \bigl(s(v),e(v)^2\bigr)=\bigl(s(w),e(w)^2\bigr),
+\]
+where $s=a^2-ab+b^2$ and $e=ab(a-b)$.
+Thus every unordered pair has exactly twelve parameter representatives.
+\end{theorem}
+
+\begin{theorem}[finite-field enumeration]\label{thm:B}
+For $K=\F_q$ in the stated characteristic, the number of distinct
+unordered pairs in the Bloom image is
+\[
+ B(q)=\begin{cases}
+ (q-1)(q-5)/12,&\operatorname{char}K=5,\\[2pt]
+ (q-1)(q-7)/12,&\operatorname{char}K=7,\\[2pt]
+ (q-1)(q-11)/12,&\operatorname{char}K\ge13.
+ \end{cases}
+\]
+In particular $B(p)=(p-1)(p-11)/12$ for every prime $p\ge13$.
+The displayed configurations give no six-element pair in
+$\F_2,\F_3,\F_5,\F_7,\F_{11}$.
+\end{theorem}
+
+The last assertion is a support observation, not an extension of the
+classification proof to characteristic $11$. Extension fields of
+characteristics $2,3,11$ are outside Theorems A--B.
+
+\begin{theorem}[unique partner within the image]\label{thm:C}
+If $\operatorname{char}K\ne31$ as well, two distinct pairs in the Bloom
+image cannot share a rigid class. Consequently the graph with rigid
+classes as vertices and Bloom pairs as edges is a disjoint union of edges.
+\end{theorem}
+
+Theorem C permits additional homometric partners outside the Bloom image.
+Characteristic $31$ is a genuine exception: Section~\ref{sec:partner}
+gives two different Bloom pairs sharing one endpoint. Theorems A--B
+continue to hold there.
+
+For example, $B(13)=2$, $B(31)=50$, and $B(1009)=83\,832$.
+The counts in the noncyclic additive fields $\F_{25},\F_{49},\F_{169}$
+are respectively $40,168,2212$. These field counts retain translation
+and inversion as their sole equivalences. A quotient by all field
+scalars or by all additive-group automorphisms would be a different problem.
+
+\newpage
+\section{Differences, collisions, and the twelve symmetries}
+The fifteen differences of either configuration, taken up to sign and
+with multiplicity, are the following common list:
+\begin{gather*}
+ a,\ b-2a,\ 2b-2a,\ 2b,\ 3b-a,\ b-3a,\ 2b-3a,\ 2b-a,\\
+ 3b-2a,\ b,\ b+2a,\ 2b+a,\ 2a,\ b-a,\ b+a.
+\end{gather*}
+Replace each entry $\ell$ by $\ell,-\ell$ and include the six diagonal
+zero differences. This gives equal directed autocorrelations whenever
+both supports have size six. It is an integer coefficient identity;
+repeated nonzero differences cause no difficulty. Reduction into an
+additive group preserves the identity for the labeled lists, but support
+collisions must first be excluded to interpret them as six-element sets.
+
+As $2$ is invertible, collisions occur exactly on the union of the
+following twelve kernels:
+\begin{gather}
+ a,\ b,\ b-a,\ b+a,\ b-2a,\ b+2a,\ b-3a,\notag\\
+ 2b-a,\ 2b+a,\ 2b-3a,\ 3b-a,\ 3b-2a.\label{eq:lines}
+\end{gather}
+Some kernels coincide in characteristics $5$ and $7$; the union remains
+exact. In particular, for every admissible parameter,
+\[
+ e=ab(a-b)\ne0,\qquad d=(a+b)(2a-b)(a-2b)\ne0.
+\]
+
+The relations $R^3=T^2=I$, $TRT=R^{-1}$, and central $-I$ show
+that $G\cong S_3\times C_2$. Its twelve matrices are distinct in
+characteristic different from $2,3$. Direct substitution gives the
+following identities of sets:
+\begin{center}
+\begin{tabular}{@{}lll@{}}\toprule
+$M$ & $X_{Mv}$ & $Y_{Mv}$\\\midrule
+$I$ & $X_v$ & $Y_v$\\
+$R$ & $X_v+2a-2b$ & $Y_v+a-3b$\\
+$R^2$ & $X_v-2b$ & $Y_v-2a-b$\\
+$T$ & $Y_v+a-2b$ & $X_v+2a-b$\\
+$RT$ & $Y_v-a$ & $X_v-a$\\
+$R^2T$ & $Y_v-a-2b$ & $X_v+a-3b$\\\bottomrule
+\end{tabular}
+\end{center}
+For $-M$, negate the sets and translations on the right. Hence the
+whole group preserves admissibility and $\Phi$.
+
+To prove freeness, note that $\det(R-I)=\det(R^2-I)=3$ and
+$\det(R+I)=\det(R^2+I)=1$. Thus $\pm R,\pm R^2$, and $-I$
+have only the zero fixed vector. The fixed lines of
+$T,-T,RT,-RT,R^2T,-R^2T$ are, respectively,
+\[
+ b=a,\quad b=-a,\quad a=0,\quad a=2b,\quad b=0,\quad b=2a.
+\]
+Each is excluded by \eqref{eq:lines}; zero is excluded as well.
+Every orbit therefore has twelve parameters. This still leaves open
+whether distinct orbits can become the same pair after projection.
+
+\newpage
+\section{Integral centered moments recover the orbit invariants}\label{sec:moments}
+For a six-element set $A\subset K$, set
+\[
+ \mu_A=\frac16\sum_{x\in A}x,\qquad
+ m_j(A)=\sum_{x\in A}\bigl(3(x-\mu_A)\bigr)^j.
+\]
+Translation preserves each $m_j$ and inversion multiplies it by
+$(-1)^j$. Thus $m_2,m_3^2,m_6$ are invariants of a rigid class;
+their endpoint sums are invariants of an unordered pair.
+
+All identities needed here can be checked over $\Z$. Indeed
+$3(x-\mu_A)=3x-\frac12\sum A$, while
+$\sum X_v=-4a+8b$ and $\sum Y_v=2a+8b$. The scaled centered
+coordinates are the integral linear forms
+\begin{align*}
+ X:\ &(2a-4b,\ 5a-4b,\ -4a-b,\ -4a+2b,\ 2a+2b,\ -a+5b),\\
+ Y:\ &(-a-4b,\ 2a-4b,\ 5a-b,\ -4a+2b,\ 2a+2b,\ -4a+5b).
+\end{align*}
+Raising these six forms to the stated powers and summing gives
+\begin{align}
+ d^2+27e^2&=4s^3,\label{eq:disc}\\
+ m_2(X_v)=m_2(Y_v)&=66s,\label{eq:m2}\\
+ m_3(X_v)&=6d-243e,&m_3(Y_v)&=6d+243e,\label{eq:m3}\\
+ m_6(X_v)&=23946s^3+6399e^2-4860de,\label{eq:m6x}\\
+ m_6(Y_v)&=23946s^3+6399e^2+4860de.\label{eq:m6y}
+\end{align}
+For an explicit expansion check, the coefficients of the summed sixth
+moments in the monomial order $a^6,a^5b,\ldots,b^6$ are
+\[
+ (47892,-143676,300150,-360840,300150,-143676,47892),
+\]
+the same as those of $47892s^3+12798e^2$.
+
+Define invariant endpoint sums
+\begin{align*}
+ C_3&=m_3(X_v)^2+m_3(Y_v)^2-288s^3=116154e^2,\\
+ C_6&=m_6(X_v)+m_6(Y_v)-47892s^3=12798e^2.
+\end{align*}
+The integer relations
+\[
+ 116154=162\cdot717,\quad12798=162\cdot79,\quad
+ 118\cdot79-13\cdot717=1
+\]
+yield the exact elimination identity
+\begin{equation}
+ \boxed{118C_6-13C_3=162e^2.}\label{eq:eliminate}
+\end{equation}
+If $\Phi(v)=\Phi(w)$, equation \eqref{eq:m2} first recovers the common
+$s$, since $66$ is invertible in the stated characteristic. The endpoint
+sums then recover $C_3,C_6$, and \eqref{eq:eliminate} recovers $e^2$,
+since $162$ is invertible. Using both moments avoids exclusions at
+characteristics $79$ and $239$, where one individual coefficient vanishes.
+There is no division by $s$: isotropic parameters $s=0$ are included.
+
+\newpage
+\section{Cubic root permutations and finite-field counting}
+Suppose $s(v)=s(w)$ and $e(v)^2=e(w)^2$. As the characteristic is odd,
+$e(w)=e(v)$ or $e(w)=-e(v)$. In the latter case replace $w$ by $-w$,
+an element of $G$, so that the values of $e$ agree. The identity
+\begin{equation}
+ (z-a)(z+b)(z-b+a)=z^3-sz-e\label{eq:cubic}
+\end{equation}
+then gives the same multiset of roots for the two ordered triples
+$(a,-b,b-a)$. This includes roots with multiplicity: uniqueness of
+factorization over a field is sufficient.
+
+The map $R$ cyclically permutes this ordered triple; $-T$ transposes
+its first two entries and fixes the third. They generate all six
+permutations. The first two entries recover $a,b$, so the aligned $w$
+is in the group generated by $R,-T$. Restoring any negation places the
+original $w$ in $Gv$. Conversely the explicit symmetries preserve $\Phi$
+and its recovered invariants. Thus equality of the invariants, equality
+of pairs, and membership in one $G$-orbit are equivalent.
+
+The two endpoints cannot collapse to one rigid class. From \eqref{eq:m3},
+\[
+ m_3(X_v)^2-m_3(Y_v)^2=-5832de\ne0.
+\]
+The factors $d,e$ are nonzero on $\Om$, and $5832$ has only $2,3$
+as prime factors. Rigid equivalence would preserve the squared third
+moment, a contradiction. This proves Theorem A in full, including the
+absence of accidental projected identifications.
+
+For Theorem B, the primitive normals of the collision lines are
+\begin{gather*}
+ (1,0),(0,1),(-1,1),(1,1),(-2,1),(2,1),(-3,1),\\
+ (-1,2),(1,2),(-3,2),(-1,3),(-2,3).
+\end{gather*}
+The nonzero absolute pairwise determinants are exactly
+$\{1,2,3,4,5,7,8\}$. Thus the twelve lines are distinct in
+characteristic at least $13$. Their projective slopes $b/a$ are
+\[
+ \infty,0,1,-1,2,-2,3,1/2,-1/2,3/2,1/3,2/3.
+\]
+In characteristic $5$ these reduce to all six directions of
+$\mathbb P^1(\F_5)$; in characteristic $7$, to all eight directions of
+$\mathbb P^1(\F_7)$. They remain six or eight distinct lines over
+an extension field, since distinct base-field slopes remain distinct.
+
+Let $d_p$ be this number of lines over $K=\F_q$. Each contains $q-1$
+nonzero vectors, and distinct lines meet only at zero. Therefore
+\[
+ |\Om|=q^2-1-d_p(q-1)=(q-1)(q+1-d_p).
+\]
+With $d_5=6$, $d_7=8$, and $d_p=12$ for $p\ge13$, divide by twelve
+using Theorem A to obtain the three formulas in Theorem B. For
+$\F_{11}$ the slopes cover all twelve projective directions, so there
+is no admissible parameter. The fields $\F_2,\F_3,\F_5$ have fewer
+than six elements; $\F_7$ is already covered by the direction argument.
+
+\newpage
+\section{A single endpoint and the characteristic-31 obstruction}\label{sec:partner}
+A rigid class occurring at either endpoint first recovers $s$ from $m_2$.
+For an endpoint $A=X_v$, equations \eqref{eq:disc}--\eqref{eq:m6y} give
+\begin{equation}
+ \begin{pmatrix}m_3(A)^2-144s^3\\m_6(A)-23946s^3\end{pmatrix}
+ =\begin{pmatrix}58077&-2916\\6399&-4860\end{pmatrix}
+ \begin{pmatrix}e^2\\de\end{pmatrix}.\label{eq:endpoint}
+\end{equation}
+For $A=Y_v$ the same matrix applies with second unknown $-de$.
+Its determinant is
+\[
+ 58077(-4860)-(-2916)6399
+ =-263594736=-2^4\,3^{12}\,31.
+\]
+Outside characteristics $2,3,11,31$, the endpoint therefore determines
+$s,e^2$, regardless of which side it occupies. Two Bloom pairs sharing
+an endpoint have the same invariants and hence, by Theorem A, are the
+same pair. This proves Theorem C. It again requires no division by $s$
+or any data-dependent value.
+
+The exceptional characteristic is necessary. In $\F_{31}$ take
+$v=(2,12)$ and $w=(8,17)$, and set
+\begin{align*}
+ A&=\{0,1,3,8,12,18\},\\
+ B&=\{0,1,3,10,14,26\},\\
+ C&=\{0,1,4,10,12,17\}.
+\end{align*}
+The raw configurations are
+\begin{align*}
+ X_v&=\{0,2,3,8,20,24\},&Y_v&=\{0,2,3,16,22,26\},\\
+ X_w&=A,&Y_w&=\{0,2,8,11,12,26\}.
+\end{align*}
+Their exact transports are
+\[
+ A=3-Y_v=X_w,\qquad B=3-X_v,\qquad C=12-Y_w.
+\]
+Both parameters are admissible, so $\{[A],[B]\}$ and
+$\{[A],[C]\}$ are Bloom pairs. All three sets have each cyclic
+interval $1,\ldots,15$ exactly once. Their sorted multisets of
+successive circular gaps are, respectively,
+\[
+ (1,2,4,5,6,13),\qquad (1,2,4,5,7,12),\qquad (1,2,3,5,6,14).
+\]
+Translation rotates a circular gap sequence and inversion reverses it;
+the different gap multisets exclude rigid equivalence. Thus the two
+pairs genuinely differ and share exactly the stated class.
+
+Moreover, $s(v)=s(w)=0$ but $e(v)^2=2$ and $e(w)^2=8$ in $\F_{31}$.
+This exhibits failure of endpoint recovery, not merely a singular matrix
+in one method of proof. Pair classification and the count $B(31)=50$
+remain valid. The existence of this three-class subfamily alone does not
+establish the complete size-five family asserted by the finite census
+in the next section.
+
+\newpage
+\section{Total counts in prime cyclic groups: inherited dependencies}\label{sec:totals}
+The direct algebra above counts the Bloom image. To identify it with
+\emph{all} nontrivial six-point homometry in $\Z/p\Z$ at large primes,
+we use a separate completeness input from the Homometry Program:
+
+\medskip\noindent\textbf{Input G and its large-prime corollary.}
+The earlier general six-point generation theorem is \status{PROVED},
+in-house, \emph{computer-assisted}. Its large-prime corollary states
+that every cyclic six-point pair of different rigid classes is an
+admissible modular Bloom pair when every prime divisor of the modulus
+exceeds $131$. This uses the exact line-classification solver obligation
+and the bounded universal-presentation/torsion certificate. The torsion
+order is at most $135$; the least prime above $131$ is $137$, so the
+torsion image vanishes. Integer lifts then reduce the free image to the
+line classification. Those computational obligations are inherited,
+not proved or replaced by the present moment argument.
+
+\begin{corollary}[large-prime totals, assuming Input G]
+For every prime $p>131$, the number of unordered nontrivial six-point
+pair edges, and the number of maximal nontrivial six-point families in
+$\Z/p\Z$, are both $(p-1)(p-11)/12$. Each family has exactly two
+rigid classes.
+\end{corollary}
+\begin{proof}
+Input G identifies every pair with the Bloom image. Theorem B counts
+its edges, and Theorem C makes the graph a disjoint union of edges,
+since these primes differ from $31$.
+\end{proof}
+
+\begin{corollary}[all prime totals, with finite census input]
+In addition to Input G, assume the earlier complete two-method six-set
+census through modulus $135$. For primes $p\ge13$, put
+$B(p)=(p-1)(p-11)/12$ and let $[p=r]$ be $1$ if $p=r$ and $0$
+otherwise. The total numbers of pair edges and maximal nontrivial
+families are
+\begin{align*}
+ P_6(p)&=B(p)+8[p=17]+9[p=19]+11[p=23]+20[p=31],\\
+ F_6(p)&=B(p)+8[p=17]+9[p=19]+11[p=23]+11[p=31].
+\end{align*}
+Every family has size two except one size-five family in $\Z/31\Z$.
+Primes below $13$ have no nontrivial six-set family.
+\end{corollary}
+\begin{proof}
+Corollary D covers primes above $131$. For the remaining primes the
+complete census gives extra edge counts $8,9,11,20$ at $17,19,23,31$,
+and zero elsewhere. At $31$ there are sixty size-two families and one
+size-five family, hence $61$ families and $60+\binom52=70$ edges;
+subtracting $B(31)=50$ gives the two different corrections. At
+$17,19,23$ all families have size two. Primes below $7$ support no six-subsets,
+and the complete checks at $7,11$ give no nontrivial families.
+\end{proof}
+
+Corollaries D--E are \status{PROVED}, in-house, \emph{computer-assisted}
+under these recorded inputs. The small-prime replay checks canonical
+classes, autocorrelations, disjoint membership, family sizes and source
+hashes; its completeness is inherited from the original enumeration.
+It is not a new exhaustive census or a pure algebraic classification
+of the small-prime additional pairs.
+
+\newpage
+\section{Verification, provenance, and remaining scope}\label{sec:provenance}
+The mathematical source is
+\filepath{notes/2026-09-30-six-prime-theorem.md}; its separate attack is
+\filepath{notes/2026-09-30-six-prime-review.md}.
+An auxiliary coefficient-symmetry derivation and an independent polynomial
+kernel check all displayed identities, collision determinants, and the
+single-endpoint determinant. The proofs in Theorems A--C require only
+those written identities and elementary field algebra.
+
+Two independent implementations provide \status{COMPUTED} controls.
+The direct point enumerator canonicalizes each endpoint under translation
+and inversion and retains every parameter fiber, without using the formula
+or symmetry group. The invariant implementation partitions parameters by
+$(s,e^2)$ without constructing point classes. The \emph{entire partitions}
+agree at every prime $13\le p\le251$ and at $1009$, and at the additive
+fields $\F_{25},\F_{49},\F_{169}$. These checks support the algebraic
+proof and do not supply general completeness. Tests cover isotropic
+parameters, the coefficient exceptions $79,239$, and the explicit
+characteristic-$31$ shared endpoint.
+
+The retained complete six-set census has its original two independent
+methods. Replaying its small-prime payloads validates the corrections in
+Corollary E while retaining the original completeness dependency. Full
+source and evidence hashes, native compiler diagnostics, exact export
+commands and page inspection are saved alongside this PDF.
+Useful reproduction commands in the pinned project environment are:
+\begin{quote}\small\ttfamily
+.venv/bin/python tests/run\_tests.py\\
+.venv/bin/python tests/test\_six\_prime\_bloom.py\\
+.venv/bin/python tests/test\_six\_bloom\_invariants.py\\
+.venv/bin/python src/six\_bloom\_invariants.py
+\end{quote}
+The large-prime input is in the earlier working paper's section
+``Integer shadows and the large-prime boundary'';
+\filepath{notes/2026-09-30-six-paper.tex}. Its proof and certificate
+obligations are not replaced by this standalone paper.
+
+\paragraph{Prior art and limits.}
+The family and its triangular geometry are classical \cite{pg}.
+Ranieri et al. display the same six-point matrices in the collision-free
+real-line setting \cite[\S IV.A]{ranieri}; that scope is distinct from
+modular coincidences. The earlier small-prime family totals
+$2,16,21,33$ at $13,17,19,23$ appear in Jedrzejewski--Johnson
+\cite[\S3]{jj}; family counts and pair-edge counts differ when a family
+has more than two members. The focused primary-source literature log is
+\filepath{notes/2026-09-30-six-prime-literature.md}. Database access
+failures and unread historical sources remain recorded; no novelty is
+claimed. Composite cyclic moduli, a complete classification over noncyclic
+additive fields, and extension fields of characteristics $2,3,11$ remain
+outside this paper. External specialist review is still needed before
+public dissemination; no submission or external publication has occurred.
+
+\begin{thebibliography}{9}\small
+\bibitem{pg} E. Postpischil and P. Gilbert,
+There Are No New Homometric Golomb Ruler Pairs with 12 Marks or Less,
+\emph{Experimental Mathematics} \textbf{3}(2) (1994), 147--152.
+\href{https://doi.org/10.1080/10586458.1994.10504286}{doi:10.1080/10586458.1994.10504286}.
+Primary sections used: 3 and 7.
+\bibitem{ranieri} J. Ranieri, A. Chebira, Y. M. Lu and M. Vetterli,
+\emph{Phase Retrieval for Sparse Signals: Uniqueness Conditions},
+\href{https://arxiv.org/abs/1308.3058v2}{arXiv:1308.3058v2} (2013), \S IV.A.
+\bibitem{jj} F. Jedrzejewski and T. Johnson,
+\emph{The Structure of Z-Related Sets},
+\href{https://arxiv.org/abs/1304.6608v1}{arXiv:1304.6608v1} (2013), \S3;
+MCM 2013, LNCS 7937, 128--137.
+\end{thebibliography}
+\end{document}

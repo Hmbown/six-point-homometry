@@ -1,0 +1,338 @@
+[
+  {
+    "rank": 3,
+    "index": 0,
+    "singleton": 0,
+    "heights": [
+      0,
+      1,
+      3,
+      3,
+      3,
+      3
+    ],
+    "matching_count": 26542080
+  },
+  {
+    "rank": 3,
+    "index": 1,
+    "singleton": 0,
+    "heights": [
+      0,
+      -2,
+      1,
+      4,
+      4,
+      4
+    ],
+    "matching_count": 41472
+  },
+  {
+    "rank": 3,
+    "index": 2,
+    "singleton": 0,
+    "heights": [
+      0,
+      1,
+      1,
+      3,
+      3,
+      3
+    ],
+    "matching_count": 3317760
+  },
+  {
+    "rank": 3,
+    "index": 3,
+    "singleton": 0,
+    "heights": [
+      0,
+      -8,
+      -2,
+      1,
+      4,
+      4
+    ],
+    "matching_count": 288
+  },
+  {
+    "rank": 3,
+    "index": 4,
+    "singleton": 0,
+    "heights": [
+      0,
+      -5,
+      -2,
+      1,
+      4,
+      4
+    ],
+    "matching_count": 1152
+  },
+  {
+    "rank": 3,
+    "index": 5,
+    "singleton": 0,
+    "heights": [
+      0,
+      -2,
+      -2,
+      1,
+      4,
+      4
+    ],
+    "matching_count": 18432
+  },
+  {
+    "rank": 3,
+    "index": 6,
+    "singleton": 0,
+    "heights": [
+      0,
+      -2,
+      1,
+      1,
+      4,
+      4
+    ],
+    "matching_count": 46080
+  },
+  {
+    "rank": 3,
+    "index": 7,
+    "singleton": 0,
+    "heights": [
+      0,
+      -20,
+      -8,
+      -2,
+      1,
+      4
+    ],
+    "matching_count": 8
+  },
+  {
+    "rank": 3,
+    "index": 8,
+    "singleton": 0,
+    "heights": [
+      0,
+      -17,
+      -8,
+      -2,
+      1,
+      4
+    ],
+    "matching_count": 8
+  },
+  {
+    "rank": 3,
+    "index": 9,
+    "singleton": 0,
+    "heights": [
+      0,
+      -14,
+      -8,
+      -2,
+      1,
+      4
+    ],
+    "matching_count": 24
+  },
+  {
+    "rank": 3,
+    "index": 10,
+    "singleton": 0,
+    "heights": [
+      0,
+      -14,
+      -5,
+      -2,
+      1,
+      4
+    ],
+    "matching_count": 24
+  },
+  {
+    "rank": 3,
+    "index": 11,
+    "singleton": 0,
+    "heights": [
+      0,
+      -11,
+      -8,
+      -5,
+      1,
+      4
+    ],
+    "matching_count": 48
+  },
+  {
+    "rank": 3,
+    "index": 12,
+    "singleton": 0,
+    "heights": [
+      0,
+      -11,
+      -5,
+      -2,
+      1,
+      4
+    ],
+    "matching_count": 72
+  },
+  {
+    "rank": 3,
+    "index": 13,
+    "singleton": 0,
+    "heights": [
+      0,
+      -4,
+      -1,
+      2,
+      8,
+      8
+    ],
+    "matching_count": 192
+  },
+  {
+    "rank": 3,
+    "index": 14,
+    "singleton": 0,
+    "heights": [
+      0,
+      -8,
+      -5,
+      -2,
+      1,
+      4
+    ],
+    "matching_count": 288
+  },
+  {
+    "rank": 3,
+    "index": 15,
+    "singleton": 0,
+    "heights": [
+      0,
+      -2,
+      10,
+      1,
+      4,
+      4
+    ],
+    "matching_count": 576
+  },
+  {
+    "rank": 3,
+    "index": 16,
+    "singleton": 0,
+    "heights": [
+      0,
+      -5,
+      7,
+      1,
+      4,
+      4
+    ],
+    "matching_count": 384
+  },
+  {
+    "rank": 3,
+    "index": 17,
+    "singleton": 0,
+    "heights": [
+      0,
+      -2,
+      7,
+      1,
+      4,
+      4
+    ],
+    "matching_count": 2880
+  },
+  {
+    "rank": 3,
+    "index": 18,
+    "singleton": 0,
+    "heights": [
+      0,
+      -8,
+      -2,
+      10,
+      1,
+      4
+    ],
+    "matching_count": 48
+  },
+  {
+    "rank": 3,
+    "index": 19,
+    "singleton": 0,
+    "heights": [
+      0,
+      -11,
+      -5,
+      13,
+      1,
+      4
+    ],
+    "matching_count": 8
+  },
+  {
+    "rank": 3,
+    "index": 20,
+    "singleton": 0,
+    "heights": [
+      0,
+      -2,
+      1,
+      1,
+      1,
+      4
+    ],
+    "matching_count": 207360
+  },
+  {
+    "rank": 3,
+    "index": 21,
+    "singleton": 0,
+    "heights": [
+      0,
+      -11,
+      -2,
+      10,
+      1,
+      4
+    ],
+    "matching_count": 16
+  },
+  {
+    "rank": 3,
+    "index": 22,
+    "singleton": 0,
+    "heights": [
+      0,
+      -14,
+      -2,
+      10,
+      1,
+      4
+    ],
+    "matching_count": 8
+  },
+  {
+    "rank": 4,
+    "index": 0,
+    "singleton": 0,
+    "heights": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "matching_count": 445906944000
+  }
+]

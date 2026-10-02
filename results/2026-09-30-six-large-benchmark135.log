@@ -1,0 +1,4 @@
+n=135 start
+{'n': 135, 'mode': 'gap', 'classes': 27845587, 'families': 6904, 'pairs': 6946, 'largest': 3, 'seconds': 3.4, 'wall_seconds': 3.437}
+{'n': 135, 'mode': 'point', 'classes': 27845587, 'families': 6904, 'pairs': 6946, 'largest': 3, 'seconds': 9.545, 'wall_seconds': 10.343}
+n=135 independently agreed

@@ -1,0 +1,26 @@
+{
+  "mode": "count",
+  "bloom_order_templates": 96,
+  "excluded_planes": 2,
+  "cuts": [
+    "-2",
+    "-1",
+    "-1/2",
+    "0",
+    "1/3",
+    "1/2",
+    "2/3",
+    "1",
+    "3/2",
+    "2",
+    "3"
+  ],
+  "status": "EXPERIMENTAL-SOLVER-RESULT",
+  "input_sha256": "845fb30d084ad70a97fa83acc391cb3b7816b5111611ca132d726bf6a62de667",
+  "z3_version": "Z3 version 4.15.4 - 64 bit",
+  "seconds": 4.389672124991193,
+  "returncode": 0,
+  "stdout": "unsat",
+  "stderr": "",
+  "proof_path": "results/2026-09-30-six-integer-two-plane/count.proof.gz"
+}

@@ -1,0 +1,13 @@
+stars 107 raw 96096
+root 0 nodes 1 seconds 0.0
+root 1 nodes 214 seconds 0.13
+nodes 1000 seconds 0.67 roots 2
+root 2 nodes 1251 seconds 0.84
+root 3 nodes 1578 seconds 1.05
+root 4 nodes 1619 seconds 1.07
+nodes 2000 seconds 1.37 roots 5
+nodes 3000 seconds 2.14 roots 5
+root 5 nodes 3236 seconds 2.33
+nodes 4000 seconds 3.06 roots 6
+nodes 5000 seconds 4.04 roots 6
+{'complete': False, 'error': 'benchmark bound', 'seconds': 4.044495416106656, 'counts': {'ti': 849, 'branch': 2408, 'homometric': 467, 'collision': 1276}, 'status': 'EXPLORATORY; not reviewed or structurally classified', 'completed_roots': 6, 'nodes': 5000}

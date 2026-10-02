@@ -1,0 +1,316 @@
+rank3-orbit000 {} {} seconds 0.0
+rank3-orbit001 {} {} seconds 0.0
+rank3-orbit002 {} {} seconds 0.0
+rank3-orbit003 {} {} seconds 0.0
+rank3-orbit004 {} {} seconds 0.0
+rank3-orbit005 {} {} seconds 0.01
+rank3-orbit006 {} {} seconds 0.01
+rank3-orbit007 {} {} seconds 0.01
+rank3-orbit008 {} {} seconds 0.01
+rank3-orbit009 {} {} seconds 0.01
+rank3-orbit010 {} {} seconds 0.01
+rank3-orbit011 {} {} seconds 0.01
+rank3-orbit012 {} {} seconds 0.01
+rank3-orbit013 {} {} seconds 0.02
+rank3-orbit014 {} {} seconds 0.02
+rank3-orbit015 {} {} seconds 0.02
+rank3-orbit016 {} {} seconds 0.02
+rank3-orbit017 {} {} seconds 0.02
+rank3-orbit018 {} {} seconds 0.02
+rank3-orbit019 {} {} seconds 0.02
+rank3-orbit020 {} {} seconds 0.03
+rank3-orbit021 {} {} seconds 0.03
+rank3-orbit022 {} {} seconds 0.03
+rank3-orbit023 {} {} seconds 0.03
+rank3-orbit024 {} {} seconds 0.03
+rank3-orbit025 {} {} seconds 0.03
+rank3-orbit026 {} {} seconds 0.03
+rank3-orbit027 {} {} seconds 0.03
+rank3-orbit028 {} {} seconds 0.03
+rank3-orbit029 {'reflect': 1} {} seconds 0.03
+rank3-orbit030 {'reflect': 1} {} seconds 0.03
+rank3-orbit031 {'reflect': 1} {} seconds 0.03
+rank3-orbit032 {'reflect': 1} {} seconds 0.03
+rank3-orbit033 {'reflect': 1} {} seconds 0.04
+rank3-orbit034 {'reflect': 1} {} seconds 0.04
+rank3-orbit035 {'reflect': 1} {} seconds 0.04
+rank3-orbit036 {'reflect': 1, 'halfturn': 1} {} seconds 0.04
+rank3-orbit037 {'reflect': 1, 'halfturn': 1} {} seconds 0.04
+rank3-orbit038 {'reflect': 1, 'halfturn': 4} {} seconds 0.05
+rank3-orbit039 {'reflect': 1, 'halfturn': 7} {} seconds 0.05
+rank3-orbit040 {'reflect': 1, 'halfturn': 7, 'cosymmetric_translate': 3} {} seconds 0.06
+rank3-orbit041 {'reflect': 1, 'halfturn': 7, 'cosymmetric_translate': 3} {} seconds 0.06
+rank3-orbit042 {'reflect': 1, 'halfturn': 7, 'cosymmetric_translate': 3} {} seconds 0.06
+rank3-orbit043 {'reflect': 1, 'halfturn': 7, 'cosymmetric_translate': 3} {} seconds 0.06
+rank3-orbit044 {'reflect': 1, 'halfturn': 7, 'cosymmetric_translate': 3} {} seconds 0.07
+rank3-orbit045 {'reflect': 1, 'halfturn': 7, 'cosymmetric_translate': 3} {} seconds 0.07
+rank3-orbit046 {'reflect': 1, 'halfturn': 7, 'cosymmetric_translate': 3} {} seconds 0.07
+rank3-orbit047 {'reflect': 1, 'halfturn': 7, 'cosymmetric_translate': 3} {} seconds 0.07
+rank3-orbit048 {'reflect': 1, 'halfturn': 7, 'cosymmetric_translate': 3} {} seconds 0.08
+rank3-orbit049 {'reflect': 1, 'halfturn': 10, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.11
+rank3-orbit050 {'reflect': 1, 'halfturn': 10, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.11
+rank3-orbit051 {'reflect': 1, 'halfturn': 13, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.11
+rank3-orbit052 {'reflect': 2, 'halfturn': 16, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.12
+rank3-orbit053 {'reflect': 2, 'halfturn': 16, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.12
+rank3-orbit054 {'reflect': 2, 'halfturn': 16, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.12
+rank3-orbit055 {'reflect': 2, 'halfturn': 16, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.12
+rank3-orbit056 {'reflect': 2, 'halfturn': 16, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.12
+rank3-orbit057 {'reflect': 2, 'halfturn': 16, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.12
+rank3-orbit058 {'reflect': 2, 'halfturn': 16, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.12
+rank3-orbit059 {'reflect': 2, 'halfturn': 16, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.13
+rank3-orbit060 {'reflect': 2, 'halfturn': 16, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.13
+rank3-orbit061 {'reflect': 2, 'halfturn': 16, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.13
+rank3-orbit062 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.13
+rank3-orbit063 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.13
+rank3-orbit064 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.14
+rank3-orbit065 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.14
+rank3-orbit066 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.14
+rank3-orbit067 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.14
+rank3-orbit068 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.14
+rank3-orbit069 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.14
+rank3-orbit070 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.14
+rank3-orbit071 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.14
+rank3-orbit072 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.14
+rank3-orbit073 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.14
+rank3-orbit074 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.14
+rank3-orbit075 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.15
+rank3-orbit076 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.15
+rank3-orbit077 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.15
+rank3-orbit078 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.15
+rank3-orbit079 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.15
+rank3-orbit080 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.16
+rank3-orbit081 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.16
+rank3-orbit082 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.16
+rank3-orbit083 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.17
+rank3-orbit084 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.17
+rank3-orbit085 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.17
+rank3-orbit086 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.17
+rank3-orbit087 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.17
+rank3-orbit088 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.18
+rank3-orbit089 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.18
+rank3-orbit090 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.18
+rank3-orbit091 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.18
+rank3-orbit092 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.18
+rank3-orbit093 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.18
+rank3-orbit094 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.18
+rank3-orbit095 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.19
+rank3-orbit096 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.19
+rank3-orbit097 {'reflect': 2, 'halfturn': 18, 'cosymmetric_translate': 3, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.19
+rank3-orbit098 {'reflect': 2, 'halfturn': 19, 'cosymmetric_translate': 4, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.2
+rank3-orbit099 {'reflect': 2, 'halfturn': 19, 'cosymmetric_translate': 4, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.2
+rank3-orbit100 {'reflect': 2, 'halfturn': 19, 'cosymmetric_translate': 4, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.2
+rank3-orbit101 {'reflect': 2, 'halfturn': 19, 'cosymmetric_translate': 4, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.2
+rank3-orbit102 {'reflect': 2, 'halfturn': 19, 'cosymmetric_translate': 4, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.2
+rank3-orbit103 {'reflect': 2, 'halfturn': 19, 'cosymmetric_translate': 4, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.2
+rank4-orbit000 {'reflect': 2, 'halfturn': 19, 'cosymmetric_translate': 4, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.2
+rank4-orbit001 {'reflect': 3, 'halfturn': 19, 'cosymmetric_translate': 4, 'halfcoset': 6, 'translate': 1, 'template': 2} {'collision': 8} seconds 0.2
+rank4-orbit002 {'reflect': 8, 'halfturn': 41, 'cosymmetric_translate': 14, 'halfcoset': 14, 'translate': 2, 'template': 5, 'dyad': 6} {'collision': 28, 'halfcoset': 16} seconds 0.34
+rank4-orbit003 {'reflect': 8, 'halfturn': 41, 'cosymmetric_translate': 14, 'halfcoset': 14, 'translate': 2, 'template': 5, 'dyad': 6} {'collision': 28, 'halfcoset': 16} seconds 0.34
+rank4-orbit004 {'reflect': 12, 'halfturn': 45, 'cosymmetric_translate': 14, 'halfcoset': 14, 'translate': 2, 'template': 5, 'dyad': 6} {'collision': 28, 'halfcoset': 16} seconds 0.36
+rank4-orbit005 {'reflect': 19, 'halfturn': 45, 'cosymmetric_translate': 14, 'halfcoset': 14, 'translate': 2, 'template': 5, 'dyad': 6} {'collision': 28, 'halfcoset': 16} seconds 0.37
+rank4-orbit006 {'reflect': 19, 'halfturn': 45, 'cosymmetric_translate': 14, 'halfcoset': 14, 'translate': 2, 'template': 5, 'dyad': 6} {'collision': 28, 'halfcoset': 16} seconds 0.38
+rank4-orbit007 {'reflect': 25, 'halfturn': 76, 'cosymmetric_translate': 14, 'halfcoset': 14, 'translate': 2, 'template': 5, 'dyad': 6} {'collision': 28, 'halfcoset': 16} seconds 0.43
+rank4-orbit008 {'reflect': 25, 'halfturn': 95, 'cosymmetric_translate': 14, 'halfcoset': 14, 'translate': 2, 'template': 5, 'dyad': 6} {'collision': 28, 'halfcoset': 16} seconds 0.49
+rank4-orbit009 {'reflect': 25, 'halfturn': 95, 'cosymmetric_translate': 14, 'halfcoset': 14, 'translate': 2, 'template': 5, 'dyad': 6} {'collision': 28, 'halfcoset': 16} seconds 0.5
+rank4-orbit010 {'reflect': 27, 'halfturn': 95, 'cosymmetric_translate': 14, 'halfcoset': 14, 'translate': 2, 'template': 5, 'dyad': 6} {'collision': 28, 'halfcoset': 16} seconds 0.5
+rank4-orbit011 {'reflect': 35, 'halfturn': 97, 'cosymmetric_translate': 33, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 6} {'collision': 28, 'halfcoset': 16} seconds 0.61
+rank4-orbit012 {'reflect': 35, 'halfturn': 98, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8} {'collision': 28, 'halfcoset': 16} seconds 0.69
+rank4-orbit013 {'reflect': 35, 'halfturn': 98, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8} {'collision': 28, 'halfcoset': 16} seconds 0.7
+rank4-orbit014 {'reflect': 35, 'halfturn': 98, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8} {'collision': 28, 'halfcoset': 16} seconds 0.7
+rank4-orbit015 {'reflect': 35, 'halfturn': 98, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8} {'collision': 28, 'halfcoset': 16} seconds 0.7
+rank4-orbit016 {'reflect': 35, 'halfturn': 98, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8} {'collision': 28, 'halfcoset': 16} seconds 0.71
+rank4-orbit017 {'reflect': 35, 'halfturn': 98, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8} {'collision': 28, 'halfcoset': 16} seconds 0.71
+rank4-orbit018 {'reflect': 35, 'halfturn': 98, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8} {'collision': 28, 'halfcoset': 16} seconds 0.71
+rank4-orbit019 {'reflect': 35, 'halfturn': 98, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8} {'collision': 28, 'halfcoset': 16} seconds 0.71
+rank4-orbit020 {'reflect': 35, 'halfturn': 106, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 5} {'collision': 28, 'halfcoset': 16} seconds 0.74
+rank4-orbit021 {'reflect': 35, 'halfturn': 106, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 5} {'collision': 28, 'halfcoset': 16} seconds 0.75
+rank4-orbit022 {'reflect': 35, 'halfturn': 118, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 5} {'collision': 28, 'halfcoset': 16} seconds 0.77
+rank4-orbit023 {'reflect': 35, 'halfturn': 118, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 5} {'collision': 28, 'halfcoset': 16} seconds 0.78
+rank4-orbit024 {'reflect': 35, 'halfturn': 124, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 5} {'collision': 28, 'halfcoset': 16} seconds 0.79
+rank4-orbit025 {'reflect': 35, 'halfturn': 124, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 5} {'collision': 28, 'halfcoset': 16} seconds 0.79
+rank4-orbit026 {'reflect': 35, 'halfturn': 124, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 5} {'collision': 28, 'halfcoset': 16} seconds 0.8
+rank4-orbit027 {'reflect': 35, 'halfturn': 138, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 5} {'collision': 28, 'halfcoset': 16} seconds 0.91
+rank4-orbit028 {'reflect': 35, 'halfturn': 138, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 5} {'collision': 28, 'halfcoset': 16} seconds 0.94
+rank4-orbit029 {'reflect': 35, 'halfturn': 138, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 5} {'collision': 28, 'halfcoset': 16} seconds 0.96
+rank4-orbit030 {'reflect': 35, 'halfturn': 138, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 5} {'collision': 28, 'halfcoset': 16} seconds 0.98
+rank4-orbit031 {'reflect': 35, 'halfturn': 151, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 5} {'collision': 28, 'halfcoset': 16} seconds 1.02
+rank4-orbit032 {'reflect': 35, 'halfturn': 151, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 5} {'collision': 28, 'halfcoset': 16} seconds 1.04
+rank4-orbit033 {'reflect': 35, 'halfturn': 151, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 5} {'collision': 28, 'halfcoset': 16} seconds 1.05
+rank4-orbit034 {'reflect': 35, 'halfturn': 151, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 5} {'collision': 28, 'halfcoset': 16} seconds 1.09
+rank4-orbit035 {'reflect': 38, 'halfturn': 157, 'cosymmetric_translate': 43, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 5} {'collision': 28, 'halfcoset': 16} seconds 1.11
+rank4-orbit036 {'reflect': 43, 'halfturn': 174, 'cosymmetric_translate': 56, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 14} {'collision': 28, 'halfcoset': 16} seconds 1.27
+rank4-orbit037 {'reflect': 43, 'halfturn': 174, 'cosymmetric_translate': 79, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 14} {'collision': 28, 'halfcoset': 16} seconds 1.47
+rank4-orbit038 {'reflect': 43, 'halfturn': 174, 'cosymmetric_translate': 79, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 14} {'collision': 28, 'halfcoset': 16} seconds 1.75
+rank4-orbit039 {'reflect': 43, 'halfturn': 174, 'cosymmetric_translate': 79, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 14} {'collision': 28, 'halfcoset': 16} seconds 1.81
+rank4-orbit040 {'reflect': 43, 'halfturn': 174, 'cosymmetric_translate': 79, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 14} {'collision': 28, 'halfcoset': 16} seconds 1.82
+rank4-orbit041 {'reflect': 49, 'halfturn': 185, 'cosymmetric_translate': 79, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 14} {'collision': 28, 'halfcoset': 16} seconds 1.86
+rank4-orbit042 {'reflect': 49, 'halfturn': 185, 'cosymmetric_translate': 79, 'halfcoset': 44, 'translate': 10, 'template': 5, 'dyad': 8, 'Bloom': 14} {'collision': 28, 'halfcoset': 16} seconds 1.87
+rank4-orbit043 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.19
+rank4-orbit044 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.21
+rank4-orbit045 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit046 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit047 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit048 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit049 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit050 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit051 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit052 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit053 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit054 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit055 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit056 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit057 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit058 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit059 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit060 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit061 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit062 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit063 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.22
+rank4-orbit064 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit065 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit066 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit067 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit068 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit069 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit070 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit071 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit072 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit073 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit074 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit075 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit076 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit077 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit078 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit079 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit080 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit081 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit082 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit083 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.23
+rank4-orbit084 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.24
+rank4-orbit085 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.24
+rank4-orbit086 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.24
+rank4-orbit087 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.24
+rank4-orbit088 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.24
+rank4-orbit089 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.24
+rank4-orbit090 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.24
+rank4-orbit091 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.24
+rank4-orbit092 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.24
+rank4-orbit093 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.24
+rank4-orbit094 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.24
+rank4-orbit095 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.24
+rank4-orbit096 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.24
+rank4-orbit097 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.24
+rank4-orbit098 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.24
+rank4-orbit099 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.24
+rank4-orbit100 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.24
+rank4-orbit101 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.25
+rank4-orbit102 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.25
+rank4-orbit103 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.25
+rank4-orbit104 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.25
+rank4-orbit105 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.25
+rank4-orbit106 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.25
+rank4-orbit107 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.25
+rank4-orbit108 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.25
+rank4-orbit109 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.25
+rank4-orbit110 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.25
+rank4-orbit111 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.25
+rank4-orbit112 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.25
+rank4-orbit113 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.25
+rank4-orbit114 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.25
+rank4-orbit115 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.25
+rank4-orbit116 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.26
+rank4-orbit117 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.26
+rank4-orbit118 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.26
+rank4-orbit119 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.26
+rank4-orbit120 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.26
+rank4-orbit121 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.26
+rank4-orbit122 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.26
+rank4-orbit123 {'reflect': 49, 'halfturn': 219, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.26
+rank4-orbit124 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.27
+rank4-orbit125 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.27
+rank4-orbit126 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.27
+rank4-orbit127 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.27
+rank4-orbit128 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.27
+rank4-orbit129 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.27
+rank4-orbit130 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.27
+rank4-orbit131 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.28
+rank4-orbit132 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.28
+rank4-orbit133 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.28
+rank4-orbit134 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.28
+rank4-orbit135 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.28
+rank4-orbit136 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.28
+rank4-orbit137 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.28
+rank4-orbit138 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.28
+rank4-orbit139 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.28
+rank4-orbit140 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.28
+rank4-orbit141 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.28
+rank4-orbit142 {'reflect': 49, 'halfturn': 225, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.28
+rank4-orbit143 {'reflect': 49, 'halfturn': 237, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.3
+rank4-orbit144 {'reflect': 49, 'halfturn': 237, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.3
+rank4-orbit145 {'reflect': 49, 'halfturn': 237, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.3
+rank4-orbit146 {'reflect': 49, 'halfturn': 238, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.3
+rank4-orbit147 {'reflect': 49, 'halfturn': 238, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.31
+rank4-orbit148 {'reflect': 49, 'halfturn': 250, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.33
+rank4-orbit149 {'reflect': 49, 'halfturn': 250, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.33
+rank4-orbit150 {'reflect': 49, 'halfturn': 250, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.33
+rank4-orbit151 {'reflect': 49, 'halfturn': 250, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.33
+rank4-orbit152 {'reflect': 49, 'halfturn': 250, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.33
+rank4-orbit153 {'reflect': 49, 'halfturn': 250, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.33
+rank4-orbit154 {'reflect': 49, 'halfturn': 250, 'cosymmetric_translate': 112, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.33
+rank4-orbit155 {'reflect': 49, 'halfturn': 256, 'cosymmetric_translate': 117, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.36
+rank4-orbit156 {'reflect': 49, 'halfturn': 256, 'cosymmetric_translate': 117, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.36
+rank4-orbit157 {'reflect': 49, 'halfturn': 256, 'cosymmetric_translate': 117, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.36
+rank4-orbit158 {'reflect': 49, 'halfturn': 256, 'cosymmetric_translate': 117, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.36
+rank4-orbit159 {'reflect': 49, 'halfturn': 256, 'cosymmetric_translate': 117, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.36
+rank4-orbit160 {'reflect': 49, 'halfturn': 256, 'cosymmetric_translate': 117, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.36
+rank4-orbit161 {'reflect': 49, 'halfturn': 256, 'cosymmetric_translate': 117, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.36
+rank4-orbit162 {'reflect': 49, 'halfturn': 256, 'cosymmetric_translate': 117, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.36
+rank4-orbit163 {'reflect': 49, 'halfturn': 259, 'cosymmetric_translate': 120, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.37
+rank4-orbit164 {'reflect': 49, 'halfturn': 259, 'cosymmetric_translate': 120, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.37
+rank4-orbit165 {'reflect': 49, 'halfturn': 259, 'cosymmetric_translate': 120, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.37
+rank4-orbit166 {'reflect': 49, 'halfturn': 259, 'cosymmetric_translate': 120, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.37
+rank4-orbit167 {'reflect': 49, 'halfturn': 259, 'cosymmetric_translate': 120, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.38
+rank4-orbit168 {'reflect': 49, 'halfturn': 259, 'cosymmetric_translate': 120, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.38
+rank4-orbit169 {'reflect': 49, 'halfturn': 259, 'cosymmetric_translate': 120, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.38
+rank4-orbit170 {'reflect': 49, 'halfturn': 259, 'cosymmetric_translate': 120, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.38
+rank4-orbit171 {'reflect': 49, 'halfturn': 259, 'cosymmetric_translate': 120, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.38
+rank4-orbit172 {'reflect': 49, 'halfturn': 259, 'cosymmetric_translate': 120, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.38
+rank4-orbit173 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.42
+rank4-orbit174 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.42
+rank4-orbit175 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.42
+rank4-orbit176 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.43
+rank4-orbit177 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.43
+rank4-orbit178 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.43
+rank4-orbit179 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.43
+rank4-orbit180 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.43
+rank4-orbit181 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.43
+rank4-orbit182 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.43
+rank4-orbit183 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.43
+rank4-orbit184 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.43
+rank4-orbit185 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.43
+rank4-orbit186 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.43
+rank4-orbit187 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.43
+rank4-orbit188 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.43
+rank4-orbit189 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.43
+rank4-orbit190 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.43
+rank4-orbit191 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.43
+rank4-orbit192 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+rank4-orbit193 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+rank4-orbit194 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+rank4-orbit195 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+rank4-orbit196 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+rank4-orbit197 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+rank4-orbit198 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+rank4-orbit199 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+rank4-orbit200 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+rank4-orbit201 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+rank4-orbit202 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+rank4-orbit203 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+rank4-orbit204 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+rank4-orbit205 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+rank4-orbit206 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+rank4-orbit207 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+rank4-orbit208 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+rank4-orbit209 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+rank4-orbit210 {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14} {'collision': 44, 'halfcoset': 16} seconds 2.44
+{'status': 'COMPUTED-UNVALIDATED exact group mechanisms and cyclic-image templates', 'terminal_count': 620, 'histogram': {'reflect': 53, 'halfturn': 271, 'cosymmetric_translate': 135, 'halfcoset': 114, 'translate': 16, 'template': 9, 'dyad': 8, 'Bloom': 14}, 'cyclic_quotient_histogram': {'collision': 44, 'halfcoset': 16}, 'seconds': 2.4428673329530284}

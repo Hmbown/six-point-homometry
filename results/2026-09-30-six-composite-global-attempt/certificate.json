@@ -1,0 +1,8614 @@
+{
+  "status": "COMPUTED",
+  "scope": "small exact coefficient tables; theorem fresh review pending",
+  "source_sha256": "8556cfef14690d2aa5f8ab93297f797d67f85924658d35867ee9d8acd170c3d6",
+  "local_dependencies_sha256": {
+    "six_prime_power_lifts.py": "2add9866e02d73fdaf36d733bb446c0b73c635f6ad25328046fba8e946722dc5",
+    "six_prime_power_endpoint_lifts.py": "49f673ae6e6cd04112670f9f7546555f18556d7f7ed6bb75b894b7f1e8852f90"
+  },
+  "moment_identities": {
+    "X": {
+      "m3_coefficients_a_descending": [
+        12,
+        -261,
+        225,
+        12
+      ],
+      "m5_coefficients_a_descending": [
+        1140,
+        -11355,
+        18150,
+        -15870,
+        5655,
+        1140
+      ],
+      "m5_identity": "15 s (38 d - 567 e)"
+    },
+    "Y": {
+      "m3_coefficients_a_descending": [
+        12,
+        225,
+        -261,
+        12
+      ],
+      "m5_coefficients_a_descending": [
+        1140,
+        5655,
+        -15870,
+        18150,
+        -11355,
+        1140
+      ],
+      "m5_identity": "15 s (38 d + 567 e)"
+    }
+  },
+  "weighted_lift_extension": {
+    "paired_E": {
+      "patterns": 32,
+      "all_collision_branches_give_w_v": true
+    },
+    "paired_D": {
+      "patterns": 8,
+      "all_collision_branches_give_w_v": true
+    },
+    "endpoint_E": {
+      "patterns": 16,
+      "all_collision_branches_give_w_v": true
+    },
+    "endpoint_D": {
+      "patterns": 8,
+      "all_collision_branches_give_w_v": true
+    }
+  },
+  "gluing": {
+    "lines": [
+      {
+        "index": 0,
+        "primitive_vector": [
+          0,
+          1
+        ],
+        "positive_autos_X": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            2,
+            4,
+            3,
+            5
+          ],
+          [
+            1,
+            0,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            1,
+            0,
+            2,
+            4,
+            3,
+            5
+          ]
+        ],
+        "positive_autos_Y": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            2,
+            4,
+            3,
+            5
+          ],
+          [
+            1,
+            0,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            1,
+            0,
+            2,
+            4,
+            3,
+            5
+          ]
+        ]
+      },
+      {
+        "index": 1,
+        "primitive_vector": [
+          1,
+          0
+        ],
+        "positive_autos_X": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            3,
+            2,
+            4,
+            5
+          ],
+          [
+            4,
+            1,
+            2,
+            3,
+            0,
+            5
+          ],
+          [
+            4,
+            1,
+            3,
+            2,
+            0,
+            5
+          ]
+        ],
+        "positive_autos_Y": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            2,
+            5,
+            4,
+            3
+          ],
+          [
+            0,
+            4,
+            2,
+            3,
+            1,
+            5
+          ],
+          [
+            0,
+            4,
+            2,
+            5,
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "index": 2,
+        "primitive_vector": [
+          1,
+          1
+        ],
+        "positive_autos_X": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            4
+          ],
+          [
+            3,
+            1,
+            2,
+            0,
+            4,
+            5
+          ],
+          [
+            3,
+            1,
+            2,
+            0,
+            5,
+            4
+          ]
+        ],
+        "positive_autos_Y": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            4,
+            3,
+            2,
+            5
+          ],
+          [
+            0,
+            3,
+            2,
+            1,
+            4,
+            5
+          ],
+          [
+            0,
+            3,
+            4,
+            1,
+            2,
+            5
+          ]
+        ]
+      },
+      {
+        "index": 3,
+        "primitive_vector": [
+          1,
+          -1
+        ],
+        "positive_autos_X": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            2,
+            5,
+            4,
+            3
+          ]
+        ],
+        "positive_autos_Y": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            2,
+            1,
+            3,
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "index": 4,
+        "primitive_vector": [
+          1,
+          2
+        ],
+        "positive_autos_X": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            2,
+            1,
+            0,
+            3,
+            4,
+            5
+          ]
+        ],
+        "positive_autos_Y": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            4
+          ]
+        ]
+      },
+      {
+        "index": 5,
+        "primitive_vector": [
+          1,
+          -2
+        ],
+        "positive_autos_X": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            4,
+            3,
+            2,
+            5
+          ]
+        ],
+        "positive_autos_Y": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            2,
+            1,
+            0,
+            3,
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "index": 6,
+        "primitive_vector": [
+          1,
+          3
+        ],
+        "positive_autos_X": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            2,
+            1,
+            3,
+            4,
+            5
+          ]
+        ],
+        "positive_autos_Y": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            3,
+            2,
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "index": 7,
+        "primitive_vector": [
+          2,
+          1
+        ],
+        "positive_autos_X": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            4,
+            2,
+            3,
+            1,
+            5
+          ]
+        ],
+        "positive_autos_Y": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            3,
+            1,
+            2,
+            0,
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "index": 8,
+        "primitive_vector": [
+          2,
+          -1
+        ],
+        "positive_autos_X": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            5,
+            3,
+            4,
+            2
+          ]
+        ],
+        "positive_autos_Y": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            4,
+            1,
+            2,
+            3,
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "index": 9,
+        "primitive_vector": [
+          2,
+          3
+        ],
+        "positive_autos_X": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            3,
+            2,
+            1,
+            4,
+            5
+          ]
+        ],
+        "positive_autos_Y": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            5,
+            3,
+            4,
+            2
+          ]
+        ]
+      },
+      {
+        "index": 10,
+        "primitive_vector": [
+          3,
+          1
+        ],
+        "positive_autos_X": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            5,
+            1,
+            2,
+            3,
+            4,
+            0
+          ]
+        ],
+        "positive_autos_Y": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            5,
+            1,
+            2,
+            3,
+            4,
+            0
+          ]
+        ]
+      },
+      {
+        "index": 11,
+        "primitive_vector": [
+          3,
+          2
+        ],
+        "positive_autos_X": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            5,
+            2,
+            3,
+            4,
+            1
+          ]
+        ],
+        "positive_autos_Y": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            0,
+            5,
+            2,
+            3,
+            4,
+            1
+          ]
+        ]
+      }
+    ],
+    "paired_patterns": [
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            0,
+            11
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          4
+        ],
+        "witnesses": [
+          [
+            0,
+            4
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            0
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          5,
+          4,
+          3
+        ],
+        "witnesses": [
+          [
+            0,
+            1
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          3,
+          2,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            6
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          4,
+          3,
+          2,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            2
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          5,
+          3,
+          4,
+          2
+        ],
+        "witnesses": [
+          [
+            0,
+            9
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          2,
+          1,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            3
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          3,
+          2,
+          1,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            2
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          3,
+          4,
+          1,
+          2,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            2
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          4,
+          2,
+          3,
+          1,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            1
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          4,
+          2,
+          5,
+          1,
+          3
+        ],
+        "witnesses": [
+          [
+            0,
+            1
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          5,
+          2,
+          3,
+          4,
+          1
+        ],
+        "witnesses": [
+          [
+            0,
+            11
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          1,
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            0
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          1,
+          0,
+          2,
+          4,
+          3,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            0
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          2,
+          1,
+          0,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            5
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          3,
+          1,
+          2,
+          0,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            7
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          4,
+          1,
+          2,
+          3,
+          0,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            8
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          5,
+          1,
+          2,
+          3,
+          4,
+          0
+        ],
+        "witnesses": [
+          [
+            0,
+            10
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          4
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            2
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          4
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          4,
+          3,
+          2,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            2
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          4
+        ],
+        "permutation_Y": [
+          0,
+          3,
+          2,
+          1,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            2
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          4
+        ],
+        "permutation_Y": [
+          0,
+          3,
+          4,
+          1,
+          2,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            2
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            0
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            0
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5
+        ],
+        "permutation_Y": [
+          1,
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            0
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5
+        ],
+        "permutation_Y": [
+          1,
+          0,
+          2,
+          4,
+          3,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            0
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          5,
+          4,
+          3
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            3
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          2,
+          5,
+          4,
+          3
+        ],
+        "permutation_Y": [
+          0,
+          2,
+          1,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            3
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          3,
+          2,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            1
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          3,
+          2,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          5,
+          4,
+          3
+        ],
+        "witnesses": [
+          [
+            0,
+            1
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          3,
+          2,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          4,
+          2,
+          3,
+          1,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            1
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          3,
+          2,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          4,
+          2,
+          5,
+          1,
+          3
+        ],
+        "witnesses": [
+          [
+            0,
+            1
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          4,
+          3,
+          2,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            5
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          4,
+          3,
+          2,
+          5
+        ],
+        "permutation_Y": [
+          2,
+          1,
+          0,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            5
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          5,
+          3,
+          4,
+          2
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            8
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          1,
+          5,
+          3,
+          4,
+          2
+        ],
+        "permutation_Y": [
+          4,
+          1,
+          2,
+          3,
+          0,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            8
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          2,
+          1,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            6
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          2,
+          1,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          3,
+          2,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            6
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          2,
+          4,
+          5,
+          3,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          1,
+          0,
+          2,
+          3,
+          4
+        ],
+        "witnesses": [
+          [
+            1,
+            2
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          0,
+          2,
+          4,
+          5,
+          3,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          1,
+          0,
+          4,
+          3,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            2
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          0,
+          2,
+          4,
+          5,
+          3,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          2,
+          1,
+          4
+        ],
+        "witnesses": [
+          [
+            1,
+            2
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          0,
+          2,
+          4,
+          5,
+          3,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            2
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          0,
+          2,
+          5,
+          4,
+          3,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          1,
+          0,
+          2,
+          3,
+          4
+        ],
+        "witnesses": [
+          [
+            1,
+            2
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          0,
+          2,
+          5,
+          4,
+          3,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          1,
+          0,
+          4,
+          3,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            2
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          0,
+          2,
+          5,
+          4,
+          3,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          2,
+          1,
+          4
+        ],
+        "witnesses": [
+          [
+            1,
+            2
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          0,
+          2,
+          5,
+          4,
+          3,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            2
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          0,
+          3,
+          2,
+          1,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            9
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          3,
+          2,
+          1,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          5,
+          3,
+          4,
+          2
+        ],
+        "witnesses": [
+          [
+            0,
+            9
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          4,
+          2,
+          3,
+          1,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            7
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          4,
+          2,
+          3,
+          1,
+          5
+        ],
+        "permutation_Y": [
+          3,
+          1,
+          2,
+          0,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            7
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          5,
+          1,
+          4,
+          2,
+          3
+        ],
+        "permutation_Y": [
+          2,
+          1,
+          3,
+          4,
+          5,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            1
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          0,
+          5,
+          1,
+          4,
+          2,
+          3
+        ],
+        "permutation_Y": [
+          2,
+          1,
+          5,
+          4,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            1
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          0,
+          5,
+          1,
+          4,
+          2,
+          3
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          3,
+          1,
+          5,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            1
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          0,
+          5,
+          1,
+          4,
+          2,
+          3
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            1
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          0,
+          5,
+          1,
+          4,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          1,
+          3,
+          4,
+          5,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            1
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          0,
+          5,
+          1,
+          4,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          1,
+          5,
+          4,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            1
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          0,
+          5,
+          1,
+          4,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          3,
+          1,
+          5,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            1
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          0,
+          5,
+          1,
+          4,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            1
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          0,
+          5,
+          2,
+          3,
+          4,
+          1
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            11
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          0,
+          5,
+          2,
+          3,
+          4,
+          1
+        ],
+        "permutation_Y": [
+          0,
+          5,
+          2,
+          3,
+          4,
+          1
+        ],
+        "witnesses": [
+          [
+            0,
+            11
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          1,
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            0
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          1,
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            0
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          1,
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          1,
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            0
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          1,
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          1,
+          0,
+          2,
+          4,
+          3,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            0
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          1,
+          0,
+          2,
+          4,
+          3,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            0
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          1,
+          0,
+          2,
+          4,
+          3,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          4,
+          3,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            0
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          1,
+          0,
+          2,
+          4,
+          3,
+          5
+        ],
+        "permutation_Y": [
+          1,
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            0
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          1,
+          0,
+          2,
+          4,
+          3,
+          5
+        ],
+        "permutation_Y": [
+          1,
+          0,
+          2,
+          4,
+          3,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            0
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          1,
+          2,
+          5,
+          4,
+          0,
+          3
+        ],
+        "permutation_Y": [
+          2,
+          3,
+          0,
+          4,
+          1,
+          5
+        ],
+        "witnesses": [
+          [
+            1,
+            9
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          1,
+          2,
+          5,
+          4,
+          0,
+          3
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            9
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          1,
+          5,
+          4,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          0,
+          3
+        ],
+        "witnesses": [
+          [
+            2,
+            7
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          1,
+          5,
+          4,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            7
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          2,
+          1,
+          0,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            4
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          2,
+          1,
+          0,
+          3,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          4
+        ],
+        "witnesses": [
+          [
+            0,
+            4
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          2,
+          3,
+          5,
+          0,
+          4,
+          1
+        ],
+        "permutation_Y": [
+          3,
+          5,
+          0,
+          1,
+          4,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            1
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          2,
+          3,
+          5,
+          0,
+          4,
+          1
+        ],
+        "permutation_Y": [
+          3,
+          5,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            1
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          2,
+          3,
+          5,
+          0,
+          4,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          1,
+          4,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            1
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          2,
+          3,
+          5,
+          0,
+          4,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            1
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          2,
+          3,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          3,
+          5,
+          0,
+          1,
+          4,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            1
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          2,
+          3,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          3,
+          5,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            1
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          2,
+          3,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          1,
+          4,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            1
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          2,
+          3,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            1
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          2,
+          5,
+          1,
+          0,
+          3,
+          4
+        ],
+        "permutation_Y": [
+          0,
+          4,
+          5,
+          1,
+          3,
+          2
+        ],
+        "witnesses": [
+          [
+            2,
+            5
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          2,
+          5,
+          1,
+          0,
+          3,
+          4
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            5
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          3,
+          0,
+          5,
+          4,
+          2,
+          1
+        ],
+        "permutation_Y": [
+          4,
+          3,
+          0,
+          5,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            4
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          0,
+          5,
+          4,
+          2,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            4
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          1,
+          2,
+          0,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            2
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          3,
+          1,
+          2,
+          0,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          4,
+          3,
+          2,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            2
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          3,
+          1,
+          2,
+          0,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          3,
+          2,
+          1,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            2
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          3,
+          1,
+          2,
+          0,
+          4,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          3,
+          4,
+          1,
+          2,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            2
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          3,
+          1,
+          2,
+          0,
+          5,
+          4
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            2
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          3,
+          1,
+          2,
+          0,
+          5,
+          4
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          4,
+          3,
+          2,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            2
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          3,
+          1,
+          2,
+          0,
+          5,
+          4
+        ],
+        "permutation_Y": [
+          0,
+          3,
+          2,
+          1,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            2
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          3,
+          1,
+          2,
+          0,
+          5,
+          4
+        ],
+        "permutation_Y": [
+          0,
+          3,
+          4,
+          1,
+          2,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            2
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          3,
+          1,
+          5,
+          4,
+          0,
+          2
+        ],
+        "permutation_Y": [
+          5,
+          2,
+          0,
+          4,
+          1,
+          3
+        ],
+        "witnesses": [
+          [
+            1,
+            6
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          1,
+          5,
+          4,
+          0,
+          2
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            6
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          0,
+          4,
+          5,
+          1
+        ],
+        "permutation_Y": [
+          0,
+          3,
+          5,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            10
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          0,
+          4,
+          5,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            10
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          1,
+          4,
+          0,
+          5
+        ],
+        "permutation_Y": [
+          1,
+          3,
+          0,
+          4,
+          5,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            11
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          1,
+          4,
+          0,
+          5
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            11
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          4,
+          5,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          1,
+          0,
+          2,
+          3,
+          4
+        ],
+        "witnesses": [
+          [
+            1,
+            2
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          4,
+          5,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          1,
+          0,
+          4,
+          3,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            2
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          4,
+          5,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          2,
+          1,
+          4
+        ],
+        "witnesses": [
+          [
+            1,
+            2
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          4,
+          5,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            2
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          0,
+          4,
+          1
+        ],
+        "permutation_Y": [
+          3,
+          5,
+          0,
+          1,
+          4,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            1
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          0,
+          4,
+          1
+        ],
+        "permutation_Y": [
+          3,
+          5,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            1
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          0,
+          4,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          1,
+          4,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            1
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          0,
+          4,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            1
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          1,
+          0,
+          4
+        ],
+        "permutation_Y": [
+          5,
+          0,
+          3,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            7
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          1,
+          0,
+          4
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            7
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          0,
+          3,
+          5,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            10
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          1,
+          3,
+          0,
+          4,
+          5,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            11
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          2,
+          3,
+          0,
+          4,
+          1,
+          5
+        ],
+        "witnesses": [
+          [
+            1,
+            9
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          3,
+          5,
+          0,
+          1,
+          4,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            1
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          3,
+          5,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            1
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          4,
+          3,
+          0,
+          5,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            4
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          0,
+          3,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            7
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          1,
+          0,
+          2,
+          3,
+          4
+        ],
+        "witnesses": [
+          [
+            1,
+            2
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          1,
+          0,
+          4,
+          3,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            2
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          2,
+          0,
+          4,
+          1,
+          3
+        ],
+        "witnesses": [
+          [
+            1,
+            6
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          1,
+          4,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            1
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          2,
+          1,
+          4
+        ],
+        "witnesses": [
+          [
+            1,
+            2
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            1,
+            11
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          2,
+          1
+        ],
+        "witnesses": [
+          [
+            1,
+            3
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          1,
+          4,
+          0,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            0
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          2,
+          4,
+          1,
+          0
+        ],
+        "witnesses": [
+          [
+            1,
+            5
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          4,
+          0,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            8
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          4,
+          0,
+          3,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            0
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          4,
+          1,
+          3,
+          0,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            0
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          1,
+          0
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            0
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          1,
+          0
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          1,
+          4,
+          0,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            0
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          1,
+          0
+        ],
+        "permutation_Y": [
+          5,
+          4,
+          0,
+          3,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            0
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          2,
+          5,
+          4,
+          1,
+          0
+        ],
+        "permutation_Y": [
+          5,
+          4,
+          1,
+          3,
+          0,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            0
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          4,
+          5,
+          2,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            5
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          4,
+          5,
+          2,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          2,
+          4,
+          1,
+          0
+        ],
+        "witnesses": [
+          [
+            1,
+            5
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          5,
+          0,
+          1,
+          4,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          3,
+          5,
+          0,
+          4,
+          1
+        ],
+        "witnesses": [
+          [
+            2,
+            0
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          3,
+          5,
+          0,
+          1,
+          4,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          3,
+          5,
+          1,
+          4,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            0
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          3,
+          5,
+          0,
+          1,
+          4,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          0,
+          3,
+          1
+        ],
+        "witnesses": [
+          [
+            2,
+            0
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          3,
+          5,
+          0,
+          1,
+          4,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            0
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          3,
+          5,
+          1,
+          0,
+          4,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          3,
+          5,
+          0,
+          4,
+          1
+        ],
+        "witnesses": [
+          [
+            2,
+            0
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          3,
+          5,
+          1,
+          0,
+          4,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          3,
+          5,
+          1,
+          4,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            0
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          3,
+          5,
+          1,
+          0,
+          4,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          0,
+          3,
+          1
+        ],
+        "witnesses": [
+          [
+            2,
+            0
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          3,
+          5,
+          1,
+          0,
+          4,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            0
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          3,
+          5,
+          2,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            8
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          3,
+          5,
+          2,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          4,
+          0,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            8
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          4,
+          0,
+          1,
+          5,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          0,
+          1,
+          3,
+          5
+        ],
+        "witnesses": [
+          [
+            2,
+            10
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          0,
+          1,
+          5,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            10
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          1,
+          2,
+          3,
+          0,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            1
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          4,
+          1,
+          2,
+          3,
+          0,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          5,
+          4,
+          3
+        ],
+        "witnesses": [
+          [
+            0,
+            1
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          4,
+          1,
+          2,
+          3,
+          0,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          4,
+          2,
+          3,
+          1,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            1
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          4,
+          1,
+          2,
+          3,
+          0,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          4,
+          2,
+          5,
+          1,
+          3
+        ],
+        "witnesses": [
+          [
+            0,
+            1
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          4,
+          1,
+          3,
+          2,
+          0,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            1
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          4,
+          1,
+          3,
+          2,
+          0,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          5,
+          4,
+          3
+        ],
+        "witnesses": [
+          [
+            0,
+            1
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          4,
+          1,
+          3,
+          2,
+          0,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          4,
+          2,
+          3,
+          1,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            1
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          4,
+          1,
+          3,
+          2,
+          0,
+          5
+        ],
+        "permutation_Y": [
+          0,
+          4,
+          2,
+          5,
+          1,
+          3
+        ],
+        "witnesses": [
+          [
+            0,
+            1
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          4,
+          1,
+          5,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          1,
+          5,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            11
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          1,
+          5,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            11
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          2,
+          1,
+          0,
+          3,
+          5
+        ],
+        "permutation_Y": [
+          2,
+          0,
+          5,
+          1,
+          3,
+          4
+        ],
+        "witnesses": [
+          [
+            2,
+            8
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          2,
+          1,
+          0,
+          3,
+          5
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            8
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          2,
+          5,
+          3,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            0
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          4,
+          2,
+          5,
+          3,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          1,
+          4,
+          0,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            0
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          4,
+          2,
+          5,
+          3,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          4,
+          0,
+          3,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            0
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          4,
+          2,
+          5,
+          3,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          4,
+          1,
+          3,
+          0,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            0
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          4,
+          2,
+          5,
+          3,
+          1,
+          0
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            0
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          4,
+          2,
+          5,
+          3,
+          1,
+          0
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          1,
+          4,
+          0,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            0
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          4,
+          2,
+          5,
+          3,
+          1,
+          0
+        ],
+        "permutation_Y": [
+          5,
+          4,
+          0,
+          3,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            0
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          4,
+          2,
+          5,
+          3,
+          1,
+          0
+        ],
+        "permutation_Y": [
+          5,
+          4,
+          1,
+          3,
+          0,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            0
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          4,
+          3,
+          1,
+          0,
+          5,
+          2
+        ],
+        "permutation_Y": [
+          1,
+          4,
+          5,
+          2,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            3
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          3,
+          1,
+          0,
+          5,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            3
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          0,
+          1,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          3,
+          5,
+          0,
+          4,
+          1
+        ],
+        "witnesses": [
+          [
+            2,
+            0
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          0,
+          1,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          3,
+          5,
+          1,
+          4,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            0
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          0,
+          1,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          0,
+          3,
+          1
+        ],
+        "witnesses": [
+          [
+            2,
+            0
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          0,
+          1,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            0
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          2,
+          3
+        ],
+        "permutation_Y": [
+          2,
+          1,
+          3,
+          4,
+          5,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            1
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          2,
+          3
+        ],
+        "permutation_Y": [
+          2,
+          1,
+          5,
+          4,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            1
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          2,
+          3
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          3,
+          1,
+          5,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            1
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          2,
+          3
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            1
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          0,
+          4,
+          5,
+          1,
+          3,
+          2
+        ],
+        "witnesses": [
+          [
+            2,
+            5
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          1,
+          4,
+          5,
+          2,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            3
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          0,
+          5,
+          1,
+          3,
+          4
+        ],
+        "witnesses": [
+          [
+            2,
+            8
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          1,
+          3,
+          4,
+          5,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            1
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          1,
+          5,
+          4,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            1
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          3,
+          5,
+          0,
+          4,
+          1
+        ],
+        "witnesses": [
+          [
+            2,
+            0
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          3,
+          5,
+          1,
+          4,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            0
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          0,
+          1,
+          3,
+          5
+        ],
+        "witnesses": [
+          [
+            2,
+            10
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          1,
+          5,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            11
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          3,
+          1,
+          5,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            1
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          0,
+          3,
+          1
+        ],
+        "witnesses": [
+          [
+            2,
+            0
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          0,
+          3
+        ],
+        "witnesses": [
+          [
+            2,
+            7
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            2,
+            11
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          3,
+          1,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            2
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          5,
+          4,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            4
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          3,
+          4,
+          5,
+          1,
+          2,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            6
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          4,
+          2,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            2
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          4,
+          2,
+          5,
+          3,
+          1,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            2
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          5,
+          4,
+          2,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            9
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          2,
+          3,
+          0
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            4
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          2,
+          3,
+          0
+        ],
+        "permutation_Y": [
+          2,
+          5,
+          4,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            4
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          3,
+          0,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            2
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          3,
+          0,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          3,
+          1,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            2
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          3,
+          0,
+          2
+        ],
+        "permutation_Y": [
+          4,
+          2,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            2
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          1,
+          3,
+          0,
+          2
+        ],
+        "permutation_Y": [
+          4,
+          2,
+          5,
+          3,
+          1,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            2
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          2,
+          0,
+          3,
+          1
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            6
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          2,
+          0,
+          3,
+          1
+        ],
+        "permutation_Y": [
+          3,
+          4,
+          5,
+          1,
+          2,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            6
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          3,
+          0,
+          1,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            9
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          4,
+          5,
+          3,
+          0,
+          1,
+          2
+        ],
+        "permutation_Y": [
+          5,
+          4,
+          2,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            9
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          5,
+          1,
+          2,
+          3,
+          4,
+          0
+        ],
+        "permutation_Y": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "witnesses": [
+          [
+            0,
+            10
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          5,
+          1,
+          2,
+          3,
+          4,
+          0
+        ],
+        "permutation_Y": [
+          5,
+          1,
+          2,
+          3,
+          4,
+          0
+        ],
+        "witnesses": [
+          [
+            0,
+            10
+          ]
+        ],
+        "unique_rotation": 0
+      },
+      {
+        "permutation_X": [
+          5,
+          2,
+          3,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          1,
+          2
+        ],
+        "witnesses": [
+          [
+            1,
+            3
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          5,
+          2,
+          3,
+          4,
+          0,
+          1
+        ],
+        "permutation_Y": [
+          5,
+          3,
+          0,
+          4,
+          2,
+          1
+        ],
+        "witnesses": [
+          [
+            1,
+            3
+          ]
+        ],
+        "unique_rotation": 1
+      },
+      {
+        "permutation_X": [
+          5,
+          4,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            2
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          5,
+          4,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          3,
+          1,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            2
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          5,
+          4,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          4,
+          2,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            2
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          5,
+          4,
+          1,
+          0,
+          3,
+          2
+        ],
+        "permutation_Y": [
+          4,
+          2,
+          5,
+          3,
+          1,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            2
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          5,
+          4,
+          1,
+          3,
+          0,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            2
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          5,
+          4,
+          1,
+          3,
+          0,
+          2
+        ],
+        "permutation_Y": [
+          2,
+          4,
+          5,
+          3,
+          1,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            2
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          5,
+          4,
+          1,
+          3,
+          0,
+          2
+        ],
+        "permutation_Y": [
+          4,
+          2,
+          5,
+          1,
+          3,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            2
+          ]
+        ],
+        "unique_rotation": 2
+      },
+      {
+        "permutation_X": [
+          5,
+          4,
+          1,
+          3,
+          0,
+          2
+        ],
+        "permutation_Y": [
+          4,
+          2,
+          5,
+          3,
+          1,
+          0
+        ],
+        "witnesses": [
+          [
+            2,
+            2
+          ]
+        ],
+        "unique_rotation": 2
+      }
+    ],
+    "paired_patterns_count": 219,
+    "paired_rotation_conflicts": 0,
+    "endpoint": {
+      "X": {
+        "positive_patterns": [
+          {
+            "permutation": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                7
+              ],
+              [
+                0,
+                8
+              ],
+              [
+                0,
+                9
+              ],
+              [
+                0,
+                10
+              ],
+              [
+                0,
+                11
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              4
+            ],
+            "witnesses": [
+              [
+                0,
+                2
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              1,
+              2,
+              4,
+              3,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                0
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              1,
+              2,
+              5,
+              4,
+              3
+            ],
+            "witnesses": [
+              [
+                0,
+                3
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              1,
+              3,
+              2,
+              4,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                1
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              1,
+              4,
+              3,
+              2,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                5
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              1,
+              5,
+              3,
+              4,
+              2
+            ],
+            "witnesses": [
+              [
+                0,
+                8
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              2,
+              1,
+              3,
+              4,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                6
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              2,
+              4,
+              5,
+              3,
+              1
+            ],
+            "witnesses": [
+              [
+                1,
+                2
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              0,
+              2,
+              5,
+              4,
+              3,
+              1
+            ],
+            "witnesses": [
+              [
+                1,
+                2
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              0,
+              3,
+              2,
+              1,
+              4,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                9
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              4,
+              2,
+              3,
+              1,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                7
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              5,
+              1,
+              4,
+              2,
+              3
+            ],
+            "witnesses": [
+              [
+                2,
+                1
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              0,
+              5,
+              1,
+              4,
+              3,
+              2
+            ],
+            "witnesses": [
+              [
+                2,
+                1
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              0,
+              5,
+              2,
+              3,
+              4,
+              1
+            ],
+            "witnesses": [
+              [
+                0,
+                11
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              1,
+              0,
+              2,
+              3,
+              4,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                0
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              1,
+              0,
+              2,
+              4,
+              3,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                0
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              1,
+              2,
+              5,
+              4,
+              0,
+              3
+            ],
+            "witnesses": [
+              [
+                1,
+                9
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              1,
+              5,
+              4,
+              0,
+              3,
+              2
+            ],
+            "witnesses": [
+              [
+                2,
+                7
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              2,
+              1,
+              0,
+              3,
+              4,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                4
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              2,
+              3,
+              5,
+              0,
+              4,
+              1
+            ],
+            "witnesses": [
+              [
+                1,
+                1
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              2,
+              3,
+              5,
+              4,
+              0,
+              1
+            ],
+            "witnesses": [
+              [
+                1,
+                1
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              2,
+              5,
+              1,
+              0,
+              3,
+              4
+            ],
+            "witnesses": [
+              [
+                2,
+                5
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              3,
+              0,
+              5,
+              4,
+              2,
+              1
+            ],
+            "witnesses": [
+              [
+                1,
+                4
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              3,
+              1,
+              2,
+              0,
+              4,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                2
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              3,
+              1,
+              2,
+              0,
+              5,
+              4
+            ],
+            "witnesses": [
+              [
+                0,
+                2
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              3,
+              1,
+              5,
+              4,
+              0,
+              2
+            ],
+            "witnesses": [
+              [
+                1,
+                6
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              3,
+              2,
+              0,
+              4,
+              5,
+              1
+            ],
+            "witnesses": [
+              [
+                1,
+                10
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              3,
+              2,
+              1,
+              4,
+              0,
+              5
+            ],
+            "witnesses": [
+              [
+                1,
+                11
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              3,
+              2,
+              4,
+              5,
+              0,
+              1
+            ],
+            "witnesses": [
+              [
+                1,
+                2
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              3,
+              2,
+              5,
+              0,
+              4,
+              1
+            ],
+            "witnesses": [
+              [
+                1,
+                1
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              3,
+              2,
+              5,
+              1,
+              0,
+              4
+            ],
+            "witnesses": [
+              [
+                1,
+                7
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              3,
+              2,
+              5,
+              4,
+              0,
+              1
+            ],
+            "witnesses": [
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                1,
+                8
+              ],
+              [
+                1,
+                9
+              ],
+              [
+                1,
+                10
+              ],
+              [
+                1,
+                11
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              3,
+              2,
+              5,
+              4,
+              1,
+              0
+            ],
+            "witnesses": [
+              [
+                1,
+                0
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              3,
+              4,
+              5,
+              2,
+              0,
+              1
+            ],
+            "witnesses": [
+              [
+                1,
+                5
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              3,
+              5,
+              0,
+              1,
+              4,
+              2
+            ],
+            "witnesses": [
+              [
+                2,
+                0
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              3,
+              5,
+              1,
+              0,
+              4,
+              2
+            ],
+            "witnesses": [
+              [
+                2,
+                0
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              3,
+              5,
+              2,
+              4,
+              0,
+              1
+            ],
+            "witnesses": [
+              [
+                1,
+                8
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              4,
+              0,
+              1,
+              5,
+              3,
+              2
+            ],
+            "witnesses": [
+              [
+                2,
+                10
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              4,
+              1,
+              2,
+              3,
+              0,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                1
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              4,
+              1,
+              3,
+              2,
+              0,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                1
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              4,
+              1,
+              5,
+              0,
+              3,
+              2
+            ],
+            "witnesses": [
+              [
+                2,
+                11
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              4,
+              2,
+              1,
+              0,
+              3,
+              5
+            ],
+            "witnesses": [
+              [
+                2,
+                8
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              4,
+              2,
+              5,
+              3,
+              0,
+              1
+            ],
+            "witnesses": [
+              [
+                1,
+                0
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              4,
+              2,
+              5,
+              3,
+              1,
+              0
+            ],
+            "witnesses": [
+              [
+                1,
+                0
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              4,
+              3,
+              1,
+              0,
+              5,
+              2
+            ],
+            "witnesses": [
+              [
+                2,
+                3
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              4,
+              5,
+              0,
+              1,
+              3,
+              2
+            ],
+            "witnesses": [
+              [
+                2,
+                0
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              4,
+              5,
+              1,
+              0,
+              2,
+              3
+            ],
+            "witnesses": [
+              [
+                2,
+                1
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              4,
+              5,
+              1,
+              0,
+              3,
+              2
+            ],
+            "witnesses": [
+              [
+                2,
+                0
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                2,
+                8
+              ],
+              [
+                2,
+                9
+              ],
+              [
+                2,
+                10
+              ],
+              [
+                2,
+                11
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              4,
+              5,
+              1,
+              2,
+              3,
+              0
+            ],
+            "witnesses": [
+              [
+                2,
+                4
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              4,
+              5,
+              1,
+              3,
+              0,
+              2
+            ],
+            "witnesses": [
+              [
+                2,
+                2
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              4,
+              5,
+              2,
+              0,
+              3,
+              1
+            ],
+            "witnesses": [
+              [
+                2,
+                6
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              4,
+              5,
+              3,
+              0,
+              1,
+              2
+            ],
+            "witnesses": [
+              [
+                2,
+                9
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              5,
+              1,
+              2,
+              3,
+              4,
+              0
+            ],
+            "witnesses": [
+              [
+                0,
+                10
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              5,
+              2,
+              3,
+              4,
+              0,
+              1
+            ],
+            "witnesses": [
+              [
+                1,
+                3
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              5,
+              4,
+              1,
+              0,
+              3,
+              2
+            ],
+            "witnesses": [
+              [
+                2,
+                2
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              5,
+              4,
+              1,
+              3,
+              0,
+              2
+            ],
+            "witnesses": [
+              [
+                2,
+                2
+              ]
+            ],
+            "unique_rotation": 2
+          }
+        ],
+        "negative_reflection_cosets": {
+          "13": [
+            [
+              2,
+              4,
+              0,
+              5,
+              1,
+              3
+            ],
+            [
+              5,
+              0,
+              3,
+              1,
+              2,
+              4
+            ],
+            [
+              1,
+              3,
+              4,
+              2,
+              5,
+              0
+            ]
+          ],
+          "19": [
+            [
+              1,
+              0,
+              3,
+              2,
+              5,
+              4
+            ],
+            [
+              2,
+              3,
+              4,
+              5,
+              1,
+              0
+            ],
+            [
+              5,
+              4,
+              0,
+              1,
+              2,
+              3
+            ]
+          ]
+        },
+        "positive_negative_disjoint": true,
+        "negative_13_19_disjoint": true
+      },
+      "Y": {
+        "positive_patterns": [
+          {
+            "permutation": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                7
+              ],
+              [
+                0,
+                8
+              ],
+              [
+                0,
+                9
+              ],
+              [
+                0,
+                10
+              ],
+              [
+                0,
+                11
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              1,
+              2,
+              3,
+              5,
+              4
+            ],
+            "witnesses": [
+              [
+                0,
+                4
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              1,
+              2,
+              4,
+              3,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                0
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              1,
+              2,
+              5,
+              4,
+              3
+            ],
+            "witnesses": [
+              [
+                0,
+                1
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              1,
+              3,
+              2,
+              4,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                6
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              1,
+              4,
+              3,
+              2,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                2
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              1,
+              5,
+              3,
+              4,
+              2
+            ],
+            "witnesses": [
+              [
+                0,
+                9
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              2,
+              1,
+              3,
+              4,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                3
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              3,
+              2,
+              1,
+              4,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                2
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              3,
+              4,
+              1,
+              2,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                2
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              3,
+              5,
+              4,
+              1,
+              2
+            ],
+            "witnesses": [
+              [
+                1,
+                10
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              0,
+              4,
+              2,
+              3,
+              1,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                1
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              4,
+              2,
+              5,
+              1,
+              3
+            ],
+            "witnesses": [
+              [
+                0,
+                1
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              0,
+              4,
+              5,
+              1,
+              3,
+              2
+            ],
+            "witnesses": [
+              [
+                2,
+                5
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              0,
+              5,
+              2,
+              3,
+              4,
+              1
+            ],
+            "witnesses": [
+              [
+                0,
+                11
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              1,
+              0,
+              2,
+              3,
+              4,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                0
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              1,
+              0,
+              2,
+              4,
+              3,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                0
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              1,
+              3,
+              0,
+              4,
+              5,
+              2
+            ],
+            "witnesses": [
+              [
+                1,
+                11
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              1,
+              4,
+              5,
+              2,
+              3,
+              0
+            ],
+            "witnesses": [
+              [
+                2,
+                3
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              2,
+              0,
+              5,
+              1,
+              3,
+              4
+            ],
+            "witnesses": [
+              [
+                2,
+                8
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              2,
+              1,
+              0,
+              3,
+              4,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                5
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              2,
+              1,
+              3,
+              4,
+              5,
+              0
+            ],
+            "witnesses": [
+              [
+                2,
+                1
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              2,
+              1,
+              5,
+              4,
+              3,
+              0
+            ],
+            "witnesses": [
+              [
+                2,
+                1
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              2,
+              3,
+              0,
+              4,
+              1,
+              5
+            ],
+            "witnesses": [
+              [
+                1,
+                9
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              2,
+              3,
+              5,
+              0,
+              4,
+              1
+            ],
+            "witnesses": [
+              [
+                2,
+                0
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              2,
+              3,
+              5,
+              1,
+              4,
+              0
+            ],
+            "witnesses": [
+              [
+                2,
+                0
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              2,
+              4,
+              0,
+              1,
+              3,
+              5
+            ],
+            "witnesses": [
+              [
+                2,
+                10
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              2,
+              4,
+              1,
+              5,
+              3,
+              0
+            ],
+            "witnesses": [
+              [
+                2,
+                11
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              2,
+              4,
+              3,
+              1,
+              5,
+              0
+            ],
+            "witnesses": [
+              [
+                2,
+                1
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              2,
+              4,
+              5,
+              0,
+              3,
+              1
+            ],
+            "witnesses": [
+              [
+                2,
+                0
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              2,
+              4,
+              5,
+              1,
+              0,
+              3
+            ],
+            "witnesses": [
+              [
+                2,
+                7
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              2,
+              4,
+              5,
+              1,
+              3,
+              0
+            ],
+            "witnesses": [
+              [
+                2,
+                0
+              ],
+              [
+                2,
+                1
+              ],
+              [
+                2,
+                2
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                2,
+                8
+              ],
+              [
+                2,
+                9
+              ],
+              [
+                2,
+                10
+              ],
+              [
+                2,
+                11
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              2,
+              4,
+              5,
+              3,
+              1,
+              0
+            ],
+            "witnesses": [
+              [
+                2,
+                2
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              2,
+              5,
+              4,
+              1,
+              3,
+              0
+            ],
+            "witnesses": [
+              [
+                2,
+                4
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              3,
+              1,
+              2,
+              0,
+              4,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                7
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              3,
+              4,
+              5,
+              1,
+              2,
+              0
+            ],
+            "witnesses": [
+              [
+                2,
+                6
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              3,
+              5,
+              0,
+              1,
+              4,
+              2
+            ],
+            "witnesses": [
+              [
+                1,
+                1
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              3,
+              5,
+              0,
+              4,
+              1,
+              2
+            ],
+            "witnesses": [
+              [
+                1,
+                1
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              4,
+              1,
+              2,
+              3,
+              0,
+              5
+            ],
+            "witnesses": [
+              [
+                0,
+                8
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              4,
+              2,
+              5,
+              1,
+              3,
+              0
+            ],
+            "witnesses": [
+              [
+                2,
+                2
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              4,
+              2,
+              5,
+              3,
+              1,
+              0
+            ],
+            "witnesses": [
+              [
+                2,
+                2
+              ]
+            ],
+            "unique_rotation": 2
+          },
+          {
+            "permutation": [
+              4,
+              3,
+              0,
+              5,
+              1,
+              2
+            ],
+            "witnesses": [
+              [
+                1,
+                4
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              5,
+              0,
+              3,
+              4,
+              1,
+              2
+            ],
+            "witnesses": [
+              [
+                1,
+                7
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              5,
+              1,
+              0,
+              2,
+              3,
+              4
+            ],
+            "witnesses": [
+              [
+                1,
+                2
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              5,
+              1,
+              0,
+              4,
+              3,
+              2
+            ],
+            "witnesses": [
+              [
+                1,
+                2
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              5,
+              1,
+              2,
+              3,
+              4,
+              0
+            ],
+            "witnesses": [
+              [
+                0,
+                10
+              ]
+            ],
+            "unique_rotation": 0
+          },
+          {
+            "permutation": [
+              5,
+              2,
+              0,
+              4,
+              1,
+              3
+            ],
+            "witnesses": [
+              [
+                1,
+                6
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              5,
+              3,
+              0,
+              1,
+              4,
+              2
+            ],
+            "witnesses": [
+              [
+                1,
+                1
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              5,
+              3,
+              0,
+              2,
+              1,
+              4
+            ],
+            "witnesses": [
+              [
+                1,
+                2
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              5,
+              3,
+              0,
+              4,
+              1,
+              2
+            ],
+            "witnesses": [
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                1,
+                6
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                1,
+                8
+              ],
+              [
+                1,
+                9
+              ],
+              [
+                1,
+                10
+              ],
+              [
+                1,
+                11
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              5,
+              3,
+              0,
+              4,
+              2,
+              1
+            ],
+            "witnesses": [
+              [
+                1,
+                3
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              5,
+              3,
+              1,
+              4,
+              0,
+              2
+            ],
+            "witnesses": [
+              [
+                1,
+                0
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              5,
+              3,
+              2,
+              4,
+              1,
+              0
+            ],
+            "witnesses": [
+              [
+                1,
+                5
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              5,
+              3,
+              4,
+              0,
+              1,
+              2
+            ],
+            "witnesses": [
+              [
+                1,
+                8
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              5,
+              4,
+              0,
+              3,
+              1,
+              2
+            ],
+            "witnesses": [
+              [
+                1,
+                0
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              5,
+              4,
+              1,
+              3,
+              0,
+              2
+            ],
+            "witnesses": [
+              [
+                1,
+                0
+              ]
+            ],
+            "unique_rotation": 1
+          },
+          {
+            "permutation": [
+              5,
+              4,
+              2,
+              1,
+              3,
+              0
+            ],
+            "witnesses": [
+              [
+                2,
+                9
+              ]
+            ],
+            "unique_rotation": 2
+          }
+        ],
+        "negative_reflection_cosets": {
+          "13": [
+            [
+              3,
+              2,
+              1,
+              0,
+              5,
+              4
+            ],
+            [
+              4,
+              0,
+              3,
+              5,
+              2,
+              1
+            ],
+            [
+              1,
+              5,
+              4,
+              2,
+              0,
+              3
+            ]
+          ],
+          "19": [
+            [
+              1,
+              0,
+              4,
+              5,
+              2,
+              3
+            ],
+            [
+              3,
+              5,
+              1,
+              2,
+              0,
+              4
+            ],
+            [
+              4,
+              2,
+              3,
+              0,
+              5,
+              1
+            ]
+          ]
+        },
+        "positive_negative_disjoint": true,
+        "negative_13_19_disjoint": true
+      }
+    }
+  }
+}

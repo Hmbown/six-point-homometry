@@ -1,0 +1,4 @@
+enumerated n=68 mode=gap classes=807840 seconds=0.029 record_bytes=19388160
+{"n":68,"mode":"gap","classes":807840,"families":5056,"pairs":5088,"largest":3,"seconds":0.096}
+enumerated n=68 mode=point classes=807840 seconds=0.150 record_bytes=19388160
+{"n":68,"mode":"point","classes":807840,"families":5056,"pairs":5088,"largest":3,"seconds":0.216}

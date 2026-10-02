@@ -1,0 +1,10 @@
+PASS test_classic_tetrachords
+PASS test_z12_census
+PASS test_bracelet_counts
+PASS test_hexachord_theorem
+PASS test_complement_transfer
+PASS test_direct_sum_flip_is_sound
+PASS test_k2_deck_is_z_relation
+PASS test_no_3deck_families_small
+PASS test_erickson_jones_k5_reproduction
+PASS test_integer_shadow_pair

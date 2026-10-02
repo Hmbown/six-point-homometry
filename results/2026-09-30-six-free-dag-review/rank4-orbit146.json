@@ -1,0 +1,1 @@
+{"branches": 2, "cross_bijections": 5184, "hashes": ["b487888fd116e98f13b7a0b7a8526741bd3e41f73203df226b93f2159bd8a2cd", "dae73cea2b8e5da78bf415f86497f4b8625a771441d34fe114ed6e84d7c67520"], "lattice_inclusions": 2612, "nodes": 39, "orbit": 146, "rank": 4, "roots": 1304, "terminals": {"collision": 12, "homometric": 1, "ti": 25}}

@@ -1,0 +1,4 @@
+n=72 start
+{'n': 72, 'mode': 'gap', 'classes': 1088616, 'families': 7354, 'pairs': 7472, 'largest': 4, 'seconds': 0.129, 'wall_seconds': 0.144}
+{'n': 72, 'mode': 'point', 'classes': 1088616, 'families': 7354, 'pairs': 7472, 'largest': 4, 'seconds': 0.303, 'wall_seconds': 0.32}
+n=72 independently agreed

@@ -1,0 +1,77 @@
+n=12 resumed verified checkpoint
+n=13 resumed verified checkpoint
+n=14 resumed verified checkpoint
+n=15 resumed verified checkpoint
+n=16 resumed verified checkpoint
+n=17 resumed verified checkpoint
+n=18 resumed verified checkpoint
+n=19 resumed verified checkpoint
+n=20 resumed verified checkpoint
+n=21 resumed verified checkpoint
+n=22 resumed verified checkpoint
+n=23 resumed verified checkpoint
+n=24 resumed verified checkpoint
+n=25 resumed verified checkpoint
+n=26 resumed verified checkpoint
+n=27 resumed verified checkpoint
+n=28 resumed verified checkpoint
+n=29 resumed verified checkpoint
+n=30 resumed verified checkpoint
+n=31 resumed verified checkpoint
+n=32 resumed verified checkpoint
+n=33 start anchored candidates=201376
+{"n": 33, "classes": 17063, "families": 285, "pairs": 285, "largest": 2, "seconds_points": 0.143, "seconds_gaps": 0.025, "reference": false, "inherited": false}
+n=34 start anchored candidates=237336
+{"n": 34, "classes": 20128, "families": 376, "pairs": 392, "largest": 3, "seconds_points": 0.039, "seconds_gaps": 0.011, "reference": false, "inherited": false}
+n=35 start anchored candidates=278256
+{"n": 35, "classes": 23528, "families": 72, "pairs": 72, "largest": 2, "seconds_points": 0.049, "seconds_gaps": 0.012, "reference": false, "inherited": false}
+n=36 start anchored candidates=324632
+{"n": 36, "classes": 27474, "families": 1012, "pairs": 1036, "largest": 3, "seconds_points": 0.083, "seconds_gaps": 0.023, "reference": false, "inherited": false}
+n=37 start anchored candidates=376992
+{"n": 37, "classes": 31824, "families": 78, "pairs": 78, "largest": 2, "seconds_points": 0.067, "seconds_gaps": 0.01, "reference": false, "inherited": false}
+n=38 start anchored candidates=435897
+{"n": 38, "classes": 36822, "families": 561, "pairs": 579, "largest": 3, "seconds_points": 0.085, "seconds_gaps": 0.015, "reference": false, "inherited": false}
+n=39 start anchored candidates=501942
+{"n": 39, "classes": 42315, "families": 430, "pairs": 434, "largest": 3, "seconds_points": 0.101, "seconds_gaps": 0.028, "reference": false, "inherited": false}
+n=40 start anchored candidates=575757
+{"n": 40, "classes": 48564, "families": 950, "pairs": 992, "largest": 4, "seconds_points": 0.1, "seconds_gaps": 0.034, "reference": false, "inherited": false}
+n=41 start anchored candidates=658008
+{"n": 41, "classes": 55404, "families": 100, "pairs": 100, "largest": 2, "seconds_points": 0.151, "seconds_gaps": 0.018, "reference": false, "inherited": false}
+n=42 start anchored candidates=749398
+{"n": 42, "classes": 63133, "families": 1218, "pairs": 1230, "largest": 3, "seconds_points": 0.156, "seconds_gaps": 0.031, "reference": false, "inherited": false}
+n=43 start anchored candidates=850668
+{"n": 43, "classes": 71554, "families": 112, "pairs": 112, "largest": 2, "seconds_points": 0.175, "seconds_gaps": 0.019, "reference": false, "inherited": false}
+n=44 start anchored candidates=962598
+{"n": 44, "classes": 81004, "families": 1340, "pairs": 1360, "largest": 3, "seconds_points": 0.191, "seconds_gaps": 0.033, "reference": false, "inherited": false}
+n=45 start anchored candidates=1086008
+{"n": 45, "classes": 91273, "families": 616, "pairs": 628, "largest": 3, "seconds_points": 0.223, "seconds_gaps": 0.022, "reference": false, "inherited": false}
+n=46 start anchored candidates=1221759
+{"n": 46, "classes": 102718, "families": 1089, "pairs": 1111, "largest": 3, "seconds_points": 0.283, "seconds_gaps": 0.029, "reference": false, "inherited": false}
+n=47 start anchored candidates=1370754
+{"n": 47, "classes": 115115, "families": 138, "pairs": 138, "largest": 2, "seconds_points": 0.294, "seconds_gaps": 0.021, "reference": false, "inherited": false}
+n=48 start anchored candidates=1533939
+{"n": 48, "classes": 128864, "families": 2287, "pairs": 2341, "largest": 4, "seconds_points": 0.308, "seconds_gaps": 0.043, "reference": false, "inherited": false}
+n=49 start anchored candidates=1712304
+{"n": 49, "classes": 143704, "families": 154, "pairs": 154, "largest": 2, "seconds_points": 0.365, "seconds_gaps": 0.028, "reference": false, "inherited": false}
+n=50 start anchored candidates=1906884
+{"n": 50, "classes": 160080, "families": 1440, "pairs": 1460, "largest": 3, "seconds_points": 0.393, "seconds_gaps": 0.043, "reference": false, "inherited": false}
+n=51 start anchored candidates=2118760
+{"n": 51, "classes": 177716, "families": 824, "pairs": 824, "largest": 2, "seconds_points": 0.472, "seconds_gaps": 0.043, "reference": false, "inherited": false}
+n=52 start anchored candidates=2349060
+{"n": 52, "classes": 197080, "families": 2240, "pairs": 2264, "largest": 3, "seconds_points": 0.504, "seconds_gaps": 0.062, "reference": false, "inherited": false}
+n=53 start anchored candidates=2598960
+{"n": 53, "classes": 217880, "families": 182, "pairs": 182, "largest": 2, "seconds_points": 0.566, "seconds_gaps": 0.04, "reference": false, "inherited": false}
+n=54 start anchored candidates=2869685
+{"n": 54, "classes": 240633, "families": 2594, "pairs": 2636, "largest": 3, "seconds_points": 0.639, "seconds_gaps": 0.074, "reference": false, "inherited": false}
+n=55 start anchored candidates=3162510
+{"n": 55, "classes": 265005, "families": 200, "pairs": 200, "largest": 2, "seconds_points": 0.725, "seconds_gaps": 0.089, "reference": false, "inherited": false}
+n=56 start anchored candidates=3478761
+{"n": 56, "classes": 291564, "families": 2745, "pairs": 2808, "largest": 4, "seconds_points": 0.82, "seconds_gaps": 0.091, "reference": false, "inherited": false}
+n=57 start anchored candidates=3819816
+{"n": 57, "classes": 319959, "families": 1062, "pairs": 1062, "largest": 2, "seconds_points": 0.899, "seconds_gaps": 0.072, "reference": false, "inherited": false}
+n=58 start anchored candidates=4187106
+{"n": 58, "classes": 350784, "families": 2352, "pairs": 2380, "largest": 3, "seconds_points": 0.911, "seconds_gaps": 0.086, "reference": false, "inherited": false}
+n=59 start anchored candidates=4582116
+{"n": 59, "classes": 383670, "families": 232, "pairs": 232, "largest": 2, "seconds_points": 1.295, "seconds_gaps": 0.059, "reference": false, "inherited": false}
+n=60 start anchored candidates=5006386
+{"n": 60, "classes": 419266, "families": 4466, "pairs": 4486, "largest": 3, "seconds_points": 1.266, "seconds_gaps": 0.115, "reference": false, "inherited": false}

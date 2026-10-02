@@ -1,0 +1,28 @@
+{
+  "n": 49,
+  "factors": [
+    [
+      7,
+      2
+    ]
+  ],
+  "counts": {
+    "collision": 553,
+    "admissible": 1848,
+    "regular_pairs": 28,
+    "regular_parameters": 336,
+    "local_support_pairs": 154,
+    "local_support_parameters": 1848
+  },
+  "fiber_histogram": {
+    "12": 154
+  },
+  "all_parameter_locations_verified": true,
+  "all_direct_fibers_equal_root_permutation_orbits": true,
+  "arrangement_support_count": 1848,
+  "regular_theorem_applies": false,
+  "full_fiber_status": "COMPUTED; global full-domain theorem not assumed",
+  "direct_path": "results/2026-09-30-six-composite-global-controls/n49.json.gz",
+  "direct_sha256": "eda9dd533649a1e88042535d424a327a2fafe8141e7f86bd22690f9741e8cfbb",
+  "seconds": 0.014571
+}

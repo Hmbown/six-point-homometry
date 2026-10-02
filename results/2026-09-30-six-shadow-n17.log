@@ -1,0 +1,3 @@
+expected matchings=192; cap=1000; exact 15x10 arithmetic
+100 192 {10: 100}
+{'n': 17, 'a': (0, 1, 3, 8, 12, 14), 'b': (0, 1, 4, 6, 12, 14), 'decision': 'purely-cyclic', 'expected_matchings': 192, 'checked_matchings': 192, 'ranks': {10: 192}, 'seconds': 0.473, 'status': 'COMPUTED-UNVALIDATED until independent certificate audit', 'source_sha256': '48351d783555776aee67d2866f628c47a6c8ce60a44f7b765f1655d5bba54493'}

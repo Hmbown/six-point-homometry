@@ -1,0 +1,1 @@
+{'nmin': 12, 'nmax': 60, 'families': 31546, 'pairs': 32106, 'missing_direct_edges': 25, 'certificate_labels': {'halfcoset': 1695, 'R': 223, 'Bloom': 4277, 'swap': 9011, 'dyad': 14498, 'halfturn': 1144, 'translate': 18, 'reflect': 1201, 'unit': 14}, 'disconnected_families': [], 'status': 'COMPUTED independent certificate replay and connectivity'}

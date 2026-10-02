@@ -1,0 +1,13 @@
+12 {'halfcoset': 13, 'R': 1, 'Bloom': 1} 0.002
+13 {'Bloom': 2} 0.002
+14 {'swap': 1, 'Bloom': 3, 'dyad': 2} 0.578
+15 {'R': 8, 'dyad': 3, 'Bloom': 8, 'swap': 6} 0.004
+16 {'Bloom': 6, 'dyad': 8, 'halfcoset': 9, 'halfturn': 5, 'swap': 5, 'translate': 2, 'reflect': 2} 0.004
+17 {'R': 8, 'Bloom': 8} 0.004
+18 {'dyad': 29, 'Bloom': 9, 'gap': 3, 'swap': 13, 'translate': 2, 'reflect': 3, 'halfcoset': 14, 'halfturn': 1} 0.007
+19 {'R': 9, 'Bloom': 12} 0.005
+20 {'reflect': 4, 'swap': 22, 'Bloom': 14, 'dyad': 29, 'halfturn': 15, 'halfcoset': 18} 0.01
+21 {'dyad': 27, 'R': 13, 'swap': 28, 'Bloom': 20, 'reflect': 8} 0.01
+22 {'swap': 19, 'dyad': 36, 'Bloom': 15} 0.009
+23 {'R': 11, 'Bloom': 22} 0.008
+24 {'swap': 79, 'dyad': 91, 'halfturn': 23, 'Bloom': 23, 'reflect': 19, 'R': 5, 'gap': 4, 'halfcoset': 54, 'unit': 2} 0.02

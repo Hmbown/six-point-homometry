@@ -1,0 +1,291 @@
+n=61 start
+{'n': 61, 'mode': 'gap', 'classes': 457156, 'families': 250, 'pairs': 250, 'largest': 2, 'seconds': 0.053, 'wall_seconds': 0.056}
+{'n': 61, 'mode': 'point', 'classes': 457156, 'families': 250, 'pairs': 250, 'largest': 2, 'seconds': 0.115, 'wall_seconds': 0.119}
+n=61 independently agreed
+n=62 start
+{'n': 62, 'mode': 'gap', 'classes': 498046, 'families': 2941, 'pairs': 2980, 'largest': 5, 'seconds': 0.059, 'wall_seconds': 0.067}
+{'n': 62, 'mode': 'point', 'classes': 498046, 'families': 2941, 'pairs': 2980, 'largest': 5, 'seconds': 0.129, 'wall_seconds': 0.137}
+n=62 independently agreed
+n=63 start
+{'n': 63, 'mode': 'gap', 'classes': 541501, 'families': 1320, 'pairs': 1338, 'largest': 3, 'seconds': 0.063, 'wall_seconds': 0.068}
+{'n': 63, 'mode': 'point', 'classes': 541501, 'families': 1320, 'pairs': 1338, 'largest': 3, 'seconds': 0.139, 'wall_seconds': 0.144}
+n=63 independently agreed
+n=64 start
+{'n': 64, 'mode': 'gap', 'classes': 588256, 'families': 4118, 'pairs': 4205, 'largest': 4, 'seconds': 0.07, 'wall_seconds': 0.079}
+{'n': 64, 'mode': 'point', 'classes': 588256, 'families': 4118, 'pairs': 4205, 'largest': 4, 'seconds': 0.154, 'wall_seconds': 0.163}
+n=64 independently agreed
+n=65 start
+{'n': 65, 'mode': 'gap', 'classes': 637856, 'families': 290, 'pairs': 290, 'largest': 2, 'seconds': 0.073, 'wall_seconds': 0.077}
+{'n': 65, 'mode': 'point', 'classes': 637856, 'families': 290, 'pairs': 290, 'largest': 2, 'seconds': 0.165, 'wall_seconds': 0.169}
+n=65 independently agreed
+n=66 start
+{'n': 66, 'mode': 'gap', 'classes': 691097, 'families': 4750, 'pairs': 4780, 'largest': 3, 'seconds': 0.083, 'wall_seconds': 0.095}
+{'n': 66, 'mode': 'point', 'classes': 691097, 'families': 4750, 'pairs': 4780, 'largest': 3, 'seconds': 0.183, 'wall_seconds': 0.193}
+n=66 independently agreed
+n=67 start
+{'n': 67, 'mode': 'gap', 'classes': 747472, 'families': 308, 'pairs': 308, 'largest': 2, 'seconds': 0.087, 'wall_seconds': 0.093}
+{'n': 67, 'mode': 'point', 'classes': 747472, 'families': 308, 'pairs': 308, 'largest': 2, 'seconds': 0.195, 'wall_seconds': 0.2}
+n=67 independently agreed
+n=68 start
+{'n': 68, 'mode': 'gap', 'classes': 807840, 'families': 5056, 'pairs': 5088, 'largest': 3, 'seconds': 0.096, 'wall_seconds': 0.107}
+{'n': 68, 'mode': 'point', 'classes': 807840, 'families': 5056, 'pairs': 5088, 'largest': 3, 'seconds': 0.216, 'wall_seconds': 0.228}
+n=68 independently agreed
+n=69 start
+{'n': 69, 'mode': 'gap', 'classes': 871673, 'families': 1628, 'pairs': 1628, 'largest': 2, 'seconds': 0.102, 'wall_seconds': 0.11}
+{'n': 69, 'mode': 'point', 'classes': 871673, 'families': 1628, 'pairs': 1628, 'largest': 2, 'seconds': 0.232, 'wall_seconds': 0.241}
+n=69 independently agreed
+n=70 start
+{'n': 70, 'mode': 'gap', 'classes': 939862, 'families': 4368, 'pairs': 4392, 'largest': 3, 'seconds': 0.111, 'wall_seconds': 0.122}
+{'n': 70, 'mode': 'point', 'classes': 939862, 'families': 4368, 'pairs': 4392, 'largest': 3, 'seconds': 0.263, 'wall_seconds': 0.328}
+n=70 independently agreed
+n=71 start
+{'n': 71, 'mode': 'gap', 'classes': 1011857, 'families': 350, 'pairs': 350, 'largest': 2, 'seconds': 0.119, 'wall_seconds': 0.127}
+{'n': 71, 'mode': 'point', 'classes': 1011857, 'families': 350, 'pairs': 350, 'largest': 2, 'seconds': 0.275, 'wall_seconds': 0.283}
+n=71 independently agreed
+n=72 resume
+n=73 start
+{'n': 73, 'mode': 'gap', 'classes': 1169532, 'families': 372, 'pairs': 372, 'largest': 2, 'seconds': 0.138, 'wall_seconds': 0.148}
+{'n': 73, 'mode': 'point', 'classes': 1169532, 'families': 372, 'pairs': 372, 'largest': 2, 'seconds': 0.317, 'wall_seconds': 0.325}
+n=73 independently agreed
+n=74 start
+{'n': 74, 'mode': 'gap', 'classes': 1255632, 'families': 5208, 'pairs': 5244, 'largest': 3, 'seconds': 0.151, 'wall_seconds': 0.164}
+{'n': 74, 'mode': 'point', 'classes': 1255632, 'families': 5208, 'pairs': 5244, 'largest': 3, 'seconds': 0.352, 'wall_seconds': 0.367}
+n=74 independently agreed
+n=75 start
+{'n': 75, 'mode': 'gap', 'classes': 1346286, 'families': 1975, 'pairs': 1975, 'largest': 2, 'seconds': 0.158, 'wall_seconds': 0.166}
+{'n': 75, 'mode': 'point', 'classes': 1346286, 'families': 1975, 'pairs': 1975, 'largest': 2, 'seconds': 0.378, 'wall_seconds': 0.391}
+n=75 independently agreed
+n=76 start
+{'n': 76, 'mode': 'gap', 'classes': 1442556, 'families': 7068, 'pairs': 7104, 'largest': 3, 'seconds': 0.174, 'wall_seconds': 0.196}
+{'n': 76, 'mode': 'point', 'classes': 1442556, 'families': 7068, 'pairs': 7104, 'largest': 3, 'seconds': 0.403, 'wall_seconds': 0.422}
+n=76 independently agreed
+n=77 start
+{'n': 77, 'mode': 'gap', 'classes': 1543788, 'families': 420, 'pairs': 420, 'largest': 2, 'seconds': 0.182, 'wall_seconds': 0.188}
+{'n': 77, 'mode': 'point', 'classes': 1543788, 'families': 420, 'pairs': 420, 'largest': 2, 'seconds': 0.424, 'wall_seconds': 0.431}
+n=77 independently agreed
+n=78 start
+{'n': 78, 'mode': 'gap', 'classes': 1651117, 'families': 7840, 'pairs': 7880, 'largest': 3, 'seconds': 0.196, 'wall_seconds': 0.213}
+{'n': 78, 'mode': 'point', 'classes': 1651117, 'families': 7840, 'pairs': 7880, 'largest': 3, 'seconds': 0.461, 'wall_seconds': 0.484}
+n=78 independently agreed
+n=79 start
+{'n': 79, 'mode': 'gap', 'classes': 1763827, 'families': 442, 'pairs': 442, 'largest': 2, 'seconds': 0.207, 'wall_seconds': 0.212}
+{'n': 79, 'mode': 'point', 'classes': 1763827, 'families': 442, 'pairs': 442, 'largest': 2, 'seconds': 0.489, 'wall_seconds': 0.495}
+n=79 independently agreed
+n=80 start
+{'n': 80, 'mode': 'gap', 'classes': 1883128, 'families': 8135, 'pairs': 8229, 'largest': 4, 'seconds': 0.227, 'wall_seconds': 0.246}
+{'n': 80, 'mode': 'point', 'classes': 1883128, 'families': 8135, 'pairs': 8229, 'largest': 4, 'seconds': 0.534, 'wall_seconds': 0.556}
+n=80 independently agreed
+n=81 start
+{'n': 81, 'mode': 'gap', 'classes': 2008279, 'families': 2298, 'pairs': 2322, 'largest': 3, 'seconds': 0.238, 'wall_seconds': 0.25}
+{'n': 81, 'mode': 'point', 'classes': 2008279, 'families': 2298, 'pairs': 2322, 'largest': 3, 'seconds': 0.561, 'wall_seconds': 0.577}
+n=81 independently agreed
+n=82 start
+{'n': 82, 'mode': 'gap', 'classes': 2140528, 'families': 7240, 'pairs': 7280, 'largest': 3, 'seconds': 0.256, 'wall_seconds': 0.272}
+{'n': 82, 'mode': 'point', 'classes': 2140528, 'families': 7240, 'pairs': 7280, 'largest': 3, 'seconds': 0.617, 'wall_seconds': 0.684}
+n=82 independently agreed
+n=83 start
+{'n': 83, 'mode': 'gap', 'classes': 2279108, 'families': 492, 'pairs': 492, 'largest': 2, 'seconds': 0.267, 'wall_seconds': 0.275}
+{'n': 83, 'mode': 'point', 'classes': 2279108, 'families': 492, 'pairs': 492, 'largest': 2, 'seconds': 0.65, 'wall_seconds': 0.673}
+n=83 independently agreed
+n=84 start
+{'n': 84, 'mode': 'gap', 'classes': 2425346, 'families': 11604, 'pairs': 11634, 'largest': 3, 'seconds': 0.287, 'wall_seconds': 0.315}
+{'n': 84, 'mode': 'point', 'classes': 2425346, 'families': 11604, 'pairs': 11634, 'largest': 3, 'seconds': 0.69, 'wall_seconds': 0.714}
+n=84 independently agreed
+n=85 start
+{'n': 85, 'mode': 'gap', 'classes': 2578408, 'families': 528, 'pairs': 528, 'largest': 2, 'seconds': 0.31, 'wall_seconds': 0.324}
+{'n': 85, 'mode': 'point', 'classes': 2578408, 'families': 528, 'pairs': 528, 'largest': 2, 'seconds': 0.74, 'wall_seconds': 0.756}
+n=85 independently agreed
+n=86 start
+{'n': 86, 'mode': 'gap', 'classes': 2739702, 'families': 8428, 'pairs': 8470, 'largest': 3, 'seconds': 0.323, 'wall_seconds': 0.345}
+{'n': 86, 'mode': 'point', 'classes': 2739702, 'families': 8428, 'pairs': 8470, 'largest': 3, 'seconds': 0.786, 'wall_seconds': 0.806}
+n=86 independently agreed
+n=87 start
+{'n': 87, 'mode': 'gap', 'classes': 2908367, 'families': 2688, 'pairs': 2688, 'largest': 2, 'seconds': 0.344, 'wall_seconds': 0.355}
+{'n': 87, 'mode': 'point', 'classes': 2908367, 'families': 2688, 'pairs': 2688, 'largest': 2, 'seconds': 0.83, 'wall_seconds': 0.842}
+n=87 independently agreed
+n=88 start
+{'n': 88, 'mode': 'gap', 'classes': 3085852, 'families': 10850, 'pairs': 10965, 'largest': 4, 'seconds': 0.38, 'wall_seconds': 0.439}
+{'n': 88, 'mode': 'point', 'classes': 3085852, 'families': 10850, 'pairs': 10965, 'largest': 4, 'seconds': 0.952, 'wall_seconds': 4.195}
+n=88 independently agreed
+n=89 start
+{'n': 89, 'mode': 'gap', 'classes': 3271268, 'families': 572, 'pairs': 572, 'largest': 2, 'seconds': 0.392, 'wall_seconds': 0.405}
+{'n': 89, 'mode': 'point', 'classes': 3271268, 'families': 572, 'pairs': 572, 'largest': 2, 'seconds': 0.945, 'wall_seconds': 0.959}
+n=89 independently agreed
+n=90 start
+{'n': 90, 'mode': 'gap', 'classes': 3466149, 'families': 12054, 'pairs': 12122, 'largest': 3, 'seconds': 0.421, 'wall_seconds': 0.457}
+{'n': 90, 'mode': 'point', 'classes': 3466149, 'families': 12054, 'pairs': 12122, 'largest': 3, 'seconds': 1.041, 'wall_seconds': 1.116}
+n=90 independently agreed
+n=91 start
+{'n': 91, 'mode': 'gap', 'classes': 3669534, 'families': 602, 'pairs': 602, 'largest': 2, 'seconds': 0.448, 'wall_seconds': 0.485}
+{'n': 91, 'mode': 'point', 'classes': 3669534, 'families': 602, 'pairs': 602, 'largest': 2, 'seconds': 1.106, 'wall_seconds': 1.162}
+n=91 independently agreed
+n=92 start
+{'n': 92, 'mode': 'gap', 'classes': 3883044, 'families': 12540, 'pairs': 12584, 'largest': 3, 'seconds': 0.478, 'wall_seconds': 0.525}
+{'n': 92, 'mode': 'point', 'classes': 3883044, 'families': 12540, 'pairs': 12584, 'largest': 3, 'seconds': 1.172, 'wall_seconds': 1.238}
+n=92 independently agreed
+n=93 start
+{'n': 93, 'mode': 'gap', 'classes': 4105689, 'families': 3116, 'pairs': 3125, 'largest': 5, 'seconds': 0.486, 'wall_seconds': 0.499}
+{'n': 93, 'mode': 'point', 'classes': 4105689, 'families': 3116, 'pairs': 3125, 'largest': 5, 'seconds': 1.208, 'wall_seconds': 1.238}
+n=93 independently agreed
+n=94 start
+{'n': 94, 'mode': 'gap', 'classes': 4339134, 'families': 11178, 'pairs': 11224, 'largest': 3, 'seconds': 0.531, 'wall_seconds': 0.566}
+{'n': 94, 'mode': 'point', 'classes': 4339134, 'families': 11178, 'pairs': 11224, 'largest': 3, 'seconds': 1.375, 'wall_seconds': 1.822}
+n=94 independently agreed
+n=95 start
+{'n': 95, 'mode': 'gap', 'classes': 4582359, 'families': 669, 'pairs': 669, 'largest': 2, 'seconds': 0.544, 'wall_seconds': 0.552}
+{'n': 95, 'mode': 'point', 'classes': 4582359, 'families': 669, 'pairs': 669, 'largest': 2, 'seconds': 1.347, 'wall_seconds': 1.359}
+n=95 independently agreed
+n=96 resume
+n=97 start
+{'n': 97, 'mode': 'gap', 'classes': 5102320, 'families': 688, 'pairs': 688, 'largest': 2, 'seconds': 0.613, 'wall_seconds': 0.634}
+{'n': 97, 'mode': 'point', 'classes': 5102320, 'families': 688, 'pairs': 688, 'largest': 2, 'seconds': 1.53, 'wall_seconds': 1.668}
+n=97 independently agreed
+n=98 start
+{'n': 98, 'mode': 'gap', 'classes': 5379808, 'families': 12760, 'pairs': 12802, 'largest': 3, 'seconds': 0.648, 'wall_seconds': 0.684}
+{'n': 98, 'mode': 'point', 'classes': 5379808, 'families': 12760, 'pairs': 12802, 'largest': 3, 'seconds': 1.607, 'wall_seconds': 1.639}
+n=98 independently agreed
+n=99 start
+{'n': 99, 'mode': 'gap', 'classes': 5668456, 'families': 3525, 'pairs': 3555, 'largest': 3, 'seconds': 0.686, 'wall_seconds': 0.709}
+{'n': 99, 'mode': 'point', 'classes': 5668456, 'families': 3525, 'pairs': 3555, 'largest': 3, 'seconds': 1.696, 'wall_seconds': 1.719}
+n=99 independently agreed
+n=100 start
+{'n': 100, 'mode': 'gap', 'classes': 5970160, 'families': 16088, 'pairs': 16132, 'largest': 3, 'seconds': 0.715, 'wall_seconds': 0.76}
+{'n': 100, 'mode': 'point', 'classes': 5970160, 'families': 16088, 'pairs': 16132, 'largest': 3, 'seconds': 1.796, 'wall_seconds': 1.835}
+n=100 independently agreed
+n=101 start
+{'n': 101, 'mode': 'gap', 'classes': 6283760, 'families': 750, 'pairs': 750, 'largest': 2, 'seconds': 0.753, 'wall_seconds': 0.771}
+{'n': 101, 'mode': 'point', 'classes': 6283760, 'families': 750, 'pairs': 750, 'largest': 2, 'seconds': 1.955, 'wall_seconds': 2.031}
+n=101 independently agreed
+n=102 start
+{'n': 102, 'mode': 'gap', 'classes': 6611249, 'families': 17472, 'pairs': 17520, 'largest': 3, 'seconds': 0.824, 'wall_seconds': 0.962}
+{'n': 102, 'mode': 'point', 'classes': 6611249, 'families': 17472, 'pairs': 17520, 'largest': 3, 'seconds': 2.113, 'wall_seconds': 2.308}
+n=102 independently agreed
+n=103 start
+{'n': 103, 'mode': 'gap', 'classes': 6951385, 'families': 782, 'pairs': 782, 'largest': 2, 'seconds': 0.873, 'wall_seconds': 1.125}
+{'n': 103, 'mode': 'point', 'classes': 6951385, 'families': 782, 'pairs': 782, 'largest': 2, 'seconds': 2.487, 'wall_seconds': 5.812}
+n=103 independently agreed
+n=104 start
+{'n': 104, 'mode': 'gap', 'classes': 7306260, 'families': 17948, 'pairs': 18086, 'largest': 4, 'seconds': 1.033, 'wall_seconds': 1.97}
+{'n': 104, 'mode': 'point', 'classes': 7306260, 'families': 17948, 'pairs': 18086, 'largest': 4, 'seconds': 2.659, 'wall_seconds': 5.513}
+n=104 independently agreed
+n=105 start
+{'n': 105, 'mode': 'gap', 'classes': 7674599, 'families': 4090, 'pairs': 4090, 'largest': 2, 'seconds': 1.068, 'wall_seconds': 2.449}
+{'n': 105, 'mode': 'point', 'classes': 7674599, 'families': 4090, 'pairs': 4090, 'largest': 2, 'seconds': 2.666, 'wall_seconds': 3.409}
+n=105 independently agreed
+n=106 start
+{'n': 106, 'mode': 'gap', 'classes': 8058544, 'families': 16328, 'pairs': 16380, 'largest': 3, 'seconds': 1.091, 'wall_seconds': 1.465}
+{'n': 106, 'mode': 'point', 'classes': 8058544, 'families': 16328, 'pairs': 16380, 'largest': 3, 'seconds': 2.911, 'wall_seconds': 4.97}
+n=106 independently agreed
+n=107 start
+{'n': 107, 'mode': 'gap', 'classes': 8456786, 'families': 848, 'pairs': 848, 'largest': 2, 'seconds': 1.155, 'wall_seconds': 2.553}
+{'n': 107, 'mode': 'point', 'classes': 8456786, 'families': 848, 'pairs': 848, 'largest': 2, 'seconds': 3.013, 'wall_seconds': 5.433}
+n=107 independently agreed
+n=108 start
+{'n': 108, 'mode': 'gap', 'classes': 8871570, 'families': 23725, 'pairs': 23809, 'largest': 3, 'seconds': 1.206, 'wall_seconds': 2.057}
+{'n': 108, 'mode': 'point', 'classes': 8871570, 'families': 23725, 'pairs': 23809, 'largest': 3, 'seconds': 3.131, 'wall_seconds': 4.31}
+n=108 independently agreed
+n=109 start
+{'n': 109, 'mode': 'gap', 'classes': 9301500, 'families': 882, 'pairs': 882, 'largest': 2, 'seconds': 1.103, 'wall_seconds': 1.117}
+{'n': 109, 'mode': 'point', 'classes': 9301500, 'families': 882, 'pairs': 882, 'largest': 2, 'seconds': 2.85, 'wall_seconds': 2.873}
+n=109 independently agreed
+n=110 start
+{'n': 110, 'mode': 'gap', 'classes': 9748926, 'families': 18350, 'pairs': 18400, 'largest': 3, 'seconds': 1.153, 'wall_seconds': 1.196}
+{'n': 110, 'mode': 'point', 'classes': 9748926, 'families': 18350, 'pairs': 18400, 'largest': 3, 'seconds': 2.986, 'wall_seconds': 3.036}
+n=110 independently agreed
+n=111 start
+{'n': 111, 'mode': 'gap', 'classes': 10212417, 'families': 4536, 'pairs': 4536, 'largest': 2, 'seconds': 1.21, 'wall_seconds': 1.227}
+{'n': 111, 'mode': 'point', 'classes': 10212417, 'families': 4536, 'pairs': 4536, 'largest': 2, 'seconds': 3.147, 'wall_seconds': 3.176}
+n=111 independently agreed
+n=112 start
+{'n': 112, 'mode': 'gap', 'classes': 10694376, 'families': 22435, 'pairs': 22573, 'largest': 4, 'seconds': 1.284, 'wall_seconds': 1.35}
+{'n': 112, 'mode': 'point', 'classes': 10694376, 'families': 22435, 'pairs': 22573, 'largest': 4, 'seconds': 3.331, 'wall_seconds': 3.403}
+n=112 independently agreed
+n=113 start
+{'n': 113, 'mode': 'gap', 'classes': 11193336, 'families': 952, 'pairs': 952, 'largest': 2, 'seconds': 1.319, 'wall_seconds': 1.331}
+{'n': 113, 'mode': 'point', 'classes': 11193336, 'families': 952, 'pairs': 952, 'largest': 2, 'seconds': 3.453, 'wall_seconds': 3.477}
+n=113 independently agreed
+n=114 start
+{'n': 114, 'mode': 'gap', 'classes': 11711809, 'families': 24327, 'pairs': 24381, 'largest': 3, 'seconds': 1.411, 'wall_seconds': 1.468}
+{'n': 114, 'mode': 'point', 'classes': 11711809, 'families': 24327, 'pairs': 24381, 'largest': 3, 'seconds': 3.678, 'wall_seconds': 3.746}
+n=114 independently agreed
+n=115 start
+{'n': 115, 'mode': 'gap', 'classes': 12248236, 'families': 1001, 'pairs': 1001, 'largest': 2, 'seconds': 1.445, 'wall_seconds': 1.456}
+{'n': 115, 'mode': 'point', 'classes': 12248236, 'families': 1001, 'pairs': 1001, 'largest': 2, 'seconds': 3.794, 'wall_seconds': 3.812}
+n=115 independently agreed
+n=116 start
+{'n': 116, 'mode': 'gap', 'classes': 12805240, 'families': 25074, 'pairs': 25130, 'largest': 3, 'seconds': 1.535, 'wall_seconds': 1.583}
+{'n': 116, 'mode': 'point', 'classes': 12805240, 'families': 25074, 'pairs': 25130, 'largest': 3, 'seconds': 4.039, 'wall_seconds': 4.149}
+n=116 independently agreed
+n=117 start
+{'n': 117, 'mode': 'gap', 'classes': 13381225, 'families': 5038, 'pairs': 5078, 'largest': 3, 'seconds': 1.6, 'wall_seconds': 1.621}
+{'n': 117, 'mode': 'point', 'classes': 13381225, 'families': 5038, 'pairs': 5078, 'largest': 3, 'seconds': 4.178, 'wall_seconds': 4.235}
+n=117 independently agreed
+n=118 start
+{'n': 118, 'mode': 'gap', 'classes': 13978870, 'families': 22852, 'pairs': 22910, 'largest': 3, 'seconds': 1.687, 'wall_seconds': 1.737}
+{'n': 118, 'mode': 'point', 'classes': 13978870, 'families': 22852, 'pairs': 22910, 'largest': 3, 'seconds': 4.423, 'wall_seconds': 4.509}
+n=118 independently agreed
+n=119 start
+{'n': 119, 'mode': 'gap', 'classes': 14596541, 'families': 1072, 'pairs': 1072, 'largest': 2, 'seconds': 1.753, 'wall_seconds': 1.772}
+{'n': 119, 'mode': 'point', 'classes': 14596541, 'families': 1072, 'pairs': 1072, 'largest': 2, 'seconds': 4.646, 'wall_seconds': 4.697}
+n=119 independently agreed
+n=120 start
+{'n': 120, 'mode': 'gap', 'classes': 15237032, 'families': 31992, 'pairs': 32151, 'largest': 4, 'seconds': 1.835, 'wall_seconds': 1.91}
+{'n': 120, 'mode': 'point', 'classes': 15237032, 'families': 31992, 'pairs': 32151, 'largest': 4, 'seconds': 4.854, 'wall_seconds': 4.941}
+n=120 independently agreed
+n=121 start
+{'n': 121, 'mode': 'gap', 'classes': 15898612, 'families': 1100, 'pairs': 1100, 'largest': 2, 'seconds': 1.92, 'wall_seconds': 1.938}
+{'n': 121, 'mode': 'point', 'classes': 15898612, 'families': 1100, 'pairs': 1100, 'largest': 2, 'seconds': 5.031, 'wall_seconds': 5.056}
+n=121 independently agreed
+n=122 start
+{'n': 122, 'mode': 'gap', 'classes': 16584192, 'families': 25360, 'pairs': 25420, 'largest': 3, 'seconds': 2.02, 'wall_seconds': 2.133}
+{'n': 122, 'mode': 'point', 'classes': 16584192, 'families': 25360, 'pairs': 25420, 'largest': 3, 'seconds': 5.351, 'wall_seconds': 5.506}
+n=122 independently agreed
+n=123 start
+{'n': 123, 'mode': 'gap', 'classes': 17292002, 'families': 5640, 'pairs': 5640, 'largest': 2, 'seconds': 2.132, 'wall_seconds': 2.204}
+{'n': 123, 'mode': 'point', 'classes': 17292002, 'families': 5640, 'pairs': 5640, 'largest': 2, 'seconds': 5.654, 'wall_seconds': 6.203}
+n=123 independently agreed
+n=124 start
+{'n': 124, 'mode': 'gap', 'classes': 18025012, 'families': 30616, 'pairs': 30685, 'largest': 5, 'seconds': 2.324, 'wall_seconds': 2.638}
+{'n': 124, 'mode': 'point', 'classes': 18025012, 'families': 30616, 'pairs': 30685, 'largest': 5, 'seconds': 5.828, 'wall_seconds': 5.927}
+n=124 independently agreed
+n=125 start
+{'n': 125, 'mode': 'gap', 'classes': 18781412, 'families': 1180, 'pairs': 1180, 'largest': 2, 'seconds': 2.259, 'wall_seconds': 2.278}
+{'n': 125, 'mode': 'point', 'classes': 18781412, 'families': 1180, 'pairs': 1180, 'largest': 2, 'seconds': 6.027, 'wall_seconds': 6.077}
+n=125 independently agreed
+n=126 start
+{'n': 126, 'mode': 'gap', 'classes': 19564293, 'families': 32738, 'pairs': 32834, 'largest': 3, 'seconds': 2.381, 'wall_seconds': 2.466}
+{'n': 126, 'mode': 'point', 'classes': 19564293, 'families': 32738, 'pairs': 32834, 'largest': 3, 'seconds': 6.319, 'wall_seconds': 6.41}
+n=126 independently agreed
+n=127 start
+{'n': 127, 'mode': 'gap', 'classes': 20371743, 'families': 1218, 'pairs': 1218, 'largest': 2, 'seconds': 2.443, 'wall_seconds': 2.46}
+{'n': 127, 'mode': 'point', 'classes': 20371743, 'families': 1218, 'pairs': 1218, 'largest': 2, 'seconds': 6.568, 'wall_seconds': 6.61}
+n=127 independently agreed
+n=128 start
+{'n': 128, 'mode': 'gap', 'classes': 21206976, 'families': 33466, 'pairs': 33645, 'largest': 4, 'seconds': 2.582, 'wall_seconds': 2.663}
+{'n': 128, 'mode': 'point', 'classes': 21206976, 'families': 33466, 'pairs': 33645, 'largest': 4, 'seconds': 7.037, 'wall_seconds': 7.774}
+n=128 independently agreed
+n=129 start
+{'n': 129, 'mode': 'gap', 'classes': 22068039, 'families': 6237, 'pairs': 6237, 'largest': 2, 'seconds': 3.039, 'wall_seconds': 4.729}
+{'n': 129, 'mode': 'point', 'classes': 22068039, 'families': 6237, 'pairs': 6237, 'largest': 2, 'seconds': 8.077, 'wall_seconds': 10.808}
+n=129 independently agreed
+n=130 start
+{'n': 130, 'mode': 'gap', 'classes': 22958208, 'families': 30920, 'pairs': 30980, 'largest': 3, 'seconds': 3.166, 'wall_seconds': 4.463}
+{'n': 130, 'mode': 'point', 'classes': 22958208, 'families': 30920, 'pairs': 30980, 'largest': 3, 'seconds': 8.673, 'wall_seconds': 15.252}
+n=130 independently agreed
+n=131 start
+{'n': 131, 'mode': 'gap', 'classes': 23875488, 'families': 1300, 'pairs': 1300, 'largest': 2, 'seconds': 2.936, 'wall_seconds': 3.023}
+{'n': 131, 'mode': 'point', 'classes': 23875488, 'families': 1300, 'pairs': 1300, 'largest': 2, 'seconds': 8.016, 'wall_seconds': 8.163}
+n=131 independently agreed
+n=132 start
+{'n': 132, 'mode': 'gap', 'classes': 24823282, 'families': 42205, 'pairs': 42265, 'largest': 3, 'seconds': 3.127, 'wall_seconds': 3.266}
+{'n': 132, 'mode': 'point', 'classes': 24823282, 'families': 42205, 'pairs': 42265, 'largest': 3, 'seconds': 8.311, 'wall_seconds': 8.617}
+n=132 independently agreed
+n=133 start
+{'n': 133, 'mode': 'gap', 'classes': 25799488, 'families': 1353, 'pairs': 1353, 'largest': 2, 'seconds': 3.109, 'wall_seconds': 3.133}
+{'n': 133, 'mode': 'point', 'classes': 25799488, 'families': 1353, 'pairs': 1353, 'largest': 2, 'seconds': 8.535, 'wall_seconds': 8.601}
+n=133 independently agreed
+n=134 start
+{'n': 134, 'mode': 'gap', 'classes': 26807638, 'families': 33968, 'pairs': 34034, 'largest': 3, 'seconds': 3.349, 'wall_seconds': 3.551}
+{'n': 134, 'mode': 'point', 'classes': 26807638, 'families': 33968, 'pairs': 34034, 'largest': 3, 'seconds': 9.024, 'wall_seconds': 9.193}
+n=134 independently agreed
+n=135 resume

@@ -1,0 +1,11 @@
+test_all_reduced_moduli_agree_with_immutable_reference (__main__.PrimaryMatchingTests.test_all_reduced_moduli_agree_with_immutable_reference) ... ok
+test_complete_universal_certificate_acceptance (__main__.PrimaryMatchingTests.test_complete_universal_certificate_acceptance) ... ok
+test_explicit_even_shared_partner_family (__main__.PrimaryMatchingTests.test_explicit_even_shared_partner_family) ... ok
+test_integer_homometry_identity (__main__.PrimaryMatchingTests.test_integer_homometry_identity) ... ok
+test_twelve_exception_and_larger_primary_controls (__main__.PrimaryMatchingTests.test_twelve_exception_and_larger_primary_controls) ... ok
+test_unimodular_equivalence_in_even_and_three_primary_rings (__main__.PrimaryMatchingTests.test_unimodular_equivalence_in_even_and_three_primary_rings) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.739s
+
+OK

@@ -1,0 +1,4 @@
+n=60 start
+{'n': 60, 'mode': 'gap', 'classes': 419266, 'families': 4466, 'pairs': 4486, 'largest': 3, 'seconds': 0.05, 'wall_seconds': 0.06}
+{'n': 60, 'mode': 'point', 'classes': 419266, 'families': 4466, 'pairs': 4486, 'largest': 3, 'seconds': 0.108, 'wall_seconds': 0.118}
+n=60 independently agreed

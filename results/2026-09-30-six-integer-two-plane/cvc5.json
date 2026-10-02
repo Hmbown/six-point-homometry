@@ -1,0 +1,16 @@
+{
+  "solver": "cvc5",
+  "version": "1.4.1",
+  "proofs_produced_and_internally_checked": true,
+  "seconds": 4.102144750067964,
+  "input": "results/2026-09-30-six-integer-two-plane/count.smt2",
+  "source_sha256": "845fb30d084ad70a97fa83acc391cb3b7816b5111611ca132d726bf6a62de667",
+  "output": [
+    "unsat",
+    {
+      "proof_path": "results/2026-09-30-six-integer-two-plane/cvc5.proof.gz",
+      "uncompressed_bytes": 13729394
+    }
+  ],
+  "status": "EXPERIMENTAL-SOLVER-RESULT"
+}

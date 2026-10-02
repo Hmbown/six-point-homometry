@@ -1,0 +1,10 @@
+test_actual_supports_and_immutable_homometry (__main__.SupportTests.test_actual_supports_and_immutable_homometry) ... ok
+test_all_possible_overlap_orders (__main__.SupportTests.test_all_possible_overlap_orders) ... ok
+test_input_validation_and_tiny_empty_domains (__main__.SupportTests.test_input_validation_and_tiny_empty_domains) ... ok
+test_smith_formula_every_residue_in_period (__main__.SupportTests.test_smith_formula_every_residue_in_period) ... ok
+test_unscaled_collision_catalogue (__main__.SupportTests.test_unscaled_collision_catalogue) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.176s
+
+OK

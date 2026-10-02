@@ -1,0 +1,28 @@
+{
+  "n": 143,
+  "factors": [
+    [
+      11,
+      1
+    ],
+    [
+      13,
+      1
+    ]
+  ],
+  "counts": {
+    "collision": 1705,
+    "admissible": 18744
+  },
+  "fiber_histogram": {
+    "12": 1562
+  },
+  "all_parameter_locations_verified": true,
+  "all_direct_fibers_equal_root_permutation_orbits": true,
+  "arrangement_support_count": 18744,
+  "regular_theorem_applies": false,
+  "full_fiber_status": "COMPUTED; global full-domain theorem not assumed",
+  "direct_path": "results/2026-09-30-six-composite-global-controls/n143.json.gz",
+  "direct_sha256": "d52c52f9d10f910e4e894c1bade8d3e2fdd886da019cba857d01c7230574f6bc",
+  "seconds": 0.039739
+}

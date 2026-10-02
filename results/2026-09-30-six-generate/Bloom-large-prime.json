@@ -1,0 +1,77 @@
+{
+  "schema": "six-generation-v1",
+  "n": 1000000007,
+  "input_a": [
+    0,
+    1,
+    4,
+    10,
+    12,
+    17
+  ],
+  "input_b": [
+    0,
+    1,
+    8,
+    11,
+    13,
+    17
+  ],
+  "a": [
+    0,
+    1,
+    4,
+    10,
+    12,
+    17
+  ],
+  "b": [
+    0,
+    1,
+    8,
+    11,
+    13,
+    17
+  ],
+  "input_alignment_a": {
+    "sign": 1,
+    "shift": 0
+  },
+  "input_alignment_b": {
+    "sign": 1,
+    "shift": 0
+  },
+  "ordinary_support": {
+    "modulus": 1000000007,
+    "scale": 1
+  },
+  "validation": "exact-sparse-intervals-and-anchored-TI",
+  "route": "direct",
+  "certificate": {
+    "label": "Bloom",
+    "x_side": "a",
+    "p": 1,
+    "q": 6,
+    "x_shift": 0,
+    "y_sign": 1,
+    "y_shift": 0
+  },
+  "vertices": [
+    [
+      0,
+      1,
+      4,
+      10,
+      12,
+      17
+    ],
+    [
+      0,
+      1,
+      8,
+      11,
+      13,
+      17
+    ]
+  ]
+}

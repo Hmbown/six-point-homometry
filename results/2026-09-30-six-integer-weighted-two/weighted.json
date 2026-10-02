@@ -1,0 +1,25 @@
+{
+  "mode": "count",
+  "bloom_order_templates": 96,
+  "excluded_planes": 2,
+  "cuts": [
+    "-2",
+    "-1",
+    "-1/2",
+    "0",
+    "1/3",
+    "1/2",
+    "2/3",
+    "1",
+    "3/2",
+    "2",
+    "3"
+  ],
+  "status": "EXPLORATORY",
+  "seconds": 1.5858354999218136,
+  "stdout": "unsat",
+  "stderr": "",
+  "returncode": 0,
+  "input_sha256": "f3e837ef369ed1a9df3d37573a17b4dbaa9834f941216786b2a540c748ab19f6",
+  "proof_path": "results/2026-09-30-six-integer-weighted-two/weighted.proof.gz"
+}

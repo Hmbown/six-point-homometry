@@ -1,0 +1,59 @@
+{
+  "status": "PASS independent executable/certificate audit",
+  "portable_saved_paths": 73,
+  "large_saved_cases": 9,
+  "legacy_labels": [
+    "Bloom",
+    "R",
+    "dyad",
+    "halfcoset",
+    "halfturn",
+    "reflect",
+    "swap",
+    "translate",
+    "unit"
+  ],
+  "exhaustive_block_pair_controls": 40,
+  "halfcoset_regression_controls": 2,
+  "bloom_parameter_controls": 2583,
+  "projected_valid_pairs": 560,
+  "projected_nontrivial_pairs": 537,
+  "projected_support_above135": 537,
+  "projection_collisions_skipped": 694,
+  "generated_routes": [
+    {
+      "route": "direct",
+      "label": "D",
+      "count": 423
+    },
+    {
+      "route": "direct",
+      "label": "L7",
+      "count": 17
+    },
+    {
+      "route": "direct",
+      "label": "L5",
+      "count": 27
+    },
+    {
+      "route": "direct",
+      "label": "L4",
+      "count": 18
+    },
+    {
+      "route": "direct",
+      "label": "L3*",
+      "count": 37
+    },
+    {
+      "route": "direct",
+      "label": "Bloom",
+      "count": 15
+    }
+  ],
+  "malicious_rejections": 27,
+  "nonhomometric_input_rejections": 1,
+  "seconds": 0.787,
+  "source_sha256": "ef3c38eb59a3a2a18469cffdcdfe5e4559f246ebf0eb65ad719ba6d060ef6f30"
+}

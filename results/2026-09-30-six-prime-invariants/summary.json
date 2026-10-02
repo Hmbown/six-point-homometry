@@ -1,0 +1,1467 @@
+{
+  "status": "COMPUTED",
+  "symbolic": {
+    "integer_polynomial_identities": true,
+    "directed_difference_identity": true,
+    "collision_determinants": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8
+    ],
+    "single_endpoint_determinant": -263594736
+  },
+  "primes": [
+    {
+      "p": 13,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 169,
+      "admissible_parameters": 24,
+      "pairs": 2,
+      "fiber_histogram": {
+        "12": 2
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 4
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p13.json",
+      "direct_sha256": "39d6dbe44b48d343ff7dfe728614deb1a7f24acb3268d49e6266b5f61747a6ad",
+      "seconds": 0.000295
+    },
+    {
+      "p": 17,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 289,
+      "admissible_parameters": 96,
+      "pairs": 8,
+      "fiber_histogram": {
+        "12": 8
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 16
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p17.json",
+      "direct_sha256": "b6e882d06e12627dc3dd0332051f852c6ace0fc4bb7f95cdfe05872994a59f6f",
+      "seconds": 0.000415
+    },
+    {
+      "p": 19,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 361,
+      "admissible_parameters": 144,
+      "pairs": 12,
+      "fiber_histogram": {
+        "12": 12
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 24
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p19.json",
+      "direct_sha256": "35dc442b0f17c7b52ebe30d7620231e740f872ff4b4e12ee12f5ba7dfaf29bab",
+      "seconds": 0.000533
+    },
+    {
+      "p": 23,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 529,
+      "admissible_parameters": 264,
+      "pairs": 22,
+      "fiber_histogram": {
+        "12": 22
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 44
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p23.json",
+      "direct_sha256": "a545c1bfb7f4ac09e7a01488634be1ecc2b3379e7deadd691d70963cded0f894",
+      "seconds": 0.000891
+    },
+    {
+      "p": 29,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 841,
+      "admissible_parameters": 504,
+      "pairs": 42,
+      "fiber_histogram": {
+        "12": 42
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 84
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p29.json",
+      "direct_sha256": "cab6c8c194c42b4e3da70f69fb36dabd11fbce5113913dbd671e0f72fc2a3caa",
+      "seconds": 0.001576
+    },
+    {
+      "p": 31,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 961,
+      "admissible_parameters": 600,
+      "pairs": 50,
+      "fiber_histogram": {
+        "12": 50
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 90,
+        "2": 5
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p31.json",
+      "direct_sha256": "ee9c84fc287990a0c45ddc7d911ad749574424dd4365ae47d44c061384aec06c",
+      "seconds": 0.001735
+    },
+    {
+      "p": 37,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 1369,
+      "admissible_parameters": 936,
+      "pairs": 78,
+      "fiber_histogram": {
+        "12": 78
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 156
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p37.json",
+      "direct_sha256": "67cf9f2291df6c524fda931881f0c1069403e95b5d6ea5677be68b484a77e84f",
+      "seconds": 0.002714
+    },
+    {
+      "p": 41,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 1681,
+      "admissible_parameters": 1200,
+      "pairs": 100,
+      "fiber_histogram": {
+        "12": 100
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 200
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p41.json",
+      "direct_sha256": "829e40bf9d568e5bedf4c7907b41c51deb208263aeb1d4c440c5ad36d5ea83cd",
+      "seconds": 0.003173
+    },
+    {
+      "p": 43,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 1849,
+      "admissible_parameters": 1344,
+      "pairs": 112,
+      "fiber_histogram": {
+        "12": 112
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 224
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p43.json",
+      "direct_sha256": "2dd360aa79772cbcc0ff2311761e1f86ff4dd608f854fc12fb4b03563b99d37b",
+      "seconds": 0.003584
+    },
+    {
+      "p": 47,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 2209,
+      "admissible_parameters": 1656,
+      "pairs": 138,
+      "fiber_histogram": {
+        "12": 138
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 276
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p47.json",
+      "direct_sha256": "5a0c1c29cd386d3a90feb5095f0e25023fea78dbec65988611cef47696f83d7c",
+      "seconds": 0.004503
+    },
+    {
+      "p": 53,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 2809,
+      "admissible_parameters": 2184,
+      "pairs": 182,
+      "fiber_histogram": {
+        "12": 182
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 364
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p53.json",
+      "direct_sha256": "ca25e5f91439917470383540e00e9d786e5c4f7372e258b2088f6dd2b62e890c",
+      "seconds": 0.005429
+    },
+    {
+      "p": 59,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 3481,
+      "admissible_parameters": 2784,
+      "pairs": 232,
+      "fiber_histogram": {
+        "12": 232
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 464
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p59.json",
+      "direct_sha256": "556f79e4383496db994bcf7943b0302b533b6a178832d56723567308dbe5a7f6",
+      "seconds": 0.00736
+    },
+    {
+      "p": 61,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 3721,
+      "admissible_parameters": 3000,
+      "pairs": 250,
+      "fiber_histogram": {
+        "12": 250
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 500
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p61.json",
+      "direct_sha256": "0cd867386fb1fe83d911d156d91b747426341dd2854535afdd15acf3227b9269",
+      "seconds": 0.00789
+    },
+    {
+      "p": 67,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 4489,
+      "admissible_parameters": 3696,
+      "pairs": 308,
+      "fiber_histogram": {
+        "12": 308
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 616
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p67.json",
+      "direct_sha256": "425ac8368f99c7370ccd6b882ca97df28bac9bedfd07fa33df3e0f6ce9670e22",
+      "seconds": 0.008856
+    },
+    {
+      "p": 71,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 5041,
+      "admissible_parameters": 4200,
+      "pairs": 350,
+      "fiber_histogram": {
+        "12": 350
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 700
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p71.json",
+      "direct_sha256": "0fafc92c700920416a889ab7d613f4129eab2a010ebabca0dff0f0909ab6014d",
+      "seconds": 0.010601
+    },
+    {
+      "p": 73,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 5329,
+      "admissible_parameters": 4464,
+      "pairs": 372,
+      "fiber_histogram": {
+        "12": 372
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 744
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p73.json",
+      "direct_sha256": "a93b0fbedb6f653292d2508dc852975e29bc9ce2251a4128e5613f47d0605938",
+      "seconds": 0.011338
+    },
+    {
+      "p": 79,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 6241,
+      "admissible_parameters": 5304,
+      "pairs": 442,
+      "fiber_histogram": {
+        "12": 442
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 884
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p79.json",
+      "direct_sha256": "f1cb1a42b5281f9ccca1663b98697ef80425853245add9c138c9ea9fbe139395",
+      "seconds": 0.012851
+    },
+    {
+      "p": 83,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 6889,
+      "admissible_parameters": 5904,
+      "pairs": 492,
+      "fiber_histogram": {
+        "12": 492
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 984
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p83.json",
+      "direct_sha256": "819b11dd2cc4ec90e43bcfac3644d7a089611822196eb7d167c08ad407aa7820",
+      "seconds": 0.014001
+    },
+    {
+      "p": 89,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 7921,
+      "admissible_parameters": 6864,
+      "pairs": 572,
+      "fiber_histogram": {
+        "12": 572
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 1144
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p89.json",
+      "direct_sha256": "e80c051d38985c383d88bb75086ef5024ca784212f6436a3e6f93632cbeb27b1",
+      "seconds": 0.016366
+    },
+    {
+      "p": 97,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 9409,
+      "admissible_parameters": 8256,
+      "pairs": 688,
+      "fiber_histogram": {
+        "12": 688
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 1376
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p97.json",
+      "direct_sha256": "f8847256a9c647fabdeba855e458fc11cf1c8e391c33e76378681a5721accd98",
+      "seconds": 0.019274
+    },
+    {
+      "p": 101,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 10201,
+      "admissible_parameters": 9000,
+      "pairs": 750,
+      "fiber_histogram": {
+        "12": 750
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 1500
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p101.json",
+      "direct_sha256": "f36a9898c4172f933c302994f91d1dd034b2847eeeb0d3bd54c20f582cd4f127",
+      "seconds": 0.021635
+    },
+    {
+      "p": 103,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 10609,
+      "admissible_parameters": 9384,
+      "pairs": 782,
+      "fiber_histogram": {
+        "12": 782
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 1564
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p103.json",
+      "direct_sha256": "97eb4ceea526a39bc88c2d7eaa7fc23fb3219037d6ae0c116d10fc6dfa1084d9",
+      "seconds": 0.021925
+    },
+    {
+      "p": 107,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 11449,
+      "admissible_parameters": 10176,
+      "pairs": 848,
+      "fiber_histogram": {
+        "12": 848
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 1696
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p107.json",
+      "direct_sha256": "d67691c400df170672531c87aaee12b01c0295a287c7681f107ebba34febb7ba",
+      "seconds": 0.025346
+    },
+    {
+      "p": 109,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 11881,
+      "admissible_parameters": 10584,
+      "pairs": 882,
+      "fiber_histogram": {
+        "12": 882
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 1764
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p109.json",
+      "direct_sha256": "dc1e4d9f9291feadb8e922c078d662a9583c489d686e8c580fe575596f50cbb4",
+      "seconds": 0.024873
+    },
+    {
+      "p": 113,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 12769,
+      "admissible_parameters": 11424,
+      "pairs": 952,
+      "fiber_histogram": {
+        "12": 952
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 1904
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p113.json",
+      "direct_sha256": "7464aa42ca3ee575f2f44ca4684c37b018c80edaab09f241a1f3fe86423e889f",
+      "seconds": 0.026161
+    },
+    {
+      "p": 127,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 16129,
+      "admissible_parameters": 14616,
+      "pairs": 1218,
+      "fiber_histogram": {
+        "12": 1218
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 2436
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p127.json",
+      "direct_sha256": "c038927821b84f34c25e56c8366a38c187c324ecade95889eaabe3b05caa032a",
+      "seconds": 0.035346
+    },
+    {
+      "p": 131,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 17161,
+      "admissible_parameters": 15600,
+      "pairs": 1300,
+      "fiber_histogram": {
+        "12": 1300
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 2600
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p131.json",
+      "direct_sha256": "b8ab0fd3cd6d7470763af469c2cb5b75afc500da1ddf17f1578999088d72fb50",
+      "seconds": 0.037524
+    },
+    {
+      "p": 137,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 18769,
+      "admissible_parameters": 17136,
+      "pairs": 1428,
+      "fiber_histogram": {
+        "12": 1428
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 2856
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p137.json",
+      "direct_sha256": "29274ba3905e77d2b89b4622f285ff499466b802999be12d332a24dc1db8c9ff",
+      "seconds": 0.04032
+    },
+    {
+      "p": 139,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 19321,
+      "admissible_parameters": 17664,
+      "pairs": 1472,
+      "fiber_histogram": {
+        "12": 1472
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 2944
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p139.json",
+      "direct_sha256": "5d0977b090415d5f2542685fd0f82fb433fba0774b4a400dd09b1a1224de2ec8",
+      "seconds": 0.039826
+    },
+    {
+      "p": 149,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 22201,
+      "admissible_parameters": 20424,
+      "pairs": 1702,
+      "fiber_histogram": {
+        "12": 1702
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 3404
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p149.json",
+      "direct_sha256": "265004f469f94cc7024e6c85d20c0495c409df8f20be9dd1f5cdc48001b84a77",
+      "seconds": 0.046588
+    },
+    {
+      "p": 151,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 22801,
+      "admissible_parameters": 21000,
+      "pairs": 1750,
+      "fiber_histogram": {
+        "12": 1750
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 3500
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p151.json",
+      "direct_sha256": "8da80e5f48747cd1ccd3d0298869b69c976ba85f92141f9d7fb861ef36703e9b",
+      "seconds": 0.049293
+    },
+    {
+      "p": 157,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 24649,
+      "admissible_parameters": 22776,
+      "pairs": 1898,
+      "fiber_histogram": {
+        "12": 1898
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 3796
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p157.json",
+      "direct_sha256": "3c00d7efa013c3331edcba9b780a15660dbb5efbb34912173fd6825167ba9072",
+      "seconds": 0.053581
+    },
+    {
+      "p": 163,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 26569,
+      "admissible_parameters": 24624,
+      "pairs": 2052,
+      "fiber_histogram": {
+        "12": 2052
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 4104
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p163.json",
+      "direct_sha256": "7a191e20867efbfeb43178374a1663f072d7e4ec3d801a951ac5100a27705eb6",
+      "seconds": 0.058143
+    },
+    {
+      "p": 167,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 27889,
+      "admissible_parameters": 25896,
+      "pairs": 2158,
+      "fiber_histogram": {
+        "12": 2158
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 4316
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p167.json",
+      "direct_sha256": "853930cc911e212d43dff6717cbe1335035d910263006b09b413893f60459da2",
+      "seconds": 0.058923
+    },
+    {
+      "p": 173,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 29929,
+      "admissible_parameters": 27864,
+      "pairs": 2322,
+      "fiber_histogram": {
+        "12": 2322
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 4644
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p173.json",
+      "direct_sha256": "3414022a8b5b43daaa06b22ec67e907c1ff200641573c4aabaf2e6e2dd60d3a6",
+      "seconds": 0.066615
+    },
+    {
+      "p": 179,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 32041,
+      "admissible_parameters": 29904,
+      "pairs": 2492,
+      "fiber_histogram": {
+        "12": 2492
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 4984
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p179.json",
+      "direct_sha256": "d984ceb3ae09736f0a4ef08f6449a68508f3b0e84886e1c3e225bb5b303ad52a",
+      "seconds": 0.071716
+    },
+    {
+      "p": 181,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 32761,
+      "admissible_parameters": 30600,
+      "pairs": 2550,
+      "fiber_histogram": {
+        "12": 2550
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 5100
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p181.json",
+      "direct_sha256": "53ef75e5373a222d09e8a3b17cdc23d68286400d15ee63cc282286e120d9cd3e",
+      "seconds": 0.071888
+    },
+    {
+      "p": 191,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 36481,
+      "admissible_parameters": 34200,
+      "pairs": 2850,
+      "fiber_histogram": {
+        "12": 2850
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 5700
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p191.json",
+      "direct_sha256": "4de01df6fed93100d0c2a7a068e0de0fcd21430acb818eb29456ab28fd8f90b3",
+      "seconds": 0.083505
+    },
+    {
+      "p": 193,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 37249,
+      "admissible_parameters": 34944,
+      "pairs": 2912,
+      "fiber_histogram": {
+        "12": 2912
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 5824
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p193.json",
+      "direct_sha256": "0f1cb833968368e2b25d80978747a56f2af88d8c3366d4cb4ad0796b0ef4a569",
+      "seconds": 0.082006
+    },
+    {
+      "p": 197,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 38809,
+      "admissible_parameters": 36456,
+      "pairs": 3038,
+      "fiber_histogram": {
+        "12": 3038
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 6076
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p197.json",
+      "direct_sha256": "23a9601026129b0695e214cce9460d11ae286174b46c4300f6090618763a3f29",
+      "seconds": 0.085884
+    },
+    {
+      "p": 199,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 39601,
+      "admissible_parameters": 37224,
+      "pairs": 3102,
+      "fiber_histogram": {
+        "12": 3102
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 6204
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p199.json",
+      "direct_sha256": "6f521c2fedc3c99b676bcc9208ff1d1be5dd58dd2f1bea92bfa6b677eb807830",
+      "seconds": 0.088558
+    },
+    {
+      "p": 211,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 44521,
+      "admissible_parameters": 42000,
+      "pairs": 3500,
+      "fiber_histogram": {
+        "12": 3500
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 7000
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p211.json",
+      "direct_sha256": "905e646df23033d058cb70b9a478de9ff2466d83e3ac17e690e51c50822bc362",
+      "seconds": 0.100973
+    },
+    {
+      "p": 223,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 49729,
+      "admissible_parameters": 47064,
+      "pairs": 3922,
+      "fiber_histogram": {
+        "12": 3922
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 7844
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p223.json",
+      "direct_sha256": "9ef487f07b0c2e2b3f3971bd8a2ac52207281f32f944a391ce2f9e25107ee3c3",
+      "seconds": 0.111802
+    },
+    {
+      "p": 227,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 51529,
+      "admissible_parameters": 48816,
+      "pairs": 4068,
+      "fiber_histogram": {
+        "12": 4068
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 8136
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p227.json",
+      "direct_sha256": "4ef42471c4085847edfe0427c2b8a62bbd6c46575c7d0cf9d383fb1e694cca24",
+      "seconds": 0.115101
+    },
+    {
+      "p": 229,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 52441,
+      "admissible_parameters": 49704,
+      "pairs": 4142,
+      "fiber_histogram": {
+        "12": 4142
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 8284
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p229.json",
+      "direct_sha256": "13d4d5df53073a32fe1f3fe39e687a4c826c957d42318cb6ecf0a38d4ca709da",
+      "seconds": 0.115671
+    },
+    {
+      "p": 233,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 54289,
+      "admissible_parameters": 51504,
+      "pairs": 4292,
+      "fiber_histogram": {
+        "12": 4292
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 8584
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p233.json",
+      "direct_sha256": "01d19a81e0f077d50af42385ef7efd9f648f89f3b90b2e6430c308bd1ca47c15",
+      "seconds": 0.119806
+    },
+    {
+      "p": 239,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 57121,
+      "admissible_parameters": 54264,
+      "pairs": 4522,
+      "fiber_histogram": {
+        "12": 4522
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 9044
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p239.json",
+      "direct_sha256": "55c22318874af463fe6b2197d42e43ef589f833dc690b187dda27b8fa1bdabec",
+      "seconds": 0.126141
+    },
+    {
+      "p": 241,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 58081,
+      "admissible_parameters": 55200,
+      "pairs": 4600,
+      "fiber_histogram": {
+        "12": 4600
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 9200
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p241.json",
+      "direct_sha256": "06cd67ece781f2133c2ec2af1a17ccfacf71f65901591d88caabd2e087ac6248",
+      "seconds": 0.147487
+    },
+    {
+      "p": 251,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 63001,
+      "admissible_parameters": 60000,
+      "pairs": 5000,
+      "fiber_histogram": {
+        "12": 5000
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 10000
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p251.json",
+      "direct_sha256": "f19705fc4117ef76ccc4522409076c833db5367b83ba7b4d04f016445f8ae6dc",
+      "seconds": 0.147116
+    },
+    {
+      "p": 1009,
+      "method": "collision complement and (s,e_squared) fibers",
+      "parameters": 1018081,
+      "admissible_parameters": 1005984,
+      "pairs": 83832,
+      "fiber_histogram": {
+        "12": 83832
+      },
+      "all_direct_parameter_fibers_equal": true,
+      "all_saved_endpoint_moments_bound": true,
+      "vertex_degree_histogram": {
+        "1": 167664
+      },
+      "direct_file": "results/2026-09-30-six-prime-count/p1009.json",
+      "direct_sha256": "5948139cb9ccb105d85e26a41123bba4ad6e2ec2aec99cd89eb700aa07de6b2a",
+      "seconds": 3.153882
+    }
+  ],
+  "source_sha256": "7e60e878e8955846c4e601310e48c96bfa86817c69a84e2f7ad70b7452dde59d",
+  "quadratic_fields": [
+    {
+      "p": 5,
+      "q": 25,
+      "nonresidue": 2,
+      "group": "additive (Z/5Z)^2",
+      "equivalence": "independent translations/inversions, no scalar quotient",
+      "pairs": 40,
+      "all_pair_key_fibers_equal": true,
+      "fiber_histogram": {
+        "12": 40
+      },
+      "vertex_degree_histogram": {
+        "1": 80
+      },
+      "seconds": 0.021509
+    },
+    {
+      "p": 7,
+      "q": 49,
+      "nonresidue": 3,
+      "group": "additive (Z/7Z)^2",
+      "equivalence": "independent translations/inversions, no scalar quotient",
+      "pairs": 168,
+      "all_pair_key_fibers_equal": true,
+      "fiber_histogram": {
+        "12": 168
+      },
+      "vertex_degree_histogram": {
+        "1": 336
+      },
+      "seconds": 0.090132
+    },
+    {
+      "p": 13,
+      "q": 169,
+      "nonresidue": 2,
+      "group": "additive (Z/13Z)^2",
+      "equivalence": "independent translations/inversions, no scalar quotient",
+      "pairs": 2212,
+      "all_pair_key_fibers_equal": true,
+      "fiber_histogram": {
+        "12": 2212
+      },
+      "vertex_degree_histogram": {
+        "1": 4424
+      },
+      "seconds": 1.146093
+    }
+  ],
+  "small_prime_census": {
+    "scope": "inherited complete two-method censuses, not a new enumeration",
+    "all_displayed_classes_icvs_and_counts_verified": true,
+    "records": [
+      {
+        "p": 7,
+        "pairs": 0,
+        "families": 0,
+        "family_size_histogram": {},
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-large-census/n7.json",
+        "sha256": "c0668b6577bfc5a669805c8721c8c8476bc609f81600cb2009179bc494adec7d",
+        "inherited_methods": [
+          "C-gap-pairs",
+          "C-point-correlations"
+        ],
+        "inherited_source_hashes": "7a227e2d6aabd0f4fa99fe370f962269a5cba936fcddfb55e6a2e7029e88ecf6"
+      },
+      {
+        "p": 11,
+        "pairs": 0,
+        "families": 0,
+        "family_size_histogram": {},
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-large-census/n11.json",
+        "sha256": "3b0bdb049648047fe6755f72efb184f3e88af142fa49f6855e330dd63703198e",
+        "inherited_methods": [
+          "C-gap-pairs",
+          "C-point-correlations"
+        ],
+        "inherited_source_hashes": "7a227e2d6aabd0f4fa99fe370f962269a5cba936fcddfb55e6a2e7029e88ecf6"
+      },
+      {
+        "p": 13,
+        "pairs": 2,
+        "families": 2,
+        "family_size_histogram": {
+          "2": 2
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-census/n13.json",
+        "sha256": "6a24dcfa0e0e852efad71782343966d8c1ab3a6e2e52835cdd7efcc0a78f7152",
+        "inherited_methods": [
+          "anchored-points-bitcorrelation",
+          "C-positive-gaps-pairdistances"
+        ],
+        "inherited_source_hashes": "747d87db53709d460d5266a0e6dcd002ca2a0594ed3f604e16cfc089f63d0097"
+      },
+      {
+        "p": 17,
+        "pairs": 16,
+        "families": 16,
+        "family_size_histogram": {
+          "2": 16
+        },
+        "pair_correction": 8,
+        "family_correction": 8,
+        "path": "results/2026-09-30-six-census/n17.json",
+        "sha256": "7dea6238f3225f0a9512063eaa27d05cec647b497ce741b0da45e4bd37bd2f7a",
+        "inherited_methods": [
+          "anchored-points-bitcorrelation",
+          "C-positive-gaps-pairdistances"
+        ],
+        "inherited_source_hashes": "747d87db53709d460d5266a0e6dcd002ca2a0594ed3f604e16cfc089f63d0097"
+      },
+      {
+        "p": 19,
+        "pairs": 21,
+        "families": 21,
+        "family_size_histogram": {
+          "2": 21
+        },
+        "pair_correction": 9,
+        "family_correction": 9,
+        "path": "results/2026-09-30-six-census/n19.json",
+        "sha256": "3d0e7e7264f37405ef2c7e0d5bbf05014906f17b943bad377e551020e02e947b",
+        "inherited_methods": [
+          "anchored-points-bitcorrelation",
+          "C-positive-gaps-pairdistances"
+        ],
+        "inherited_source_hashes": "747d87db53709d460d5266a0e6dcd002ca2a0594ed3f604e16cfc089f63d0097"
+      },
+      {
+        "p": 23,
+        "pairs": 33,
+        "families": 33,
+        "family_size_histogram": {
+          "2": 33
+        },
+        "pair_correction": 11,
+        "family_correction": 11,
+        "path": "results/2026-09-30-six-census/n23.json",
+        "sha256": "c96634a2074c3d72c12e16f1b2f10ae668269643b0afff6677da9d1090a43f50",
+        "inherited_methods": [
+          "anchored-points-bitcorrelation",
+          "C-positive-gaps-pairdistances"
+        ],
+        "inherited_source_hashes": "747d87db53709d460d5266a0e6dcd002ca2a0594ed3f604e16cfc089f63d0097"
+      },
+      {
+        "p": 29,
+        "pairs": 42,
+        "families": 42,
+        "family_size_histogram": {
+          "2": 42
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-census/n29.json",
+        "sha256": "8da1ca06f4f233c3065ca7b782b297313812b18f62f581a55326ed7dfb1d58c3",
+        "inherited_methods": [
+          "anchored-points-bitcorrelation",
+          "C-positive-gaps-pairdistances"
+        ],
+        "inherited_source_hashes": "747d87db53709d460d5266a0e6dcd002ca2a0594ed3f604e16cfc089f63d0097"
+      },
+      {
+        "p": 31,
+        "pairs": 70,
+        "families": 61,
+        "family_size_histogram": {
+          "2": 60,
+          "5": 1
+        },
+        "pair_correction": 20,
+        "family_correction": 11,
+        "path": "results/2026-09-30-six-census/n31.json",
+        "sha256": "a52768b6bc6234054a271dbaf2d71b74d262037b3a9b77684e88fa1bee90634d",
+        "inherited_methods": [
+          "anchored-points-bitcorrelation",
+          "C-positive-gaps-pairdistances"
+        ],
+        "inherited_source_hashes": "747d87db53709d460d5266a0e6dcd002ca2a0594ed3f604e16cfc089f63d0097"
+      },
+      {
+        "p": 37,
+        "pairs": 78,
+        "families": 78,
+        "family_size_histogram": {
+          "2": 78
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-census/n37.json",
+        "sha256": "c21ca9645d3544d7cf7446c4bea31a2fb952017b6d3dc7e706f236eae0a1c2fa",
+        "inherited_methods": [
+          "anchored-points-bitcorrelation",
+          "C-positive-gaps-pairdistances"
+        ],
+        "inherited_source_hashes": "747d87db53709d460d5266a0e6dcd002ca2a0594ed3f604e16cfc089f63d0097"
+      },
+      {
+        "p": 41,
+        "pairs": 100,
+        "families": 100,
+        "family_size_histogram": {
+          "2": 100
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-census/n41.json",
+        "sha256": "dd3424503da34f7822199eec4286f0a8687869c950205882174cc89111bc903c",
+        "inherited_methods": [
+          "anchored-points-bitcorrelation",
+          "C-positive-gaps-pairdistances"
+        ],
+        "inherited_source_hashes": "747d87db53709d460d5266a0e6dcd002ca2a0594ed3f604e16cfc089f63d0097"
+      },
+      {
+        "p": 43,
+        "pairs": 112,
+        "families": 112,
+        "family_size_histogram": {
+          "2": 112
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-census/n43.json",
+        "sha256": "39b04e0035ed33c788b2cdee61dac0d5a6044f7dd8dd6bf584d10ad0cdea5089",
+        "inherited_methods": [
+          "anchored-points-bitcorrelation",
+          "C-positive-gaps-pairdistances"
+        ],
+        "inherited_source_hashes": "747d87db53709d460d5266a0e6dcd002ca2a0594ed3f604e16cfc089f63d0097"
+      },
+      {
+        "p": 47,
+        "pairs": 138,
+        "families": 138,
+        "family_size_histogram": {
+          "2": 138
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-census/n47.json",
+        "sha256": "65976ff11c9c5aa1566e753ff8fa488240d2b34ef4904b35fe0d932c354ee585",
+        "inherited_methods": [
+          "anchored-points-bitcorrelation",
+          "C-positive-gaps-pairdistances"
+        ],
+        "inherited_source_hashes": "747d87db53709d460d5266a0e6dcd002ca2a0594ed3f604e16cfc089f63d0097"
+      },
+      {
+        "p": 53,
+        "pairs": 182,
+        "families": 182,
+        "family_size_histogram": {
+          "2": 182
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-census/n53.json",
+        "sha256": "4a4314c4b56d6b3e68c05d7e09b979d72922e900a73bf846f65c201dbcb913ce",
+        "inherited_methods": [
+          "anchored-points-bitcorrelation",
+          "C-positive-gaps-pairdistances"
+        ],
+        "inherited_source_hashes": "747d87db53709d460d5266a0e6dcd002ca2a0594ed3f604e16cfc089f63d0097"
+      },
+      {
+        "p": 59,
+        "pairs": 232,
+        "families": 232,
+        "family_size_histogram": {
+          "2": 232
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-census/n59.json",
+        "sha256": "46ed8867167b7866ac8e15fc612f5f4a8a5767733c4261bc88f8407f1fc0deb6",
+        "inherited_methods": [
+          "anchored-points-bitcorrelation",
+          "C-positive-gaps-pairdistances"
+        ],
+        "inherited_source_hashes": "747d87db53709d460d5266a0e6dcd002ca2a0594ed3f604e16cfc089f63d0097"
+      },
+      {
+        "p": 61,
+        "pairs": 250,
+        "families": 250,
+        "family_size_histogram": {
+          "2": 250
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-large-census/n61.json",
+        "sha256": "f9fbc9946738482ce791be30331bd0bf7d5d296cd7ae8500fb4128912a66a81c",
+        "inherited_methods": [
+          "C-gap-pairs",
+          "C-point-correlations"
+        ],
+        "inherited_source_hashes": "7a227e2d6aabd0f4fa99fe370f962269a5cba936fcddfb55e6a2e7029e88ecf6"
+      },
+      {
+        "p": 67,
+        "pairs": 308,
+        "families": 308,
+        "family_size_histogram": {
+          "2": 308
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-large-census/n67.json",
+        "sha256": "e6e4d617c2c755fd93f393333791660a7f3320e06e7276143dac69c424f1aba9",
+        "inherited_methods": [
+          "C-gap-pairs",
+          "C-point-correlations"
+        ],
+        "inherited_source_hashes": "7a227e2d6aabd0f4fa99fe370f962269a5cba936fcddfb55e6a2e7029e88ecf6"
+      },
+      {
+        "p": 71,
+        "pairs": 350,
+        "families": 350,
+        "family_size_histogram": {
+          "2": 350
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-large-census/n71.json",
+        "sha256": "4b006bfca4c5b7037659083bfb827e564a5ce3e3d1a5f847b80098b1ae3f67f0",
+        "inherited_methods": [
+          "C-gap-pairs",
+          "C-point-correlations"
+        ],
+        "inherited_source_hashes": "7a227e2d6aabd0f4fa99fe370f962269a5cba936fcddfb55e6a2e7029e88ecf6"
+      },
+      {
+        "p": 73,
+        "pairs": 372,
+        "families": 372,
+        "family_size_histogram": {
+          "2": 372
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-large-census/n73.json",
+        "sha256": "b976287444eefb389d0eb2b9696d0d5147c6a5b92250728f984c366a1533bd39",
+        "inherited_methods": [
+          "C-gap-pairs",
+          "C-point-correlations"
+        ],
+        "inherited_source_hashes": "7a227e2d6aabd0f4fa99fe370f962269a5cba936fcddfb55e6a2e7029e88ecf6"
+      },
+      {
+        "p": 79,
+        "pairs": 442,
+        "families": 442,
+        "family_size_histogram": {
+          "2": 442
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-large-census/n79.json",
+        "sha256": "5c4f61ef5244720b80644214476d1deca688009a00baa7b9ce3f6e59097c1e14",
+        "inherited_methods": [
+          "C-gap-pairs",
+          "C-point-correlations"
+        ],
+        "inherited_source_hashes": "7a227e2d6aabd0f4fa99fe370f962269a5cba936fcddfb55e6a2e7029e88ecf6"
+      },
+      {
+        "p": 83,
+        "pairs": 492,
+        "families": 492,
+        "family_size_histogram": {
+          "2": 492
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-large-census/n83.json",
+        "sha256": "f565a8ac18bb020703c6b67da2b967c71fc920e84c4ab221ade6c3d62ddb994a",
+        "inherited_methods": [
+          "C-gap-pairs",
+          "C-point-correlations"
+        ],
+        "inherited_source_hashes": "7a227e2d6aabd0f4fa99fe370f962269a5cba936fcddfb55e6a2e7029e88ecf6"
+      },
+      {
+        "p": 89,
+        "pairs": 572,
+        "families": 572,
+        "family_size_histogram": {
+          "2": 572
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-large-census/n89.json",
+        "sha256": "41143f8ab76fb3a4a9875fc2aa2d04da4a949206898a386e209db9c7a9c3ae90",
+        "inherited_methods": [
+          "C-gap-pairs",
+          "C-point-correlations"
+        ],
+        "inherited_source_hashes": "7a227e2d6aabd0f4fa99fe370f962269a5cba936fcddfb55e6a2e7029e88ecf6"
+      },
+      {
+        "p": 97,
+        "pairs": 688,
+        "families": 688,
+        "family_size_histogram": {
+          "2": 688
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-large-census/n97.json",
+        "sha256": "23961193515027a7d6cd5bebaa7b754ef29cd3b3c3e5f69323564f169b746c1c",
+        "inherited_methods": [
+          "C-gap-pairs",
+          "C-point-correlations"
+        ],
+        "inherited_source_hashes": "7a227e2d6aabd0f4fa99fe370f962269a5cba936fcddfb55e6a2e7029e88ecf6"
+      },
+      {
+        "p": 101,
+        "pairs": 750,
+        "families": 750,
+        "family_size_histogram": {
+          "2": 750
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-large-census/n101.json",
+        "sha256": "d16350883461cfa668ac90af615258ac6f1f153e7d43889113c982a6ded81bab",
+        "inherited_methods": [
+          "C-gap-pairs",
+          "C-point-correlations"
+        ],
+        "inherited_source_hashes": "7a227e2d6aabd0f4fa99fe370f962269a5cba936fcddfb55e6a2e7029e88ecf6"
+      },
+      {
+        "p": 103,
+        "pairs": 782,
+        "families": 782,
+        "family_size_histogram": {
+          "2": 782
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-large-census/n103.json",
+        "sha256": "75eed88ecf0a0e90bff3de8c4400d7c29b8e425a95112e8809aec8df58501a50",
+        "inherited_methods": [
+          "C-gap-pairs",
+          "C-point-correlations"
+        ],
+        "inherited_source_hashes": "7a227e2d6aabd0f4fa99fe370f962269a5cba936fcddfb55e6a2e7029e88ecf6"
+      },
+      {
+        "p": 107,
+        "pairs": 848,
+        "families": 848,
+        "family_size_histogram": {
+          "2": 848
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-large-census/n107.json",
+        "sha256": "fa2c35953d0ee784570ad64e6e3f5d110c0b462e04541a8b7bec40dbb48ddec9",
+        "inherited_methods": [
+          "C-gap-pairs",
+          "C-point-correlations"
+        ],
+        "inherited_source_hashes": "7a227e2d6aabd0f4fa99fe370f962269a5cba936fcddfb55e6a2e7029e88ecf6"
+      },
+      {
+        "p": 109,
+        "pairs": 882,
+        "families": 882,
+        "family_size_histogram": {
+          "2": 882
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-large-census/n109.json",
+        "sha256": "b16d82f4348aaa2318a0be22641188e7e491036e5603803139d10546b6f50a42",
+        "inherited_methods": [
+          "C-gap-pairs",
+          "C-point-correlations"
+        ],
+        "inherited_source_hashes": "7a227e2d6aabd0f4fa99fe370f962269a5cba936fcddfb55e6a2e7029e88ecf6"
+      },
+      {
+        "p": 113,
+        "pairs": 952,
+        "families": 952,
+        "family_size_histogram": {
+          "2": 952
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-large-census/n113.json",
+        "sha256": "14156333588889954ab3ea6d25dd0c9a3a40edf7f0e528ba6cf1c1f80e8eaabc",
+        "inherited_methods": [
+          "C-gap-pairs",
+          "C-point-correlations"
+        ],
+        "inherited_source_hashes": "7a227e2d6aabd0f4fa99fe370f962269a5cba936fcddfb55e6a2e7029e88ecf6"
+      },
+      {
+        "p": 127,
+        "pairs": 1218,
+        "families": 1218,
+        "family_size_histogram": {
+          "2": 1218
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-large-census/n127.json",
+        "sha256": "db8eb80ecc294ff9ab6ac327451f061e6655f8d09dd1fcec5ca742952f955f56",
+        "inherited_methods": [
+          "C-gap-pairs",
+          "C-point-correlations"
+        ],
+        "inherited_source_hashes": "7a227e2d6aabd0f4fa99fe370f962269a5cba936fcddfb55e6a2e7029e88ecf6"
+      },
+      {
+        "p": 131,
+        "pairs": 1300,
+        "families": 1300,
+        "family_size_histogram": {
+          "2": 1300
+        },
+        "pair_correction": 0,
+        "family_correction": 0,
+        "path": "results/2026-09-30-six-large-census/n131.json",
+        "sha256": "ebc01205598d3307c11d6ba1b63865a3d3db6966d67dd854fec128f267b832fc",
+        "inherited_methods": [
+          "C-gap-pairs",
+          "C-point-correlations"
+        ],
+        "inherited_source_hashes": "7a227e2d6aabd0f4fa99fe370f962269a5cba936fcddfb55e6a2e7029e88ecf6"
+      }
+    ]
+  }
+}

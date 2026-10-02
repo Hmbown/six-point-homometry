@@ -1,0 +1,8 @@
+kind 1 slope None matchings 1 seconds 0.00398845796007663 histogram [([2, (), True], 1)]
+kind 1 slope 3 matchings 128 seconds 0.4378953749546781 histogram [([2, (), True], 4), ([1, (), False], 1), ([1, (2,), True], 4)]
+kind 1 slope 4 matchings 16 seconds 0.053967541083693504 histogram [([2, (), True], 1), ([1, (), True], 1)]
+kind 1 slope 5 matchings 4 seconds 0.013648957945406437 histogram [([2, (), True], 1), ([1, (), True], 1)]
+kind 2 slope None matchings 1 seconds 0.0036011249758303165 histogram [([2, (), True], 1)]
+kind 2 slope 3/2 matchings 128 seconds 0.4386026250431314 histogram [([2, (), True], 4), ([1, (), False], 1), ([1, (2,), True], 4)]
+kind 2 slope 5/3 matchings 4 seconds 0.013900000019930303 histogram [([2, (), True], 1), ([1, (), True], 1)]
+total 282 unique 21 seconds 0.9659369579749182

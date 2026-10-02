@@ -1,0 +1,22 @@
+{
+  "notes/2026-10-01-six-bloom-support.md": "b9c173920d4aad0c7d0599a464feeac0d2eab7666dc3676059a3c2a0534f2da0",
+  "notes/2026-10-01-six-bloom-primary.md": "5b1756eebfda020fe7952dabf0380b29e2b485c29c7746675df1cfb06f8cd7ba",
+  "src/six_bloom_support.py": "adb6cdb620592ec0d6c727da56ddc72b18bcff85a9e7c8570ec2bad177f86057",
+  "tests/test_six_bloom_support.py": "2b7668e41980f3363edd6129bb2d8858a357383b7b15c6e2ee9f2097add820a0",
+  "src/six_bloom_primary.py": "d4ccda03538b3bb2d39282db7434184a8a275c21d099d4fd21cff3544f3fb58e",
+  "tests/test_six_bloom_primary.py": "1c62ab4248f489e6a6c4a15aea1c770dfe085d58fd54a706aafafcb25a62ea37",
+  "results/2026-10-01-six-bloom-support/certificate.json": "18e7bf02f5a4b91f96d37d204ffd5913d1d1e2b735f67ccb9ede20cfc0fb3cb5",
+  "results/2026-10-01-six-bloom-primary/pair-certificate.json": "87de1084caf12a0383f68d77aa4879fc75b21b90a8e816eb7b9545485b424663",
+  "results/2026-10-01-six-bloom-primary/endpoint-certificate.json": "47241e90789522e970227416aacdbb8301da5dcf7f4ab7cd5c64f8103ffa193f",
+  "results/2026-10-01-six-bloom-primary/small-gap-images.json": "015676881903a23c9397650919783b0d2d9c764f11e6c34c32bef1d973057614",
+  "results/2026-10-01-six-bloom-primary/small-reference-images.json": "c2f99ebc236af55c4372eea43c60330dbc51c1a40209629acc84b4ddbc594385",
+  "results/2026-10-01-six-primary-review/independent-audit.json": "bc2047a6293cbb2a56c34b2e0b1c40941d92498cfee5ed790f0d121f0f861c47",
+  "src/homometry.py": "520a929aff08f5d9eb7d59977e495ac9fdcb80ff90045493cfb72abe85cff0d6",
+  "src/six_short_video.py": "32edaa7c11207e2cfea9ec6234535bdb359012a0f6b231dde0f0513a2d69d6fa",
+  "src/six_bloom_primary_review.py": "b31e106fe3dd0a328ee8e6e3822c8fe834ea62182aabcd87f7350ead4dd8dfb1",
+  "results/2026-10-01-six-bloom-primary/even-endpoint-controls.json": "e9777dbd4929d4ff2c3831e86dede7f8988e97fb6412c2f5444e9c23340a612a",
+  "tests/test_six_bloom_primary_review.py": "05923bdcde2f36f1b806d2fc965e48b9e6de85c823fd36bd6e8ec8bdc9e019f1",
+  "results/2026-10-01-six-primary-review/regression-tests.log": "4f0ee8dd4f559f45663c090677a91389b6ee19e057fe5df5c15d3665aeff29d8",
+  "results/2026-10-01-six-primary-review/accepted-six-bloom-support-draft.md": "28d3f3a034a4ca09149c4a817a9eb0defa322e26894b4d9a271fb42da2aa55aa",
+  "results/2026-10-01-six-primary-review/accepted-six-bloom-primary-draft.md": "2f2f30c5f393d8f605061758b4a7e69a75159486c63322091c6eff67da9aa1a9"
+}

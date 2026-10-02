@@ -1,0 +1,42 @@
+n=12 start anchored candidates=462
+{"n": 12, "classes": 50, "families": 15, "pairs": 15, "largest": 2, "seconds_points": 0.086, "seconds_gaps": 0.01, "reference": true, "inherited": true}
+n=13 start anchored candidates=792
+{"n": 13, "classes": 76, "families": 2, "pairs": 2, "largest": 2, "seconds_points": 0.0, "seconds_gaps": 0.004, "reference": true, "inherited": true}
+n=14 start anchored candidates=1287
+{"n": 14, "classes": 126, "families": 6, "pairs": 6, "largest": 2, "seconds_points": 0.0, "seconds_gaps": 0.004, "reference": true, "inherited": true}
+n=15 start anchored candidates=2002
+{"n": 15, "classes": 185, "families": 25, "pairs": 25, "largest": 2, "seconds_points": 0.0, "seconds_gaps": 0.005, "reference": true, "inherited": true}
+n=16 start anchored candidates=3003
+{"n": 16, "classes": 280, "families": 31, "pairs": 37, "largest": 3, "seconds_points": 0.0, "seconds_gaps": 0.004, "reference": true, "inherited": true}
+n=17 start anchored candidates=4368
+{"n": 17, "classes": 392, "families": 16, "pairs": 16, "largest": 2, "seconds_points": 0.001, "seconds_gaps": 0.005, "reference": true, "inherited": true}
+n=18 start anchored candidates=6188
+{"n": 18, "classes": 561, "families": 62, "pairs": 74, "largest": 3, "seconds_points": 0.001, "seconds_gaps": 0.006, "reference": true, "inherited": true}
+n=19 start anchored candidates=8568
+{"n": 19, "classes": 756, "families": 21, "pairs": 21, "largest": 2, "seconds_points": 0.001, "seconds_gaps": 0.005, "reference": true, "inherited": true}
+n=20 start anchored candidates=11628
+{"n": 20, "classes": 1032, "families": 98, "pairs": 102, "largest": 3, "seconds_points": 0.001, "seconds_gaps": 0.007, "reference": true, "inherited": true}
+n=21 start anchored candidates=15504
+{"n": 21, "classes": 1353, "families": 96, "pairs": 96, "largest": 2, "seconds_points": 0.002, "seconds_gaps": 0.007, "reference": true, "inherited": true}
+n=22 start anchored candidates=20349
+{"n": 22, "classes": 1782, "families": 60, "pairs": 70, "largest": 3, "seconds_points": 0.005, "seconds_gaps": 0.007, "reference": true, "inherited": true}
+n=23 start anchored candidates=26334
+{"n": 23, "classes": 2277, "families": 33, "pairs": 33, "largest": 2, "seconds_points": 0.005, "seconds_gaps": 0.01, "reference": true, "inherited": true}
+n=24 start anchored candidates=33649
+{"n": 24, "classes": 2920, "families": 275, "pairs": 300, "largest": 4, "seconds_points": 0.004, "seconds_gaps": 0.01, "reference": true, "inherited": true}
+n=25 start anchored candidates=42504
+{"n": 25, "classes": 3652, "families": 30, "pairs": 30, "largest": 2, "seconds_points": 0.007, "seconds_gaps": 0.01, "reference": false, "inherited": true}
+n=26 start anchored candidates=53130
+{"n": 26, "classes": 4576, "families": 128, "pairs": 140, "largest": 3, "seconds_points": 0.007, "seconds_gaps": 0.009, "reference": false, "inherited": true}
+n=27 start anchored candidates=65780
+{"n": 27, "classes": 5626, "families": 183, "pairs": 189, "largest": 3, "seconds_points": 0.012, "seconds_gaps": 0.01, "reference": false, "inherited": true}
+n=28 start anchored candidates=80730
+{"n": 28, "classes": 6916, "families": 327, "pairs": 333, "largest": 3, "seconds_points": 0.014, "seconds_gaps": 0.013, "reference": false, "inherited": true}
+n=29 start anchored candidates=98280
+{"n": 29, "classes": 8372, "families": 42, "pairs": 42, "largest": 2, "seconds_points": 0.021, "seconds_gaps": 0.008, "reference": false, "inherited": true}
+n=30 start anchored candidates=118755
+{"n": 30, "classes": 10133, "families": 428, "pairs": 436, "largest": 3, "seconds_points": 0.048, "seconds_gaps": 0.013, "reference": false, "inherited": true}
+n=31 start anchored candidates=142506
+{"n": 31, "classes": 12103, "families": 61, "pairs": 70, "largest": 5, "seconds_points": 0.018, "seconds_gaps": 0.015, "reference": false, "inherited": true}
+n=32 start anchored candidates=169911
+{"n": 32, "classes": 14448, "families": 452, "pairs": 493, "largest": 4, "seconds_points": 0.048, "seconds_gaps": 0.014, "reference": false, "inherited": true}

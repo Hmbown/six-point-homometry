@@ -1,0 +1,14 @@
+n=169 completed certificate reused
+n=221 completed certificate reused
+n=289 completed certificate reused
+n=247 completed certificate reused
+n=323 completed certificate reused
+n=361 completed certificate reused
+n=529 completed certificate reused
+n=637 completed certificate reused
+n=2197 completed certificate reused
+n=403 rows=403/403 pairs=13132 seconds=1.454
+n=403 complete pairs=13132 unit_pairs=1200 non12=0 nonG=0 shared_endpoints=5 certificate_bytes=730042
+n=961 rows=722/961 pairs=76000 seconds=5.000
+n=961 rows=961/961 pairs=76000 seconds=6.486
+n=961 complete pairs=76000 unit_pairs=48050 non12=0 nonG=0 shared_endpoints=5 certificate_bytes=4429902

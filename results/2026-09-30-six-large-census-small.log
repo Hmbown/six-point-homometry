@@ -1,0 +1,24 @@
+n=6 start
+{'n': 6, 'mode': 'gap', 'classes': 1, 'families': 0, 'pairs': 0, 'largest': 0, 'seconds': 0.0, 'wall_seconds': 0.005}
+{'n': 6, 'mode': 'point', 'classes': 1, 'families': 0, 'pairs': 0, 'largest': 0, 'seconds': 0.0, 'wall_seconds': 0.006}
+n=6 independently agreed
+n=7 start
+{'n': 7, 'mode': 'gap', 'classes': 1, 'families': 0, 'pairs': 0, 'largest': 0, 'seconds': 0.0, 'wall_seconds': 0.01}
+{'n': 7, 'mode': 'point', 'classes': 1, 'families': 0, 'pairs': 0, 'largest': 0, 'seconds': 0.0, 'wall_seconds': 0.005}
+n=7 independently agreed
+n=8 start
+{'n': 8, 'mode': 'gap', 'classes': 4, 'families': 0, 'pairs': 0, 'largest': 0, 'seconds': 0.0, 'wall_seconds': 0.007}
+{'n': 8, 'mode': 'point', 'classes': 4, 'families': 0, 'pairs': 0, 'largest': 0, 'seconds': 0.0, 'wall_seconds': 0.005}
+n=8 independently agreed
+n=9 start
+{'n': 9, 'mode': 'gap', 'classes': 7, 'families': 0, 'pairs': 0, 'largest': 0, 'seconds': 0.0, 'wall_seconds': 0.004}
+{'n': 9, 'mode': 'point', 'classes': 7, 'families': 0, 'pairs': 0, 'largest': 0, 'seconds': 0.0, 'wall_seconds': 0.005}
+n=9 independently agreed
+n=10 start
+{'n': 10, 'mode': 'gap', 'classes': 16, 'families': 0, 'pairs': 0, 'largest': 0, 'seconds': 0.0, 'wall_seconds': 0.005}
+{'n': 10, 'mode': 'point', 'classes': 16, 'families': 0, 'pairs': 0, 'largest': 0, 'seconds': 0.0, 'wall_seconds': 0.004}
+n=10 independently agreed
+n=11 start
+{'n': 11, 'mode': 'gap', 'classes': 26, 'families': 0, 'pairs': 0, 'largest': 0, 'seconds': 0.0, 'wall_seconds': 0.003}
+{'n': 11, 'mode': 'point', 'classes': 26, 'families': 0, 'pairs': 0, 'largest': 0, 'seconds': 0.0, 'wall_seconds': 0.01}
+n=11 independently agreed

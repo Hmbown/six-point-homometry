@@ -1,0 +1,214 @@
+{
+  "status": "COMPUTED independent checker; proof attack still required",
+  "orbits": 1495,
+  "matchings": 663552,
+  "full_symmetry_group": 768,
+  "counts": {
+    "TI": 97,
+    "collision": 1378,
+    "L4": 15,
+    "L2": 3,
+    "cyclic_collision": 2
+  },
+  "matching_counts": {
+    "TI": 12288,
+    "collision": 649504,
+    "L4": 1344,
+    "L2": 160,
+    "cyclic_collision": 256
+  },
+  "survivors": [
+    {
+      "orbit": 630,
+      "orders": [
+        4,
+        0,
+        0
+      ],
+      "mechanism": "L4",
+      "moved": 1
+    },
+    {
+      "orbit": 631,
+      "orders": [
+        4,
+        0,
+        0
+      ],
+      "mechanism": "L4",
+      "moved": 1
+    },
+    {
+      "orbit": 632,
+      "orders": [
+        4,
+        0,
+        0
+      ],
+      "mechanism": "L4",
+      "moved": 1
+    },
+    {
+      "orbit": 639,
+      "orders": [
+        4,
+        0,
+        0
+      ],
+      "mechanism": "L4",
+      "moved": 1
+    },
+    {
+      "orbit": 640,
+      "orders": [
+        4,
+        0,
+        0
+      ],
+      "mechanism": "L4",
+      "moved": 1
+    },
+    {
+      "orbit": 719,
+      "orders": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "mechanism": "L2",
+      "moved": 2
+    },
+    {
+      "orbit": 720,
+      "orders": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "mechanism": "L2",
+      "moved": 2
+    },
+    {
+      "orbit": 724,
+      "orders": [
+        4,
+        0,
+        0
+      ],
+      "mechanism": "L4",
+      "moved": 2
+    },
+    {
+      "orbit": 729,
+      "orders": [
+        4,
+        0,
+        0
+      ],
+      "mechanism": "L2",
+      "moved": 2
+    },
+    {
+      "orbit": 761,
+      "orders": [
+        4,
+        0,
+        0
+      ],
+      "mechanism": "L4",
+      "moved": 1
+    },
+    {
+      "orbit": 763,
+      "orders": [
+        4,
+        0,
+        0
+      ],
+      "mechanism": "L4",
+      "moved": 1
+    },
+    {
+      "orbit": 765,
+      "orders": [
+        4,
+        0,
+        0
+      ],
+      "mechanism": "L4",
+      "moved": 1
+    },
+    {
+      "orbit": 767,
+      "orders": [
+        4,
+        0,
+        0
+      ],
+      "mechanism": "L4",
+      "moved": 1
+    },
+    {
+      "orbit": 769,
+      "orders": [
+        4,
+        0,
+        0
+      ],
+      "mechanism": "L4",
+      "moved": 1
+    },
+    {
+      "orbit": 912,
+      "orders": [
+        4,
+        0,
+        0
+      ],
+      "mechanism": "L4",
+      "moved": 2
+    },
+    {
+      "orbit": 917,
+      "orders": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "mechanism": "L4",
+      "moved": 2
+    },
+    {
+      "orbit": 918,
+      "orders": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "mechanism": "L4",
+      "moved": 2
+    },
+    {
+      "orbit": 919,
+      "orders": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "mechanism": "L4",
+      "moved": 2
+    }
+  ],
+  "seconds": 5.381471290951595,
+  "sha256": {
+    "results/2026-09-30-six-three-dyads/orbits.json.gz": "86b3048cc62bd0ddf7a5861922d71040cb49657f71096d1d6d3e5c5df277904b",
+    "results/2026-09-30-six-three-dyads/cyclic-presentations.json.gz": "6f36d48243db01c19be7b2014344e4c281f1806fc790fb68084b07d79b4bf3b9",
+    "src/six_three_dyads.py": "ce8da53d3c93d3a19a16a8a3d43fb76fddfe313f0cf9fe8ebdbcf4ed513e5cee",
+    "tests/test_six_three_dyads.py": "86434531c1e5bcd8c43b713d65030f0f55c64913510a2d27d82d127ba0c9c12b"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "ACCEPTED and frozen",
+  "scope": "U,F,C,H,S as written; local punctured fibre only; unknown supports and priority excluded",
+  "sha256": {
+    "notes/2026-10-01-weighted-subgroup.md": "ff3c7e94791cb3541afaf0fde54031d73d77054b312b306d645db1b75dd3c924",
+    "src/weighted_subgroup.py": "1532556ee73d437aae558f25fdb80ffc1dca90a93e5b2bba5c84bd290f5c0f00",
+    "tests/test_weighted_subgroup.py": "797e4bd70a975f136066c4ae392468caaf849ff895b695ba1cbde9c1f44e3692",
+    "results/2026-10-01-weighted-subgroup/certificate.json": "9b63cb0be28fa9b62b0955cca017de7cd2609cfe2694f9951040904ac046c115",
+    "src/weighted_subgroup_review.py": "973f656d281f5142c10578fdd045ee14776bf3261f05c4a5f0d80e60087bd5a0",
+    "tests/test_weighted_subgroup_review.py": "524502429409a1b0ee2290305a1d0471651f6572cb515e0c14a62e630a64cd20",
+    "notes/2026-10-01-weighted-subgroup-review.md": "6d62f6809ddfb9cd109b7fc8bbfc80865ee83362c08c4891c836bd58d3cf7e1b",
+    "results/2026-10-01-weighted-subgroup-review/independent-audit.json": "e3e9f2d84fa0c85b4f82887c33d7a1f12e786efdf59718cd5929d58da14eee2f",
+    "results/2026-10-01-weighted-subgroup-review/accepted-root-draft.md": "79283b0144622bf1f73f681252d14b7c62e12c03f8a64267ea7677ece4b9c507",
+    "results/2026-10-01-weighted-subgroup-review/promotion-only.diff": "3f780b08ec67131a8f8323e281afb974642dc6a24ca8c32d1d63283ed843f0a7"
+  }
+}

@@ -1,0 +1,18 @@
+orbits 1 covered 36 seconds 0.0009579169563949108
+orbits 21 covered 19692 seconds 0.07739795895759016
+orbits 41 covered 38232 seconds 0.1421915419632569
+orbits 61 covered 64152 seconds 0.22686512500513345
+orbits 81 covered 88776 seconds 0.3080995000200346
+orbits 101 covered 114696 seconds 0.39426341699436307
+orbits 121 covered 140616 seconds 0.4800967499613762
+orbits 141 covered 164376 seconds 0.5621349170105532
+orbits 161 covered 188784 seconds 0.6452507500071079
+orbits 181 covered 214056 seconds 0.729464208940044
+orbits 201 covered 239328 seconds 0.8132419999456033
+orbits 221 covered 262440 seconds 0.892918917001225
+orbits 241 covered 287064 seconds 0.9916065420256928
+orbits 261 covered 310824 seconds 1.0736796669661999
+orbits 281 covered 326196 seconds 1.1388707919977605
+orbits 301 covered 345600 seconds 1.209191625006497
+orbits 321 covered 362808 seconds 1.2716839589411393
+{'status': 'COMPUTED-UNVALIDATED', 'profile': [3, 3], 'raw_cross_permutations': 362880, 'orbit_count': 322, 'covered_permutations': 362880, 'histogram': [([5, (), False, True, True], 2), ([4, (), True, True, True], 4), ([3, (3,), False, False, False], 8), ([4, (), False, True, True], 2), ([3, (), True, True, True], 26), ([2, (3,), True, False, False], 16), ([2, (3,), False, False, False], 12), ([2, (), True, True, True], 96), ([3, (), False, True, True], 8), ([2, (2,), True, True, True], 12), ([3, (2,), False, True, True], 2), ([2, (6,), False, False, False], 4), ([1, (3,), True, False, False], 28), ([1, (3,), True, True, True], 24), ([1, (3,), True, False, True], 13), ([2, (3,), False, False, True], 8), ([2, (), False, True, True], 4), ([1, (6,), True, False, False], 16), ([2, (2,), False, True, True], 2), ([1, (3, 3), False, False, False], 4), ([1, (3, 3), True, False, False], 4), ([1, (6,), False, False, True], 16), ([1, (9,), False, False, False], 8), ([1, (15,), False, False, True], 2), ([1, (3, 3, 3), False, False, False], 1)], 'seconds': 1.3650992090115324}

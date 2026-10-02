@@ -1,0 +1,18 @@
+{
+  "status": "COMPUTED-UNVALIDATED pending separate proof attack",
+  "orbits": 1495,
+  "counts": {
+    "TI": 97,
+    "collision": 1378,
+    "L4": 15,
+    "L2": 3,
+    "cyclic_collision": 2
+  },
+  "matching_counts": {
+    "TI": 12288,
+    "collision": 649504,
+    "L4": 1344,
+    "L2": 160,
+    "cyclic_collision": 256
+  }
+}

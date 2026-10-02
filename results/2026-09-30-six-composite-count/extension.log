@@ -1,0 +1,17 @@
+n=169 completed certificate reused
+n=221 completed certificate reused
+n=289 completed certificate reused
+n=247 completed certificate reused
+n=323 completed certificate reused
+n=361 completed certificate reused
+n=529 completed certificate reused
+n=637 completed certificate reused
+n=2197 rows=364/2197 pairs=298597 seconds=5.008
+n=2197 rows=724/2197 pairs=399986 seconds=10.018
+n=2197 rows=1051/2197 pairs=400038 seconds=15.018
+n=2197 checkpoint_row=1389 bytes=17428703
+n=2197 rows=1390/2197 pairs=400038 seconds=20.948
+n=2197 rows=1727/2197 pairs=400038 seconds=25.955
+n=2197 rows=2077/2197 pairs=400038 seconds=30.956
+n=2197 rows=2197/2197 pairs=400038 seconds=32.617
+n=2197 complete pairs=400038 unit_pairs=57122 non12=0 nonG=0 shared_endpoints=0 certificate_bytes=25448419

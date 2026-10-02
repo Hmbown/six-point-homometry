@@ -1,0 +1,13 @@
+test_exceptional_coefficients_and_isotropic_parameters (__main__.BloomInvariantTests.test_exceptional_coefficients_and_isotropic_parameters) ... ok
+test_genuine_characteristic31_shared_endpoint (__main__.BloomInvariantTests.test_genuine_characteristic31_shared_endpoint) ... ok
+test_input_scope (__main__.BloomInvariantTests.test_input_scope) ... ok
+test_integer_identities (__main__.BloomInvariantTests.test_integer_identities) ... ok
+test_parameter_partition_against_immutable_reference (__main__.BloomInvariantTests.test_parameter_partition_against_immutable_reference) ... ok
+test_quadratic_fields_and_additive_quotient (__main__.BloomInvariantTests.test_quadratic_fields_and_additive_quotient) ... ok
+test_saved_independent_replays (__main__.BloomInvariantTests.test_saved_independent_replays) ... ok
+test_small_prime_finite_dependencies (__main__.BloomInvariantTests.test_small_prime_finite_dependencies) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.712s
+
+OK

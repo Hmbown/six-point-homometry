@@ -1,0 +1,59 @@
+rank4-orbit153 {'nodes': 100, 'roots': 3456, 'branches': 0, 'lattice_inclusions': 6912, 'terminals': {'ti': 100}} elapsed 0.66
+rank4-orbit154 {'nodes': 20, 'roots': 48, 'branches': 0, 'lattice_inclusions': 96, 'terminals': {'ti': 20}} elapsed 0.67
+rank4-orbit155 {'nodes': 325, 'roots': 43264, 'branches': 14, 'lattice_inclusions': 86556, 'terminals': {'ti': 262, 'collision': 45, 'homometric': 11}} elapsed 7.75
+rank4-orbit156 {'nodes': 26, 'roots': 192, 'branches': 0, 'lattice_inclusions': 384, 'terminals': {'ti': 26}} elapsed 7.83
+rank4-orbit157 {'nodes': 34, 'roots': 288, 'branches': 0, 'lattice_inclusions': 576, 'terminals': {'ti': 34}} elapsed 7.89
+rank4-orbit158 {'nodes': 20, 'roots': 48, 'branches': 0, 'lattice_inclusions': 96, 'terminals': {'ti': 20}} elapsed 7.9
+rank4-orbit159 {'nodes': 16, 'roots': 32, 'branches': 0, 'lattice_inclusions': 64, 'terminals': {'ti': 16}} elapsed 7.91
+rank4-orbit160 {'nodes': 20, 'roots': 64, 'branches': 0, 'lattice_inclusions': 128, 'terminals': {'ti': 20}} elapsed 7.92
+rank4-orbit161 {'nodes': 16, 'roots': 32, 'branches': 0, 'lattice_inclusions': 64, 'terminals': {'ti': 16}} elapsed 7.93
+rank4-orbit162 {'nodes': 32, 'roots': 160, 'branches': 0, 'lattice_inclusions': 320, 'terminals': {'ti': 24, 'collision': 8}} elapsed 7.96
+rank4-orbit163 {'nodes': 134, 'roots': 1920, 'branches': 4, 'lattice_inclusions': 3848, 'terminals': {'ti': 98, 'collision': 28, 'homometric': 6}} elapsed 8.27
+rank4-orbit164 {'nodes': 18, 'roots': 80, 'branches': 0, 'lattice_inclusions': 160, 'terminals': {'ti': 10, 'collision': 8}} elapsed 8.29
+rank4-orbit165 {'nodes': 26, 'roots': 160, 'branches': 0, 'lattice_inclusions': 320, 'terminals': {'ti': 18, 'collision': 8}} elapsed 8.32
+rank4-orbit166 {'nodes': 24, 'roots': 128, 'branches': 0, 'lattice_inclusions': 256, 'terminals': {'ti': 16, 'collision': 8}} elapsed 8.34
+rank4-orbit167 {'nodes': 16, 'roots': 16, 'branches': 0, 'lattice_inclusions': 32, 'terminals': {'ti': 16}} elapsed 8.35
+rank4-orbit168 {'nodes': 16, 'roots': 16, 'branches': 0, 'lattice_inclusions': 32, 'terminals': {'ti': 16}} elapsed 8.35
+rank4-orbit169 {'nodes': 16, 'roots': 32, 'branches': 0, 'lattice_inclusions': 64, 'terminals': {'ti': 16}} elapsed 8.36
+rank4-orbit170 {'nodes': 16, 'roots': 32, 'branches': 0, 'lattice_inclusions': 64, 'terminals': {'ti': 16}} elapsed 8.37
+rank4-orbit171 {'nodes': 16, 'roots': 16, 'branches': 0, 'lattice_inclusions': 32, 'terminals': {'ti': 16}} elapsed 8.38
+rank4-orbit172 {'nodes': 23, 'roots': 328, 'branches': 0, 'lattice_inclusions': 656, 'terminals': {'ti': 15, 'collision': 8}} elapsed 8.43
+rank4-orbit173 {'nodes': 248, 'roots': 94, 'branches': 174, 'lattice_inclusions': 536, 'terminals': {'ti': 70, 'collision': 87, 'homometric': 31}} elapsed 8.54
+rank4-orbit174 {'nodes': 26, 'roots': 96, 'branches': 0, 'lattice_inclusions': 192, 'terminals': {'ti': 26}} elapsed 8.56
+rank4-orbit175 {'nodes': 20, 'roots': 96, 'branches': 0, 'lattice_inclusions': 192, 'terminals': {'ti': 20}} elapsed 8.58
+rank4-orbit176 {'nodes': 64, 'roots': 576, 'branches': 0, 'lattice_inclusions': 1152, 'terminals': {'ti': 64}} elapsed 8.68
+rank4-orbit177 {'nodes': 16, 'roots': 32, 'branches': 0, 'lattice_inclusions': 64, 'terminals': {'ti': 16}} elapsed 8.69
+rank4-orbit178 {'nodes': 36, 'roots': 448, 'branches': 0, 'lattice_inclusions': 896, 'terminals': {'ti': 28, 'collision': 8}} elapsed 8.76
+rank4-orbit179 {'nodes': 20, 'roots': 224, 'branches': 0, 'lattice_inclusions': 448, 'terminals': {'ti': 12, 'collision': 8}} elapsed 8.8
+rank4-orbit180 {'nodes': 20, 'roots': 96, 'branches': 0, 'lattice_inclusions': 192, 'terminals': {'ti': 20}} elapsed 8.82
+rank4-orbit181 {'nodes': 26, 'roots': 288, 'branches': 0, 'lattice_inclusions': 576, 'terminals': {'ti': 26}} elapsed 8.87
+rank4-orbit182 {'nodes': 20, 'roots': 48, 'branches': 0, 'lattice_inclusions': 96, 'terminals': {'ti': 20}} elapsed 8.88
+rank4-orbit183 {'nodes': 20, 'roots': 96, 'branches': 0, 'lattice_inclusions': 192, 'terminals': {'ti': 20}} elapsed 8.9
+rank4-orbit184 {'nodes': 26, 'roots': 192, 'branches': 0, 'lattice_inclusions': 384, 'terminals': {'ti': 26}} elapsed 8.94
+rank4-orbit185 {'nodes': 20, 'roots': 192, 'branches': 0, 'lattice_inclusions': 384, 'terminals': {'ti': 20}} elapsed 8.97
+rank4-orbit186 {'nodes': 16, 'roots': 64, 'branches': 0, 'lattice_inclusions': 128, 'terminals': {'ti': 16}} elapsed 8.98
+rank4-orbit187 {'nodes': 20, 'roots': 96, 'branches': 0, 'lattice_inclusions': 192, 'terminals': {'ti': 20}} elapsed 9.0
+rank4-orbit188 {'nodes': 16, 'roots': 16, 'branches': 0, 'lattice_inclusions': 32, 'terminals': {'ti': 16}} elapsed 9.01
+rank4-orbit189 {'nodes': 16, 'roots': 32, 'branches': 0, 'lattice_inclusions': 64, 'terminals': {'ti': 16}} elapsed 9.02
+rank4-orbit190 {'nodes': 16, 'roots': 32, 'branches': 0, 'lattice_inclusions': 64, 'terminals': {'ti': 16}} elapsed 9.03
+rank4-orbit191 {'nodes': 26, 'roots': 192, 'branches': 0, 'lattice_inclusions': 384, 'terminals': {'ti': 26}} elapsed 9.06
+rank4-orbit192 {'nodes': 16, 'roots': 32, 'branches': 0, 'lattice_inclusions': 64, 'terminals': {'ti': 16}} elapsed 9.07
+rank4-orbit193 {'nodes': 20, 'roots': 96, 'branches': 0, 'lattice_inclusions': 192, 'terminals': {'ti': 20}} elapsed 9.09
+rank4-orbit194 {'nodes': 16, 'roots': 32, 'branches': 0, 'lattice_inclusions': 64, 'terminals': {'ti': 16}} elapsed 9.1
+rank4-orbit195 {'nodes': 20, 'roots': 48, 'branches': 0, 'lattice_inclusions': 96, 'terminals': {'ti': 20}} elapsed 9.11
+rank4-orbit196 {'nodes': 16, 'roots': 16, 'branches': 0, 'lattice_inclusions': 32, 'terminals': {'ti': 16}} elapsed 9.12
+rank4-orbit197 {'nodes': 20, 'roots': 48, 'branches': 0, 'lattice_inclusions': 96, 'terminals': {'ti': 20}} elapsed 9.13
+rank4-orbit198 {'nodes': 20, 'roots': 48, 'branches': 0, 'lattice_inclusions': 96, 'terminals': {'ti': 20}} elapsed 9.14
+rank4-orbit199 {'nodes': 16, 'roots': 16, 'branches': 0, 'lattice_inclusions': 32, 'terminals': {'ti': 16}} elapsed 9.15
+rank4-orbit200 {'nodes': 16, 'roots': 32, 'branches': 0, 'lattice_inclusions': 64, 'terminals': {'ti': 16}} elapsed 9.16
+rank4-orbit201 {'nodes': 16, 'roots': 16, 'branches': 0, 'lattice_inclusions': 32, 'terminals': {'ti': 16}} elapsed 9.16
+rank4-orbit202 {'nodes': 16, 'roots': 32, 'branches': 0, 'lattice_inclusions': 64, 'terminals': {'ti': 16}} elapsed 9.17
+rank4-orbit203 {'nodes': 16, 'roots': 16, 'branches': 0, 'lattice_inclusions': 32, 'terminals': {'ti': 16}} elapsed 9.18
+rank4-orbit204 {'nodes': 16, 'roots': 16, 'branches': 0, 'lattice_inclusions': 32, 'terminals': {'ti': 16}} elapsed 9.18
+rank4-orbit205 {'nodes': 16, 'roots': 32, 'branches': 0, 'lattice_inclusions': 64, 'terminals': {'ti': 16}} elapsed 9.19
+rank4-orbit206 {'nodes': 16, 'roots': 16, 'branches': 0, 'lattice_inclusions': 32, 'terminals': {'ti': 16}} elapsed 9.2
+rank4-orbit207 {'nodes': 20, 'roots': 96, 'branches': 0, 'lattice_inclusions': 192, 'terminals': {'ti': 20}} elapsed 9.22
+rank4-orbit208 {'nodes': 16, 'roots': 32, 'branches': 0, 'lattice_inclusions': 64, 'terminals': {'ti': 16}} elapsed 9.23
+rank4-orbit209 {'nodes': 16, 'roots': 64, 'branches': 0, 'lattice_inclusions': 128, 'terminals': {'ti': 16}} elapsed 9.24
+rank4-orbit210 {'nodes': 16, 'roots': 32, 'branches': 0, 'lattice_inclusions': 64, 'terminals': {'ti': 16}} elapsed 9.25
+{'complete': True, 'strata': 315, 'expected_strata': 315, 'seconds': 9.249675167025998, 'totals': {'cross_bijections': 4822240, 'roots': 328473, 'nodes': 10602, 'branches': 974, 'lattice_inclusions': 658894}, 'status': 'Independent structural cover audit only; terminal mechanism proof audited separately'}

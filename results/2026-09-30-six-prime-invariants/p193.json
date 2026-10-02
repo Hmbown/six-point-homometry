@@ -1,0 +1,18 @@
+{
+  "p": 193,
+  "method": "collision complement and (s,e_squared) fibers",
+  "parameters": 37249,
+  "admissible_parameters": 34944,
+  "pairs": 2912,
+  "fiber_histogram": {
+    "12": 2912
+  },
+  "all_direct_parameter_fibers_equal": true,
+  "all_saved_endpoint_moments_bound": true,
+  "vertex_degree_histogram": {
+    "1": 5824
+  },
+  "direct_file": "results/2026-09-30-six-prime-count/p193.json",
+  "direct_sha256": "0f1cb833968368e2b25d80978747a56f2af88d8c3366d4cb4ad0796b0ef4a569",
+  "seconds": 0.082006
+}

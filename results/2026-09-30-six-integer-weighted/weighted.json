@@ -1,0 +1,23 @@
+{
+  "mode": "count",
+  "bloom_order_templates": 96,
+  "excluded_planes": 96,
+  "cuts": [
+    "-2",
+    "-1",
+    "-1/2",
+    "0",
+    "1/3",
+    "1/2",
+    "2/3",
+    "1",
+    "3/2",
+    "2",
+    "3"
+  ],
+  "status": "EXPLORATORY",
+  "seconds": 1.5677352499915287,
+  "stdout": "unsat\n(error \"line 166 column 10: model is not available\")\n(:added-eqs                   34295\n :arith-bound-propagations-lp 186423\n :arith-conflicts             1858\n :arith-fixed-eqs             18013\n :arith-lower                 301912\n :arith-make-feasible         16830\n :arith-max-columns           455\n :arith-max-rows              244\n :arith-offset-eqs            30806\n :arith-upper                 181830\n :binary-propagations         482361\n :conflicts                   2903\n :decisions                   7341\n :del-clause                  592\n :max-memory                  21.41\n :memory                      17.84\n :minimized-lits              17620\n :mk-bool-var                 1750\n :mk-clause                   3251\n :mk-clause-binary            2898\n :num-allocs                  252779613\n :num-checks                  1\n :propagations                526812\n :restarts                    14\n :rlimit-count                4409148\n :time                        1.56)\n",
+  "stderr": "",
+  "returncode": 1
+}

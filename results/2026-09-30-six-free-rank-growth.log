@@ -1,0 +1,33 @@
+rank 3 orbits 10 unclassified candidates 761 seconds 0.09
+rank 3 orbits 20 unclassified candidates 661 seconds 0.19
+rank 3 orbits 30 unclassified candidates 576 seconds 0.3
+rank 3 orbits 40 unclassified candidates 486 seconds 0.4
+rank 3 orbits 50 unclassified candidates 397 seconds 0.51
+rank 3 orbits 60 unclassified candidates 340 seconds 0.64
+rank 3 orbits 70 unclassified candidates 272 seconds 0.78
+rank 3 orbits 80 unclassified candidates 192 seconds 0.89
+rank 3 orbits 90 unclassified candidates 109 seconds 0.98
+rank 3 orbits 100 unclassified candidates 18 seconds 1.05
+{'rank': 3, 'extension_candidates': 842, 'spans': 43770, 'seconds': 1.0854685839731246} orbit_count 104
+rank 4 orbits 10 unclassified candidates 1647 seconds 0.14
+rank 4 orbits 20 unclassified candidates 1565 seconds 0.41
+rank 4 orbits 30 unclassified candidates 1464 seconds 0.62
+rank 4 orbits 40 unclassified candidates 1305 seconds 0.79
+rank 4 orbits 50 unclassified candidates 1204 seconds 1.0
+rank 4 orbits 60 unclassified candidates 1159 seconds 1.31
+rank 4 orbits 70 unclassified candidates 1106 seconds 1.6
+rank 4 orbits 80 unclassified candidates 1046 seconds 1.9
+rank 4 orbits 90 unclassified candidates 982 seconds 2.12
+rank 4 orbits 100 unclassified candidates 898 seconds 2.42
+rank 4 orbits 110 unclassified candidates 819 seconds 2.98
+rank 4 orbits 120 unclassified candidates 716 seconds 3.28
+rank 4 orbits 130 unclassified candidates 640 seconds 3.63
+rank 4 orbits 140 unclassified candidates 513 seconds 3.89
+rank 4 orbits 150 unclassified candidates 420 seconds 4.06
+rank 4 orbits 160 unclassified candidates 312 seconds 4.29
+rank 4 orbits 170 unclassified candidates 248 seconds 4.56
+rank 4 orbits 180 unclassified candidates 175 seconds 4.86
+rank 4 orbits 190 unclassified candidates 112 seconds 5.28
+rank 4 orbits 200 unclassified candidates 54 seconds 5.75
+rank 4 orbits 210 unclassified candidates 4 seconds 6.18
+{'rank': 4, 'extension_candidates': 1743, 'spans': 116401, 'seconds': 6.20820870809257} orbit_count 211

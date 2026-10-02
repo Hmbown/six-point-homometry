@@ -1,0 +1,4302 @@
+{
+  "status": "COMPUTED-UNVALIDATED pending exhaustive independent audit",
+  "strata": [
+    {
+      "rank": 3,
+      "orbit": 0,
+      "complete": true,
+      "cross_bijections": 576,
+      "cross_orbits": 5,
+      "nodes": 5,
+      "terminal_histogram": {
+        "ti": 1,
+        "collision": 4
+      },
+      "unrecognized": [],
+      "seconds": 0.003012959030456841
+    },
+    {
+      "rank": 3,
+      "orbit": 1,
+      "complete": true,
+      "cross_bijections": 864,
+      "cross_orbits": 31,
+      "nodes": 7,
+      "terminal_histogram": {
+        "ti": 2,
+        "collision": 5
+      },
+      "unrecognized": [],
+      "seconds": 0.00887566595338285
+    },
+    {
+      "rank": 3,
+      "orbit": 2,
+      "complete": true,
+      "cross_bijections": 8640,
+      "cross_orbits": 84,
+      "nodes": 17,
+      "terminal_histogram": {
+        "ti": 5,
+        "collision": 12
+      },
+      "unrecognized": [],
+      "seconds": 0.023742291028611362
+    },
+    {
+      "rank": 3,
+      "orbit": 3,
+      "complete": true,
+      "cross_bijections": 144,
+      "cross_orbits": 40,
+      "nodes": 9,
+      "terminal_histogram": {
+        "ti": 5,
+        "collision": 4
+      },
+      "unrecognized": [],
+      "seconds": 0.012864666990935802
+    },
+    {
+      "rank": 3,
+      "orbit": 4,
+      "complete": true,
+      "cross_bijections": 576,
+      "cross_orbits": 152,
+      "nodes": 12,
+      "terminal_histogram": {
+        "ti": 7,
+        "collision": 5
+      },
+      "unrecognized": [],
+      "seconds": 0.04464383306913078
+    },
+    {
+      "rank": 3,
+      "orbit": 5,
+      "complete": true,
+      "cross_bijections": 2304,
+      "cross_orbits": 176,
+      "nodes": 15,
+      "terminal_histogram": {
+        "ti": 9,
+        "collision": 6
+      },
+      "unrecognized": [],
+      "seconds": 0.05090475000906736
+    },
+    {
+      "rank": 3,
+      "orbit": 6,
+      "complete": true,
+      "cross_bijections": 5760,
+      "cross_orbits": 416,
+      "nodes": 27,
+      "terminal_histogram": {
+        "ti": 18,
+        "collision": 9
+      },
+      "unrecognized": [],
+      "seconds": 0.10866416594944894
+    },
+    {
+      "rank": 3,
+      "orbit": 7,
+      "complete": true,
+      "cross_bijections": 8,
+      "cross_orbits": 8,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.005028791027143598
+    },
+    {
+      "rank": 3,
+      "orbit": 8,
+      "complete": true,
+      "cross_bijections": 8,
+      "cross_orbits": 8,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.005199957988224924
+    },
+    {
+      "rank": 3,
+      "orbit": 9,
+      "complete": true,
+      "cross_bijections": 24,
+      "cross_orbits": 24,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.009429499972611666
+    },
+    {
+      "rank": 3,
+      "orbit": 10,
+      "complete": true,
+      "cross_bijections": 24,
+      "cross_orbits": 24,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.009747250005602837
+    },
+    {
+      "rank": 3,
+      "orbit": 11,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.014993665972724557
+    },
+    {
+      "rank": 3,
+      "orbit": 12,
+      "complete": true,
+      "cross_bijections": 72,
+      "cross_orbits": 72,
+      "nodes": 13,
+      "terminal_histogram": {
+        "ti": 13
+      },
+      "unrecognized": [],
+      "seconds": 0.022255333024077117
+    },
+    {
+      "rank": 3,
+      "orbit": 13,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 32,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 4,
+        "collision": 4
+      },
+      "unrecognized": [],
+      "seconds": 0.010647666058503091
+    },
+    {
+      "rank": 3,
+      "orbit": 14,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 288,
+      "nodes": 19,
+      "terminal_histogram": {
+        "ti": 19
+      },
+      "unrecognized": [],
+      "seconds": 0.0781051249941811
+    },
+    {
+      "rank": 3,
+      "orbit": 15,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 80,
+      "nodes": 13,
+      "terminal_histogram": {
+        "ti": 9,
+        "collision": 4
+      },
+      "unrecognized": [],
+      "seconds": 0.025491958018392324
+    },
+    {
+      "rank": 3,
+      "orbit": 16,
+      "complete": true,
+      "cross_bijections": 192,
+      "cross_orbits": 64,
+      "nodes": 14,
+      "terminal_histogram": {
+        "ti": 10,
+        "collision": 4
+      },
+      "unrecognized": [],
+      "seconds": 0.020311708096414804
+    },
+    {
+      "rank": 3,
+      "orbit": 17,
+      "complete": true,
+      "cross_bijections": 1440,
+      "cross_orbits": 368,
+      "nodes": 24,
+      "terminal_histogram": {
+        "ti": 19,
+        "collision": 5
+      },
+      "unrecognized": [],
+      "seconds": 0.09983950003515929
+    },
+    {
+      "rank": 3,
+      "orbit": 18,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 13,
+      "terminal_histogram": {
+        "ti": 13
+      },
+      "unrecognized": [],
+      "seconds": 0.016926958924159408
+    },
+    {
+      "rank": 3,
+      "orbit": 19,
+      "complete": true,
+      "cross_bijections": 8,
+      "cross_orbits": 8,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.0050504159880802035
+    },
+    {
+      "rank": 3,
+      "orbit": 20,
+      "complete": true,
+      "cross_bijections": 4320,
+      "cross_orbits": 134,
+      "nodes": 19,
+      "terminal_histogram": {
+        "ti": 8,
+        "collision": 11
+      },
+      "unrecognized": [],
+      "seconds": 0.03785429196432233
+    },
+    {
+      "rank": 3,
+      "orbit": 21,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.007230290910229087
+    },
+    {
+      "rank": 3,
+      "orbit": 22,
+      "complete": true,
+      "cross_bijections": 8,
+      "cross_orbits": 8,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.005111958016641438
+    },
+    {
+      "rank": 3,
+      "orbit": 23,
+      "complete": true,
+      "cross_bijections": 192,
+      "cross_orbits": 64,
+      "nodes": 12,
+      "terminal_histogram": {
+        "ti": 8,
+        "collision": 4
+      },
+      "unrecognized": [],
+      "seconds": 0.025335791055113077
+    },
+    {
+      "rank": 3,
+      "orbit": 24,
+      "complete": true,
+      "cross_bijections": 24,
+      "cross_orbits": 24,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.010094624944031239
+    },
+    {
+      "rank": 3,
+      "orbit": 25,
+      "complete": true,
+      "cross_bijections": 144,
+      "cross_orbits": 40,
+      "nodes": 9,
+      "terminal_histogram": {
+        "ti": 5,
+        "collision": 4
+      },
+      "unrecognized": [],
+      "seconds": 0.01268849999178201
+    },
+    {
+      "rank": 3,
+      "orbit": 26,
+      "complete": true,
+      "cross_bijections": 1152,
+      "cross_orbits": 112,
+      "nodes": 12,
+      "terminal_histogram": {
+        "ti": 6,
+        "collision": 6
+      },
+      "unrecognized": [],
+      "seconds": 0.030872167088091373
+    },
+    {
+      "rank": 3,
+      "orbit": 27,
+      "complete": true,
+      "cross_bijections": 8,
+      "cross_orbits": 8,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.005030416999943554
+    },
+    {
+      "rank": 3,
+      "orbit": 28,
+      "complete": true,
+      "cross_bijections": 8,
+      "cross_orbits": 8,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.005105208023451269
+    },
+    {
+      "rank": 3,
+      "orbit": 29,
+      "complete": true,
+      "cross_bijections": 432,
+      "cross_orbits": 22,
+      "nodes": 7,
+      "terminal_histogram": {
+        "ti": 2,
+        "collision": 4,
+        "homometric": 1
+      },
+      "unrecognized": [],
+      "seconds": 0.009591042064130306
+    },
+    {
+      "rank": 3,
+      "orbit": 30,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 80,
+      "nodes": 13,
+      "terminal_histogram": {
+        "ti": 9,
+        "collision": 4
+      },
+      "unrecognized": [],
+      "seconds": 0.03262308402918279
+    },
+    {
+      "rank": 3,
+      "orbit": 31,
+      "complete": true,
+      "cross_bijections": 8,
+      "cross_orbits": 8,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.006439917022362351
+    },
+    {
+      "rank": 3,
+      "orbit": 32,
+      "complete": true,
+      "cross_bijections": 24,
+      "cross_orbits": 24,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.009632042027078569
+    },
+    {
+      "rank": 3,
+      "orbit": 33,
+      "complete": true,
+      "cross_bijections": 8,
+      "cross_orbits": 8,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.009027249994687736
+    },
+    {
+      "rank": 3,
+      "orbit": 34,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 32,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 4,
+        "collision": 4
+      },
+      "unrecognized": [],
+      "seconds": 0.014620958012528718
+    },
+    {
+      "rank": 3,
+      "orbit": 35,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 32,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 4,
+        "collision": 4
+      },
+      "unrecognized": [],
+      "seconds": 0.016809290973469615
+    },
+    {
+      "rank": 3,
+      "orbit": 36,
+      "complete": true,
+      "cross_bijections": 3456,
+      "cross_orbits": 107,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 2,
+        "collision": 7,
+        "homometric": 1
+      },
+      "unrecognized": [],
+      "seconds": 0.028411958017386496
+    },
+    {
+      "rank": 3,
+      "orbit": 37,
+      "complete": true,
+      "cross_bijections": 432,
+      "cross_orbits": 112,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 6,
+        "collision": 4
+      },
+      "unrecognized": [],
+      "seconds": 0.039958792040124536
+    },
+    {
+      "rank": 3,
+      "orbit": 38,
+      "complete": true,
+      "cross_bijections": 384,
+      "cross_orbits": 128,
+      "nodes": 15,
+      "terminal_histogram": {
+        "ti": 8,
+        "collision": 4,
+        "homometric": 3
+      },
+      "unrecognized": [],
+      "seconds": 0.057428167085163295
+    },
+    {
+      "rank": 3,
+      "orbit": 39,
+      "complete": true,
+      "cross_bijections": 1152,
+      "cross_orbits": 304,
+      "nodes": 14,
+      "terminal_histogram": {
+        "ti": 6,
+        "collision": 5,
+        "homometric": 3
+      },
+      "unrecognized": [],
+      "seconds": 0.0870934589765966
+    },
+    {
+      "rank": 3,
+      "orbit": 40,
+      "complete": true,
+      "cross_bijections": 11520,
+      "cross_orbits": 752,
+      "nodes": 21,
+      "terminal_histogram": {
+        "ti": 11,
+        "collision": 7,
+        "homometric": 3
+      },
+      "unrecognized": [],
+      "seconds": 0.1839562909444794
+    },
+    {
+      "rank": 3,
+      "orbit": 41,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.0069394169840961695
+    },
+    {
+      "rank": 3,
+      "orbit": 42,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.00680037506390363
+    },
+    {
+      "rank": 3,
+      "orbit": 43,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.01552908297162503
+    },
+    {
+      "rank": 3,
+      "orbit": 44,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.017101333010941744
+    },
+    {
+      "rank": 3,
+      "orbit": 45,
+      "complete": true,
+      "cross_bijections": 144,
+      "cross_orbits": 144,
+      "nodes": 13,
+      "terminal_histogram": {
+        "ti": 13
+      },
+      "unrecognized": [],
+      "seconds": 0.04197816597297788
+    },
+    {
+      "rank": 3,
+      "orbit": 46,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.01634037494659424
+    },
+    {
+      "rank": 3,
+      "orbit": 47,
+      "complete": true,
+      "cross_bijections": 384,
+      "cross_orbits": 384,
+      "nodes": 15,
+      "terminal_histogram": {
+        "ti": 15
+      },
+      "unrecognized": [],
+      "seconds": 0.11278437497094274
+    },
+    {
+      "rank": 3,
+      "orbit": 48,
+      "complete": true,
+      "cross_bijections": 4320,
+      "cross_orbits": 1088,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 15,
+        "collision": 5
+      },
+      "unrecognized": [],
+      "seconds": 0.2668504579924047
+    },
+    {
+      "rank": 3,
+      "orbit": 49,
+      "complete": true,
+      "cross_bijections": 13824,
+      "cross_orbits": 416,
+      "nodes": 55,
+      "terminal_histogram": {
+        "ti": 13,
+        "collision": 27,
+        "branch": 3,
+        "homometric": 12
+      },
+      "unrecognized": [
+        46,
+        49
+      ],
+      "seconds": 0.12933008396066725
+    },
+    {
+      "rank": 3,
+      "orbit": 50,
+      "complete": true,
+      "cross_bijections": 64,
+      "cross_orbits": 32,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 4,
+        "collision": 4
+      },
+      "unrecognized": [],
+      "seconds": 0.010816583991982043
+    },
+    {
+      "rank": 3,
+      "orbit": 51,
+      "complete": true,
+      "cross_bijections": 192,
+      "cross_orbits": 96,
+      "nodes": 13,
+      "terminal_histogram": {
+        "ti": 5,
+        "collision": 5,
+        "homometric": 3
+      },
+      "unrecognized": [],
+      "seconds": 0.028313291957601905
+    },
+    {
+      "rank": 3,
+      "orbit": 52,
+      "complete": true,
+      "cross_bijections": 2304,
+      "cross_orbits": 224,
+      "nodes": 28,
+      "terminal_histogram": {
+        "ti": 11,
+        "collision": 12,
+        "homometric": 4,
+        "branch": 1
+      },
+      "unrecognized": [],
+      "seconds": 0.06997925008181483
+    },
+    {
+      "rank": 3,
+      "orbit": 53,
+      "complete": true,
+      "cross_bijections": 8,
+      "cross_orbits": 8,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.005636875052005053
+    },
+    {
+      "rank": 3,
+      "orbit": 54,
+      "complete": true,
+      "cross_bijections": 8,
+      "cross_orbits": 8,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.00581695802975446
+    },
+    {
+      "rank": 3,
+      "orbit": 55,
+      "complete": true,
+      "cross_bijections": 8,
+      "cross_orbits": 8,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.005128125078044832
+    },
+    {
+      "rank": 3,
+      "orbit": 56,
+      "complete": true,
+      "cross_bijections": 8,
+      "cross_orbits": 8,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.010161999962292612
+    },
+    {
+      "rank": 3,
+      "orbit": 57,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.0068579999497160316
+    },
+    {
+      "rank": 3,
+      "orbit": 58,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.006804666016250849
+    },
+    {
+      "rank": 3,
+      "orbit": 59,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.006918416009284556
+    },
+    {
+      "rank": 3,
+      "orbit": 60,
+      "complete": true,
+      "cross_bijections": 24,
+      "cross_orbits": 24,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.009593042079359293
+    },
+    {
+      "rank": 3,
+      "orbit": 61,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 80,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 4,
+        "collision": 4
+      },
+      "unrecognized": [],
+      "seconds": 0.020713165984489024
+    },
+    {
+      "rank": 3,
+      "orbit": 62,
+      "complete": true,
+      "cross_bijections": 192,
+      "cross_orbits": 64,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 4,
+        "collision": 4,
+        "homometric": 2
+      },
+      "unrecognized": [],
+      "seconds": 0.023248667013831437
+    },
+    {
+      "rank": 3,
+      "orbit": 63,
+      "complete": true,
+      "cross_bijections": 432,
+      "cross_orbits": 112,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 6,
+        "collision": 4
+      },
+      "unrecognized": [],
+      "seconds": 0.028843499952927232
+    },
+    {
+      "rank": 3,
+      "orbit": 64,
+      "complete": true,
+      "cross_bijections": 1728,
+      "cross_orbits": 440,
+      "nodes": 12,
+      "terminal_histogram": {
+        "ti": 7,
+        "collision": 5
+      },
+      "unrecognized": [],
+      "seconds": 0.1087713330052793
+    },
+    {
+      "rank": 3,
+      "orbit": 65,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.008224999997764826
+    },
+    {
+      "rank": 3,
+      "orbit": 66,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.0072328329551965
+    },
+    {
+      "rank": 3,
+      "orbit": 67,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.007794665987603366
+    },
+    {
+      "rank": 3,
+      "orbit": 68,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.015656957984901965
+    },
+    {
+      "rank": 3,
+      "orbit": 69,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.007576917065307498
+    },
+    {
+      "rank": 3,
+      "orbit": 70,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.011300417012535036
+    },
+    {
+      "rank": 3,
+      "orbit": 71,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.017433166969567537
+    },
+    {
+      "rank": 3,
+      "orbit": 72,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 80,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 6,
+        "collision": 4
+      },
+      "unrecognized": [],
+      "seconds": 0.02142712497152388
+    },
+    {
+      "rank": 3,
+      "orbit": 73,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 13,
+      "terminal_histogram": {
+        "ti": 13
+      },
+      "unrecognized": [],
+      "seconds": 0.03702258295379579
+    },
+    {
+      "rank": 3,
+      "orbit": 74,
+      "complete": true,
+      "cross_bijections": 144,
+      "cross_orbits": 144,
+      "nodes": 13,
+      "terminal_histogram": {
+        "ti": 13
+      },
+      "unrecognized": [],
+      "seconds": 0.040896208956837654
+    },
+    {
+      "rank": 3,
+      "orbit": 75,
+      "complete": true,
+      "cross_bijections": 216,
+      "cross_orbits": 216,
+      "nodes": 18,
+      "terminal_histogram": {
+        "ti": 18
+      },
+      "unrecognized": [],
+      "seconds": 0.059877209016121924
+    },
+    {
+      "rank": 3,
+      "orbit": 76,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 32,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 4,
+        "collision": 4
+      },
+      "unrecognized": [],
+      "seconds": 0.010710750008001924
+    },
+    {
+      "rank": 3,
+      "orbit": 77,
+      "complete": true,
+      "cross_bijections": 192,
+      "cross_orbits": 64,
+      "nodes": 12,
+      "terminal_histogram": {
+        "ti": 8,
+        "collision": 4
+      },
+      "unrecognized": [],
+      "seconds": 0.01985708309803158
+    },
+    {
+      "rank": 3,
+      "orbit": 78,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.01156704209279269
+    },
+    {
+      "rank": 3,
+      "orbit": 79,
+      "complete": true,
+      "cross_bijections": 864,
+      "cross_orbits": 224,
+      "nodes": 13,
+      "terminal_histogram": {
+        "ti": 8,
+        "collision": 5
+      },
+      "unrecognized": [],
+      "seconds": 0.059057457954622805
+    },
+    {
+      "rank": 3,
+      "orbit": 80,
+      "complete": true,
+      "cross_bijections": 13824,
+      "cross_orbits": 928,
+      "nodes": 29,
+      "terminal_histogram": {
+        "ti": 16,
+        "collision": 13
+      },
+      "unrecognized": [],
+      "seconds": 0.21655087498947978
+    },
+    {
+      "rank": 3,
+      "orbit": 81,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.015831374912522733
+    },
+    {
+      "rank": 3,
+      "orbit": 82,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.030073000001721084
+    },
+    {
+      "rank": 3,
+      "orbit": 83,
+      "complete": true,
+      "cross_bijections": 1152,
+      "cross_orbits": 1152,
+      "nodes": 36,
+      "terminal_histogram": {
+        "ti": 36
+      },
+      "unrecognized": [],
+      "seconds": 0.34584666695445776
+    },
+    {
+      "rank": 3,
+      "orbit": 84,
+      "complete": true,
+      "cross_bijections": 8,
+      "cross_orbits": 8,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.004899666993878782
+    },
+    {
+      "rank": 3,
+      "orbit": 85,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.006897832965478301
+    },
+    {
+      "rank": 3,
+      "orbit": 86,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.0068526670802384615
+    },
+    {
+      "rank": 3,
+      "orbit": 87,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.010729832923971117
+    },
+    {
+      "rank": 3,
+      "orbit": 88,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.015399875002913177
+    },
+    {
+      "rank": 3,
+      "orbit": 89,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.014940917026251554
+    },
+    {
+      "rank": 3,
+      "orbit": 90,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.00688870798330754
+    },
+    {
+      "rank": 3,
+      "orbit": 91,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.012539957999251783
+    },
+    {
+      "rank": 3,
+      "orbit": 92,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.028206416056491435
+    },
+    {
+      "rank": 3,
+      "orbit": 93,
+      "complete": true,
+      "cross_bijections": 192,
+      "cross_orbits": 192,
+      "nodes": 24,
+      "terminal_histogram": {
+        "ti": 24
+      },
+      "unrecognized": [],
+      "seconds": 0.05399037501774728
+    },
+    {
+      "rank": 3,
+      "orbit": 94,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 13,
+      "terminal_histogram": {
+        "ti": 13
+      },
+      "unrecognized": [],
+      "seconds": 0.029055749997496605
+    },
+    {
+      "rank": 3,
+      "orbit": 95,
+      "complete": true,
+      "cross_bijections": 432,
+      "cross_orbits": 432,
+      "nodes": 15,
+      "terminal_histogram": {
+        "ti": 15
+      },
+      "unrecognized": [],
+      "seconds": 0.11111137503758073
+    },
+    {
+      "rank": 3,
+      "orbit": 96,
+      "complete": true,
+      "cross_bijections": 864,
+      "cross_orbits": 224,
+      "nodes": 13,
+      "terminal_histogram": {
+        "ti": 9,
+        "collision": 4
+      },
+      "unrecognized": [],
+      "seconds": 0.059274959028698504
+    },
+    {
+      "rank": 3,
+      "orbit": 97,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.011671500047668815
+    },
+    {
+      "rank": 3,
+      "orbit": 98,
+      "complete": true,
+      "cross_bijections": 2304,
+      "cross_orbits": 640,
+      "nodes": 49,
+      "terminal_histogram": {
+        "ti": 35,
+        "collision": 11,
+        "branch": 1,
+        "homometric": 2
+      },
+      "unrecognized": [],
+      "seconds": 0.16774912492837757
+    },
+    {
+      "rank": 3,
+      "orbit": 99,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.006742500001564622
+    },
+    {
+      "rank": 3,
+      "orbit": 100,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.006953291012905538
+    },
+    {
+      "rank": 3,
+      "orbit": 101,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.006829041987657547
+    },
+    {
+      "rank": 3,
+      "orbit": 102,
+      "complete": true,
+      "cross_bijections": 8,
+      "cross_orbits": 8,
+      "nodes": 8,
+      "terminal_histogram": {
+        "ti": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.005094916094094515
+    },
+    {
+      "rank": 3,
+      "orbit": 103,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 10,
+      "terminal_histogram": {
+        "ti": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.011761582922190428
+    },
+    {
+      "rank": 4,
+      "orbit": 0,
+      "complete": true,
+      "cross_bijections": 120,
+      "cross_orbits": 1,
+      "nodes": 1,
+      "terminal_histogram": {
+        "ti": 1
+      },
+      "unrecognized": [],
+      "seconds": 0.0005116669926792383
+    },
+    {
+      "rank": 4,
+      "orbit": 1,
+      "complete": true,
+      "cross_bijections": 2880,
+      "cross_orbits": 12,
+      "nodes": 12,
+      "terminal_histogram": {
+        "ti": 2,
+        "collision": 9,
+        "homometric": 1
+      },
+      "unrecognized": [],
+      "seconds": 0.007649917039088905
+    },
+    {
+      "rank": 4,
+      "orbit": 2,
+      "complete": true,
+      "cross_bijections": 40320,
+      "cross_orbits": 52,
+      "nodes": 262,
+      "terminal_histogram": {
+        "ti": 23,
+        "collision": 98,
+        "branch": 86,
+        "homometric": 55
+      },
+      "unrecognized": [
+        24,
+        28,
+        80,
+        106,
+        115,
+        129,
+        131,
+        155,
+        159,
+        172,
+        182,
+        184
+      ],
+      "seconds": 0.2229917919030413
+    },
+    {
+      "rank": 4,
+      "orbit": 3,
+      "complete": true,
+      "cross_bijections": 3456,
+      "cross_orbits": 107,
+      "nodes": 18,
+      "terminal_histogram": {
+        "ti": 5,
+        "collision": 13
+      },
+      "unrecognized": [],
+      "seconds": 0.031000958057120442
+    },
+    {
+      "rank": 4,
+      "orbit": 4,
+      "complete": true,
+      "cross_bijections": 17280,
+      "cross_orbits": 510,
+      "nodes": 38,
+      "terminal_histogram": {
+        "ti": 7,
+        "collision": 23,
+        "homometric": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.13887941709253937
+    },
+    {
+      "rank": 4,
+      "orbit": 5,
+      "complete": true,
+      "cross_bijections": 8640,
+      "cross_orbits": 268,
+      "nodes": 51,
+      "terminal_histogram": {
+        "ti": 16,
+        "collision": 28,
+        "homometric": 7
+      },
+      "unrecognized": [],
+      "seconds": 0.0849917089799419
+    },
+    {
+      "rank": 4,
+      "orbit": 6,
+      "complete": true,
+      "cross_bijections": 86400,
+      "cross_orbits": 644,
+      "nodes": 53,
+      "terminal_histogram": {
+        "ti": 21,
+        "collision": 32
+      },
+      "unrecognized": [],
+      "seconds": 0.16711912490427494
+    },
+    {
+      "rank": 4,
+      "orbit": 7,
+      "complete": true,
+      "cross_bijections": 241920,
+      "cross_orbits": 1772,
+      "nodes": 234,
+      "terminal_histogram": {
+        "ti": 52,
+        "collision": 124,
+        "branch": 21,
+        "homometric": 37
+      },
+      "unrecognized": [],
+      "seconds": 0.5468417089432478
+    },
+    {
+      "rank": 4,
+      "orbit": 8,
+      "complete": true,
+      "cross_bijections": 120960,
+      "cross_orbits": 3414,
+      "nodes": 143,
+      "terminal_histogram": {
+        "ti": 49,
+        "collision": 75,
+        "homometric": 19
+      },
+      "unrecognized": [],
+      "seconds": 0.8987770830281079
+    },
+    {
+      "rank": 4,
+      "orbit": 9,
+      "complete": true,
+      "cross_bijections": 17280,
+      "cross_orbits": 502,
+      "nodes": 44,
+      "terminal_histogram": {
+        "ti": 19,
+        "collision": 25
+      },
+      "unrecognized": [],
+      "seconds": 0.12837175000458956
+    },
+    {
+      "rank": 4,
+      "orbit": 10,
+      "complete": true,
+      "cross_bijections": 1728,
+      "cross_orbits": 62,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 4,
+        "collision": 10,
+        "homometric": 2
+      },
+      "unrecognized": [],
+      "seconds": 0.02059900003951043
+    },
+    {
+      "rank": 4,
+      "orbit": 11,
+      "complete": true,
+      "cross_bijections": 362880,
+      "cross_orbits": 322,
+      "nodes": 377,
+      "terminal_histogram": {
+        "ti": 44,
+        "collision": 196,
+        "branch": 70,
+        "homometric": 67
+      },
+      "unrecognized": [],
+      "seconds": 0.3268682920606807
+    },
+    {
+      "rank": 4,
+      "orbit": 12,
+      "complete": true,
+      "cross_bijections": 725760,
+      "cross_orbits": 5138,
+      "nodes": 228,
+      "terminal_histogram": {
+        "ti": 93,
+        "collision": 114,
+        "homometric": 13,
+        "branch": 8
+      },
+      "unrecognized": [],
+      "seconds": 1.2764847920043394
+    },
+    {
+      "rank": 4,
+      "orbit": 13,
+      "complete": true,
+      "cross_bijections": 432,
+      "cross_orbits": 112,
+      "nodes": 22,
+      "terminal_histogram": {
+        "ti": 14,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.0471074579982087
+    },
+    {
+      "rank": 4,
+      "orbit": 14,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 80,
+      "nodes": 18,
+      "terminal_histogram": {
+        "ti": 10,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.025687625049613416
+    },
+    {
+      "rank": 4,
+      "orbit": 15,
+      "complete": true,
+      "cross_bijections": 384,
+      "cross_orbits": 128,
+      "nodes": 28,
+      "terminal_histogram": {
+        "ti": 20,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.04114508396014571
+    },
+    {
+      "rank": 4,
+      "orbit": 16,
+      "complete": true,
+      "cross_bijections": 1728,
+      "cross_orbits": 440,
+      "nodes": 27,
+      "terminal_histogram": {
+        "ti": 17,
+        "collision": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.1150005420204252
+    },
+    {
+      "rank": 4,
+      "orbit": 17,
+      "complete": true,
+      "cross_bijections": 1728,
+      "cross_orbits": 440,
+      "nodes": 29,
+      "terminal_histogram": {
+        "ti": 19,
+        "collision": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.11633970809634775
+    },
+    {
+      "rank": 4,
+      "orbit": 18,
+      "complete": true,
+      "cross_bijections": 576,
+      "cross_orbits": 160,
+      "nodes": 32,
+      "terminal_histogram": {
+        "ti": 24,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.06196875008754432
+    },
+    {
+      "rank": 4,
+      "orbit": 19,
+      "complete": true,
+      "cross_bijections": 576,
+      "cross_orbits": 160,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 18,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.06481620902195573
+    },
+    {
+      "rank": 4,
+      "orbit": 20,
+      "complete": true,
+      "cross_bijections": 3456,
+      "cross_orbits": 880,
+      "nodes": 44,
+      "terminal_histogram": {
+        "ti": 21,
+        "collision": 10,
+        "homometric": 13
+      },
+      "unrecognized": [
+        35,
+        41
+      ],
+      "seconds": 0.38326604198664427
+    },
+    {
+      "rank": 4,
+      "orbit": 21,
+      "complete": true,
+      "cross_bijections": 6912,
+      "cross_orbits": 1744,
+      "nodes": 37,
+      "terminal_histogram": {
+        "ti": 24,
+        "collision": 13
+      },
+      "unrecognized": [],
+      "seconds": 0.4474482500227168
+    },
+    {
+      "rank": 4,
+      "orbit": 22,
+      "complete": true,
+      "cross_bijections": 1152,
+      "cross_orbits": 384,
+      "nodes": 47,
+      "terminal_histogram": {
+        "ti": 25,
+        "collision": 10,
+        "homometric": 12
+      },
+      "unrecognized": [],
+      "seconds": 0.12311470892746001
+    },
+    {
+      "rank": 4,
+      "orbit": 23,
+      "complete": true,
+      "cross_bijections": 2880,
+      "cross_orbits": 736,
+      "nodes": 48,
+      "terminal_histogram": {
+        "ti": 38,
+        "collision": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.20208020810969174
+    },
+    {
+      "rank": 4,
+      "orbit": 24,
+      "complete": true,
+      "cross_bijections": 1152,
+      "cross_orbits": 320,
+      "nodes": 32,
+      "terminal_histogram": {
+        "ti": 18,
+        "collision": 8,
+        "homometric": 6
+      },
+      "unrecognized": [],
+      "seconds": 0.09661358292214572
+    },
+    {
+      "rank": 4,
+      "orbit": 25,
+      "complete": true,
+      "cross_bijections": 384,
+      "cross_orbits": 128,
+      "nodes": 28,
+      "terminal_histogram": {
+        "ti": 20,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.0425581659656018
+    },
+    {
+      "rank": 4,
+      "orbit": 26,
+      "complete": true,
+      "cross_bijections": 6912,
+      "cross_orbits": 480,
+      "nodes": 33,
+      "terminal_histogram": {
+        "ti": 20,
+        "collision": 13
+      },
+      "unrecognized": [],
+      "seconds": 0.12537562497891486
+    },
+    {
+      "rank": 4,
+      "orbit": 27,
+      "complete": true,
+      "cross_bijections": 34560,
+      "cross_orbits": 8688,
+      "nodes": 80,
+      "terminal_histogram": {
+        "ti": 47,
+        "collision": 19,
+        "homometric": 14
+      },
+      "unrecognized": [],
+      "seconds": 2.1768412080127746
+    },
+    {
+      "rank": 4,
+      "orbit": 28,
+      "complete": true,
+      "cross_bijections": 8640,
+      "cross_orbits": 2176,
+      "nodes": 48,
+      "terminal_histogram": {
+        "ti": 38,
+        "collision": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.5440260419854894
+    },
+    {
+      "rank": 4,
+      "orbit": 29,
+      "complete": true,
+      "cross_bijections": 34560,
+      "cross_orbits": 2240,
+      "nodes": 71,
+      "terminal_histogram": {
+        "ti": 53,
+        "collision": 18
+      },
+      "unrecognized": [],
+      "seconds": 0.5430998750962317
+    },
+    {
+      "rank": 4,
+      "orbit": 30,
+      "complete": true,
+      "cross_bijections": 17280,
+      "cross_orbits": 1184,
+      "nodes": 81,
+      "terminal_histogram": {
+        "ti": 58,
+        "collision": 23
+      },
+      "unrecognized": [],
+      "seconds": 0.3110441660974175
+    },
+    {
+      "rank": 4,
+      "orbit": 31,
+      "complete": true,
+      "cross_bijections": 11520,
+      "cross_orbits": 2912,
+      "nodes": 87,
+      "terminal_histogram": {
+        "ti": 61,
+        "collision": 13,
+        "homometric": 13
+      },
+      "unrecognized": [],
+      "seconds": 0.7845981669379398
+    },
+    {
+      "rank": 4,
+      "orbit": 32,
+      "complete": true,
+      "cross_bijections": 8640,
+      "cross_orbits": 2176,
+      "nodes": 57,
+      "terminal_histogram": {
+        "ti": 44,
+        "collision": 13
+      },
+      "unrecognized": [],
+      "seconds": 0.5537109590368345
+    },
+    {
+      "rank": 4,
+      "orbit": 33,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 80,
+      "nodes": 18,
+      "terminal_histogram": {
+        "ti": 10,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.02605066599790007
+    },
+    {
+      "rank": 4,
+      "orbit": 34,
+      "complete": true,
+      "cross_bijections": 69120,
+      "cross_orbits": 4448,
+      "nodes": 108,
+      "terminal_histogram": {
+        "ti": 68,
+        "collision": 40
+      },
+      "unrecognized": [],
+      "seconds": 1.1083808339899406
+    },
+    {
+      "rank": 4,
+      "orbit": 35,
+      "complete": true,
+      "cross_bijections": 6912,
+      "cross_orbits": 544,
+      "nodes": 61,
+      "terminal_histogram": {
+        "ti": 26,
+        "collision": 24,
+        "branch": 2,
+        "homometric": 9
+      },
+      "unrecognized": [],
+      "seconds": 0.16146620805375278
+    },
+    {
+      "rank": 4,
+      "orbit": 36,
+      "complete": true,
+      "cross_bijections": 172800,
+      "cross_orbits": 10912,
+      "nodes": 183,
+      "terminal_histogram": {
+        "ti": 78,
+        "collision": 46,
+        "homometric": 44,
+        "branch": 15
+      },
+      "unrecognized": [
+        164,
+        171
+      ],
+      "seconds": 2.653743000002578
+    },
+    {
+      "rank": 4,
+      "orbit": 37,
+      "complete": true,
+      "cross_bijections": 241920,
+      "cross_orbits": 15216,
+      "nodes": 179,
+      "terminal_histogram": {
+        "ti": 118,
+        "collision": 38,
+        "homometric": 23
+      },
+      "unrecognized": [
+        115,
+        116,
+        137,
+        146,
+        149,
+        150,
+        170
+      ],
+      "seconds": 4.041667999932542
+    },
+    {
+      "rank": 4,
+      "orbit": 38,
+      "complete": true,
+      "cross_bijections": 103680,
+      "cross_orbits": 25952,
+      "nodes": 116,
+      "terminal_histogram": {
+        "ti": 97,
+        "collision": 19
+      },
+      "unrecognized": [],
+      "seconds": 6.576037958962843
+    },
+    {
+      "rank": 4,
+      "orbit": 39,
+      "complete": true,
+      "cross_bijections": 17280,
+      "cross_orbits": 4336,
+      "nodes": 62,
+      "terminal_histogram": {
+        "ti": 49,
+        "collision": 13
+      },
+      "unrecognized": [],
+      "seconds": 1.0909658329328522
+    },
+    {
+      "rank": 4,
+      "orbit": 40,
+      "complete": true,
+      "cross_bijections": 3456,
+      "cross_orbits": 880,
+      "nodes": 37,
+      "terminal_histogram": {
+        "ti": 24,
+        "collision": 13
+      },
+      "unrecognized": [],
+      "seconds": 0.22617941594216973
+    },
+    {
+      "rank": 4,
+      "orbit": 41,
+      "complete": true,
+      "cross_bijections": 34560,
+      "cross_orbits": 2368,
+      "nodes": 124,
+      "terminal_histogram": {
+        "ti": 67,
+        "collision": 35,
+        "branch": 5,
+        "homometric": 17
+      },
+      "unrecognized": [],
+      "seconds": 0.6224198749987409
+    },
+    {
+      "rank": 4,
+      "orbit": 42,
+      "complete": true,
+      "cross_bijections": 3456,
+      "cross_orbits": 880,
+      "nodes": 43,
+      "terminal_histogram": {
+        "ti": 33,
+        "collision": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.23287174990400672
+    },
+    {
+      "rank": 4,
+      "orbit": 43,
+      "complete": true,
+      "cross_bijections": 967680,
+      "cross_orbits": 16128,
+      "nodes": 652,
+      "terminal_histogram": {
+        "ti": 215,
+        "collision": 226,
+        "branch": 64,
+        "homometric": 147
+      },
+      "unrecognized": [
+        261,
+        308,
+        615,
+        651
+      ],
+      "seconds": 3.9908890000078827
+    },
+    {
+      "rank": 4,
+      "orbit": 44,
+      "complete": true,
+      "cross_bijections": 967680,
+      "cross_orbits": 60768,
+      "nodes": 454,
+      "terminal_histogram": {
+        "ti": 362,
+        "collision": 92
+      },
+      "unrecognized": [],
+      "seconds": 14.699732417007908
+    },
+    {
+      "rank": 4,
+      "orbit": 45,
+      "complete": true,
+      "cross_bijections": 17280,
+      "cross_orbits": 1152,
+      "nodes": 58,
+      "terminal_histogram": {
+        "ti": 39,
+        "collision": 19
+      },
+      "unrecognized": [],
+      "seconds": 0.28587124997284263
+    },
+    {
+      "rank": 4,
+      "orbit": 46,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.01103033300023526
+    },
+    {
+      "rank": 4,
+      "orbit": 47,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.010575457941740751
+    },
+    {
+      "rank": 4,
+      "orbit": 48,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.010589207988232374
+    },
+    {
+      "rank": 4,
+      "orbit": 49,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.010914874961599708
+    },
+    {
+      "rank": 4,
+      "orbit": 50,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.01167445897590369
+    },
+    {
+      "rank": 4,
+      "orbit": 51,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.010912625002674758
+    },
+    {
+      "rank": 4,
+      "orbit": 52,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.011184707982465625
+    },
+    {
+      "rank": 4,
+      "orbit": 53,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.020244040992110968
+    },
+    {
+      "rank": 4,
+      "orbit": 54,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.010740666068159044
+    },
+    {
+      "rank": 4,
+      "orbit": 55,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.020178165985271335
+    },
+    {
+      "rank": 4,
+      "orbit": 56,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.02025366690941155
+    },
+    {
+      "rank": 4,
+      "orbit": 57,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.010971833020448685
+    },
+    {
+      "rank": 4,
+      "orbit": 58,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.015043332939967513
+    },
+    {
+      "rank": 4,
+      "orbit": 59,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.014350040932185948
+    },
+    {
+      "rank": 4,
+      "orbit": 60,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.014647875097580254
+    },
+    {
+      "rank": 4,
+      "orbit": 61,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.02034029201604426
+    },
+    {
+      "rank": 4,
+      "orbit": 62,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.019817749969661236
+    },
+    {
+      "rank": 4,
+      "orbit": 63,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.01044475007802248
+    },
+    {
+      "rank": 4,
+      "orbit": 64,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.014488582964986563
+    },
+    {
+      "rank": 4,
+      "orbit": 65,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.03187275002710521
+    },
+    {
+      "rank": 4,
+      "orbit": 66,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.03155612503178418
+    },
+    {
+      "rank": 4,
+      "orbit": 67,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.020003332989290357
+    },
+    {
+      "rank": 4,
+      "orbit": 68,
+      "complete": true,
+      "cross_bijections": 144,
+      "cross_orbits": 144,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.04539366695098579
+    },
+    {
+      "rank": 4,
+      "orbit": 69,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.020256833056919277
+    },
+    {
+      "rank": 4,
+      "orbit": 70,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.01954791694879532
+    },
+    {
+      "rank": 4,
+      "orbit": 71,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.03105458407662809
+    },
+    {
+      "rank": 4,
+      "orbit": 72,
+      "complete": true,
+      "cross_bijections": 144,
+      "cross_orbits": 144,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.04616408399306238
+    },
+    {
+      "rank": 4,
+      "orbit": 73,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.010947582894004881
+    },
+    {
+      "rank": 4,
+      "orbit": 74,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.015012541087344289
+    },
+    {
+      "rank": 4,
+      "orbit": 75,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.035822374979034066
+    },
+    {
+      "rank": 4,
+      "orbit": 76,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.014544874895364046
+    },
+    {
+      "rank": 4,
+      "orbit": 77,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.03074291697703302
+    },
+    {
+      "rank": 4,
+      "orbit": 78,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.0314251659438014
+    },
+    {
+      "rank": 4,
+      "orbit": 79,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.03206641704309732
+    },
+    {
+      "rank": 4,
+      "orbit": 80,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.031163834035396576
+    },
+    {
+      "rank": 4,
+      "orbit": 81,
+      "complete": true,
+      "cross_bijections": 144,
+      "cross_orbits": 144,
+      "nodes": 25,
+      "terminal_histogram": {
+        "ti": 25
+      },
+      "unrecognized": [],
+      "seconds": 0.045335999922826886
+    },
+    {
+      "rank": 4,
+      "orbit": 82,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.014711250085383654
+    },
+    {
+      "rank": 4,
+      "orbit": 83,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 288,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.08118679199833423
+    },
+    {
+      "rank": 4,
+      "orbit": 84,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 288,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.08129825000651181
+    },
+    {
+      "rank": 4,
+      "orbit": 85,
+      "complete": true,
+      "cross_bijections": 144,
+      "cross_orbits": 144,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.04777116701006889
+    },
+    {
+      "rank": 4,
+      "orbit": 86,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.051516084000468254
+    },
+    {
+      "rank": 4,
+      "orbit": 87,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.031167166074737906
+    },
+    {
+      "rank": 4,
+      "orbit": 88,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.03356058395002037
+    },
+    {
+      "rank": 4,
+      "orbit": 89,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.01500295801088214
+    },
+    {
+      "rank": 4,
+      "orbit": 90,
+      "complete": true,
+      "cross_bijections": 192,
+      "cross_orbits": 64,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 8,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.021118416916579008
+    },
+    {
+      "rank": 4,
+      "orbit": 91,
+      "complete": true,
+      "cross_bijections": 192,
+      "cross_orbits": 192,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.058658292051404715
+    },
+    {
+      "rank": 4,
+      "orbit": 92,
+      "complete": true,
+      "cross_bijections": 192,
+      "cross_orbits": 192,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.057493916945531964
+    },
+    {
+      "rank": 4,
+      "orbit": 93,
+      "complete": true,
+      "cross_bijections": 576,
+      "cross_orbits": 576,
+      "nodes": 38,
+      "terminal_histogram": {
+        "ti": 38
+      },
+      "unrecognized": [],
+      "seconds": 0.1582824169890955
+    },
+    {
+      "rank": 4,
+      "orbit": 94,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 288,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.08166600007098168
+    },
+    {
+      "rank": 4,
+      "orbit": 95,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.03189908410422504
+    },
+    {
+      "rank": 4,
+      "orbit": 96,
+      "complete": true,
+      "cross_bijections": 864,
+      "cross_orbits": 864,
+      "nodes": 30,
+      "terminal_histogram": {
+        "ti": 30
+      },
+      "unrecognized": [],
+      "seconds": 0.22542308294214308
+    },
+    {
+      "rank": 4,
+      "orbit": 97,
+      "complete": true,
+      "cross_bijections": 432,
+      "cross_orbits": 432,
+      "nodes": 36,
+      "terminal_histogram": {
+        "ti": 36
+      },
+      "unrecognized": [],
+      "seconds": 0.12219899997580796
+    },
+    {
+      "rank": 4,
+      "orbit": 98,
+      "complete": true,
+      "cross_bijections": 432,
+      "cross_orbits": 432,
+      "nodes": 34,
+      "terminal_histogram": {
+        "ti": 34
+      },
+      "unrecognized": [],
+      "seconds": 0.12044179090298712
+    },
+    {
+      "rank": 4,
+      "orbit": 99,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.03277225000783801
+    },
+    {
+      "rank": 4,
+      "orbit": 100,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.03087604104075581
+    },
+    {
+      "rank": 4,
+      "orbit": 101,
+      "complete": true,
+      "cross_bijections": 576,
+      "cross_orbits": 160,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 18,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.04951550008263439
+    },
+    {
+      "rank": 4,
+      "orbit": 102,
+      "complete": true,
+      "cross_bijections": 576,
+      "cross_orbits": 576,
+      "nodes": 38,
+      "terminal_histogram": {
+        "ti": 38
+      },
+      "unrecognized": [],
+      "seconds": 0.1567249579820782
+    },
+    {
+      "rank": 4,
+      "orbit": 103,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 288,
+      "nodes": 35,
+      "terminal_histogram": {
+        "ti": 35
+      },
+      "unrecognized": [],
+      "seconds": 0.08500579209066927
+    },
+    {
+      "rank": 4,
+      "orbit": 104,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.01960879098623991
+    },
+    {
+      "rank": 4,
+      "orbit": 105,
+      "complete": true,
+      "cross_bijections": 64,
+      "cross_orbits": 64,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.02196508296765387
+    },
+    {
+      "rank": 4,
+      "orbit": 106,
+      "complete": true,
+      "cross_bijections": 192,
+      "cross_orbits": 64,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 8,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.020735208061523736
+    },
+    {
+      "rank": 4,
+      "orbit": 107,
+      "complete": true,
+      "cross_bijections": 576,
+      "cross_orbits": 576,
+      "nodes": 34,
+      "terminal_histogram": {
+        "ti": 34
+      },
+      "unrecognized": [],
+      "seconds": 0.1581523750210181
+    },
+    {
+      "rank": 4,
+      "orbit": 108,
+      "complete": true,
+      "cross_bijections": 768,
+      "cross_orbits": 768,
+      "nodes": 30,
+      "terminal_histogram": {
+        "ti": 30
+      },
+      "unrecognized": [],
+      "seconds": 0.19902883400209248
+    },
+    {
+      "rank": 4,
+      "orbit": 109,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.031607417040504515
+    },
+    {
+      "rank": 4,
+      "orbit": 110,
+      "complete": true,
+      "cross_bijections": 1296,
+      "cross_orbits": 1296,
+      "nodes": 40,
+      "terminal_histogram": {
+        "ti": 40
+      },
+      "unrecognized": [],
+      "seconds": 0.3397214579163119
+    },
+    {
+      "rank": 4,
+      "orbit": 111,
+      "complete": true,
+      "cross_bijections": 864,
+      "cross_orbits": 864,
+      "nodes": 34,
+      "terminal_histogram": {
+        "ti": 34
+      },
+      "unrecognized": [],
+      "seconds": 0.23003795894328505
+    },
+    {
+      "rank": 4,
+      "orbit": 112,
+      "complete": true,
+      "cross_bijections": 1152,
+      "cross_orbits": 1152,
+      "nodes": 40,
+      "terminal_histogram": {
+        "ti": 40
+      },
+      "unrecognized": [],
+      "seconds": 0.3022887089755386
+    },
+    {
+      "rank": 4,
+      "orbit": 113,
+      "complete": true,
+      "cross_bijections": 144,
+      "cross_orbits": 144,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.045458707958459854
+    },
+    {
+      "rank": 4,
+      "orbit": 114,
+      "complete": true,
+      "cross_bijections": 192,
+      "cross_orbits": 192,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.055429749889299273
+    },
+    {
+      "rank": 4,
+      "orbit": 115,
+      "complete": true,
+      "cross_bijections": 576,
+      "cross_orbits": 160,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 18,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.04868566698860377
+    },
+    {
+      "rank": 4,
+      "orbit": 116,
+      "complete": true,
+      "cross_bijections": 1728,
+      "cross_orbits": 1728,
+      "nodes": 52,
+      "terminal_histogram": {
+        "ti": 52
+      },
+      "unrecognized": [],
+      "seconds": 0.45833358296658844
+    },
+    {
+      "rank": 4,
+      "orbit": 117,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 288,
+      "nodes": 34,
+      "terminal_histogram": {
+        "ti": 34
+      },
+      "unrecognized": [],
+      "seconds": 0.08676991704851389
+    },
+    {
+      "rank": 4,
+      "orbit": 118,
+      "complete": true,
+      "cross_bijections": 576,
+      "cross_orbits": 160,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 18,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.0496915839612484
+    },
+    {
+      "rank": 4,
+      "orbit": 119,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.010914042009972036
+    },
+    {
+      "rank": 4,
+      "orbit": 120,
+      "complete": true,
+      "cross_bijections": 144,
+      "cross_orbits": 144,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.04531941609457135
+    },
+    {
+      "rank": 4,
+      "orbit": 121,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.032068457920104265
+    },
+    {
+      "rank": 4,
+      "orbit": 122,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.010362041997723281
+    },
+    {
+      "rank": 4,
+      "orbit": 123,
+      "complete": true,
+      "cross_bijections": 1152,
+      "cross_orbits": 304,
+      "nodes": 24,
+      "terminal_histogram": {
+        "ti": 14,
+        "collision": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.07998779194895178
+    },
+    {
+      "rank": 4,
+      "orbit": 124,
+      "complete": true,
+      "cross_bijections": 576,
+      "cross_orbits": 192,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 10,
+        "collision": 10,
+        "homometric": 6
+      },
+      "unrecognized": [],
+      "seconds": 0.0588551249820739
+    },
+    {
+      "rank": 4,
+      "orbit": 125,
+      "complete": true,
+      "cross_bijections": 192,
+      "cross_orbits": 64,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 8,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.021518666995689273
+    },
+    {
+      "rank": 4,
+      "orbit": 126,
+      "complete": true,
+      "cross_bijections": 3456,
+      "cross_orbits": 3456,
+      "nodes": 47,
+      "terminal_histogram": {
+        "ti": 47
+      },
+      "unrecognized": [],
+      "seconds": 0.8778462080517784
+    },
+    {
+      "rank": 4,
+      "orbit": 127,
+      "complete": true,
+      "cross_bijections": 3456,
+      "cross_orbits": 3456,
+      "nodes": 96,
+      "terminal_histogram": {
+        "ti": 96
+      },
+      "unrecognized": [],
+      "seconds": 0.9259288330795243
+    },
+    {
+      "rank": 4,
+      "orbit": 128,
+      "complete": true,
+      "cross_bijections": 192,
+      "cross_orbits": 192,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.05888124997727573
+    },
+    {
+      "rank": 4,
+      "orbit": 129,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 288,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.08463979104999453
+    },
+    {
+      "rank": 4,
+      "orbit": 130,
+      "complete": true,
+      "cross_bijections": 2880,
+      "cross_orbits": 736,
+      "nodes": 48,
+      "terminal_histogram": {
+        "ti": 38,
+        "collision": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.20728175004478544
+    },
+    {
+      "rank": 4,
+      "orbit": 131,
+      "complete": true,
+      "cross_bijections": 6912,
+      "cross_orbits": 6912,
+      "nodes": 75,
+      "terminal_histogram": {
+        "ti": 75
+      },
+      "unrecognized": [],
+      "seconds": 1.8229012499796227
+    },
+    {
+      "rank": 4,
+      "orbit": 132,
+      "complete": true,
+      "cross_bijections": 4320,
+      "cross_orbits": 1088,
+      "nodes": 44,
+      "terminal_histogram": {
+        "ti": 34,
+        "collision": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.2956386669538915
+    },
+    {
+      "rank": 4,
+      "orbit": 133,
+      "complete": true,
+      "cross_bijections": 1152,
+      "cross_orbits": 1152,
+      "nodes": 52,
+      "terminal_histogram": {
+        "ti": 52
+      },
+      "unrecognized": [],
+      "seconds": 0.32336425001267344
+    },
+    {
+      "rank": 4,
+      "orbit": 134,
+      "complete": true,
+      "cross_bijections": 576,
+      "cross_orbits": 160,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 18,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.0501742500346154
+    },
+    {
+      "rank": 4,
+      "orbit": 135,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.010810666950419545
+    },
+    {
+      "rank": 4,
+      "orbit": 136,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 288,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.08236975001636893
+    },
+    {
+      "rank": 4,
+      "orbit": 137,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 288,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.08409274998120964
+    },
+    {
+      "rank": 4,
+      "orbit": 138,
+      "complete": true,
+      "cross_bijections": 64,
+      "cross_orbits": 64,
+      "nodes": 27,
+      "terminal_histogram": {
+        "ti": 27
+      },
+      "unrecognized": [],
+      "seconds": 0.027774707996286452
+    },
+    {
+      "rank": 4,
+      "orbit": 139,
+      "complete": true,
+      "cross_bijections": 64,
+      "cross_orbits": 64,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.025112290983088315
+    },
+    {
+      "rank": 4,
+      "orbit": 140,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.010876832995563745
+    },
+    {
+      "rank": 4,
+      "orbit": 141,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.010444540996104479
+    },
+    {
+      "rank": 4,
+      "orbit": 142,
+      "complete": true,
+      "cross_bijections": 3456,
+      "cross_orbits": 880,
+      "nodes": 24,
+      "terminal_histogram": {
+        "ti": 14,
+        "collision": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.22354254208039492
+    },
+    {
+      "rank": 4,
+      "orbit": 143,
+      "complete": true,
+      "cross_bijections": 3456,
+      "cross_orbits": 912,
+      "nodes": 41,
+      "terminal_histogram": {
+        "ti": 16,
+        "collision": 13,
+        "homometric": 12
+      },
+      "unrecognized": [],
+      "seconds": 0.24217033304739743
+    },
+    {
+      "rank": 4,
+      "orbit": 144,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 80,
+      "nodes": 18,
+      "terminal_histogram": {
+        "ti": 10,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.026280291960574687
+    },
+    {
+      "rank": 4,
+      "orbit": 145,
+      "complete": true,
+      "cross_bijections": 576,
+      "cross_orbits": 160,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 8,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.04397858306765556
+    },
+    {
+      "rank": 4,
+      "orbit": 146,
+      "complete": true,
+      "cross_bijections": 5184,
+      "cross_orbits": 1304,
+      "nodes": 39,
+      "terminal_histogram": {
+        "ti": 25,
+        "collision": 12,
+        "branch": 1,
+        "homometric": 1
+      },
+      "unrecognized": [],
+      "seconds": 0.3565257500158623
+    },
+    {
+      "rank": 4,
+      "orbit": 147,
+      "complete": true,
+      "cross_bijections": 34560,
+      "cross_orbits": 34560,
+      "nodes": 189,
+      "terminal_histogram": {
+        "ti": 189
+      },
+      "unrecognized": [],
+      "seconds": 8.830374125041999
+    },
+    {
+      "rank": 4,
+      "orbit": 148,
+      "complete": true,
+      "cross_bijections": 6912,
+      "cross_orbits": 1760,
+      "nodes": 54,
+      "terminal_histogram": {
+        "ti": 32,
+        "collision": 10,
+        "homometric": 12
+      },
+      "unrecognized": [],
+      "seconds": 0.4659749590791762
+    },
+    {
+      "rank": 4,
+      "orbit": 149,
+      "complete": true,
+      "cross_bijections": 17280,
+      "cross_orbits": 4336,
+      "nodes": 74,
+      "terminal_histogram": {
+        "ti": 61,
+        "collision": 13
+      },
+      "unrecognized": [],
+      "seconds": 1.1043097920482978
+    },
+    {
+      "rank": 4,
+      "orbit": 150,
+      "complete": true,
+      "cross_bijections": 2880,
+      "cross_orbits": 736,
+      "nodes": 44,
+      "terminal_histogram": {
+        "ti": 34,
+        "collision": 10
+      },
+      "unrecognized": [],
+      "seconds": 0.19740750000346452
+    },
+    {
+      "rank": 4,
+      "orbit": 151,
+      "complete": true,
+      "cross_bijections": 864,
+      "cross_orbits": 864,
+      "nodes": 47,
+      "terminal_histogram": {
+        "ti": 47
+      },
+      "unrecognized": [],
+      "seconds": 0.24291483301203698
+    },
+    {
+      "rank": 4,
+      "orbit": 152,
+      "complete": true,
+      "cross_bijections": 864,
+      "cross_orbits": 224,
+      "nodes": 32,
+      "terminal_histogram": {
+        "ti": 24,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.06766724993940443
+    },
+    {
+      "rank": 4,
+      "orbit": 153,
+      "complete": true,
+      "cross_bijections": 3456,
+      "cross_orbits": 3456,
+      "nodes": 100,
+      "terminal_histogram": {
+        "ti": 100
+      },
+      "unrecognized": [],
+      "seconds": 0.9210708340397105
+    },
+    {
+      "rank": 4,
+      "orbit": 154,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.019930000067688525
+    },
+    {
+      "rank": 4,
+      "orbit": 155,
+      "complete": true,
+      "cross_bijections": 172800,
+      "cross_orbits": 43264,
+      "nodes": 325,
+      "terminal_histogram": {
+        "ti": 262,
+        "collision": 45,
+        "branch": 7,
+        "homometric": 11
+      },
+      "unrecognized": [],
+      "seconds": 11.059994208044372
+    },
+    {
+      "rank": 4,
+      "orbit": 156,
+      "complete": true,
+      "cross_bijections": 192,
+      "cross_orbits": 192,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.058497500023804605
+    },
+    {
+      "rank": 4,
+      "orbit": 157,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 288,
+      "nodes": 34,
+      "terminal_histogram": {
+        "ti": 34
+      },
+      "unrecognized": [],
+      "seconds": 0.0849017919972539
+    },
+    {
+      "rank": 4,
+      "orbit": 158,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.020115040941163898
+    },
+    {
+      "rank": 4,
+      "orbit": 159,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.01433129096403718
+    },
+    {
+      "rank": 4,
+      "orbit": 160,
+      "complete": true,
+      "cross_bijections": 64,
+      "cross_orbits": 64,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.0242025830084458
+    },
+    {
+      "rank": 4,
+      "orbit": 161,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.014538958086632192
+    },
+    {
+      "rank": 4,
+      "orbit": 162,
+      "complete": true,
+      "cross_bijections": 576,
+      "cross_orbits": 160,
+      "nodes": 32,
+      "terminal_histogram": {
+        "ti": 24,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.052407791023142636
+    },
+    {
+      "rank": 4,
+      "orbit": 163,
+      "complete": true,
+      "cross_bijections": 6912,
+      "cross_orbits": 1920,
+      "nodes": 134,
+      "terminal_histogram": {
+        "ti": 98,
+        "collision": 28,
+        "homometric": 6,
+        "branch": 2
+      },
+      "unrecognized": [],
+      "seconds": 0.5239408330526203
+    },
+    {
+      "rank": 4,
+      "orbit": 164,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 80,
+      "nodes": 18,
+      "terminal_histogram": {
+        "ti": 10,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.02527058299165219
+    },
+    {
+      "rank": 4,
+      "orbit": 165,
+      "complete": true,
+      "cross_bijections": 576,
+      "cross_orbits": 160,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 18,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.04801679193042219
+    },
+    {
+      "rank": 4,
+      "orbit": 166,
+      "complete": true,
+      "cross_bijections": 384,
+      "cross_orbits": 128,
+      "nodes": 24,
+      "terminal_histogram": {
+        "ti": 16,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.04017745901364833
+    },
+    {
+      "rank": 4,
+      "orbit": 167,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.01086512510664761
+    },
+    {
+      "rank": 4,
+      "orbit": 168,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.010880707995966077
+    },
+    {
+      "rank": 4,
+      "orbit": 169,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.01446962496265769
+    },
+    {
+      "rank": 4,
+      "orbit": 170,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.014547041966579854
+    },
+    {
+      "rank": 4,
+      "orbit": 171,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.011298207915388048
+    },
+    {
+      "rank": 4,
+      "orbit": 172,
+      "complete": true,
+      "cross_bijections": 1296,
+      "cross_orbits": 328,
+      "nodes": 23,
+      "terminal_histogram": {
+        "ti": 15,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.08784891699906439
+    },
+    {
+      "rank": 4,
+      "orbit": 173,
+      "complete": true,
+      "cross_bijections": 40320,
+      "cross_orbits": 94,
+      "nodes": 248,
+      "terminal_histogram": {
+        "ti": 70,
+        "collision": 87,
+        "branch": 60,
+        "homometric": 31
+      },
+      "unrecognized": [],
+      "seconds": 0.16418437496758997
+    },
+    {
+      "rank": 4,
+      "orbit": 174,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.034858833998441696
+    },
+    {
+      "rank": 4,
+      "orbit": 175,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.031203540973365307
+    },
+    {
+      "rank": 4,
+      "orbit": 176,
+      "complete": true,
+      "cross_bijections": 576,
+      "cross_orbits": 576,
+      "nodes": 64,
+      "terminal_histogram": {
+        "ti": 64
+      },
+      "unrecognized": [],
+      "seconds": 0.17108424997422844
+    },
+    {
+      "rank": 4,
+      "orbit": 177,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.014260416035540402
+    },
+    {
+      "rank": 4,
+      "orbit": 178,
+      "complete": true,
+      "cross_bijections": 1728,
+      "cross_orbits": 448,
+      "nodes": 36,
+      "terminal_histogram": {
+        "ti": 28,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.12281866697594523
+    },
+    {
+      "rank": 4,
+      "orbit": 179,
+      "complete": true,
+      "cross_bijections": 864,
+      "cross_orbits": 224,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 12,
+        "collision": 8
+      },
+      "unrecognized": [],
+      "seconds": 0.059383916086517274
+    },
+    {
+      "rank": 4,
+      "orbit": 180,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.03230716707184911
+    },
+    {
+      "rank": 4,
+      "orbit": 181,
+      "complete": true,
+      "cross_bijections": 288,
+      "cross_orbits": 288,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.08098358300048858
+    },
+    {
+      "rank": 4,
+      "orbit": 182,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.01986333297099918
+    },
+    {
+      "rank": 4,
+      "orbit": 183,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.03184883308131248
+    },
+    {
+      "rank": 4,
+      "orbit": 184,
+      "complete": true,
+      "cross_bijections": 192,
+      "cross_orbits": 192,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.0582237500930205
+    },
+    {
+      "rank": 4,
+      "orbit": 185,
+      "complete": true,
+      "cross_bijections": 192,
+      "cross_orbits": 192,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.054658666951581836
+    },
+    {
+      "rank": 4,
+      "orbit": 186,
+      "complete": true,
+      "cross_bijections": 64,
+      "cross_orbits": 64,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.02228045801166445
+    },
+    {
+      "rank": 4,
+      "orbit": 187,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.03127099992707372
+    },
+    {
+      "rank": 4,
+      "orbit": 188,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.011054207920096815
+    },
+    {
+      "rank": 4,
+      "orbit": 189,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.014521416975185275
+    },
+    {
+      "rank": 4,
+      "orbit": 190,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.014366167015396059
+    },
+    {
+      "rank": 4,
+      "orbit": 191,
+      "complete": true,
+      "cross_bijections": 192,
+      "cross_orbits": 192,
+      "nodes": 26,
+      "terminal_histogram": {
+        "ti": 26
+      },
+      "unrecognized": [],
+      "seconds": 0.056878792005591094
+    },
+    {
+      "rank": 4,
+      "orbit": 192,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.014675042009912431
+    },
+    {
+      "rank": 4,
+      "orbit": 193,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.03147758299019188
+    },
+    {
+      "rank": 4,
+      "orbit": 194,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.014524166006594896
+    },
+    {
+      "rank": 4,
+      "orbit": 195,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.019794416963122785
+    },
+    {
+      "rank": 4,
+      "orbit": 196,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.010693041956983507
+    },
+    {
+      "rank": 4,
+      "orbit": 197,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.019644416053779423
+    },
+    {
+      "rank": 4,
+      "orbit": 198,
+      "complete": true,
+      "cross_bijections": 48,
+      "cross_orbits": 48,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.020308249979279935
+    },
+    {
+      "rank": 4,
+      "orbit": 199,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.010643042041920125
+    },
+    {
+      "rank": 4,
+      "orbit": 200,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.014265417004935443
+    },
+    {
+      "rank": 4,
+      "orbit": 201,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.01076241594273597
+    },
+    {
+      "rank": 4,
+      "orbit": 202,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.01528891606722027
+    },
+    {
+      "rank": 4,
+      "orbit": 203,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.010674291057512164
+    },
+    {
+      "rank": 4,
+      "orbit": 204,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.010892166988924146
+    },
+    {
+      "rank": 4,
+      "orbit": 205,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.014728374895639718
+    },
+    {
+      "rank": 4,
+      "orbit": 206,
+      "complete": true,
+      "cross_bijections": 16,
+      "cross_orbits": 16,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.010815666988492012
+    },
+    {
+      "rank": 4,
+      "orbit": 207,
+      "complete": true,
+      "cross_bijections": 96,
+      "cross_orbits": 96,
+      "nodes": 20,
+      "terminal_histogram": {
+        "ti": 20
+      },
+      "unrecognized": [],
+      "seconds": 0.031365167000330985
+    },
+    {
+      "rank": 4,
+      "orbit": 208,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.01478945801500231
+    },
+    {
+      "rank": 4,
+      "orbit": 209,
+      "complete": true,
+      "cross_bijections": 64,
+      "cross_orbits": 64,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.022362582967616618
+    },
+    {
+      "rank": 4,
+      "orbit": 210,
+      "complete": true,
+      "cross_bijections": 32,
+      "cross_orbits": 32,
+      "nodes": 16,
+      "terminal_histogram": {
+        "ti": 16
+      },
+      "unrecognized": [],
+      "seconds": 0.014775500050745904
+    }
+  ],
+  "seconds": 141.36957337497734
+}

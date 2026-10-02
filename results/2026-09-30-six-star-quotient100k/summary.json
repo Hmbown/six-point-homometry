@@ -1,0 +1,14 @@
+{
+  "complete": false,
+  "error": "benchmark bound",
+  "seconds": 104.66061491693836,
+  "counts": {
+    "ti": 5185,
+    "branch": 63392,
+    "homometric": 2955,
+    "collision": 28468
+  },
+  "status": "EXPLORATORY; not reviewed or structurally classified",
+  "completed_roots": 11,
+  "nodes": 100000
+}

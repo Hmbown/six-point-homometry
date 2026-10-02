@@ -1,0 +1,10 @@
+test_domains_reference_and_normal_forms (__main__.ArithmeticTests.test_domains_reference_and_normal_forms) ... ok
+test_exact_smith_kernel_counts (__main__.ArithmeticTests.test_exact_smith_kernel_counts) ... ok
+test_input_scope (__main__.ArithmeticTests.test_input_scope) ... ok
+test_relative_certificate_path (__main__.ArithmeticTests.test_relative_certificate_path) ... ok
+test_support_count_against_actual_six_lists (__main__.ArithmeticTests.test_support_count_against_actual_six_lists) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 8.027s
+
+OK

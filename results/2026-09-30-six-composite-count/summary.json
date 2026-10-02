@@ -1,0 +1,3053 @@
+{
+  "schema": "composite-bloom-direct-v1",
+  "status": "COMPUTED",
+  "source_sha256": "7aa4ab981a633b25d250a8cb32a65d0ffd41b4b92c46459cb05bc2eba12639be",
+  "summaries": [
+    {
+      "n": 169,
+      "prime_factorization": [
+        [
+          13,
+          2
+        ]
+      ],
+      "parameters": 28561,
+      "collision_parameters": 2017,
+      "congruent_parameters": 0,
+      "admissible_parameters": 26544,
+      "pairs": 2212,
+      "fiber_histogram": {
+        "12": 2212
+      },
+      "G_orbits_per_fiber_histogram": {
+        "1": 2212
+      },
+      "G_orbit_size_histogram": {
+        "12": 2212
+      },
+      "non12_fibers": 0,
+      "fibers_not_single_G_orbits": 0,
+      "unit_separated_parameters": 4056,
+      "unit_separated_pairs": 338,
+      "unit_separated_fiber_histogram": {
+        "12": 338
+      },
+      "unit_separated_G_orbits_per_fiber_histogram": {
+        "1": 338
+      },
+      "unit_separated_candidate": {
+        "numerator": 4056,
+        "denominator": 12,
+        "integral": true,
+        "matches": true
+      },
+      "full_graph": {
+        "edges": 2212,
+        "endpoint_classes": 4424,
+        "degree_histogram": {
+          "1": 4424
+        },
+        "component_size_histogram": {
+          "2": 2212
+        },
+        "components": 2212,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "unit_separated_graph": {
+        "edges": 338,
+        "endpoint_classes": 676,
+        "degree_histogram": {
+          "1": 676
+        },
+        "component_size_histogram": {
+          "2": 338
+        },
+        "components": 338,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "local_support_strata": [
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 145,
+            "admissible": 24
+          },
+          "pairs": 2,
+          "fiber_histogram": {
+            "12": 2
+          },
+          "G_orbit_histogram": {
+            "1": 2
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 468,
+            "admissible": 5616
+          },
+          "pairs": 468,
+          "fiber_histogram": {
+            "12": 468
+          },
+          "G_orbit_histogram": {
+            "1": 468
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 1404,
+            "admissible": 16848
+          },
+          "pairs": 1404,
+          "fiber_histogram": {
+            "12": 1404
+          },
+          "G_orbit_histogram": {
+            "1": 1404
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 4056
+          },
+          "pairs": 338,
+          "fiber_histogram": {
+            "12": 338
+          },
+          "G_orbit_histogram": {
+            "1": 338
+          }
+        }
+      ],
+      "exceptional_fibers": [],
+      "enumeration_seconds": 0.146235
+    },
+    {
+      "n": 221,
+      "prime_factorization": [
+        [
+          13,
+          1
+        ],
+        [
+          17,
+          1
+        ]
+      ],
+      "parameters": 48841,
+      "collision_parameters": 2641,
+      "congruent_parameters": 0,
+      "admissible_parameters": 46200,
+      "pairs": 3850,
+      "fiber_histogram": {
+        "12": 3850
+      },
+      "G_orbits_per_fiber_histogram": {
+        "1": 3850
+      },
+      "G_orbit_size_histogram": {
+        "12": 3850
+      },
+      "non12_fibers": 0,
+      "fibers_not_single_G_orbits": 0,
+      "unit_separated_parameters": 2304,
+      "unit_separated_pairs": 192,
+      "unit_separated_fiber_histogram": {
+        "12": 192
+      },
+      "unit_separated_G_orbits_per_fiber_histogram": {
+        "1": 192
+      },
+      "unit_separated_candidate": {
+        "numerator": 2304,
+        "denominator": 12,
+        "integral": true,
+        "matches": true
+      },
+      "full_graph": {
+        "edges": 3850,
+        "endpoint_classes": 7700,
+        "degree_histogram": {
+          "1": 7700
+        },
+        "component_size_histogram": {
+          "2": 3850
+        },
+        "components": 3850,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "unit_separated_graph": {
+        "edges": 192,
+        "endpoint_classes": 384,
+        "degree_histogram": {
+          "1": 384
+        },
+        "component_size_histogram": {
+          "2": 192
+        },
+        "components": 192,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "local_support_strata": [
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 1
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 48
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 144
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 96
+          },
+          "pairs": 8,
+          "fiber_histogram": {
+            "12": 8
+          },
+          "G_orbit_histogram": {
+            "1": 8
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 36
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 576,
+            "admissible": 1152
+          },
+          "pairs": 96,
+          "fiber_histogram": {
+            "12": 96
+          },
+          "G_orbit_histogram": {
+            "1": 96
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 5184
+          },
+          "pairs": 432,
+          "fiber_histogram": {
+            "12": 432
+          },
+          "G_orbit_histogram": {
+            "1": 432
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 3456
+          },
+          "pairs": 288,
+          "fiber_histogram": {
+            "12": 288
+          },
+          "G_orbit_histogram": {
+            "1": 288
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 108
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 5184
+          },
+          "pairs": 432,
+          "fiber_histogram": {
+            "12": 432
+          },
+          "G_orbit_histogram": {
+            "1": 432
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 1728,
+            "admissible": 13824
+          },
+          "pairs": 1152,
+          "fiber_histogram": {
+            "12": 1152
+          },
+          "G_orbit_histogram": {
+            "1": 1152
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 10368
+          },
+          "pairs": 864,
+          "fiber_histogram": {
+            "12": 864
+          },
+          "G_orbit_histogram": {
+            "1": 864
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 24
+          },
+          "pairs": 2,
+          "fiber_histogram": {
+            "12": 2
+          },
+          "G_orbit_histogram": {
+            "1": 2
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 1152
+          },
+          "pairs": 96,
+          "fiber_histogram": {
+            "12": 96
+          },
+          "G_orbit_histogram": {
+            "1": 96
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 3456
+          },
+          "pairs": 288,
+          "fiber_histogram": {
+            "12": 288
+          },
+          "G_orbit_histogram": {
+            "1": 288
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 2304
+          },
+          "pairs": 192,
+          "fiber_histogram": {
+            "12": 192
+          },
+          "G_orbit_histogram": {
+            "1": 192
+          }
+        }
+      ],
+      "exceptional_fibers": [],
+      "enumeration_seconds": 0.246906
+    },
+    {
+      "n": 289,
+      "prime_factorization": [
+        [
+          17,
+          2
+        ]
+      ],
+      "parameters": 83521,
+      "collision_parameters": 3457,
+      "congruent_parameters": 0,
+      "admissible_parameters": 80064,
+      "pairs": 6672,
+      "fiber_histogram": {
+        "12": 6672
+      },
+      "G_orbits_per_fiber_histogram": {
+        "1": 6672
+      },
+      "G_orbit_size_histogram": {
+        "12": 6672
+      },
+      "non12_fibers": 0,
+      "fibers_not_single_G_orbits": 0,
+      "unit_separated_parameters": 27744,
+      "unit_separated_pairs": 2312,
+      "unit_separated_fiber_histogram": {
+        "12": 2312
+      },
+      "unit_separated_G_orbits_per_fiber_histogram": {
+        "1": 2312
+      },
+      "unit_separated_candidate": {
+        "numerator": 27744,
+        "denominator": 12,
+        "integral": true,
+        "matches": true
+      },
+      "full_graph": {
+        "edges": 6672,
+        "endpoint_classes": 13344,
+        "degree_histogram": {
+          "1": 13344
+        },
+        "component_size_histogram": {
+          "2": 6672
+        },
+        "components": 6672,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "unit_separated_graph": {
+        "edges": 2312,
+        "endpoint_classes": 4624,
+        "degree_histogram": {
+          "1": 4624
+        },
+        "component_size_histogram": {
+          "2": 2312
+        },
+        "components": 2312,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "local_support_strata": [
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 193,
+            "admissible": 96
+          },
+          "pairs": 8,
+          "fiber_histogram": {
+            "12": 8
+          },
+          "G_orbit_histogram": {
+            "1": 8
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 816,
+            "admissible": 13056
+          },
+          "pairs": 1088,
+          "fiber_histogram": {
+            "12": 1088
+          },
+          "G_orbit_histogram": {
+            "1": 1088
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 2448,
+            "admissible": 39168
+          },
+          "pairs": 3264,
+          "fiber_histogram": {
+            "12": 3264
+          },
+          "G_orbit_histogram": {
+            "1": 3264
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 27744
+          },
+          "pairs": 2312,
+          "fiber_histogram": {
+            "12": 2312
+          },
+          "G_orbit_histogram": {
+            "1": 2312
+          }
+        }
+      ],
+      "exceptional_fibers": [],
+      "enumeration_seconds": 0.438862
+    },
+    {
+      "n": 247,
+      "prime_factorization": [
+        [
+          13,
+          1
+        ],
+        [
+          19,
+          1
+        ]
+      ],
+      "parameters": 61009,
+      "collision_parameters": 2953,
+      "congruent_parameters": 0,
+      "admissible_parameters": 58056,
+      "pairs": 4838,
+      "fiber_histogram": {
+        "12": 4838
+      },
+      "G_orbits_per_fiber_histogram": {
+        "1": 4838
+      },
+      "G_orbit_size_histogram": {
+        "12": 4838
+      },
+      "non12_fibers": 0,
+      "fibers_not_single_G_orbits": 0,
+      "unit_separated_parameters": 3456,
+      "unit_separated_pairs": 288,
+      "unit_separated_fiber_histogram": {
+        "12": 288
+      },
+      "unit_separated_G_orbits_per_fiber_histogram": {
+        "1": 288
+      },
+      "unit_separated_candidate": {
+        "numerator": 3456,
+        "denominator": 12,
+        "integral": true,
+        "matches": true
+      },
+      "full_graph": {
+        "edges": 4838,
+        "endpoint_classes": 9676,
+        "degree_histogram": {
+          "1": 9676
+        },
+        "component_size_histogram": {
+          "2": 4838
+        },
+        "components": 4838,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "unit_separated_graph": {
+        "edges": 288,
+        "endpoint_classes": 576,
+        "degree_histogram": {
+          "1": 576
+        },
+        "component_size_histogram": {
+          "2": 288
+        },
+        "components": 288,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "local_support_strata": [
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 1
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 54
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 162
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 144
+          },
+          "pairs": 12,
+          "fiber_histogram": {
+            "12": 12
+          },
+          "G_orbit_histogram": {
+            "1": 12
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 36
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 648,
+            "admissible": 1296
+          },
+          "pairs": 108,
+          "fiber_histogram": {
+            "12": 108
+          },
+          "G_orbit_histogram": {
+            "1": 108
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 5832
+          },
+          "pairs": 486,
+          "fiber_histogram": {
+            "12": 486
+          },
+          "G_orbit_histogram": {
+            "1": 486
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 5184
+          },
+          "pairs": 432,
+          "fiber_histogram": {
+            "12": 432
+          },
+          "G_orbit_histogram": {
+            "1": 432
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 108
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 5832
+          },
+          "pairs": 486,
+          "fiber_histogram": {
+            "12": 486
+          },
+          "G_orbit_histogram": {
+            "1": 486
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 1944,
+            "admissible": 15552
+          },
+          "pairs": 1296,
+          "fiber_histogram": {
+            "12": 1296
+          },
+          "G_orbit_histogram": {
+            "1": 1296
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 15552
+          },
+          "pairs": 1296,
+          "fiber_histogram": {
+            "12": 1296
+          },
+          "G_orbit_histogram": {
+            "1": 1296
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 24
+          },
+          "pairs": 2,
+          "fiber_histogram": {
+            "12": 2
+          },
+          "G_orbit_histogram": {
+            "1": 2
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 1296
+          },
+          "pairs": 108,
+          "fiber_histogram": {
+            "12": 108
+          },
+          "G_orbit_histogram": {
+            "1": 108
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 3888
+          },
+          "pairs": 324,
+          "fiber_histogram": {
+            "12": 324
+          },
+          "G_orbit_histogram": {
+            "1": 324
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 3456
+          },
+          "pairs": 288,
+          "fiber_histogram": {
+            "12": 288
+          },
+          "G_orbit_histogram": {
+            "1": 288
+          }
+        }
+      ],
+      "exceptional_fibers": [],
+      "enumeration_seconds": 0.320671
+    },
+    {
+      "n": 323,
+      "prime_factorization": [
+        [
+          17,
+          1
+        ],
+        [
+          19,
+          1
+        ]
+      ],
+      "parameters": 104329,
+      "collision_parameters": 3865,
+      "congruent_parameters": 0,
+      "admissible_parameters": 100464,
+      "pairs": 8372,
+      "fiber_histogram": {
+        "12": 8372
+      },
+      "G_orbits_per_fiber_histogram": {
+        "1": 8372
+      },
+      "G_orbit_size_histogram": {
+        "12": 8372
+      },
+      "non12_fibers": 0,
+      "fibers_not_single_G_orbits": 0,
+      "unit_separated_parameters": 13824,
+      "unit_separated_pairs": 1152,
+      "unit_separated_fiber_histogram": {
+        "12": 1152
+      },
+      "unit_separated_G_orbits_per_fiber_histogram": {
+        "1": 1152
+      },
+      "unit_separated_candidate": {
+        "numerator": 13824,
+        "denominator": 12,
+        "integral": true,
+        "matches": true
+      },
+      "full_graph": {
+        "edges": 8372,
+        "endpoint_classes": 16744,
+        "degree_histogram": {
+          "1": 16744
+        },
+        "component_size_histogram": {
+          "2": 8372
+        },
+        "components": 8372,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "unit_separated_graph": {
+        "edges": 1152,
+        "endpoint_classes": 2304,
+        "degree_histogram": {
+          "1": 2304
+        },
+        "component_size_histogram": {
+          "2": 1152
+        },
+        "components": 1152,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "local_support_strata": [
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 1
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 54
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 162
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 144
+          },
+          "pairs": 12,
+          "fiber_histogram": {
+            "12": 12
+          },
+          "G_orbit_histogram": {
+            "1": 12
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 48
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 864,
+            "admissible": 1728
+          },
+          "pairs": 144,
+          "fiber_histogram": {
+            "12": 144
+          },
+          "G_orbit_histogram": {
+            "1": 144
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 7776
+          },
+          "pairs": 648,
+          "fiber_histogram": {
+            "12": 648
+          },
+          "G_orbit_histogram": {
+            "1": 648
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 6912
+          },
+          "pairs": 576,
+          "fiber_histogram": {
+            "12": 576
+          },
+          "G_orbit_histogram": {
+            "1": 576
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 144
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 7776
+          },
+          "pairs": 648,
+          "fiber_histogram": {
+            "12": 648
+          },
+          "G_orbit_histogram": {
+            "1": 648
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 2592,
+            "admissible": 20736
+          },
+          "pairs": 1728,
+          "fiber_histogram": {
+            "12": 1728
+          },
+          "G_orbit_histogram": {
+            "1": 1728
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 20736
+          },
+          "pairs": 1728,
+          "fiber_histogram": {
+            "12": 1728
+          },
+          "G_orbit_histogram": {
+            "1": 1728
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 96
+          },
+          "pairs": 8,
+          "fiber_histogram": {
+            "12": 8
+          },
+          "G_orbit_histogram": {
+            "1": 8
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 5184
+          },
+          "pairs": 432,
+          "fiber_histogram": {
+            "12": 432
+          },
+          "G_orbit_histogram": {
+            "1": 432
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 15552
+          },
+          "pairs": 1296,
+          "fiber_histogram": {
+            "12": 1296
+          },
+          "G_orbit_histogram": {
+            "1": 1296
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 13824
+          },
+          "pairs": 1152,
+          "fiber_histogram": {
+            "12": 1152
+          },
+          "G_orbit_histogram": {
+            "1": 1152
+          }
+        }
+      ],
+      "exceptional_fibers": [],
+      "enumeration_seconds": 0.575159
+    },
+    {
+      "n": 361,
+      "prime_factorization": [
+        [
+          19,
+          2
+        ]
+      ],
+      "parameters": 130321,
+      "collision_parameters": 4321,
+      "congruent_parameters": 0,
+      "admissible_parameters": 126000,
+      "pairs": 10500,
+      "fiber_histogram": {
+        "12": 10500
+      },
+      "G_orbits_per_fiber_histogram": {
+        "1": 10500
+      },
+      "G_orbit_size_histogram": {
+        "12": 10500
+      },
+      "non12_fibers": 0,
+      "fibers_not_single_G_orbits": 0,
+      "unit_separated_parameters": 51984,
+      "unit_separated_pairs": 4332,
+      "unit_separated_fiber_histogram": {
+        "12": 4332
+      },
+      "unit_separated_G_orbits_per_fiber_histogram": {
+        "1": 4332
+      },
+      "unit_separated_candidate": {
+        "numerator": 51984,
+        "denominator": 12,
+        "integral": true,
+        "matches": true
+      },
+      "full_graph": {
+        "edges": 10500,
+        "endpoint_classes": 21000,
+        "degree_histogram": {
+          "1": 21000
+        },
+        "component_size_histogram": {
+          "2": 10500
+        },
+        "components": 10500,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "unit_separated_graph": {
+        "edges": 4332,
+        "endpoint_classes": 8664,
+        "degree_histogram": {
+          "1": 8664
+        },
+        "component_size_histogram": {
+          "2": 4332
+        },
+        "components": 4332,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "local_support_strata": [
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 217,
+            "admissible": 144
+          },
+          "pairs": 12,
+          "fiber_histogram": {
+            "12": 12
+          },
+          "G_orbit_histogram": {
+            "1": 12
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 1026,
+            "admissible": 18468
+          },
+          "pairs": 1539,
+          "fiber_histogram": {
+            "12": 1539
+          },
+          "G_orbit_histogram": {
+            "1": 1539
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 3078,
+            "admissible": 55404
+          },
+          "pairs": 4617,
+          "fiber_histogram": {
+            "12": 4617
+          },
+          "G_orbit_histogram": {
+            "1": 4617
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 51984
+          },
+          "pairs": 4332,
+          "fiber_histogram": {
+            "12": 4332
+          },
+          "G_orbit_histogram": {
+            "1": 4332
+          }
+        }
+      ],
+      "exceptional_fibers": [],
+      "enumeration_seconds": 0.726669
+    },
+    {
+      "n": 529,
+      "prime_factorization": [
+        [
+          23,
+          2
+        ]
+      ],
+      "parameters": 279841,
+      "collision_parameters": 6337,
+      "congruent_parameters": 0,
+      "admissible_parameters": 273504,
+      "pairs": 22792,
+      "fiber_histogram": {
+        "12": 22792
+      },
+      "G_orbits_per_fiber_histogram": {
+        "1": 22792
+      },
+      "G_orbit_size_histogram": {
+        "12": 22792
+      },
+      "non12_fibers": 0,
+      "fibers_not_single_G_orbits": 0,
+      "unit_separated_parameters": 139656,
+      "unit_separated_pairs": 11638,
+      "unit_separated_fiber_histogram": {
+        "12": 11638
+      },
+      "unit_separated_G_orbits_per_fiber_histogram": {
+        "1": 11638
+      },
+      "unit_separated_candidate": {
+        "numerator": 139656,
+        "denominator": 12,
+        "integral": true,
+        "matches": true
+      },
+      "full_graph": {
+        "edges": 22792,
+        "endpoint_classes": 45584,
+        "degree_histogram": {
+          "1": 45584
+        },
+        "component_size_histogram": {
+          "2": 22792
+        },
+        "components": 22792,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "unit_separated_graph": {
+        "edges": 11638,
+        "endpoint_classes": 23276,
+        "degree_histogram": {
+          "1": 23276
+        },
+        "component_size_histogram": {
+          "2": 11638
+        },
+        "components": 11638,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "local_support_strata": [
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 265,
+            "admissible": 264
+          },
+          "pairs": 22,
+          "fiber_histogram": {
+            "12": 22
+          },
+          "G_orbit_histogram": {
+            "1": 22
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 1518,
+            "admissible": 33396
+          },
+          "pairs": 2783,
+          "fiber_histogram": {
+            "12": 2783
+          },
+          "G_orbit_histogram": {
+            "1": 2783
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 4554,
+            "admissible": 100188
+          },
+          "pairs": 8349,
+          "fiber_histogram": {
+            "12": 8349
+          },
+          "G_orbit_histogram": {
+            "1": 8349
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 139656
+          },
+          "pairs": 11638,
+          "fiber_histogram": {
+            "12": 11638
+          },
+          "G_orbit_histogram": {
+            "1": 11638
+          }
+        }
+      ],
+      "exceptional_fibers": [],
+      "enumeration_seconds": 1.689819
+    },
+    {
+      "n": 637,
+      "prime_factorization": [
+        [
+          7,
+          2
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "parameters": 405769,
+      "collision_parameters": 7609,
+      "congruent_parameters": 0,
+      "admissible_parameters": 398160,
+      "pairs": 33180,
+      "fiber_histogram": {
+        "12": 33180
+      },
+      "G_orbits_per_fiber_histogram": {
+        "1": 33180
+      },
+      "G_orbit_size_histogram": {
+        "12": 33180
+      },
+      "non12_fibers": 0,
+      "fibers_not_single_G_orbits": 0,
+      "unit_separated_parameters": 0,
+      "unit_separated_pairs": 0,
+      "unit_separated_fiber_histogram": {},
+      "unit_separated_G_orbits_per_fiber_histogram": {},
+      "unit_separated_candidate": null,
+      "full_graph": {
+        "edges": 33180,
+        "endpoint_classes": 66360,
+        "degree_histogram": {
+          "1": 66360
+        },
+        "component_size_histogram": {
+          "2": 33180
+        },
+        "components": 33180,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "unit_separated_graph": {
+        "edges": 0,
+        "endpoint_classes": 0,
+        "degree_histogram": {},
+        "component_size_histogram": {},
+        "components": 0,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 0,
+        "shared_endpoint_examples": []
+      },
+      "local_support_strata": [
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 49
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 252,
+            "admissible": 1512
+          },
+          "pairs": 126,
+          "fiber_histogram": {
+            "12": 126
+          },
+          "G_orbit_histogram": {
+            "1": 126
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 756,
+            "admissible": 4536
+          },
+          "pairs": 378,
+          "fiber_histogram": {
+            "12": 378
+          },
+          "G_orbit_histogram": {
+            "1": 378
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 1176
+          },
+          "pairs": 98,
+          "fiber_histogram": {
+            "12": 98
+          },
+          "G_orbit_histogram": {
+            "1": 98
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              3,
+              4
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 252,
+            "admissible": 336
+          },
+          "pairs": 28,
+          "fiber_histogram": {
+            "12": 28
+          },
+          "G_orbit_histogram": {
+            "1": 28
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 21168
+          },
+          "pairs": 1764,
+          "fiber_histogram": {
+            "12": 1764
+          },
+          "G_orbit_histogram": {
+            "1": 1764
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 3024,
+            "admissible": 60480
+          },
+          "pairs": 5040,
+          "fiber_histogram": {
+            "12": 5040
+          },
+          "G_orbit_histogram": {
+            "1": 5040
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              3,
+              4
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 14112
+          },
+          "pairs": 1176,
+          "fiber_histogram": {
+            "12": 1176
+          },
+          "G_orbit_histogram": {
+            "1": 1176
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 126,
+            "admissible": 756
+          },
+          "pairs": 63,
+          "fiber_histogram": {
+            "12": 63
+          },
+          "G_orbit_histogram": {
+            "1": 63
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 1512,
+            "admissible": 30240
+          },
+          "pairs": 2520,
+          "fiber_histogram": {
+            "12": 2520
+          },
+          "G_orbit_histogram": {
+            "1": 2520
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 95256
+          },
+          "pairs": 7938,
+          "fiber_histogram": {
+            "12": 7938
+          },
+          "G_orbit_histogram": {
+            "1": 7938
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 21168
+          },
+          "pairs": 1764,
+          "fiber_histogram": {
+            "12": 1764
+          },
+          "G_orbit_histogram": {
+            "1": 1764
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 126,
+            "admissible": 756
+          },
+          "pairs": 63,
+          "fiber_histogram": {
+            "12": 63
+          },
+          "G_orbit_histogram": {
+            "1": 63
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 31752
+          },
+          "pairs": 2646,
+          "fiber_histogram": {
+            "12": 2646
+          },
+          "G_orbit_histogram": {
+            "1": 2646
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 1512,
+            "admissible": 93744
+          },
+          "pairs": 7812,
+          "fiber_histogram": {
+            "12": 7812
+          },
+          "G_orbit_histogram": {
+            "1": 7812
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 21168
+          },
+          "pairs": 1764,
+          "fiber_histogram": {
+            "12": 1764
+          },
+          "G_orbit_histogram": {
+            "1": 1764
+          }
+        }
+      ],
+      "exceptional_fibers": [],
+      "enumeration_seconds": 2.500923
+    },
+    {
+      "n": 2197,
+      "prime_factorization": [
+        [
+          13,
+          3
+        ]
+      ],
+      "parameters": 4826809,
+      "collision_parameters": 26353,
+      "congruent_parameters": 0,
+      "admissible_parameters": 4800456,
+      "pairs": 400038,
+      "fiber_histogram": {
+        "12": 400038
+      },
+      "G_orbits_per_fiber_histogram": {
+        "1": 400038
+      },
+      "G_orbit_size_histogram": {
+        "12": 400038
+      },
+      "non12_fibers": 0,
+      "fibers_not_single_G_orbits": 0,
+      "unit_separated_parameters": 685464,
+      "unit_separated_pairs": 57122,
+      "unit_separated_fiber_histogram": {
+        "12": 57122
+      },
+      "unit_separated_G_orbits_per_fiber_histogram": {
+        "1": 57122
+      },
+      "unit_separated_candidate": {
+        "numerator": 685464,
+        "denominator": 12,
+        "integral": true,
+        "matches": true
+      },
+      "full_graph": {
+        "edges": 400038,
+        "endpoint_classes": 800076,
+        "degree_histogram": {
+          "1": 800076
+        },
+        "component_size_histogram": {
+          "2": 400038
+        },
+        "components": 400038,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "unit_separated_graph": {
+        "edges": 57122,
+        "endpoint_classes": 114244,
+        "degree_histogram": {
+          "1": 114244
+        },
+        "component_size_histogram": {
+          "2": 57122
+        },
+        "components": 57122,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "local_support_strata": [
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 2017,
+            "admissible": 26544
+          },
+          "pairs": 2212,
+          "fiber_histogram": {
+            "12": 2212
+          },
+          "G_orbit_histogram": {
+            "1": 2212
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 6084,
+            "admissible": 1022112
+          },
+          "pairs": 85176,
+          "fiber_histogram": {
+            "12": 85176
+          },
+          "G_orbit_histogram": {
+            "1": 85176
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 18252,
+            "admissible": 3066336
+          },
+          "pairs": 255528,
+          "fiber_histogram": {
+            "12": 255528
+          },
+          "G_orbit_histogram": {
+            "1": 255528
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 685464
+          },
+          "pairs": 57122,
+          "fiber_histogram": {
+            "12": 57122
+          },
+          "G_orbit_histogram": {
+            "1": 57122
+          }
+        }
+      ],
+      "exceptional_fibers": [],
+      "enumeration_seconds": 32.617007
+    },
+    {
+      "n": 403,
+      "prime_factorization": [
+        [
+          13,
+          1
+        ],
+        [
+          31,
+          1
+        ]
+      ],
+      "parameters": 162409,
+      "collision_parameters": 4825,
+      "congruent_parameters": 0,
+      "admissible_parameters": 157584,
+      "pairs": 13132,
+      "fiber_histogram": {
+        "12": 13132
+      },
+      "G_orbits_per_fiber_histogram": {
+        "1": 13132
+      },
+      "G_orbit_size_histogram": {
+        "12": 13132
+      },
+      "non12_fibers": 0,
+      "fibers_not_single_G_orbits": 0,
+      "unit_separated_parameters": 14400,
+      "unit_separated_pairs": 1200,
+      "unit_separated_fiber_histogram": {
+        "12": 1200
+      },
+      "unit_separated_G_orbits_per_fiber_histogram": {
+        "1": 1200
+      },
+      "unit_separated_candidate": {
+        "numerator": 14400,
+        "denominator": 12,
+        "integral": true,
+        "matches": true
+      },
+      "full_graph": {
+        "edges": 13132,
+        "endpoint_classes": 26259,
+        "degree_histogram": {
+          "1": 26254,
+          "2": 5
+        },
+        "component_size_histogram": {
+          "2": 13127,
+          "5": 1
+        },
+        "components": 13128,
+        "shared_endpoint_classes": 5,
+        "maximum_degree": 2,
+        "shared_endpoint_examples": [
+          {
+            "endpoint": [
+              0,
+              13,
+              39,
+              104,
+              156,
+              234
+            ],
+            "degree": 2
+          },
+          {
+            "endpoint": [
+              0,
+              13,
+              39,
+              130,
+              182,
+              338
+            ],
+            "degree": 2
+          },
+          {
+            "endpoint": [
+              0,
+              13,
+              52,
+              78,
+              169,
+              273
+            ],
+            "degree": 2
+          },
+          {
+            "endpoint": [
+              0,
+              13,
+              52,
+              130,
+              156,
+              221
+            ],
+            "degree": 2
+          },
+          {
+            "endpoint": [
+              0,
+              13,
+              104,
+              143,
+              169,
+              221
+            ],
+            "degree": 2
+          }
+        ]
+      },
+      "unit_separated_graph": {
+        "edges": 1200,
+        "endpoint_classes": 2400,
+        "degree_histogram": {
+          "1": 2400
+        },
+        "component_size_histogram": {
+          "2": 1200
+        },
+        "components": 1200,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "local_support_strata": [
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 1
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 90
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 270
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 600
+          },
+          "pairs": 50,
+          "fiber_histogram": {
+            "12": 50
+          },
+          "G_orbit_histogram": {
+            "1": 50
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 36
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 1080,
+            "admissible": 2160
+          },
+          "pairs": 180,
+          "fiber_histogram": {
+            "12": 180
+          },
+          "G_orbit_histogram": {
+            "1": 180
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 9720
+          },
+          "pairs": 810,
+          "fiber_histogram": {
+            "12": 810
+          },
+          "G_orbit_histogram": {
+            "1": 810
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 21600
+          },
+          "pairs": 1800,
+          "fiber_histogram": {
+            "12": 1800
+          },
+          "G_orbit_histogram": {
+            "1": 1800
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 108
+          },
+          "pairs": 0,
+          "fiber_histogram": {},
+          "G_orbit_histogram": {}
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 9720
+          },
+          "pairs": 810,
+          "fiber_histogram": {
+            "12": 810
+          },
+          "G_orbit_histogram": {
+            "1": 810
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 3240,
+            "admissible": 25920
+          },
+          "pairs": 2160,
+          "fiber_histogram": {
+            "12": 2160
+          },
+          "G_orbit_histogram": {
+            "1": 2160
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 64800
+          },
+          "pairs": 5400,
+          "fiber_histogram": {
+            "12": 5400
+          },
+          "G_orbit_histogram": {
+            "1": 5400
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 24
+          },
+          "pairs": 2,
+          "fiber_histogram": {
+            "12": 2
+          },
+          "G_orbit_histogram": {
+            "1": 2
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 2160
+          },
+          "pairs": 180,
+          "fiber_histogram": {
+            "12": 180
+          },
+          "G_orbit_histogram": {
+            "1": 180
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ],
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 6480
+          },
+          "pairs": 540,
+          "fiber_histogram": {
+            "12": 540
+          },
+          "G_orbit_histogram": {
+            "1": 540
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ],
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 14400
+          },
+          "pairs": 1200,
+          "fiber_histogram": {
+            "12": 1200
+          },
+          "G_orbit_histogram": {
+            "1": 1200
+          }
+        }
+      ],
+      "exceptional_fibers": [],
+      "enumeration_seconds": 1.453953
+    },
+    {
+      "n": 961,
+      "prime_factorization": [
+        [
+          31,
+          2
+        ]
+      ],
+      "parameters": 923521,
+      "collision_parameters": 11521,
+      "congruent_parameters": 0,
+      "admissible_parameters": 912000,
+      "pairs": 76000,
+      "fiber_histogram": {
+        "12": 76000
+      },
+      "G_orbits_per_fiber_histogram": {
+        "1": 76000
+      },
+      "G_orbit_size_histogram": {
+        "12": 76000
+      },
+      "non12_fibers": 0,
+      "fibers_not_single_G_orbits": 0,
+      "unit_separated_parameters": 576600,
+      "unit_separated_pairs": 48050,
+      "unit_separated_fiber_histogram": {
+        "12": 48050
+      },
+      "unit_separated_G_orbits_per_fiber_histogram": {
+        "1": 48050
+      },
+      "unit_separated_candidate": {
+        "numerator": 576600,
+        "denominator": 12,
+        "integral": true,
+        "matches": true
+      },
+      "full_graph": {
+        "edges": 76000,
+        "endpoint_classes": 151995,
+        "degree_histogram": {
+          "1": 151990,
+          "2": 5
+        },
+        "component_size_histogram": {
+          "2": 75995,
+          "5": 1
+        },
+        "components": 75996,
+        "shared_endpoint_classes": 5,
+        "maximum_degree": 2,
+        "shared_endpoint_examples": [
+          {
+            "endpoint": [
+              0,
+              31,
+              93,
+              248,
+              372,
+              558
+            ],
+            "degree": 2
+          },
+          {
+            "endpoint": [
+              0,
+              31,
+              93,
+              310,
+              434,
+              806
+            ],
+            "degree": 2
+          },
+          {
+            "endpoint": [
+              0,
+              31,
+              124,
+              186,
+              403,
+              651
+            ],
+            "degree": 2
+          },
+          {
+            "endpoint": [
+              0,
+              31,
+              124,
+              310,
+              372,
+              527
+            ],
+            "degree": 2
+          },
+          {
+            "endpoint": [
+              0,
+              31,
+              248,
+              341,
+              403,
+              527
+            ],
+            "degree": 2
+          }
+        ]
+      },
+      "unit_separated_graph": {
+        "edges": 48050,
+        "endpoint_classes": 96100,
+        "degree_histogram": {
+          "1": 96100
+        },
+        "component_size_histogram": {
+          "2": 48050
+        },
+        "components": 48050,
+        "shared_endpoint_classes": 0,
+        "maximum_degree": 1,
+        "shared_endpoint_examples": []
+      },
+      "local_support_strata": [
+        {
+          "support_sizes": [
+            [
+              1,
+              1
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 361,
+            "admissible": 600
+          },
+          "pairs": 50,
+          "fiber_histogram": {
+            "12": 50
+          },
+          "G_orbit_histogram": {
+            "1": 50
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              4,
+              4
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 2790,
+            "admissible": 83700
+          },
+          "pairs": 6975,
+          "fiber_histogram": {
+            "12": 6975
+          },
+          "G_orbit_histogram": {
+            "1": 6975
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              5,
+              5
+            ]
+          ],
+          "parameter_counts": {
+            "collision": 8370,
+            "admissible": 251100
+          },
+          "pairs": 20925,
+          "fiber_histogram": {
+            "12": 20925
+          },
+          "G_orbit_histogram": {
+            "1": 20925
+          }
+        },
+        {
+          "support_sizes": [
+            [
+              6,
+              6
+            ]
+          ],
+          "parameter_counts": {
+            "admissible": 576600
+          },
+          "pairs": 48050,
+          "fiber_histogram": {
+            "12": 48050
+          },
+          "G_orbit_histogram": {
+            "1": 48050
+          }
+        }
+      ],
+      "exceptional_fibers": [],
+      "enumeration_seconds": 6.485942
+    }
+  ]
+}

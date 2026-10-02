@@ -1,0 +1,164 @@
+{
+  "status": "COMPUTED independent exact certificate audit",
+  "high_free_rank": {
+    "directions": 120,
+    "flats": 4176,
+    "orbits": 25,
+    "matchings": 14475,
+    "counts": {
+      "trivial": 555,
+      "collision": 13916,
+      "block": 4
+    },
+    "row_identities": 17246,
+    "survivors": [
+      {
+        "orbit": 20,
+        "index": 43,
+        "orders": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "moved": 2
+      },
+      {
+        "orbit": 20,
+        "index": 53,
+        "orders": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "moved": 2
+      },
+      {
+        "orbit": 20,
+        "index": 107,
+        "orders": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "moved": 2
+      },
+      {
+        "orbit": 20,
+        "index": 117,
+        "orders": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "moved": 2
+      }
+    ],
+    "formal_master_identity": true,
+    "seconds": 0.9310022499412298
+  },
+  "bloom": {
+    "cases": [
+      {
+        "kind": 1,
+        "slope": "None",
+        "matchings": 1
+      },
+      {
+        "kind": 1,
+        "slope": "3",
+        "matchings": 128
+      },
+      {
+        "kind": 1,
+        "slope": "4",
+        "matchings": 16
+      },
+      {
+        "kind": 1,
+        "slope": "5",
+        "matchings": 4
+      },
+      {
+        "kind": 2,
+        "slope": "None",
+        "matchings": 1
+      },
+      {
+        "kind": 2,
+        "slope": "3/2",
+        "matchings": 128
+      },
+      {
+        "kind": 2,
+        "slope": "5/3",
+        "matchings": 4
+      }
+    ],
+    "matchings": 282,
+    "presentations": 21,
+    "distinct_lattice_pairs": 210,
+    "collision_presentations": 2,
+    "bloom_presentations": 19,
+    "histogram": [
+      {
+        "free_rank": 1,
+        "torsion": [],
+        "count": 3
+      },
+      {
+        "free_rank": 1,
+        "torsion": [
+          2
+        ],
+        "count": 8
+      },
+      {
+        "free_rank": 2,
+        "torsion": [],
+        "count": 8
+      }
+    ],
+    "row_identities": 8460,
+    "seconds": 0.08460537495557219
+  },
+  "inputs": {
+    "src/six_free_rank.py": "5775010a342c6987bbd3373bcd108a3595ed9926c52346dd86165baeb585ca55",
+    "src/six_bloom_cylinders.py": "4ab0ca88aa13bfc8cd3a4f08e7d520079837a6a83bab97daa45cacc02a6ff6b2",
+    "results/2026-09-30-six-bloom-cylinders.json": "8431e34edb7793fa68160791d4f1a2b6694756b0558a50991f277853bd2585a9",
+    "results/2026-09-30-six-free-rank/growth-verification.json": "0063a95a7c236e376f19dfb9f0a03b914ba9431ada757df49446cbc223c7fc4f",
+    "results/2026-09-30-six-free-rank/orbit00.json": "bc7b1b656df5eef5dff663c59edbf856d006829a8fb65792b5bbb550f4196260",
+    "results/2026-09-30-six-free-rank/orbit01.json": "56d3a2aca8c746676bef07ca646d5aa583e4359710e3006aedd1d11aa514bc82",
+    "results/2026-09-30-six-free-rank/orbit02.json": "139740a68451bffc11a12fd892d6dd51692bbe9f8c523ec769c7b259cfa48d94",
+    "results/2026-09-30-six-free-rank/orbit03.json": "b8942f3bc1ad1e01d34ee472186f2b99f5f5ad633e2ba80ef8f9330827099f38",
+    "results/2026-09-30-six-free-rank/orbit04.json": "b5b7720ec4e98f801493d210f582e1ec2b40c75708eb285a569d6343bc890477",
+    "results/2026-09-30-six-free-rank/orbit05.json": "bef19a0290ebb227313d8cc003265c5402ce0c7dcecadf0d8c701f266e850229",
+    "results/2026-09-30-six-free-rank/orbit06.json": "46096375f3283d0bfb70727fb815e9e9512bf8bb7ec551c141cb3af728cf58b3",
+    "results/2026-09-30-six-free-rank/orbit07.json": "b746c638826ab2ccd4e5e67a527cdf4ee30f7209baab7b813798f13d5a30d616",
+    "results/2026-09-30-six-free-rank/orbit08.json": "b38654a65eab79f9e43e7eab8d0547e9adc24bf3ebd1d11239aa6846489b75cb",
+    "results/2026-09-30-six-free-rank/orbit09.json": "ab3aa28e7ace6b3beba6962e46f58a92293d150e773420e4d4ce1ad02a39630d",
+    "results/2026-09-30-six-free-rank/orbit10.json": "58a24b7500e127740ca68ba0872f0a5e13c8be2aa9325445369f42f7359a85c3",
+    "results/2026-09-30-six-free-rank/orbit11.json": "8d1271fa5e4c7d3e3ed7b0bb75456ae72124c54f21e92f1f8bef808d478a68ba",
+    "results/2026-09-30-six-free-rank/orbit12.json": "af62655fa05f83a055ab9b3479210626997d93c1266607c792d4d266a870bcba",
+    "results/2026-09-30-six-free-rank/orbit13.json": "43e91a9c98804a05aa95edc1f8b0310b857d96f07236bff20e175d587bb484e3",
+    "results/2026-09-30-six-free-rank/orbit14.json": "7f75b76996bc890c7a9204bb5d49626ed263cb7d8fc8c3787bc7bbcaaf46b3c3",
+    "results/2026-09-30-six-free-rank/orbit15.json": "50f90ff9c0d558d5b8beebd1d47f898d56badb3004154585c060562f1997c723",
+    "results/2026-09-30-six-free-rank/orbit16.json": "0e19dab53b2ec017b7ec9580fb1e26201ec2622d5eb65a5ff498e0644de52540",
+    "results/2026-09-30-six-free-rank/orbit17.json": "2e9079eded0a1e37a12770f79f9ee4c32441424fdf9639ea2491238bdedbd64b",
+    "results/2026-09-30-six-free-rank/orbit18.json": "7f0a64bd3544acdcf310fe2ce0f095ece3ae3862a2740626ae28e70806c81ed6",
+    "results/2026-09-30-six-free-rank/orbit19.json": "55fe4ba5df1bae24c82715f2f10d7ca0967bca31812e9baaf694be765640d77f",
+    "results/2026-09-30-six-free-rank/orbit20.json": "f6baede0d05a235594d3f262dc366da92b6ff0673c22efd6f0f67e23405a9a70",
+    "results/2026-09-30-six-free-rank/orbit21.json": "0fb84078d5668db87f14566f628bcd15e025a8c1c561a3674e19968c3b6c4a05",
+    "results/2026-09-30-six-free-rank/orbit22.json": "c4880b43540087b4da089819888e528186ff234ee5e0ea01f194dff3b9d9ba32",
+    "results/2026-09-30-six-free-rank/orbit23.json": "f64eb8b3a049bd7ba84229eeaa8a3000582c6343f2d1c9e463d5802922ca7342",
+    "results/2026-09-30-six-free-rank/orbit24.json": "fa79577efd5504e1161946bd43f7eedcf83e61ffab9fc6f7829efee492bf5622",
+    "results/2026-09-30-six-free-rank/presentations.json": "939126c7004d5039aa11ffebbd1e7a5e1627db4f6a123cc773c68a1cc8bf688c",
+    "results/2026-09-30-six-free-rank/rank3-orbits.json": "976fd3c654480df883d3236ad0083007fe42efa95460e6f608b1122e5c25307e",
+    "results/2026-09-30-six-free-rank/rank4-orbits.json": "9fc90389c6e98d605bfb9b8160708688acc31a4ca17807b4ffe57919a9010f2c",
+    "results/2026-09-30-six-free-rank/spans.json": "8b8c7b53e05b9c43502fa3af3742f3dfa156e1ae23971c111448dad3af030e77",
+    "results/2026-09-30-six-free-rank/verification.json": "07b1b67ff660ab1ed68549653dfce6ca920350710fb3735bca31b73b67cdca19"
+  }
+}

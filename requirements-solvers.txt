@@ -1,0 +1,3 @@
+# Optional full G solver replays. Also supply the corresponding z3 executable.
+cvc5==1.4.1
+z3-solver==4.15.4.0

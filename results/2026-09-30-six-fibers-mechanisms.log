@@ -1,0 +1,3 @@
+4-2 Counter({'D-dyad': 32, 'L5-reflect': 11, 'L4-halfturn': 4, 'gap': 3, 'L2-translate': 1})
+3-3 Counter({'D-dyad': 49, 'L3star-cosymmetric': 10, 'L5-reflect': 8})
+seconds 0.47569320793263614

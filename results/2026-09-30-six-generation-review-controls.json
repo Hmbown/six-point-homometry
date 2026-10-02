@@ -1,0 +1,34 @@
+{
+  "status": "COMPUTED independent symbolic synthesis controls passed",
+  "root_directions": 120,
+  "patterns": {
+    "(1, 1, 2)": 60,
+    "(1, 1, 1, 1)": 45,
+    "(1, 1)": 15
+  },
+  "HR_universal_group": "Z^3 x C2",
+  "HR_autocorrelations_equal": true,
+  "HR_unaligned_first_cross_identity": false,
+  "HR_aligned_L5_identity": true,
+  "HR_alignment": "Bprime=p-B; fixed U={r,r+h}; moving W=C; c=p",
+  "Iw_artifact_refresh": [
+    {
+      "directory": "results/2026-09-30-six-integer-review",
+      "input_sha256": "83b1adbd474d376eb6f02ab6e3b826e96db419f325c4ba75804f6b47013f2b00",
+      "uncompressed_proof_sha256": "6db78c19880ea003f35edf66c3c0018f756d30bdc9cc04b09f9672a0a6d0cb35",
+      "proof_bytes": 10881375,
+      "saved_result": "unsat",
+      "internal_proof_check": "eager",
+      "regenerated_solver": false
+    },
+    {
+      "directory": "results/2026-09-30-six-integer-weighted-review-ordered",
+      "input_sha256": "e8a9bcf7c94c9f3c8c352b92ea8a22a48872cd723463a6d2bdbe61740cbccb30",
+      "uncompressed_proof_sha256": "da3e2eb3418a2af24caf2731980a0b15e0f61cb3ef07af41f37e0489890bbb07",
+      "proof_bytes": 24459075,
+      "saved_result": "unsat",
+      "internal_proof_check": "eager",
+      "regenerated_solver": false
+    }
+  ]
+}

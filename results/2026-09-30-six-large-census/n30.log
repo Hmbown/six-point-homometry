@@ -1,0 +1,4 @@
+enumerated n=30 mode=gap classes=10133 seconds=0.001 record_bytes=243192
+{"n":30,"mode":"gap","classes":10133,"families":428,"pairs":436,"largest":3,"seconds":0.001}
+enumerated n=30 mode=point classes=10133 seconds=0.001 record_bytes=243192
+{"n":30,"mode":"point","classes":10133,"families":428,"pairs":436,"largest":3,"seconds":0.002}

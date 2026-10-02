@@ -1,0 +1,201 @@
+{
+  "status": "COMPUTED independent review",
+  "encoding": "positive gaps and edge-occurrence bijection",
+  "finite": {
+    "max_diameter": 40,
+    "reflection_classes": 330144,
+    "pairs": 39,
+    "class_count_independent_formula": true,
+    "pair_count_independent_generation": true,
+    "repeated_distance_pairs": 8,
+    "pairs_by_diameter": {
+      "11": 1,
+      "13": 1,
+      "14": 1,
+      "17": 1,
+      "18": 1,
+      "19": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1,
+      "23": 2,
+      "25": 1,
+      "26": 2,
+      "27": 1,
+      "28": 2,
+      "29": 2,
+      "30": 1,
+      "31": 2,
+      "32": 1,
+      "33": 2,
+      "34": 2,
+      "35": 2,
+      "36": 2,
+      "37": 2,
+      "38": 3,
+      "39": 2,
+      "40": 1
+    },
+    "seconds": 0.6258982908912003
+  },
+  "controls": [
+    {
+      "pair": [
+        [
+          0,
+          1,
+          4,
+          10,
+          12,
+          17
+        ],
+        [
+          0,
+          1,
+          8,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exclude": false,
+      "solver": "cvc5",
+      "version": "1.4.1",
+      "outputs": [
+        "sat"
+      ],
+      "seconds": 0.03549074998591095,
+      "source_sha256": "56d314831fa8cdaa73338120067454513f5b2dbc39e7e44f924bbf8fa67972e7",
+      "check_proofs": true,
+      "proof_check": "eager"
+    },
+    {
+      "pair": [
+        [
+          0,
+          1,
+          4,
+          10,
+          12,
+          17
+        ],
+        [
+          0,
+          1,
+          8,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exclude": true,
+      "solver": "cvc5",
+      "version": "1.4.1",
+      "outputs": [
+        "unsat"
+      ],
+      "seconds": 0.01751699997112155,
+      "source_sha256": "16df11eb1823bf58e6e2bd64545886dcde349a33ad50530d40cc3a94a7cbf0bf",
+      "check_proofs": true,
+      "proof_check": "eager"
+    },
+    {
+      "pair": [
+        [
+          0,
+          1,
+          2,
+          6,
+          8,
+          11
+        ],
+        [
+          0,
+          1,
+          6,
+          7,
+          9,
+          11
+        ]
+      ],
+      "exclude": false,
+      "solver": "cvc5",
+      "version": "1.4.1",
+      "outputs": [
+        "sat"
+      ],
+      "seconds": 0.016336833010427654,
+      "source_sha256": "a1584c8b27c6175cca565904b6fc6db754d1d2bad55c8991bc17f9feaf2e0513",
+      "check_proofs": true,
+      "proof_check": "eager"
+    },
+    {
+      "pair": [
+        [
+          0,
+          1,
+          2,
+          6,
+          8,
+          11
+        ],
+        [
+          0,
+          1,
+          6,
+          7,
+          9,
+          11
+        ]
+      ],
+      "exclude": true,
+      "solver": "cvc5",
+      "version": "1.4.1",
+      "outputs": [
+        "unsat"
+      ],
+      "seconds": 0.0133516660425812,
+      "source_sha256": "86aae3a1c46b2fa6c1b6bcc64e68ee62f4f2aec010c2eb54427df43d0d28ece9",
+      "check_proofs": true,
+      "proof_check": "eager"
+    },
+    {
+      "control": "outside_without_homometry",
+      "solver": "cvc5",
+      "version": "1.4.1",
+      "outputs": [
+        "sat"
+      ],
+      "seconds": 0.010636000079102814,
+      "source_sha256": "722fc7e8e755b9c491530784ed35ad9a1bb3c8bd8d2e9528bc86879a21669eb8",
+      "check_proofs": true,
+      "proof_check": "eager"
+    },
+    {
+      "control": "nonhomometric",
+      "solver": "cvc5",
+      "version": "1.4.1",
+      "outputs": [
+        "unsat"
+      ],
+      "seconds": 0.020606167032383382,
+      "source_sha256": "9ec4e543e7a850bff110e7cba4c4d257cd67a8e5793046507436300d719c52f8",
+      "check_proofs": true,
+      "proof_check": "eager"
+    }
+  ],
+  "solver": {
+    "solver": "cvc5",
+    "version": "1.4.1",
+    "outputs": [
+      "unsat"
+    ],
+    "seconds": 4.841263042064384,
+    "source_sha256": "83b1adbd474d376eb6f02ab6e3b826e96db419f325c4ba75804f6b47013f2b00",
+    "check_proofs": true,
+    "proof_check": "eager",
+    "proof_path": "results/2026-09-30-six-integer-review/gap-bijection.proof.gz",
+    "proof_sha256": "6db78c19880ea003f35edf66c3c0018f756d30bdc9cc04b09f9672a0a6d0cb35",
+    "proof_bytes": 10881375
+  }
+}

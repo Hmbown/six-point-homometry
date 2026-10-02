@@ -1,0 +1,4 @@
+enumerated n=12 mode=gap classes=50 seconds=0.000 record_bytes=1200
+{"n":12,"mode":"gap","classes":50,"families":15,"pairs":15,"largest":2,"seconds":0.000}
+enumerated n=12 mode=point classes=50 seconds=0.000 record_bytes=1200
+{"n":12,"mode":"point","classes":50,"families":15,"pairs":15,"largest":2,"seconds":0.000}

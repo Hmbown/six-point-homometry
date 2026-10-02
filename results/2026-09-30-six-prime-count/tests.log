@@ -1,0 +1,6 @@
+PASS test_canonical_against_reference
+PASS test_formal_homometry_and_collision_lines
+PASS test_parameter_image_reference_and_census
+PASS test_exact_edge_cases_and_unquotiented_units
+PASS test_parameter_symmetry_orbits_and_exclusions
+PASS test_generated_artifacts

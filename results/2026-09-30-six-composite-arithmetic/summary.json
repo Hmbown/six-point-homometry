@@ -1,0 +1,363 @@
+{
+  "status": "COMPUTED",
+  "source_sha256": "c7f23749256b8c1abe168a221f52b0835fb1f1a1740a5931ccccabd72a02f7b4",
+  "arrangement_smith_weights": {
+    "1": -16,
+    "2": 3,
+    "3": 8,
+    "4": 3,
+    "5": 6,
+    "7": 4,
+    "8": 3
+  },
+  "moduli": [
+    {
+      "n": 169,
+      "factors": [
+        [
+          13,
+          2
+        ]
+      ],
+      "counts": {
+        "collision": 2017,
+        "admissible": 26544,
+        "regular_pairs": 1274,
+        "regular_parameters": 15288,
+        "local_support_pairs": 2212,
+        "local_support_parameters": 26544,
+        "faithful_pairs": 338,
+        "faithful_parameters": 4056
+      },
+      "fiber_histogram": {
+        "12": 2212
+      },
+      "all_parameter_locations_verified": true,
+      "all_direct_fibers_equal_root_permutation_orbits": true,
+      "arrangement_support_count": 26544,
+      "regular_theorem_applies": true,
+      "full_fiber_status": "COMPUTED; global full-domain theorem not assumed",
+      "direct_path": "results/2026-09-30-six-composite-count/n169.json.gz",
+      "direct_sha256": "4dae09129947138e99a32a92cea666427fd938965f99f2fd113a5345e11c485b",
+      "seconds": 0.052173
+    },
+    {
+      "n": 221,
+      "factors": [
+        [
+          13,
+          1
+        ],
+        [
+          17,
+          1
+        ]
+      ],
+      "counts": {
+        "collision": 2641,
+        "admissible": 46200,
+        "faithful_pairs": 192,
+        "faithful_parameters": 2304,
+        "regular_pairs": 192,
+        "regular_parameters": 2304,
+        "local_support_pairs": 192,
+        "local_support_parameters": 2304
+      },
+      "fiber_histogram": {
+        "12": 3850
+      },
+      "all_parameter_locations_verified": true,
+      "all_direct_fibers_equal_root_permutation_orbits": true,
+      "arrangement_support_count": 46200,
+      "regular_theorem_applies": true,
+      "full_fiber_status": "COMPUTED; global full-domain theorem not assumed",
+      "direct_path": "results/2026-09-30-six-composite-count/n221.json.gz",
+      "direct_sha256": "c986e859e35a4707188a289a56352cd107d64154526ec8fe2fd887b34fb16b8c",
+      "seconds": 0.080876
+    },
+    {
+      "n": 247,
+      "factors": [
+        [
+          13,
+          1
+        ],
+        [
+          19,
+          1
+        ]
+      ],
+      "counts": {
+        "collision": 2953,
+        "admissible": 58056,
+        "faithful_pairs": 288,
+        "faithful_parameters": 3456,
+        "regular_pairs": 288,
+        "regular_parameters": 3456,
+        "local_support_pairs": 288,
+        "local_support_parameters": 3456
+      },
+      "fiber_histogram": {
+        "12": 4838
+      },
+      "all_parameter_locations_verified": true,
+      "all_direct_fibers_equal_root_permutation_orbits": true,
+      "arrangement_support_count": 58056,
+      "regular_theorem_applies": true,
+      "full_fiber_status": "COMPUTED; global full-domain theorem not assumed",
+      "direct_path": "results/2026-09-30-six-composite-count/n247.json.gz",
+      "direct_sha256": "854ca2e9ca0cc4fb8515c7508b26538c60e7ec922d5fe92235e16db6e3160954",
+      "seconds": 0.103742
+    },
+    {
+      "n": 289,
+      "factors": [
+        [
+          17,
+          2
+        ]
+      ],
+      "counts": {
+        "collision": 3457,
+        "admissible": 80064,
+        "faithful_pairs": 2312,
+        "faithful_parameters": 27744,
+        "regular_pairs": 4488,
+        "regular_parameters": 53856,
+        "local_support_pairs": 6672,
+        "local_support_parameters": 80064
+      },
+      "fiber_histogram": {
+        "12": 6672
+      },
+      "all_parameter_locations_verified": true,
+      "all_direct_fibers_equal_root_permutation_orbits": true,
+      "arrangement_support_count": 80064,
+      "regular_theorem_applies": true,
+      "full_fiber_status": "COMPUTED; global full-domain theorem not assumed",
+      "direct_path": "results/2026-09-30-six-composite-count/n289.json.gz",
+      "direct_sha256": "13e96f9582e5e2155c7791ca30147ec15e4d6d5e40ab3e559ae317caf9f68029",
+      "seconds": 0.156713
+    },
+    {
+      "n": 323,
+      "factors": [
+        [
+          17,
+          1
+        ],
+        [
+          19,
+          1
+        ]
+      ],
+      "counts": {
+        "collision": 3865,
+        "admissible": 100464,
+        "faithful_pairs": 1152,
+        "faithful_parameters": 13824,
+        "regular_pairs": 1152,
+        "regular_parameters": 13824,
+        "local_support_pairs": 1152,
+        "local_support_parameters": 13824
+      },
+      "fiber_histogram": {
+        "12": 8372
+      },
+      "all_parameter_locations_verified": true,
+      "all_direct_fibers_equal_root_permutation_orbits": true,
+      "arrangement_support_count": 100464,
+      "regular_theorem_applies": true,
+      "full_fiber_status": "COMPUTED; global full-domain theorem not assumed",
+      "direct_path": "results/2026-09-30-six-composite-count/n323.json.gz",
+      "direct_sha256": "c24bcdbdaa0c6516e51243751ef0a5d7a763bafcbd561411c25ffc66c01badf7",
+      "seconds": 0.295164
+    },
+    {
+      "n": 361,
+      "factors": [
+        [
+          19,
+          2
+        ]
+      ],
+      "counts": {
+        "collision": 4321,
+        "admissible": 126000,
+        "faithful_pairs": 4332,
+        "faithful_parameters": 51984,
+        "regular_pairs": 7410,
+        "regular_parameters": 88920,
+        "local_support_pairs": 10500,
+        "local_support_parameters": 126000
+      },
+      "fiber_histogram": {
+        "12": 10500
+      },
+      "all_parameter_locations_verified": true,
+      "all_direct_fibers_equal_root_permutation_orbits": true,
+      "arrangement_support_count": 126000,
+      "regular_theorem_applies": true,
+      "full_fiber_status": "COMPUTED; global full-domain theorem not assumed",
+      "direct_path": "results/2026-09-30-six-composite-count/n361.json.gz",
+      "direct_sha256": "c80a22b2f629eb3aa2e11ec49e2c00c0f6f8a751b711aa4a839c8216c13587b8",
+      "seconds": 0.235415
+    },
+    {
+      "n": 403,
+      "factors": [
+        [
+          13,
+          1
+        ],
+        [
+          31,
+          1
+        ]
+      ],
+      "counts": {
+        "collision": 4825,
+        "admissible": 157584,
+        "faithful_pairs": 1200,
+        "faithful_parameters": 14400,
+        "regular_pairs": 1200,
+        "regular_parameters": 14400,
+        "local_support_pairs": 1200,
+        "local_support_parameters": 14400
+      },
+      "fiber_histogram": {
+        "12": 13132
+      },
+      "all_parameter_locations_verified": true,
+      "all_direct_fibers_equal_root_permutation_orbits": true,
+      "arrangement_support_count": 157584,
+      "regular_theorem_applies": true,
+      "full_fiber_status": "COMPUTED; global full-domain theorem not assumed",
+      "direct_path": "results/2026-09-30-six-composite-count/n403.json.gz",
+      "direct_sha256": "5de0b9a3d7d5f2ce6f18118696e472885e7ab869cce223998f92e10101d69ba3",
+      "seconds": 0.297536
+    },
+    {
+      "n": 529,
+      "factors": [
+        [
+          23,
+          2
+        ]
+      ],
+      "counts": {
+        "collision": 6337,
+        "admissible": 273504,
+        "faithful_pairs": 11638,
+        "faithful_parameters": 139656,
+        "regular_pairs": 17204,
+        "regular_parameters": 206448,
+        "local_support_pairs": 22792,
+        "local_support_parameters": 273504
+      },
+      "fiber_histogram": {
+        "12": 22792
+      },
+      "all_parameter_locations_verified": true,
+      "all_direct_fibers_equal_root_permutation_orbits": true,
+      "arrangement_support_count": 273504,
+      "regular_theorem_applies": true,
+      "full_fiber_status": "COMPUTED; global full-domain theorem not assumed",
+      "direct_path": "results/2026-09-30-six-composite-count/n529.json.gz",
+      "direct_sha256": "91a502369b400155f68a887a9695bc3e7768da7b4774a8c6eb584a7e66f42ef5",
+      "seconds": 0.614208
+    },
+    {
+      "n": 637,
+      "factors": [
+        [
+          7,
+          2
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "counts": {
+        "collision": 7609,
+        "admissible": 398160,
+        "local_support_pairs": 3696,
+        "local_support_parameters": 44352,
+        "regular_pairs": 672,
+        "regular_parameters": 8064
+      },
+      "fiber_histogram": {
+        "12": 33180
+      },
+      "all_parameter_locations_verified": true,
+      "all_direct_fibers_equal_root_permutation_orbits": true,
+      "arrangement_support_count": 398160,
+      "regular_theorem_applies": false,
+      "full_fiber_status": "COMPUTED; global full-domain theorem not assumed",
+      "direct_path": "results/2026-09-30-six-composite-count/n637.json.gz",
+      "direct_sha256": "da0fa02dfa8aef34d04ec0b15680380b5a6d3943acb987c075d665c6a64109e5",
+      "seconds": 0.733254
+    },
+    {
+      "n": 961,
+      "factors": [
+        [
+          31,
+          2
+        ]
+      ],
+      "counts": {
+        "collision": 11521,
+        "admissible": 912000,
+        "faithful_pairs": 48050,
+        "faithful_parameters": 576600,
+        "regular_pairs": 62000,
+        "regular_parameters": 744000,
+        "local_support_pairs": 76000,
+        "local_support_parameters": 912000
+      },
+      "fiber_histogram": {
+        "12": 76000
+      },
+      "all_parameter_locations_verified": true,
+      "all_direct_fibers_equal_root_permutation_orbits": true,
+      "arrangement_support_count": 912000,
+      "regular_theorem_applies": true,
+      "full_fiber_status": "COMPUTED; global full-domain theorem not assumed",
+      "direct_path": "results/2026-09-30-six-composite-count/n961.json.gz",
+      "direct_sha256": "0cec434d9d4614a477704a9b6562143f2ba70b11a86e2998cdf27ecd8edbd8e3",
+      "seconds": 1.80876
+    },
+    {
+      "n": 2197,
+      "factors": [
+        [
+          13,
+          3
+        ]
+      ],
+      "counts": {
+        "collision": 26353,
+        "admissible": 4800456,
+        "regular_pairs": 227474,
+        "regular_parameters": 2729688,
+        "local_support_pairs": 400038,
+        "local_support_parameters": 4800456,
+        "faithful_pairs": 57122,
+        "faithful_parameters": 685464
+      },
+      "fiber_histogram": {
+        "12": 400038
+      },
+      "all_parameter_locations_verified": true,
+      "all_direct_fibers_equal_root_permutation_orbits": true,
+      "arrangement_support_count": 4800456,
+      "regular_theorem_applies": true,
+      "full_fiber_status": "COMPUTED; global full-domain theorem not assumed",
+      "direct_path": "results/2026-09-30-six-composite-count/n2197.json.gz",
+      "direct_sha256": "70199239e085181b2b785f3e91538a6b82bfaad9b2f17d873378b73ed939d30f",
+      "seconds": 9.983849
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "formal": {
+    "formal_normal_form_identities": 2,
+    "formal_bloom_autocorrelation": true,
+    "explicit_bloom_rigid_motions": true,
+    "rigid_motion_controls": 8
+  },
+  "strict": {
+    "max_diameter": 40,
+    "reflection_classes": 330144,
+    "pairs": 39,
+    "class_count_independent_formula": true,
+    "pair_count_independent_generation": true,
+    "repeated_distance_pairs": 8,
+    "pairs_by_diameter": {
+      "11": 1,
+      "13": 1,
+      "14": 1,
+      "17": 1,
+      "18": 1,
+      "19": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1,
+      "23": 2,
+      "25": 1,
+      "26": 2,
+      "27": 1,
+      "28": 2,
+      "29": 2,
+      "30": 1,
+      "31": 2,
+      "32": 1,
+      "33": 2,
+      "34": 2,
+      "35": 2,
+      "36": 2,
+      "37": 2,
+      "38": 3,
+      "39": 2,
+      "40": 1
+    },
+    "seconds": 0.5895063340431079
+  },
+  "weighted": {
+    "max_diameter": 20,
+    "reflection_classes": 26817,
+    "pairs": 9,
+    "class_count_independent_formula": true,
+    "pair_count_independent_generation": true,
+    "collision_pairs": 2,
+    "seconds": 0.046987875015474856
+  },
+  "files": {
+    "notes/2026-09-30-six-integer-theorem.md": "a4adfc372f2ee4c164591e7ec01d5c6d19ac5117a9226a829ce34a1497ddf5e9",
+    "src/six_integer_smt.py": "e36923c44a53509f8c06fec7a3d5b2f62ff1f6ebbd34c50537537f7922e87d46",
+    "src/six_integer_weighted.py": "6fc5464c6e7b35030b045c950423442c2d1cfd675ae83a263a6f80ee795dd31c",
+    "tests/test_six_integer_review.py": "c1ee057208e41183197462a3ca5eeeb38dd568cb8525a9b759f1055e9b61a680"
+  }
+}

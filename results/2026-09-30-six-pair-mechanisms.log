@@ -1,0 +1,100 @@
+25 {'Bloom': 30} 0.009
+26 {'swap': 45, 'dyad': 69, 'Bloom': 26} 0.093
+27 {'R': 18, 'dyad': 61, 'Bloom': 36, 'swap': 56, 'reflect': 17, 'translate': 1} 0.018
+28 {'swap': 76, 'dyad': 117, 'halfturn': 40, 'R': 6, 'Bloom': 36, 'reflect': 13, 'halfcoset': 45} 0.024
+29 {'Bloom': 42} 0.012
+30 {'dyad': 192, 'swap': 137, 'Bloom': 44, 'R': 16, 'reflect': 16, 'halfturn': 3, 'halfcoset': 28} 0.033
+31 {'R': 15, 'Bloom': 50, 'unit': 5} 0.015
+32 {'swap': 110, 'dyad': 192, 'halfturn': 50, 'Bloom': 50, 'reflect': 18, 'halfcoset': 63, 'gap': 8, 'translate': 2} 0.037
+33 {'dyad': 100, 'Bloom': 60, 'swap': 97, 'reflect': 28} 0.029
+34 {'swap': 131, 'dyad': 197, 'Bloom': 56, 'R': 8} 0.034
+35 {'Bloom': 72} 0.018
+36 {'swap': 273, 'dyad': 424, 'halfturn': 80, 'Bloom': 67, 'reflect': 63, 'halfcoset': 122, 'translate': 3, 'gap': 3, 'R': 1} 0.071
+37 {'Bloom': 78} 0.02
+38 {'swap': 199, 'dyad': 296, 'Bloom': 75, 'R': 9} 0.047
+39 {'dyad': 154, 'Bloom': 90, 'swap': 143, 'reflect': 45, 'unit': 2} 0.042
+40 {'swap': 233, 'dyad': 445, 'halfturn': 82, 'Bloom': 90, 'reflect': 34, 'halfcoset': 108} 0.072
+41 {'Bloom': 100} 0.026
+42 {'dyad': 594, 'swap': 426, 'Bloom': 101, 'reflect': 46, 'unit': 3, 'halfturn': 5, 'halfcoset': 42, 'R': 13} 0.097
+43 {'Bloom': 112} 0.028
+44 {'swap': 311, 'dyad': 634, 'halfturn': 119, 'Bloom': 110, 'reflect': 51, 'halfcoset': 135} 0.106
+45 {'dyad': 220, 'Bloom': 128, 'swap': 214, 'reflect': 56, 'translate': 2, 'R': 8} 0.061
+46 {'swap': 398, 'dyad': 581, 'Bloom': 121, 'R': 11} 0.088
+47 {'Bloom': 138} 0.034
+48 {'swap': 625, 'dyad': 1090, 'halfturn': 134, 'Bloom': 137, 'reflect': 125, 'halfcoset': 217, 'R': 5, 'gap': 4, 'unit': 2, 'translate': 2} 0.177
+49 {'Bloom': 154} 0.038
+50 {'swap': 538, 'dyad': 772, 'Bloom': 150} 0.112
+51 {'dyad': 297, 'Bloom': 168, 'swap': 270, 'reflect': 81, 'R': 8} 0.082
+52 {'swap': 518, 'dyad': 1138, 'halfturn': 168, 'Bloom': 164, 'reflect': 78, 'halfcoset': 198} 0.173
+53 {'Bloom': 182} 0.044
+54 {'dyad': 1324, 'swap': 963, 'Bloom': 180, 'reflect': 82, 'translate': 4, 'halfturn': 6, 'halfcoset': 56, 'R': 18, 'gap': 3} 0.217
+55 {'Bloom': 200} 0.049
+56 {'swap': 647, 'dyad': 1457, 'halfturn': 187, 'Bloom': 198, 'reflect': 79, 'halfcoset': 234, 'R': 6} 0.225
+57 {'dyad': 385, 'Bloom': 216, 'swap': 347, 'reflect': 105, 'R': 9} 0.105
+58 {'swap': 896, 'dyad': 1274, 'Bloom': 210} 0.18
+59 {'Bloom': 232} 0.054
+60 {'swap': 1185, 'dyad': 2260, 'halfturn': 226, 'Bloom': 231, 'reflect': 228, 'halfcoset': 339, 'R': 17} 0.36
+61 {'Bloom': 250} 0.06
+62 {'swap': 1126, 'dyad': 1589, 'Bloom': 245, 'R': 15, 'unit': 5} 0.225
+63 {'dyad': 487, 'Bloom': 272, 'swap': 435, 'reflect': 128, 'translate': 3, 'R': 13} 0.135
+64 {'swap': 960, 'dyad': 2293, 'halfturn': 246, 'Bloom': 266, 'reflect': 115, 'halfcoset': 315, 'gap': 8, 'translate': 2} 0.344
+65 {'Bloom': 290} 0.068
+66 {'dyad': 2468, 'swap': 1816, 'Bloom': 285, 'reflect': 133, 'halfturn': 8, 'halfcoset': 70} 0.388
+67 {'Bloom': 308} 0.071
+68 {'swap': 1158, 'dyad': 2822, 'halfturn': 291, 'Bloom': 304, 'reflect': 145, 'halfcoset': 360, 'R': 8} 0.424
+69 {'dyad': 594, 'Bloom': 330, 'swap': 533, 'reflect': 160, 'R': 11} 0.167
+70 {'swap': 1693, 'dyad': 2372, 'Bloom': 327} 0.342
+71 {'Bloom': 350} 0.082
+72 {'swap': 1927, 'dyad': 4027, 'halfturn': 337, 'Bloom': 347, 'reflect': 327, 'halfcoset': 488, 'translate': 5, 'R': 5, 'gap': 7, 'unit': 2} 0.648
+73 {'Bloom': 372} 0.087
+74 {'swap': 2036, 'dyad': 2842, 'Bloom': 366} 0.426
+75 {'dyad': 714, 'Bloom': 398, 'swap': 665, 'reflect': 190, 'R': 8} 0.207
+76 {'swap': 1611, 'dyad': 4079, 'halfturn': 367, 'Bloom': 390, 'reflect': 189, 'halfcoset': 459, 'R': 9} 0.622
+77 {'Bloom': 420} 0.095
+78 {'dyad': 4124, 'swap': 3051, 'Bloom': 414, 'reflect': 195, 'halfturn': 10, 'halfcoset': 84, 'unit': 2} 0.641
+79 {'Bloom': 442} 0.101
+80 {'swap': 1870, 'dyad': 4812, 'halfturn': 397, 'Bloom': 440, 'reflect': 195, 'halfcoset': 513, 'translate': 2} 0.765
+81 {'dyad': 854, 'Bloom': 468, 'swap': 756, 'reflect': 222, 'translate': 4, 'R': 18} 0.26
+82 {'swap': 2855, 'dyad': 3965, 'Bloom': 460} 0.584
+83 {'Bloom': 492} 0.112
+84 {'swap': 2954, 'dyad': 6547, 'halfturn': 468, 'Bloom': 489, 'reflect': 489, 'halfcoset': 664, 'unit': 3, 'R': 20} 1.123
+85 {'Bloom': 520, 'R': 8} 0.119
+86 {'swap': 3336, 'dyad': 4623, 'Bloom': 511} 0.684
+87 {'dyad': 995, 'Bloom': 546, 'swap': 882, 'reflect': 265} 0.291
+88 {'swap': 2485, 'dyad': 6571, 'halfturn': 497, 'Bloom': 540, 'reflect': 242, 'halfcoset': 630} 1.059
+89 {'Bloom': 572} 0.129
+90 {'dyad': 6385, 'swap': 4773, 'Bloom': 569, 'reflect': 261, 'translate': 6, 'halfturn': 11, 'halfcoset': 98, 'R': 16, 'gap': 3} 1.043
+91 {'Bloom': 602} 0.135
+92 {'swap': 2832, 'dyad': 7611, 'halfturn': 550, 'Bloom': 594, 'reflect': 293, 'halfcoset': 693, 'R': 11} 1.23
+93 {'dyad': 1151, 'Bloom': 630, 'swap': 1019, 'reflect': 305, 'R': 15, 'unit': 5} 0.346
+94 {'swap': 4455, 'dyad': 6148, 'Bloom': 621} 0.929
+95 {'Bloom': 660, 'R': 9} 0.153
+96 {'swap': 4269, 'dyad': 9903, 'halfturn': 608, 'Bloom': 653, 'reflect': 628, 'halfcoset': 867, 'gap': 12, 'R': 5, 'unit': 2, 'translate': 2} 1.707
+97 {'Bloom': 688} 0.154
+98 {'swap': 5099, 'dyad': 7021, 'Bloom': 682} 1.088
+99 {'dyad': 1321, 'Bloom': 720, 'swap': 1164, 'reflect': 345, 'translate': 5} 0.4
+100 {'swap': 3627, 'dyad': 9962, 'halfturn': 649, 'Bloom': 714, 'reflect': 352, 'halfcoset': 828} 1.646
+101 {'Bloom': 750} 0.168
+102 {'dyad': 9341, 'swap': 6949, 'Bloom': 744, 'reflect': 353, 'halfturn': 13, 'halfcoset': 112, 'R': 8} 1.529
+103 {'Bloom': 782} 0.176
+104 {'swap': 4071, 'dyad': 11275, 'halfturn': 708, 'Bloom': 776, 'reflect': 356, 'halfcoset': 900} 1.941
+105 {'dyad': 1494, 'Bloom': 820, 'swap': 1363, 'reflect': 392, 'R': 21} 0.495
+106 {'swap': 6562, 'dyad': 9012, 'Bloom': 806} 1.468
+107 {'Bloom': 848} 0.198
+108 {'swap': 5918, 'dyad': 14294, 'halfturn': 794, 'Bloom': 841, 'reflect': 836, 'halfcoset': 1097, 'translate': 7, 'R': 19, 'gap': 3} 2.589
+109 {'Bloom': 882} 0.195
+110 {'swap': 7391, 'dyad': 10134, 'Bloom': 875} 1.641
+111 {'dyad': 1688, 'Bloom': 918, 'swap': 1485, 'reflect': 445} 0.535
+112 {'swap': 5063, 'dyad': 14297, 'halfturn': 816, 'Bloom': 912, 'reflect': 424, 'halfcoset': 1053, 'R': 6, 'translate': 2} 2.449
+113 {'Bloom': 952} 0.211
+114 {'dyad': 13083, 'swap': 9753, 'Bloom': 945, 'reflect': 450, 'halfturn': 15, 'halfcoset': 126, 'R': 9} 2.373
+115 {'Bloom': 990, 'R': 11} 0.223
+116 {'swap': 5624, 'dyad': 16015, 'halfturn': 892, 'Bloom': 980, 'reflect': 485, 'halfcoset': 1134} 2.879
+117 {'dyad': 1892, 'Bloom': 1026, 'swap': 1661, 'reflect': 491, 'translate': 6, 'unit': 2} 0.645
+118 {'swap': 9245, 'dyad': 12650, 'Bloom': 1015} 2.641
+119 {'Bloom': 1064, 'R': 8} 0.24
+120 {'swap': 7975, 'dyad': 19752, 'halfturn': 965, 'Bloom': 1057, 'reflect': 1021, 'halfcoset': 1354, 'R': 21, 'gap': 4, 'unit': 2} 4.88
+121 {'Bloom': 1100} 0.255
+122 {'swap': 10281, 'dyad': 14049, 'Bloom': 1090} 2.356
+123 {'dyad': 2101, 'Bloom': 1140, 'swap': 1847, 'reflect': 552} 0.712
+n=124 awaiting census

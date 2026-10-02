@@ -1,0 +1,8 @@
+test_actual_reflection_cosets_and_complete_catalog (__main__.LiftTests.test_actual_reflection_cosets_and_complete_catalog) ... ok
+test_complete_paired_systems (__main__.LiftTests.test_complete_paired_systems) ... ok
+test_complete_single_endpoint_systems (__main__.LiftTests.test_complete_single_endpoint_systems) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.067s
+
+OK

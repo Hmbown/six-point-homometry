@@ -1,0 +1,6 @@
+python 3.12.12 (./.venv/bin/python), numpy 2.5.3
+PASS test_minimal_repro_gives_2
+PASS test_argument_not_overwritten_by_callee
+PASS test_scalar_left_commutative
+PASS test_int_bool_complex_and_unary
+PASS test_chained_expression_value

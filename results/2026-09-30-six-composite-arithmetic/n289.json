@@ -1,0 +1,30 @@
+{
+  "n": 289,
+  "factors": [
+    [
+      17,
+      2
+    ]
+  ],
+  "counts": {
+    "collision": 3457,
+    "admissible": 80064,
+    "faithful_pairs": 2312,
+    "faithful_parameters": 27744,
+    "regular_pairs": 4488,
+    "regular_parameters": 53856,
+    "local_support_pairs": 6672,
+    "local_support_parameters": 80064
+  },
+  "fiber_histogram": {
+    "12": 6672
+  },
+  "all_parameter_locations_verified": true,
+  "all_direct_fibers_equal_root_permutation_orbits": true,
+  "arrangement_support_count": 80064,
+  "regular_theorem_applies": true,
+  "full_fiber_status": "COMPUTED; global full-domain theorem not assumed",
+  "direct_path": "results/2026-09-30-six-composite-count/n289.json.gz",
+  "direct_sha256": "13e96f9582e5e2155c7791ca30147ec15e4d6d5e40ab3e559ae317caf9f68029",
+  "seconds": 0.156713
+}

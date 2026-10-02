@@ -1,0 +1,1696 @@
+{
+  "schema": "six-bloom-all-modulus-support-v1",
+  "status": "COMPUTED",
+  "scope": "parameter supports; congruence and pair fibers not assumed",
+  "source_sha256": "adb6cdb620592ec0d6c727da56ddc72b18bcff85a9e7c8570ec2bad177f86057",
+  "kernels": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      -3
+    ],
+    [
+      1,
+      -2
+    ],
+    [
+      2,
+      -2
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      -3
+    ],
+    [
+      2,
+      -1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      -2
+    ],
+    [
+      3,
+      -1
+    ]
+  ],
+  "raw_normals_X": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      -3
+    ],
+    [
+      1,
+      -2
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      -3
+    ],
+    [
+      2,
+      -2
+    ],
+    [
+      2,
+      -1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      -2
+    ],
+    [
+      3,
+      -1
+    ]
+  ],
+  "raw_normals_Y": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      -3
+    ],
+    [
+      1,
+      -2
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      -3
+    ],
+    [
+      2,
+      -2
+    ],
+    [
+      2,
+      -1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      -2
+    ],
+    [
+      3,
+      -1
+    ]
+  ],
+  "order_table": {
+    "2": {
+      "histogram": {
+        "6": 3
+      },
+      "overcount": 15,
+      "multiple_memberships": [
+        {
+          "parameter": [
+            0,
+            1
+          ],
+          "kernels": [
+            0,
+            2,
+            3,
+            5,
+            8,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            1,
+            0
+          ],
+          "kernels": [
+            0,
+            3,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "parameter": [
+            1,
+            1
+          ],
+          "kernels": [
+            0,
+            1,
+            3,
+            4,
+            8,
+            11
+          ]
+        }
+      ]
+    },
+    "3": {
+      "histogram": {
+        "3": 8
+      },
+      "overcount": 16,
+      "multiple_memberships": [
+        {
+          "parameter": [
+            0,
+            1
+          ],
+          "kernels": [
+            1,
+            6,
+            8
+          ]
+        },
+        {
+          "parameter": [
+            0,
+            2
+          ],
+          "kernels": [
+            1,
+            6,
+            8
+          ]
+        },
+        {
+          "parameter": [
+            1,
+            0
+          ],
+          "kernels": [
+            0,
+            10,
+            11
+          ]
+        },
+        {
+          "parameter": [
+            1,
+            1
+          ],
+          "kernels": [
+            3,
+            5,
+            9
+          ]
+        },
+        {
+          "parameter": [
+            1,
+            2
+          ],
+          "kernels": [
+            2,
+            4,
+            7
+          ]
+        },
+        {
+          "parameter": [
+            2,
+            0
+          ],
+          "kernels": [
+            0,
+            10,
+            11
+          ]
+        },
+        {
+          "parameter": [
+            2,
+            1
+          ],
+          "kernels": [
+            2,
+            4,
+            7
+          ]
+        },
+        {
+          "parameter": [
+            2,
+            2
+          ],
+          "kernels": [
+            3,
+            5,
+            9
+          ]
+        }
+      ]
+    },
+    "4": {
+      "histogram": {
+        "1": 6,
+        "4": 6
+      },
+      "overcount": 18,
+      "multiple_memberships": [
+        {
+          "parameter": [
+            1,
+            2
+          ],
+          "kernels": [
+            0,
+            6,
+            7,
+            9
+          ]
+        },
+        {
+          "parameter": [
+            1,
+            3
+          ],
+          "kernels": [
+            1,
+            3,
+            4,
+            11
+          ]
+        },
+        {
+          "parameter": [
+            2,
+            1
+          ],
+          "kernels": [
+            2,
+            5,
+            8,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            2,
+            3
+          ],
+          "kernels": [
+            2,
+            5,
+            8,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            3,
+            1
+          ],
+          "kernels": [
+            1,
+            3,
+            4,
+            11
+          ]
+        },
+        {
+          "parameter": [
+            3,
+            2
+          ],
+          "kernels": [
+            0,
+            6,
+            7,
+            9
+          ]
+        }
+      ]
+    },
+    "5": {
+      "histogram": {
+        "1": 12,
+        "3": 12
+      },
+      "overcount": 24,
+      "multiple_memberships": [
+        {
+          "parameter": [
+            1,
+            2
+          ],
+          "kernels": [
+            1,
+            5,
+            7
+          ]
+        },
+        {
+          "parameter": [
+            1,
+            3
+          ],
+          "kernels": [
+            2,
+            9,
+            11
+          ]
+        },
+        {
+          "parameter": [
+            1,
+            4
+          ],
+          "kernels": [
+            4,
+            6,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            2,
+            1
+          ],
+          "kernels": [
+            2,
+            9,
+            11
+          ]
+        },
+        {
+          "parameter": [
+            2,
+            3
+          ],
+          "kernels": [
+            4,
+            6,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            2,
+            4
+          ],
+          "kernels": [
+            1,
+            5,
+            7
+          ]
+        },
+        {
+          "parameter": [
+            3,
+            1
+          ],
+          "kernels": [
+            1,
+            5,
+            7
+          ]
+        },
+        {
+          "parameter": [
+            3,
+            2
+          ],
+          "kernels": [
+            4,
+            6,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            3,
+            4
+          ],
+          "kernels": [
+            2,
+            9,
+            11
+          ]
+        },
+        {
+          "parameter": [
+            4,
+            1
+          ],
+          "kernels": [
+            4,
+            6,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            4,
+            2
+          ],
+          "kernels": [
+            2,
+            9,
+            11
+          ]
+        },
+        {
+          "parameter": [
+            4,
+            3
+          ],
+          "kernels": [
+            1,
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    "6": {
+      "histogram": {
+        "1": 12,
+        "2": 12
+      },
+      "overcount": 12,
+      "multiple_memberships": [
+        {
+          "parameter": [
+            1,
+            3
+          ],
+          "kernels": [
+            0,
+            11
+          ]
+        },
+        {
+          "parameter": [
+            1,
+            4
+          ],
+          "kernels": [
+            3,
+            9
+          ]
+        },
+        {
+          "parameter": [
+            2,
+            3
+          ],
+          "kernels": [
+            0,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            2,
+            5
+          ],
+          "kernels": [
+            3,
+            5
+          ]
+        },
+        {
+          "parameter": [
+            3,
+            1
+          ],
+          "kernels": [
+            1,
+            8
+          ]
+        },
+        {
+          "parameter": [
+            3,
+            2
+          ],
+          "kernels": [
+            6,
+            8
+          ]
+        },
+        {
+          "parameter": [
+            3,
+            4
+          ],
+          "kernels": [
+            6,
+            8
+          ]
+        },
+        {
+          "parameter": [
+            3,
+            5
+          ],
+          "kernels": [
+            1,
+            8
+          ]
+        },
+        {
+          "parameter": [
+            4,
+            1
+          ],
+          "kernels": [
+            3,
+            5
+          ]
+        },
+        {
+          "parameter": [
+            4,
+            3
+          ],
+          "kernels": [
+            0,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            5,
+            2
+          ],
+          "kernels": [
+            3,
+            9
+          ]
+        },
+        {
+          "parameter": [
+            5,
+            3
+          ],
+          "kernels": [
+            0,
+            11
+          ]
+        }
+      ]
+    },
+    "7": {
+      "histogram": {
+        "1": 36,
+        "3": 12
+      },
+      "overcount": 24,
+      "multiple_memberships": [
+        {
+          "parameter": [
+            1,
+            3
+          ],
+          "kernels": [
+            5,
+            6,
+            11
+          ]
+        },
+        {
+          "parameter": [
+            1,
+            5
+          ],
+          "kernels": [
+            1,
+            9,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            2,
+            3
+          ],
+          "kernels": [
+            1,
+            9,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            2,
+            6
+          ],
+          "kernels": [
+            5,
+            6,
+            11
+          ]
+        },
+        {
+          "parameter": [
+            3,
+            1
+          ],
+          "kernels": [
+            1,
+            9,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            3,
+            2
+          ],
+          "kernels": [
+            5,
+            6,
+            11
+          ]
+        },
+        {
+          "parameter": [
+            4,
+            5
+          ],
+          "kernels": [
+            5,
+            6,
+            11
+          ]
+        },
+        {
+          "parameter": [
+            4,
+            6
+          ],
+          "kernels": [
+            1,
+            9,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            5,
+            1
+          ],
+          "kernels": [
+            5,
+            6,
+            11
+          ]
+        },
+        {
+          "parameter": [
+            5,
+            4
+          ],
+          "kernels": [
+            1,
+            9,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            6,
+            2
+          ],
+          "kernels": [
+            1,
+            9,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            6,
+            4
+          ],
+          "kernels": [
+            5,
+            6,
+            11
+          ]
+        }
+      ]
+    },
+    "8": {
+      "histogram": {
+        "1": 36,
+        "2": 12
+      },
+      "overcount": 12,
+      "multiple_memberships": [
+        {
+          "parameter": [
+            1,
+            3
+          ],
+          "kernels": [
+            1,
+            11
+          ]
+        },
+        {
+          "parameter": [
+            1,
+            6
+          ],
+          "kernels": [
+            6,
+            9
+          ]
+        },
+        {
+          "parameter": [
+            2,
+            3
+          ],
+          "kernels": [
+            5,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            2,
+            7
+          ],
+          "kernels": [
+            5,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            3,
+            1
+          ],
+          "kernels": [
+            1,
+            11
+          ]
+        },
+        {
+          "parameter": [
+            3,
+            2
+          ],
+          "kernels": [
+            6,
+            9
+          ]
+        },
+        {
+          "parameter": [
+            5,
+            6
+          ],
+          "kernels": [
+            6,
+            9
+          ]
+        },
+        {
+          "parameter": [
+            5,
+            7
+          ],
+          "kernels": [
+            1,
+            11
+          ]
+        },
+        {
+          "parameter": [
+            6,
+            1
+          ],
+          "kernels": [
+            5,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            6,
+            5
+          ],
+          "kernels": [
+            5,
+            10
+          ]
+        },
+        {
+          "parameter": [
+            7,
+            2
+          ],
+          "kernels": [
+            6,
+            9
+          ]
+        },
+        {
+          "parameter": [
+            7,
+            5
+          ],
+          "kernels": [
+            1,
+            11
+          ]
+        }
+      ]
+    }
+  },
+  "smith_weights": [
+    {
+      "rank": 1,
+      "first": 1,
+      "second": 0,
+      "coefficient": -9
+    },
+    {
+      "rank": 1,
+      "first": 2,
+      "second": 0,
+      "coefficient": -3
+    },
+    {
+      "rank": 2,
+      "first": 1,
+      "second": 1,
+      "coefficient": -12
+    },
+    {
+      "rank": 2,
+      "first": 1,
+      "second": 2,
+      "coefficient": -6
+    },
+    {
+      "rank": 2,
+      "first": 1,
+      "second": 3,
+      "coefficient": 2
+    },
+    {
+      "rank": 2,
+      "first": 1,
+      "second": 4,
+      "coefficient": 6
+    },
+    {
+      "rank": 2,
+      "first": 1,
+      "second": 5,
+      "coefficient": 6
+    },
+    {
+      "rank": 2,
+      "first": 1,
+      "second": 6,
+      "coefficient": 6
+    },
+    {
+      "rank": 2,
+      "first": 1,
+      "second": 7,
+      "coefficient": 4
+    },
+    {
+      "rank": 2,
+      "first": 1,
+      "second": 8,
+      "coefficient": 3
+    },
+    {
+      "rank": 2,
+      "first": 2,
+      "second": 2,
+      "coefficient": 2
+    }
+  ],
+  "parameters_audited": 829260,
+  "direct_moduli": [
+    {
+      "n": 1,
+      "candidate_parameters": 1,
+      "six_support_parameters": 0
+    },
+    {
+      "n": 2,
+      "candidate_parameters": 4,
+      "six_support_parameters": 0
+    },
+    {
+      "n": 3,
+      "candidate_parameters": 9,
+      "six_support_parameters": 0
+    },
+    {
+      "n": 4,
+      "candidate_parameters": 16,
+      "six_support_parameters": 0
+    },
+    {
+      "n": 5,
+      "candidate_parameters": 25,
+      "six_support_parameters": 0
+    },
+    {
+      "n": 6,
+      "candidate_parameters": 36,
+      "six_support_parameters": 0
+    },
+    {
+      "n": 7,
+      "candidate_parameters": 49,
+      "six_support_parameters": 0
+    },
+    {
+      "n": 8,
+      "candidate_parameters": 64,
+      "six_support_parameters": 0
+    },
+    {
+      "n": 9,
+      "candidate_parameters": 81,
+      "six_support_parameters": 0
+    },
+    {
+      "n": 10,
+      "candidate_parameters": 100,
+      "six_support_parameters": 0
+    },
+    {
+      "n": 11,
+      "candidate_parameters": 121,
+      "six_support_parameters": 0
+    },
+    {
+      "n": 12,
+      "candidate_parameters": 144,
+      "six_support_parameters": 36
+    },
+    {
+      "n": 13,
+      "candidate_parameters": 169,
+      "six_support_parameters": 24
+    },
+    {
+      "n": 14,
+      "candidate_parameters": 196,
+      "six_support_parameters": 36
+    },
+    {
+      "n": 15,
+      "candidate_parameters": 225,
+      "six_support_parameters": 96
+    },
+    {
+      "n": 16,
+      "candidate_parameters": 256,
+      "six_support_parameters": 72
+    },
+    {
+      "n": 17,
+      "candidate_parameters": 289,
+      "six_support_parameters": 96
+    },
+    {
+      "n": 18,
+      "candidate_parameters": 324,
+      "six_support_parameters": 108
+    },
+    {
+      "n": 19,
+      "candidate_parameters": 361,
+      "six_support_parameters": 144
+    },
+    {
+      "n": 20,
+      "candidate_parameters": 400,
+      "six_support_parameters": 168
+    },
+    {
+      "n": 21,
+      "candidate_parameters": 441,
+      "six_support_parameters": 240
+    },
+    {
+      "n": 22,
+      "candidate_parameters": 484,
+      "six_support_parameters": 180
+    },
+    {
+      "n": 23,
+      "candidate_parameters": 529,
+      "six_support_parameters": 264
+    },
+    {
+      "n": 24,
+      "candidate_parameters": 576,
+      "six_support_parameters": 300
+    },
+    {
+      "n": 25,
+      "candidate_parameters": 625,
+      "six_support_parameters": 360
+    },
+    {
+      "n": 26,
+      "candidate_parameters": 676,
+      "six_support_parameters": 312
+    },
+    {
+      "n": 27,
+      "candidate_parameters": 729,
+      "six_support_parameters": 432
+    },
+    {
+      "n": 28,
+      "candidate_parameters": 784,
+      "six_support_parameters": 432
+    },
+    {
+      "n": 29,
+      "candidate_parameters": 841,
+      "six_support_parameters": 504
+    },
+    {
+      "n": 30,
+      "candidate_parameters": 900,
+      "six_support_parameters": 528
+    },
+    {
+      "n": 31,
+      "candidate_parameters": 961,
+      "six_support_parameters": 600
+    },
+    {
+      "n": 32,
+      "candidate_parameters": 1024,
+      "six_support_parameters": 600
+    },
+    {
+      "n": 33,
+      "candidate_parameters": 1089,
+      "six_support_parameters": 720
+    },
+    {
+      "n": 34,
+      "candidate_parameters": 1156,
+      "six_support_parameters": 672
+    },
+    {
+      "n": 35,
+      "candidate_parameters": 1225,
+      "six_support_parameters": 864
+    },
+    {
+      "n": 36,
+      "candidate_parameters": 1296,
+      "six_support_parameters": 828
+    },
+    {
+      "n": 37,
+      "candidate_parameters": 1369,
+      "six_support_parameters": 936
+    },
+    {
+      "n": 38,
+      "candidate_parameters": 1444,
+      "six_support_parameters": 900
+    },
+    {
+      "n": 39,
+      "candidate_parameters": 1521,
+      "six_support_parameters": 1080
+    },
+    {
+      "n": 40,
+      "candidate_parameters": 1600,
+      "six_support_parameters": 1080
+    },
+    {
+      "n": 41,
+      "candidate_parameters": 1681,
+      "six_support_parameters": 1200
+    },
+    {
+      "n": 42,
+      "candidate_parameters": 1764,
+      "six_support_parameters": 1212
+    },
+    {
+      "n": 43,
+      "candidate_parameters": 1849,
+      "six_support_parameters": 1344
+    },
+    {
+      "n": 44,
+      "candidate_parameters": 1936,
+      "six_support_parameters": 1320
+    },
+    {
+      "n": 45,
+      "candidate_parameters": 2025,
+      "six_support_parameters": 1536
+    },
+    {
+      "n": 46,
+      "candidate_parameters": 2116,
+      "six_support_parameters": 1452
+    },
+    {
+      "n": 47,
+      "candidate_parameters": 2209,
+      "six_support_parameters": 1656
+    },
+    {
+      "n": 48,
+      "candidate_parameters": 2304,
+      "six_support_parameters": 1668
+    },
+    {
+      "n": 49,
+      "candidate_parameters": 2401,
+      "six_support_parameters": 1848
+    },
+    {
+      "n": 50,
+      "candidate_parameters": 2500,
+      "six_support_parameters": 1800
+    },
+    {
+      "n": 51,
+      "candidate_parameters": 2601,
+      "six_support_parameters": 2016
+    },
+    {
+      "n": 52,
+      "candidate_parameters": 2704,
+      "six_support_parameters": 1968
+    },
+    {
+      "n": 53,
+      "candidate_parameters": 2809,
+      "six_support_parameters": 2184
+    },
+    {
+      "n": 54,
+      "candidate_parameters": 2916,
+      "six_support_parameters": 2160
+    },
+    {
+      "n": 55,
+      "candidate_parameters": 3025,
+      "six_support_parameters": 2400
+    },
+    {
+      "n": 56,
+      "candidate_parameters": 3136,
+      "six_support_parameters": 2376
+    },
+    {
+      "n": 57,
+      "candidate_parameters": 3249,
+      "six_support_parameters": 2592
+    },
+    {
+      "n": 58,
+      "candidate_parameters": 3364,
+      "six_support_parameters": 2520
+    },
+    {
+      "n": 59,
+      "candidate_parameters": 3481,
+      "six_support_parameters": 2784
+    },
+    {
+      "n": 60,
+      "candidate_parameters": 3600,
+      "six_support_parameters": 2796
+    },
+    {
+      "n": 61,
+      "candidate_parameters": 3721,
+      "six_support_parameters": 3000
+    },
+    {
+      "n": 62,
+      "candidate_parameters": 3844,
+      "six_support_parameters": 2940
+    },
+    {
+      "n": 63,
+      "candidate_parameters": 3969,
+      "six_support_parameters": 3264
+    },
+    {
+      "n": 64,
+      "candidate_parameters": 4096,
+      "six_support_parameters": 3192
+    },
+    {
+      "n": 65,
+      "candidate_parameters": 4225,
+      "six_support_parameters": 3480
+    },
+    {
+      "n": 66,
+      "candidate_parameters": 4356,
+      "six_support_parameters": 3420
+    },
+    {
+      "n": 67,
+      "candidate_parameters": 4489,
+      "six_support_parameters": 3696
+    },
+    {
+      "n": 68,
+      "candidate_parameters": 4624,
+      "six_support_parameters": 3648
+    },
+    {
+      "n": 69,
+      "candidate_parameters": 4761,
+      "six_support_parameters": 3960
+    },
+    {
+      "n": 70,
+      "candidate_parameters": 4900,
+      "six_support_parameters": 3924
+    },
+    {
+      "n": 71,
+      "candidate_parameters": 5041,
+      "six_support_parameters": 4200
+    },
+    {
+      "n": 72,
+      "candidate_parameters": 5184,
+      "six_support_parameters": 4188
+    },
+    {
+      "n": 73,
+      "candidate_parameters": 5329,
+      "six_support_parameters": 4464
+    },
+    {
+      "n": 74,
+      "candidate_parameters": 5476,
+      "six_support_parameters": 4392
+    },
+    {
+      "n": 75,
+      "candidate_parameters": 5625,
+      "six_support_parameters": 4776
+    },
+    {
+      "n": 76,
+      "candidate_parameters": 5776,
+      "six_support_parameters": 4680
+    },
+    {
+      "n": 77,
+      "candidate_parameters": 5929,
+      "six_support_parameters": 5040
+    },
+    {
+      "n": 78,
+      "candidate_parameters": 6084,
+      "six_support_parameters": 4968
+    },
+    {
+      "n": 79,
+      "candidate_parameters": 6241,
+      "six_support_parameters": 5304
+    },
+    {
+      "n": 80,
+      "candidate_parameters": 6400,
+      "six_support_parameters": 5280
+    },
+    {
+      "n": 81,
+      "candidate_parameters": 6561,
+      "six_support_parameters": 5616
+    },
+    {
+      "n": 82,
+      "candidate_parameters": 6724,
+      "six_support_parameters": 5520
+    },
+    {
+      "n": 83,
+      "candidate_parameters": 6889,
+      "six_support_parameters": 5904
+    },
+    {
+      "n": 84,
+      "candidate_parameters": 7056,
+      "six_support_parameters": 5892
+    },
+    {
+      "n": 85,
+      "candidate_parameters": 7225,
+      "six_support_parameters": 6240
+    },
+    {
+      "n": 86,
+      "candidate_parameters": 7396,
+      "six_support_parameters": 6132
+    },
+    {
+      "n": 87,
+      "candidate_parameters": 7569,
+      "six_support_parameters": 6552
+    },
+    {
+      "n": 88,
+      "candidate_parameters": 7744,
+      "six_support_parameters": 6480
+    },
+    {
+      "n": 89,
+      "candidate_parameters": 7921,
+      "six_support_parameters": 6864
+    },
+    {
+      "n": 90,
+      "candidate_parameters": 8100,
+      "six_support_parameters": 6828
+    },
+    {
+      "n": 91,
+      "candidate_parameters": 8281,
+      "six_support_parameters": 7224
+    },
+    {
+      "n": 92,
+      "candidate_parameters": 8464,
+      "six_support_parameters": 7128
+    },
+    {
+      "n": 93,
+      "candidate_parameters": 8649,
+      "six_support_parameters": 7560
+    },
+    {
+      "n": 94,
+      "candidate_parameters": 8836,
+      "six_support_parameters": 7452
+    },
+    {
+      "n": 95,
+      "candidate_parameters": 9025,
+      "six_support_parameters": 7920
+    },
+    {
+      "n": 96,
+      "candidate_parameters": 9216,
+      "six_support_parameters": 7860
+    },
+    {
+      "n": 97,
+      "candidate_parameters": 9409,
+      "six_support_parameters": 8256
+    },
+    {
+      "n": 98,
+      "candidate_parameters": 9604,
+      "six_support_parameters": 8184
+    },
+    {
+      "n": 99,
+      "candidate_parameters": 9801,
+      "six_support_parameters": 8640
+    },
+    {
+      "n": 100,
+      "candidate_parameters": 10000,
+      "six_support_parameters": 8568
+    },
+    {
+      "n": 101,
+      "candidate_parameters": 10201,
+      "six_support_parameters": 9000
+    },
+    {
+      "n": 102,
+      "candidate_parameters": 10404,
+      "six_support_parameters": 8928
+    },
+    {
+      "n": 103,
+      "candidate_parameters": 10609,
+      "six_support_parameters": 9384
+    },
+    {
+      "n": 104,
+      "candidate_parameters": 10816,
+      "six_support_parameters": 9312
+    },
+    {
+      "n": 105,
+      "candidate_parameters": 11025,
+      "six_support_parameters": 9840
+    },
+    {
+      "n": 106,
+      "candidate_parameters": 11236,
+      "six_support_parameters": 9672
+    },
+    {
+      "n": 107,
+      "candidate_parameters": 11449,
+      "six_support_parameters": 10176
+    },
+    {
+      "n": 108,
+      "candidate_parameters": 11664,
+      "six_support_parameters": 10116
+    },
+    {
+      "n": 109,
+      "candidate_parameters": 11881,
+      "six_support_parameters": 10584
+    },
+    {
+      "n": 110,
+      "candidate_parameters": 12100,
+      "six_support_parameters": 10500
+    },
+    {
+      "n": 111,
+      "candidate_parameters": 12321,
+      "six_support_parameters": 11016
+    },
+    {
+      "n": 112,
+      "candidate_parameters": 12544,
+      "six_support_parameters": 10944
+    },
+    {
+      "n": 113,
+      "candidate_parameters": 12769,
+      "six_support_parameters": 11424
+    },
+    {
+      "n": 114,
+      "candidate_parameters": 12996,
+      "six_support_parameters": 11340
+    },
+    {
+      "n": 115,
+      "candidate_parameters": 13225,
+      "six_support_parameters": 11880
+    },
+    {
+      "n": 116,
+      "candidate_parameters": 13456,
+      "six_support_parameters": 11760
+    },
+    {
+      "n": 117,
+      "candidate_parameters": 13689,
+      "six_support_parameters": 12312
+    },
+    {
+      "n": 118,
+      "candidate_parameters": 13924,
+      "six_support_parameters": 12180
+    },
+    {
+      "n": 119,
+      "candidate_parameters": 14161,
+      "six_support_parameters": 12768
+    },
+    {
+      "n": 120,
+      "candidate_parameters": 14400,
+      "six_support_parameters": 12708
+    },
+    {
+      "n": 121,
+      "candidate_parameters": 14641,
+      "six_support_parameters": 13200
+    },
+    {
+      "n": 122,
+      "candidate_parameters": 14884,
+      "six_support_parameters": 13080
+    },
+    {
+      "n": 123,
+      "candidate_parameters": 15129,
+      "six_support_parameters": 13680
+    },
+    {
+      "n": 124,
+      "candidate_parameters": 15376,
+      "six_support_parameters": 13560
+    },
+    {
+      "n": 125,
+      "candidate_parameters": 15625,
+      "six_support_parameters": 14160
+    },
+    {
+      "n": 126,
+      "candidate_parameters": 15876,
+      "six_support_parameters": 14064
+    },
+    {
+      "n": 127,
+      "candidate_parameters": 16129,
+      "six_support_parameters": 14616
+    },
+    {
+      "n": 128,
+      "candidate_parameters": 16384,
+      "six_support_parameters": 14520
+    },
+    {
+      "n": 129,
+      "candidate_parameters": 16641,
+      "six_support_parameters": 15120
+    },
+    {
+      "n": 130,
+      "candidate_parameters": 16900,
+      "six_support_parameters": 15000
+    },
+    {
+      "n": 131,
+      "candidate_parameters": 17161,
+      "six_support_parameters": 15600
+    },
+    {
+      "n": 132,
+      "candidate_parameters": 17424,
+      "six_support_parameters": 15516
+    },
+    {
+      "n": 133,
+      "candidate_parameters": 17689,
+      "six_support_parameters": 16128
+    },
+    {
+      "n": 134,
+      "candidate_parameters": 17956,
+      "six_support_parameters": 15972
+    },
+    {
+      "n": 135,
+      "candidate_parameters": 18225,
+      "six_support_parameters": 16656
+    }
+  ],
+  "seconds": 1.346456
+}

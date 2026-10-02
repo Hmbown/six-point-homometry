@@ -1,0 +1,10 @@
+{
+  "status": "unknown",
+  "mode": "direct",
+  "preload_max": 24,
+  "plane_count": 583,
+  "models": [],
+  "seconds": 30.51048229204025,
+  "warning": "Exploratory solver result; no reviewed classification conclusion.",
+  "source_sha256": "8bceb24355a938ab6420f6b260b70802793cd81fa0747b12a42cf9d545b5f399"
+}

@@ -1,0 +1,6 @@
+audited n=1..25 seconds=0.013
+audited n=1..50 seconds=0.070
+audited n=1..75 seconds=0.230
+audited n=1..100 seconds=0.543
+audited n=1..125 seconds=1.071
+{"schema": "six-bloom-all-modulus-support-v1", "parameters_audited": 829260, "seconds": 1.346456}

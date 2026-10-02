@@ -1,0 +1,41 @@
+{
+  "status": "COMPUTED",
+  "method": "independent exact int64 enumeration with Y pivot",
+  "processed": 4147200,
+  "ranks": {
+    "0": 12,
+    "1": 864,
+    "2": 4146324
+  },
+  "rank1_classes": 39,
+  "rank2_classes": 46,
+  "seconds": 2.564163,
+  "independent_endpoints": {
+    "method": "original 6x4 equations; permutation-expansion 4x4 and 3x3 minors",
+    "processed": 5760,
+    "ranks": {
+      "0": 24,
+      "1": 432,
+      "2": 5304
+    },
+    "rank2_largepart": {
+      "1": 4920,
+      "11": 288,
+      "19": 24,
+      "31": 48,
+      "13": 24
+    },
+    "rank2_coprime6_part": {
+      "1": 4632,
+      "5": 144,
+      "7": 144,
+      "11": 288,
+      "19": 24,
+      "31": 48,
+      "13": 24
+    },
+    "seconds": 1.444257
+  },
+  "paired_sha256": "01feec2da14a77715489c43ac206f936098f89e2627a10b09825a051aff73f0a",
+  "endpoint_sha256": "c47fcccc2e684c5d0d317503cd6cf8ebae2faaafbc292ce092636db83e9d3930"
+}

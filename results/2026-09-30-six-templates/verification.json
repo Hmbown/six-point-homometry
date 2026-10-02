@@ -1,0 +1,113 @@
+{
+  "seconds": 1.131,
+  "test_all_presentations": {
+    "exact_matchings": 536,
+    "seeds": 13,
+    "unimodular_matrix_identities": 536
+  },
+  "test_residual_coverage": {
+    "by_n": [
+      [
+        17,
+        8
+      ],
+      [
+        19,
+        9
+      ],
+      [
+        21,
+        13
+      ],
+      [
+        23,
+        11
+      ],
+      [
+        24,
+        4
+      ],
+      [
+        27,
+        18
+      ],
+      [
+        28,
+        6
+      ],
+      [
+        30,
+        8
+      ],
+      [
+        31,
+        15
+      ],
+      [
+        34,
+        8
+      ],
+      [
+        38,
+        9
+      ],
+      [
+        42,
+        13
+      ],
+      [
+        46,
+        11
+      ],
+      [
+        48,
+        4
+      ],
+      [
+        51,
+        8
+      ],
+      [
+        54,
+        18
+      ],
+      [
+        56,
+        6
+      ],
+      [
+        57,
+        9
+      ],
+      [
+        60,
+        8
+      ]
+    ],
+    "limitation": "Coverage relative to inherited strict/Bloom/dyad labels; does not independently redo strict discovery.",
+    "nmax": 60,
+    "nmin": 12,
+    "remaining_families": 0,
+    "residual_pairs": 186,
+    "seed_groups": 13,
+    "seed_hits": {
+      "1": 24,
+      "2": 27,
+      "3": 12,
+      "4": 12,
+      "5": 2,
+      "6": 22,
+      "7": 8,
+      "8": 18,
+      "9": 18,
+      "10": 12,
+      "11": 8,
+      "12": 8,
+      "13": 15
+    }
+  },
+  "test_transports_and_projections": {
+    "max_n": 150,
+    "reference_transport_checks": 5870
+  }
+}

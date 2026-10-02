@@ -1,0 +1,613 @@
+% Fragment for the standalone six-point manuscript; no preamble.
+% BEGIN UNIVERSAL FOUNDATION
+\section{Universal signed matchings and the original presentation}
+\label{sec:universal}
+
+We distinguish a relation in an integral presentation from a relation that
+holds only after a particular specialization. This distinction is essential:
+dividing an integral relation by its content can remove precisely the torsion
+that creates a cyclic Z-pair.
+
+\begin{lemma}[Occurrence matching]\label{lem:occurrence-matching}
+Let $(a_i)_{i=0}^5$ and $(b_i)_{i=0}^5$ be two lists in an abelian group,
+including multiplicities. Their directed autocorrelations agree if and only
+if there are a bijection $\sigma$ of their fifteen unordered edge
+occurrences and signs $\epsilon_{ij}\in\{1,-1\}$ such that
+\[
+ a_j-a_i=\epsilon_{ij}(b_l-b_k),\qquad
+ (k,l)=\sigma(i,j),\quad i<j, k<l.
+\]
+\end{lemma}
+\begin{proof}
+Each unordered edge with difference $g$ contributes the two directed
+occurrences $g,-g$. Partition differences into orbits under $g\mapsto-g$.
+For an orbit of size two, its autocorrelation coefficient at either element
+is the number of unordered edges in that orbit. For a nonzero orbit of size
+one it is twice that number. At zero it is six plus twice the number of
+coincident off-diagonal unordered edges. Consequently equality of
+autocorrelations gives equal numbers of edge occurrences in every orbit.
+Match those occurrences bijectively within each orbit and choose a sign
+that gives equality. If $g=-g$, both signs are available and neither may be
+discarded. Conversely, a signed bijection equates the two directed
+occurrences contributed by each edge, and the six diagonal zeros agree.
+\end{proof}
+
+Write $\mathcal E=\{(i,j):0\le i<j\le5\}$. In $\Z^{10}$ use the row vectors
+$e_1,\ldots,e_5,f_1,\ldots,f_5$ as the standard basis, and set
+$e_0=f_0=0$. Independently translate each input endpoint so that
+$a_0=b_0=0$. A signed matching defines the $15\times10$ matrix with rows
+\begin{equation}\label{eq:formal-matching-row}
+ m_{ij}=e_j-e_i-\epsilon_{ij}(f_l-f_k),\qquad(k,l)=\sigma(i,j).
+\end{equation}
+The \emph{integral relation lattice}, the \emph{original presentation},
+and its free rank are
+\begin{equation}\label{eq:original-presentation}
+ L_M=\sum_{(i,j)\in\mathcal E}\Z m_{ij},\qquad
+ G_M=\Z^{10}/L_M,\qquad d=10-\rank_{\mathbb Q}M.
+\end{equation}
+We write $E_i,F_i$ for the classes of $e_i,f_i$ in $G_M$. The two labelled
+lists $(E_i)$ and $(F_i)$ are called the universal configurations.
+
+\begin{lemma}[Universal property and rank]\label{lem:universal-property}
+The universal configurations are homometric as lists. Every realization
+of the signed matching in an abelian group $K$ factors through a
+homomorphism $G_M\to K$. Moreover $5\le\rank_{\mathbb Q}M\le10$, so
+$0\le d\le5$. A realization by six-element sets rules out universal
+within-endpoint collisions; a $\TI$-distinct realization rules out
+universal $\TI$ equivalence.
+\end{lemma}
+\begin{proof}
+Equation~\eqref{eq:formal-matching-row} gives a signed edge bijection in
+$G_M$, so Lemma~\ref{lem:occurrence-matching} gives homometry. Sending
+$e_i$ to $a_i$ and $f_i$ to $b_i$ defines a map from $\Z^{10}$ that kills
+every row of $M$, hence factors through the quotient. The first five
+columns of $M$ are the reduced incidence matrix of the complete graph
+on six vertices; the rows for edges $(0,i)$ contain the five standard
+basis vectors, giving rank five. There are ten columns. Finally a
+universal collision or rigid equivalence remains true under every
+homomorphism and therefore under the given realization.
+\end{proof}
+
+The rank in~\eqref{eq:original-presentation} belongs to the original
+signed matching. A map from $G_M$ into a cylinder or a finite cyclic group
+can impose additional relations and lower its rank; this never changes
+which branch the original presentation occupies. In particular, we never
+seek a nonzero map from the finite target $C_n$ to $\R$.
+
+\subsection{The exact meaning of a lattice certificate}
+For row matrices $M,N$ with ten columns, two integer matrices satisfying
+\begin{equation}\label{eq:two-way-lattice-cert}
+ AM=N,\qquad BN=M
+\end{equation}
+certify $L_M=L_N$. An equality of rational row spaces does not certify this
+claim. The latter equality would identify only the free solutions and
+could identify different torsion groups. We use primitive rational rows
+only when enumerating height subspaces below.
+
+To certify coordinates for $G_M$, supply integer matrices $U,V,D$ with
+\begin{equation}\label{eq:smith-contract}
+ UMV=D,\qquad \det U,\det V\in\{1,-1\},
+\end{equation}
+where $U$ is $15\times15$, $V$ is $10\times10$, and $D$ is rectangular
+diagonal with nonzero entries $d_1,\ldots,d_r$ and all other entries zero.
+The map sending a row vector $z$ to $zV$ induces an isomorphism
+\[
+ G_M\cong\bigoplus_{i=1}^{r}\Z/|d_i|\Z\ \oplus\ \Z^{10-r}.
+\]
+Factors of order one are omitted. Thus the coordinates of an old generator
+are its row of $V$, reduced modulo $|d_i|$ in each torsion position. All
+of~\eqref{eq:two-way-lattice-cert}--\eqref{eq:smith-contract} can be
+checked by integer multiplication and determinants. Discovery by Hermite
+or Smith algorithms is useful; their claimed normal forms are not accepted
+without these identities. A collision certificate can instead be a row
+$c$ with $cM=e_i-e_j$ (or $f_i-f_j$), $i\ne j$. A rigid-equivalence
+certificate consists of the corresponding six integer row identities.
+
+\subsection{The finite torsion bound and the finite branch}
+\begin{lemma}\label{lem:bound}
+The torsion subgroup $T_M$ of the original presentation $G_M$ has order
+at most $135$.
+\end{lemma}
+\begin{proof}
+First every square minor of a reduced oriented incidence matrix has
+determinant $0,1$ or $-1$. In a chosen square submatrix each row has
+at most two entries; if some row has at most one nonzero entry, expansion
+reduces the assertion by induction. Otherwise every row has two opposite
+entries, so the sum of its columns is zero and its determinant vanishes.
+Permuting or changing signs of rows preserves this property. Both
+five-column blocks of $M$ have it.
+
+An $r\times r$ minor using $c$ columns of the first block has a Laplace
+expansion with $\binom rc$ summands, each a product of two incidence
+minors of absolute value at most one. For $r\le9$ this is at most
+$\binom94=126$. If $r=10$, all ten columns occur. The chosen ten rows
+correspond to ten distinct edges of the first $K_6$. A five-row
+first-block determinant is nonzero precisely for a spanning tree:
+a cycle gives dependence; five acyclic edges on six vertices form a
+connected tree; and leaf elimination gives determinant $\pm1$ for a
+tree. The complementary second-block determinant still has absolute
+value at most one. Therefore
+\[
+ |\det M_R|\le\tau(K_6[R]),\qquad |R|=10,
+\]
+where $\tau$ counts spanning trees. No assertion that these summands
+have a common sign is needed.
+
+The bound on $\tau$ is an explicit small finite obligation with no
+symmetry reduction. Enumerate every $R\subset\mathcal E$ of size ten
+and every $J\subset\mathcal E$ of size five. Check connectedness and
+acyclicity of the graph with edges $J$, and for every tree count its
+containment $J\subset R$. Independently, form the $6\times6$ graph
+Laplacian of $R$, remove one fixed row and column, and compute the exact
+$5\times5$ determinant. The two answers agree because, for the reduced
+incidence matrix $B_R$, Cauchy--Binet gives
+\[
+ \det(B_R^{\mathsf T}B_R)
+   =\sum_{\substack{J\subset R\\|J|=5}}(\det B_J)^2
+   =\tau(K_6[R]).
+\]
+This also proves the Laplacian method's counting interpretation, rather
+than using an unproved counting shortcut.
+
+The acceptance predicate requires every one of the $\binom{15}{10}=3003$
+labelled $R$ and every one of the $\binom{15}{5}=3003$ possible $J$,
+and equality of the two counts for each $R$. The complete histogram is:
+\begin{center}\small
+\begin{tabular}{r|rrrrrrr}
+\toprule
+$\tau$ & $0$ & $75$ & $96$ & $99$ & $100$ & $104$ & $111$\\
+Number of $R$ & $6$ & $300$ & $90$ & $360$ & $90$ & $360$ & $360$\\
+\midrule
+$\tau$ & $114$ & $115$ & $120$ & $121$ & $128$ & $130$ & $135$\\
+Number of $R$ & $360$ & $360$ & $180$ & $72$ & $45$ & $360$ & $60$\\
+\bottomrule
+\end{tabular}
+\end{center}
+The counts sum to $3003$, and the maximum is $135$. The project and
+the independent review reproduce the full histogram by the two methods.
+The incidence argument together with this exact finite obligation bounds
+every nonzero maximal-rank minor by $135$.
+
+Finally the ideal generated by the rank-$r$ minors is unchanged by
+unimodular row and column operations, by Cauchy--Binet applied to those
+operations and their integer inverses. In a diagonal presentation it
+is generated by $\prod_{i=1}^r d_i$, whose absolute value is $|T_M|$.
+Thus $|T_M|$ is the positive gcd of the nonzero maximal-rank minors.
+It is no greater than any one of their absolute values and therefore
+at most $135$.
+\end{proof}
+
+\begin{corollary}\label{cor:finite}
+If $d=0$ and $G_M\to C_n$ realizes six-element endpoints, then, after
+their independent anchors are removed, both endpoints lie in a cyclic
+subgroup of order $q$ with $6\le q\le135$ and $q\mid n$. They are an
+ordinary subgroup inflation of two homometric six-subsets of $C_q$.
+\end{corollary}
+\begin{proof}
+Now $G_M=T_M$ is finite. Its image $H$ in $C_n$ is a cyclic subgroup,
+so its order $q$ divides $n$ and $|T_M|$, and hence is at most $135$.
+Six distinct endpoint coordinates force $q\ge6$. Identify $H$ with
+$C_q$ by the injective map $t\mapsto(n/q)t$. The inverse on $H$
+transports the signed matching and the six-element endpoints to $C_q$.
+Restoring the separate translations of the original endpoints does not
+change their vertices in the grammar graph.
+\end{proof}
+
+\subsection{The real solution space and a fixed congruence}
+Let
+\[
+ V_M=\Hom(G_M,\R)=\{v\in\R^{10}:Mv=0\}.
+\]
+This real vector space has dimension $d$. Its points are the coordinates
+of real homometric six-atom lists, even when distinct universal vertices
+have identical real coordinates.
+
+\begin{lemma}[Finite unions of subspaces]\label{lem:finite-subspaces}
+Over an infinite field a finite-dimensional vector space cannot be covered
+by finitely many proper linear subspaces.
+\end{lemma}
+\begin{proof}
+For each proposed proper subspace choose a nonzero linear functional
+vanishing on it. Their product is a nonzero polynomial in a basis of the
+whole space. A nonzero polynomial cannot vanish at all points over an
+infinite field: in one variable it has only finitely many roots; induction
+on the number of variables applies this fact to its coefficient
+polynomials. The product therefore cannot vanish throughout the space.
+\end{proof}
+
+For a permutation $\pi$ of six labels and $\eta\in\{1,-1\}$, define
+\[
+ T_{\pi,\eta}=\{v\in\R^{10}:
+  b_i=\eta(a_{\pi(i)}-a_{\pi(0)})\text{ for every }i\}.
+\]
+These are linear subspaces. Since $a_0=b_0=0$, every real translation or
+reflection equivalence of the two multisets has exactly this form for
+some $\pi,\eta$. Labels with equal coordinates can be matched arbitrarily;
+there are still only $2\cdot6!$ choices.
+
+\begin{lemma}[Fixed free-quotient alignment]\label{lem:fixed-alignment}
+If the two real multisets are congruent for every $v\in V_M$, then one
+fixed $T_{\pi,\eta}$ contains $V_M$. After relabelling, reflecting and
+reanchoring the second universal configuration, every real solution
+satisfies $b_i=a_i$ for all $i$. These changes are invertible integral
+changes of generators and preserve $G_M$ and $d$.
+\end{lemma}
+\begin{proof}
+The hypothesis says that the finitely many subspaces
+$V_M\cap T_{\pi,\eta}$ cover $V_M$. Lemma~\ref{lem:finite-subspaces}
+implies that one is the entire space. Relabelling and reflection give
+$b'_i=\eta(b_{\pi^{-1}(i)}-b_{\pi^{-1}(0)})=a_i$ on $V_M$.
+A permutation followed by reanchoring transforms the five coordinates
+of a labelled endpoint by an integer linear map. Undoing the permutation
+and reanchoring is its integer inverse. Reflection multiplies that block
+by $-1$. Hence the full ten-coordinate transformation is unimodular.
+\end{proof}
+
+The conclusion identifies the free projections, not the group elements
+$E_i,F_i$. In a finitely generated abelian group an element is killed by
+every real homomorphism precisely when it is torsion: write the group as
+$\Z^d\oplus T$ and use its $d$ coordinate maps. Consequently the aligned
+$F_i-E_i$ may be nonzero torsion. Imposing $F_i=E_i$ as \emph{integral}
+relations would discard the cyclic phenomena under investigation.
+
+Substitute $b_i=a_i$ only in the real equations. With six unanchored
+heights, the resulting rows have the form
+\begin{equation}\label{eq:height-rows}
+ (u_j-u_i)-\epsilon(u_l-u_k),\qquad i<j, k<l,
+\end{equation}
+where $u_0,\ldots,u_5$ denote the six standard vectors. They have coordinate
+sum zero. Let $S$ be their rational span. Removing the common translation
+by setting $a_0=0$ gives a five-dimensional height space, and
+\begin{equation}\label{eq:height-codimension}
+ \dim_{\mathbb Q}S=5-d.
+\end{equation}
+Indeed every vector in $V_M$ lies on the aligned graph. Conversely any
+anchored height vector satisfying~\eqref{eq:height-rows}, placed on that
+graph, satisfies the original real matching equations and lies in $V_M$.
+Thus the anchored kernel of $S$ is exactly $V_M$.
+% END UNIVERSAL FOUNDATION
+
+% BEGIN WEIGHTED LINE INPUT AND BF
+\section{The weighted real-line input and the Bloom branch}
+\label{sec:formal-bloom}
+This section states explicitly the mathematical formula checked by the
+line solvers. The result is the previously reviewed I/Iw component, tagged
+\textbf{[PROVED], in-house, computer-assisted}. Its completeness remains
+conditional on the saved exact UNSAT results and their audited encodings;
+the elementary interface proof below does not remove that dependency.
+
+\begin{lemma}[Weighted six-atom line theorem Iw]\label{lem:iw}
+Two noncongruent homometric real multisets of total multiplicity six
+have, after independent translations and reflections and possible
+interchange, one of the following weakly ordered forms:
+\begin{align}
+ A_1&=(0,q-2p,q,2q-3p,3q-2p,3q-p),\notag\\
+ B_1&=(0,q-p,q+p,2q+p,3q-2p,3q-p),
+       &&p>0,\quad q\ge3p;\label{eq:weighted-form-one}\\
+ A_2&=(0,q-p,q+p,3q-2p,3q-p,2q+p),\notag\\
+ B_2&=(0,p,2q-p,q+2p,3q-p,2q+p),
+       &&p>0,\quad 3p/2\le q<2p.\label{eq:weighted-form-two}
+\end{align}
+For six-element sets the two lower bounds are strict. For integer
+coordinates the recovered $p,q$ are integers. Every displayed pair is
+homometric and noncongruent.
+\end{lemma}
+
+\begin{proof}[Mathematical and computational dependency]
+The normalization, exact occurrence-count encoding, coefficient-plane
+exclusions and solver obligation are given in Section~\ref{sec:linefull}.
+The saved exact UNSAT results exclude every normalized pair outside the
+two displayed planes over the unbounded real domain. Their weak-order
+inequalities give precisely the parameter chambers above; the strict-order
+version gives the strict lower bounds. Integer parameters are recovered
+from $p=A_5-A_4,q=A_2$ in the first form and
+$p=A_4-A_3,q=A_1+p$ in the second. The corresponding gap lists also prove
+noncongruence. This is the reviewed Iw dependency, with its exact solver
+trust retained, rather than a new solver run or a bounded-data inference.
+\end{proof}
+
+\begin{lemma}[BF: noncongruent real projection]\label{lem:bf}
+Let $A,B$ be homometric six-element subsets of an abelian group $K$.
+If some $\ell:K\to\R$ sends their six-atom lists to noncongruent
+multisets, then, up to independent rigid motions and interchange,
+$A,B$ have the group-valued Bloom formula
+\[
+ X=\{0,p,q-2p,2q-2p,2q,3q-p\},\qquad
+ Y=\{0,p,q+2p,2q-p,2q+p,3q-p\},\quad p,q\in K.
+\]
+The conclusion depends on Iw and the finite integral certificate predicate
+described in this proof.
+\end{lemma}
+\begin{proof}
+Use Iw to normalize the two projected lists. The needed translations
+subtract actual elements of $A$ or $B$, and reflections use inversion
+and such translations, so they can be performed in $K$. Label equal
+height atoms arbitrarily. The resulting projected coordinates have one
+of~\eqref{eq:weighted-form-one}--\eqref{eq:weighted-form-two}. At this
+stage their $p,q$ are real numbers; they are not assumed to lift to $K$.
+The existence of group-valued parameters is what must be proved.
+
+For each form compute the fifteen coefficient differences of its ordered
+list. Both sides have the same fifteen distinct coefficient pairs. These
+can be checked by subtracting entries of the displayed lists; as real
+expressions the two common multisets are
+\begin{align*}
+ \mathcal D_1=\{&q-3p,2q-3p,q-2p,2q-2p,3q-2p,\\
+ &q-p,2q-p,3q-p,q,2q,p,q+p,2q+p,2p,q+2p\},\\
+ \mathcal D_2=\{&2q-3p,2q-2p,3q-2p,q-p,2q-p,3q-p,\\
+ &q,2q,p,q+p,2q+p,2p-q,2p,q+2p,3p-q\}.
+\end{align*}
+Put $t=q/p$. Two unequal coefficient forms $up+vq$ and $u'p+v'q$
+can agree only when $v\ne v'$ and
+$t=(u'-u)/(v-v')$. Enumerate these rational slopes for the $\binom{15}{2}$
+pairs and retain the appropriate chamber. This yields precisely $3,4,5$
+for the first form and $3/2,5/3$ for the second. Away from these slopes
+there is exactly one matching, the formal coefficient matching. All
+forward real differences are positive there, so their signs are $+1$.
+
+At an exceptional $t=a/b$, evaluate each coefficient pair at the integer
+parameters $(p,q)=(b,a)$ and group edges into equal-height bins. In a bin
+of size $k$, enumerate all $k!$ bijections. A zero bin also has $2^k$
+independent sign choices; a positive bin has only the positive sign.
+Thus the exact finite input is:
+\begin{center}\small
+\begin{tabular}{lrrrrr}
+\toprule
+Form & Generic & First slope & Second slope & Third slope & Total\\
+\midrule
+$1$ & $1$ & $128$ at $3$ & $16$ at $4$ & $4$ at $5$ & $149$\\
+$2$ & $1$ & $128$ at $3/2$ & $4$ at $5/3$ & --- & $133$\\
+\bottomrule
+\end{tabular}
+\end{center}
+These $282$ signed matchings exhaust all possible lifts of every
+noncongruent projected pair, because only the five explicitly computed
+slopes permit additional edge coincidences. This is an argument over all
+real parameters, not a parameter sample.
+
+For clarity, the complete \emph{acceptance predicate} for this finite
+step is as follows. Reconstruct every matrix from its signed labels by
+\eqref{eq:formal-matching-row}. For each of the seven cases, compare the
+saved labelled matchings with the full independent bin-permutation or
+edge-by-edge enumeration, including signs on zero edges; require exact
+set equality and absence of duplicates. Each matrix has an assigned
+representative with both integer identities
+\eqref{eq:two-way-lattice-cert}. Each representative has a certified
+diagonalization~\eqref{eq:smith-contract}. Finally, in the resulting
+exact group coordinates require one of:
+\begin{enumerate}
+ \item two distinct labels on the same endpoint have identical coordinates;
+ \item explicit $p,q$, endpoint interchange if used, translations $t_X,t_Y$
+ and a sign $\eta$ satisfy
+ \[
+ \operatorname{multiset}(E_i)=t_X+\operatorname{multiset}(X(p,q)),\quad
+ \operatorname{multiset}(F_i)=t_Y+\eta\operatorname{multiset}(Y(p,q)),
+ \]
+ with the sides interchanged when specified. These equalities are checked
+ by evaluating all twelve coefficient formulas; they are not inferred
+ from a successful or failed parameter search.
+\end{enumerate}
+The saved package passes this predicate. Its $21$ distinct labelled
+integral lattices consist of $8$ binary $\Z^2$ presentations, $3$ binary
+$\Z$ presentations, $8$ binary $\Z\oplus C_2$ presentations, all with
+explicit Bloom identities, and $2$ $\Z$ presentations with forced
+collisions. Distinctness of the representative lattices can also be
+certified by a row whose class is nonzero in the other's certified quotient;
+it is ancillary to coverage.
+
+An actual signed matching of the group pair supplies $G_M\to K$.
+The collision outcomes contradict the six-element hypothesis. Every
+remaining outcome has a Bloom identity already in $G_M$; applying the
+homomorphism gives that identity in $K$, with distinctness inherited from
+$A,B$. This proves BF, with precisely the Iw and finite-predicate
+dependencies stated above.
+\end{proof}
+
+For example the apparently new torsion boundary configuration
+\[
+ \{0,g,3g,3g+h,7g,8g+h\}/
+ \{0,2g+h,4g+h,7g,7g+h,8g+h\},\qquad 2h=0,
+\]
+is already Bloom: take $p=g+h,q=3g$ and reflect $Y,X$, respectively,
+about $8g+h$. Torsion in a matching presentation alone does not prove
+that its images are non-shadows.
+
+\begin{corollary}[Intrinsic free-quotient dichotomy]\label{cor:free-dichotomy}
+For a finitely generated universal presentation, either the endpoint
+multisets in its full free quotient are congruent, or BF applies and the
+pair is group-valued Bloom. In the congruent case a single labelled
+alignment is valid for every real solution.
+\end{corollary}
+\begin{proof}
+If no fixed vector congruence holds in the free quotient, the equalities for each choice of
+sign, permutation and anchor can hold after a real functional only
+on a proper subspace of the dual. There are finitely many proposals, so
+Lemma~\ref{lem:finite-subspaces} supplies a functional outside all of
+them. Its two projected multisets are noncongruent and BF applies.
+In the other case use Lemma~\ref{lem:fixed-alignment}.
+\end{proof}
+% END WEIGHTED LINE INPUT AND BF
+
+% BEGIN HR
+\section{The high-free-rank cover and its direct \texorpdfstring{L3$^*$}{L3*} form}
+\label{sec:formal-high-rank}
+\begin{lemma}[HR]\label{lem:hr}
+Let $M$ be an original signed matching presentation whose universal
+endpoints have six distinct points and are $\TI$ distinct. If $d\ge3$,
+then, conditional on Iw and the finite certificate predicate below,
+\[
+ G_M\cong C_2\oplus\Z^3.
+\]
+After relabellings and independent rigid motions its two configurations
+are exactly
+\begin{equation}\label{eq:hr-master}
+ C=\{0,p,q,p-q+h\},\quad
+ A=C\sqcup\{r,r+h\},\quad
+ B=C\sqcup\{p-r,p-r+h\},\quad2h=0,
+\end{equation}
+where $p,q,r$ form a basis of the free quotient and $h$ generates $C_2$.
+Every admissible specialization of this family is directly L3$^*$.
+There are no $\TI$-distinct six-set universal presentations of rank
+$d=4$ or $5$.
+\end{lemma}
+\begin{proof}[Reduction and exhaustive finite contract]
+For each $v\in V_M$, Iw says that its real multisets are either congruent
+or a labelled Bloom pair. There are finitely many label permutations,
+orientations and choices of origin. Each fixed Bloom choice defines a
+linear subspace of the anchored ten-coordinate space of dimension at
+most two: all coordinates are fixed integer-linear combinations of
+its two parameters, and anchoring removes the translations. Thus $V_M$
+is covered by finitely many intersections with congruence subspaces and
+Bloom subspaces. Since $\dim V_M\ge3$, none of the Bloom subspaces can
+contain it. Lemma~\ref{lem:finite-subspaces} gives one fixed congruence
+alignment. Apply Lemma~\ref{lem:fixed-alignment} and retain the original
+integral presentation; only its real heights have $b_i=a_i$.
+
+By~\eqref{eq:height-codimension}, the rational height span $S$ has
+rank at most two. The primitive directions of all nonzero rows
+\eqref{eq:height-rows}, with an overall sign removed, form the following
+explicit $S_6$-invariant set $\mathcal D$:
+\begin{align*}
+ &(1,-1,0,0,0,0) &&\text{and its $15$ projective permutations},\\
+ &(2,-1,-1,0,0,0) &&\text{and its $60$ projective permutations},\\
+ &(1,1,-1,-1,0,0) &&\text{and its $45$ projective permutations}.
+\end{align*}
+To verify that these are all possibilities, subtract two signed
+incidence roots. Equal supports give zero or a multiple of a root;
+one shared vertex gives a root or the second shape; disjoint supports
+give the third shape. The counts are respectively $\binom62$,
+$6\binom52$, and $\binom64\binom42/2$. Hence $|\mathcal D|=120$.
+Dividing by a coefficient gcd here does not divide any row of $M$.
+
+Enumerate the zero span, every one-direction span, and every two-direction
+span of $\mathcal D$, identifying rational spans by exact row reduction.
+This enumeration is exhaustive because a span of rank at most two has
+a basis chosen from its generating rows. Partition these spans by all
+$720$ permutations of the six coordinates. A simultaneous permutation
+of the aligned endpoints and reanchoring induces an invertible integral
+change of the original generators, so one representative of each orbit
+suffices. The saved enumeration has $4176$ spans in $25$ orbits.
+
+For each representative $S$, supply an integer height vector
+$z=(0,z_1,\ldots,z_5)$ with the certificate property
+\begin{equation}\label{eq:generic-height-contract}
+ v\cdot z=0\quad\Longleftrightarrow\quad v\in S,
+ \qquad v\in\mathcal D.
+\end{equation}
+Such a vector exists: each $v\notin S$ cuts a proper hyperplane in the
+anchored rational kernel of $S$; Lemma~\ref{lem:finite-subspaces} over
+$\mathbb Q$ gives a point outside all of them, and clearing denominators
+makes it integral. The stored vector must be checked against all $120$
+directions. Its purpose is to record all forced signed-edge equalities,
+not to approximate an arbitrary real solution.
+
+Enumerate every permutation between the fifteen edge occurrences of
+$z$ and another copy of $z$ that preserves absolute edge differences.
+For a positive-length bin the sign is uniquely determined by the two
+oriented differences. For a zero bin both signs are included independently.
+If a bin has size $k$, it contributes $k!$, with an additional factor
+$2^k$ only at zero. Reconstruct the full integral matrix for every
+matching by~\eqref{eq:formal-matching-row}. Every original presentation
+in this branch occurs in this collection after the justified changes of
+generators: each of its matching rows restricts to a row in $S$, so
+\eqref{eq:generic-height-contract} makes that signed equality true at
+$z$. Conversely any equality at $z$ represents the same rational forced
+height relation. Extra presentations with different integral rank may
+be enumerated, which is harmless; none is omitted.
+
+The acceptance predicate for the finite cover has four parts:
+\begin{enumerate}
+ \item Independently reconstruct $\mathcal D$ and all rank-at-most-two
+ spans; check that the $25$ orbit lists are disjoint and their union is
+ the full $4176$-span set. Check~\eqref{eq:generic-height-contract}.
+ \item For every orbit representative compare the entire saved labelled
+ matching set with an independent edge-by-edge enumeration. Require
+ exact set equality, no repeated record, and the bin-factorial count.
+ \item Each discarded record must carry either $cM=e_i-e_j$ or
+ $cM=f_i-f_j$ for distinct labels, or a permutation $\pi$, sign $\eta$
+ and anchor $k$ with six identities
+ \[
+ c_iM=e_i-\eta f_{\pi(i)}+\eta f_k.
+ \]
+ Check that $\pi$ is a bijection and all coefficients are integers.
+ These identities prove collision or rigid equivalence in every image.
+ \item Every remaining record has matrices satisfying
+ \eqref{eq:smith-contract} with diagonal
+ $(1,1,1,1,1,1,2,0,0,0)$. In the exact quotient coordinates, evaluate
+ a supplied origin, rigid alignment and $p,q,r,h$ and require all twelve
+ master coordinates~\eqref{eq:hr-master} to equal the universal endpoints.
+ Require $h\ne0$, $2h=0$, and determinant $\pm1$ for the $3\times3$
+ free-coordinate matrix of $p,q,r$.
+\end{enumerate}
+The last determinant and the order of $h$ prove that these parameters
+generate the whole $C_2\oplus\Z^3$, rather than a proper sublattice:
+their free components give a basis, and $h$ generates the remaining
+torsion. Thus the record certifies the universal family itself.
+
+The saved files pass this predicate, with $14475$ total matchings:
+$13916$ collision records, $555$ universal rigid-equivalence records,
+and four master-family records. The discard records contain $17246$
+integer row identities. All four survivors have the same height orbit,
+with span generated by
+\[
+ z_0-z_1-z_2+z_5=0,\qquad z_3-z_4=0;
+\]
+the generic stored vector is $(0,8,1,3,3,9)$ and that orbit has $128$
+matchings. Independent replay checks every record; the numerical totals
+alone are not the acceptance predicate. The preceding exhaustiveness
+argument and these identities prove the structural part of HR. Since
+the survivors have free rank three, none has rank four or five.
+\end{proof}
+
+\begin{proof}[Direct algebraic L3$^*$ identity]
+In the group ring of any abelian target with $2h=0$, put
+$\mathsf P=x^p$, $\mathsf Q=x^q$, $\mathsf R=x^r$, $\mathsf H=x^h$.
+Then $\mathsf H^{-1}=\mathsf H$ and
+\[
+ C=1+\mathsf P+\mathsf Q+\mathsf P\mathsf Q^{-1}\mathsf H,
+ \qquad D=\mathsf R(1+\mathsf H).
+\]
+Direct expansion gives
+\begin{equation}\label{eq:hr-cosymmetric-defect}
+ C-\mathsf PC^*=(1-\mathsf H)
+                    (\mathsf Q-\mathsf P\mathsf Q^{-1}),
+ \qquad (C-\mathsf PC^*)(1+\mathsf H)=0.
+\end{equation}
+Take the fixed block to be $C$, the moving dyad to be $D$, and
+$s=p-2r$. Its cross distribution is $E=CD^*$, so
+\begin{align*}
+ x^{-s}E
+ &=\mathsf P^{-1}\mathsf R^2 C\mathsf R^{-1}(1+\mathsf H)\\
+ &=\mathsf R\mathsf P^{-1}C(1+\mathsf H)
+  =\mathsf R C^*(1+\mathsf H)=E^*.
+\end{align*}
+This is exactly the L3$^*$ hypothesis. The shifted dyad is
+\[
+ x^sD=\mathsf P\mathsf R^{-1}(1+\mathsf H),
+ \quad\text{with points }\{p-r,p-r+h\},
+\]
+so its endpoint is precisely $B$. Six-point distinctness supplies the
+required disjointness. This proves homometry and the named direct move
+without a global reflection or a choice of half of $s$.
+
+For comparison the earlier L5 description is also valid: globally reflect
+$B$ by $t\mapsto p-t$ to obtain $D+\mathsf PC^*$, with $D$ fixed and
+$C$ moving. Equation~\eqref{eq:hr-cosymmetric-defect} gives
+$DC^*=\mathsf P^{-1}DC$, the strict L5 first-cross-term condition.
+The direct L3$^*$ description is the shorter form of the same family.
+In a cyclic target six-point distinctness forces $h\ne0$, hence the
+modulus is even and $h=n/2$. Its free parameters may otherwise specialize
+arbitrarily, subject to endpoint distinctness and $\TI$ distinction.
+\end{proof}
+
+The BF and HR finite packages are respectively
+\code{results/2026-09-30-six-bloom-cylinders.json} and
+\code{results/2026-09-30-six-free-rank/}. The checker
+\code{tests/test_six_cylinder_branches_review.py} independently rebuilds
+the signed matching sets and verifies the integer identities, without
+importing the builders or Smith/Hermite routines. The separate Iw sources,
+formulas and solver evidence remain
+\code{notes/2026-09-30-six-integer-theorem.md} and its logged adversarial
+review. The present exposition does not claim new novelty or formal
+proof-assistant verification.
+% END HR

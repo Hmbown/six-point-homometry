@@ -1,0 +1,32 @@
+{
+  "status": "COMPUTED",
+  "date": "2026-10-01",
+  "parent_checkpoint": "06069d99ec74b1b7a0565f8e745097b546d4836d",
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.3.19.1)]",
+  "numpy": "2.5.3",
+  "baseline_tests": {
+    "environment": {
+      "passed": 5,
+      "failed": 0
+    },
+    "immutable_reference": {
+      "passed": 10,
+      "failed": 0
+    }
+  },
+  "new_mathematical_regression_groups": {
+    "passed": 16,
+    "failed": 0
+  },
+  "complete_two_method_subset_census": "6..135; unchanged",
+  "protected_paths_match_checkpoint": "d9881fc",
+  "open_prime_paper_sha256": "8a2bfba946f9a03c4625060b33c0b18cfed0d1c34f4e1f9846d984cee3ae4d39",
+  "reviewed_files_verified": 20,
+  "additional_sha256": {
+    "notes/2026-10-01-six-primary-review.md": "bf377ab9541b08d717e602ada3312abb8d1a537593aecfaaa07ffbb717aca7ab",
+    "notes/2026-10-01-six-primary-literature.md": "ce58f53023828a8c60f5e19f009fba229e79981f54b83fd5cb81cf25ea827904",
+    "results/2026-10-01-six-primary-review/final-review-digests.json": "1adb13fdbef2cc4b759626541263867d131d03971a273a9de7f8027ef27e8c9d",
+    "results/2026-10-01-six-primary-literature/masai-mcshane.pdf": "029b0908dd4add4a528e7df85c158d0676c6b01230ee4a06d0b2ee1aebc13922"
+  },
+  "scope": "All-modulus classical Bloom pair fibres and support count, explicit even n>=18 three-class family; not a total cyclic pair/family count; no novelty or external validation claim."
+}

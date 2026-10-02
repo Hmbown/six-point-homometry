@@ -1,0 +1,163 @@
+{
+  "scope": "R5 global prescribed-support real classification and same-support instability only",
+  "n": 21,
+  "A": [
+    0,
+    1,
+    3,
+    7,
+    10,
+    15
+  ],
+  "B": [
+    0,
+    1,
+    4,
+    7,
+    14,
+    16
+  ],
+  "checks": {
+    "six_singleton_rows": true,
+    "double_rows_force_equal_xyz": true,
+    "independent_eliminant": true,
+    "six_real_signed_branches": true,
+    "same_support_plus_minus": true,
+    "quadratic_expansion": true,
+    "normalized_change_exact_order_two": true,
+    "trivial_dihedral_stabilizer": true,
+    "fourier_nonzero_cyclotomic": true,
+    "fourier_nonzero_own_euclid": true,
+    "same_support_line_factorization": true
+  },
+  "raw_directed_equations_0_to_10": [
+    "a0**2 + a1**2 + a2**2 + a3**2 + a4**2 + a5**2 - b0**2 - b1**2 - b2**2 - b3**2 - b4**2 - b5**2",
+    "a0*a1 - b0*b1",
+    "a1*a2 - b4*b5",
+    "a0*a2 + a3*a4 - b1*b2 - b2*b3",
+    "a2*a3 - b0*b2",
+    "a4*a5 - b0*b5",
+    "a0*a5 + a1*a3 - b1*b3 - b1*b5",
+    "a0*a3 + a1*a5 + a2*a4 - b0*b3 - b0*b4 - b3*b4",
+    "a3*a5 - b1*b4",
+    "a1*a4 + a2*a5 - b2*b5 - b3*b5",
+    "a0*a4 - b2*b4"
+  ],
+  "remaining_singleton_constraints": [
+    "-(a0*a1**2*a2 - a3*a4*a5**2)/(a4*a5)",
+    "(a0*a4**2*a5 - a1*a2**2*a3)/(a4*a5)"
+  ],
+  "double_differences": [
+    "-r**2*z*(x - y)/s**2",
+    "r**2*x*(y - z)/s**2"
+  ],
+  "normalized_equations": [
+    "-3*k**2 + 3*r**2 - 2*s**2 - t**2 + 3",
+    "-k*s + r",
+    "-k*s + r",
+    "-k**2 - k*t + r**2 + 1",
+    "-k*s + r",
+    "-k*s + r",
+    "-k**2 - k*t + r**2 + 1",
+    "3*r - s**2 - 2*s*t",
+    "-k*s + r",
+    "-k**2 - k*t + r**2 + 1",
+    "-k*s + r"
+  ],
+  "k_squared": "2*r**2/5 + r/5 + 2/5",
+  "norm_times_k_squared": "-4*k**4 + 5*k**2*r**2 + 5*k**2 - r**4 - 4*r**2 - 1",
+  "eliminant": "9*(r - 1)**2*(r**2 + 3*r + 1)/25",
+  "branches": [
+    {
+      "r": "1",
+      "epsilon": 1,
+      "all_21_equal": true,
+      "all_b_nonzero": true
+    },
+    {
+      "r": "1",
+      "epsilon": -1,
+      "all_21_equal": true,
+      "all_b_nonzero": true
+    },
+    {
+      "r": "-3/2 + sqrt(5)/2",
+      "epsilon": 1,
+      "all_21_equal": true,
+      "all_b_nonzero": true
+    },
+    {
+      "r": "-3/2 + sqrt(5)/2",
+      "epsilon": -1,
+      "all_21_equal": true,
+      "all_b_nonzero": true
+    },
+    {
+      "r": "-3/2 - sqrt(5)/2",
+      "epsilon": 1,
+      "all_21_equal": true,
+      "all_b_nonzero": true
+    },
+    {
+      "r": "-3/2 - sqrt(5)/2",
+      "epsilon": -1,
+      "all_21_equal": true,
+      "all_b_nonzero": true
+    }
+  ],
+  "c_equal_strength_0_to_10": [
+    "6",
+    "1",
+    "1",
+    "2",
+    "1",
+    "1",
+    "2",
+    "3",
+    "1",
+    "2",
+    "1"
+  ],
+  "c_direction_0_to_10": [
+    "6",
+    "-1",
+    "-1",
+    "2",
+    "-1",
+    "-1",
+    "2",
+    "-3",
+    "-1",
+    "2",
+    "-1"
+  ],
+  "normalized_correlation_change": [
+    "0",
+    "-t**2/(3*(t**2 + 1))",
+    "-t**2/(3*(t**2 + 1))",
+    "0",
+    "-t**2/(3*(t**2 + 1))",
+    "-t**2/(3*(t**2 + 1))",
+    "0",
+    "-t**2/(t**2 + 1)",
+    "-t**2/(3*(t**2 + 1))",
+    "0",
+    "-t**2/(3*(t**2 + 1))"
+  ],
+  "stabilizers": [
+    [
+      1,
+      0
+    ]
+  ],
+  "cyclotomic_remainders": {
+    "1": "6",
+    "3": "3*X + 3",
+    "7": "2*X**3 + 2*X + 2",
+    "21": "X**10 - X**8 + X**7 + X**3 + 1"
+  },
+  "line_factorization_mod_X21_minus_1": "(X**15 + X**3 + 1)*(X**7*(1 - t) + t + 1)",
+  "own_rational_gcd": [
+    "1"
+  ]
+}

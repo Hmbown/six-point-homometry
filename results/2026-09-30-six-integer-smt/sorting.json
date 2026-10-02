@@ -1,0 +1,22 @@
+{
+  "mode": "sorting",
+  "bloom_order_templates": 96,
+  "cuts": [
+    "-2",
+    "-1",
+    "-1/2",
+    "0",
+    "1/3",
+    "1/2",
+    "2/3",
+    "1",
+    "3/2",
+    "2",
+    "3"
+  ],
+  "status": "EXPERIMENTAL-SOLVER-RESULT",
+  "seconds": 60.01736333291046,
+  "returncode": 0,
+  "stdout": "unknown\n(:added-eqs                   352611\n :arith-bound-propagations-lp 243403\n :arith-conflicts             4714\n :arith-fixed-eqs             35914\n :arith-lower                 272895\n :arith-make-feasible         75038\n :arith-max-columns           1565\n :arith-max-rows              1134\n :arith-offset-eqs            332305\n :arith-upper                 310037\n :binary-propagations         261132\n :conflicts                   6074\n :decisions                   41358\n :del-clause                  955\n :max-memory                  77.87\n :memory                      18.92\n :minimized-lits              49137\n :mk-bool-var                 2072\n :mk-clause                   5330\n :mk-clause-binary            2903\n :num-allocs                  84101740506.00\n :num-checks                  1\n :propagations                327135\n :restarts                    20\n :rlimit-count                31304772\n :time                        60.01)\n",
+  "stderr": ""
+}

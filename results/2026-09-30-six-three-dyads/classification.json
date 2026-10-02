@@ -1,0 +1,19 @@
+{
+  "status": "COMPUTED-UNVALIDATED pending independent proof and finite audit",
+  "orbits": 1495,
+  "counts": {
+    "TI": 97,
+    "collision": 1378,
+    "L4": 15,
+    "L2": 3,
+    "UNEXPLAINED": 2
+  },
+  "matching_counts": {
+    "TI": 12288,
+    "collision": 649504,
+    "L4": 1344,
+    "L2": 160,
+    "UNEXPLAINED": 256
+  },
+  "seconds": 0.00015508290380239487
+}

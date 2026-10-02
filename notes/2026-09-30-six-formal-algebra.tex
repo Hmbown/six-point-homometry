@@ -1,0 +1,336 @@
+\section{The dyad kernel and complete shape parameterization}\label{sec:dyadfull}
+
+The periodic weights in D can be generated without solving an inverse
+homometry problem. We give the kernel theorem and the recovery argument
+explicitly. Throughout this section, functions have integer coefficients
+on $C_n$; translation acts by $x^aW(t)=W(t-a)$.
+
+\begin{lemma}[Nonnegative periodic decomposition]\label{lem:periodic}
+Let $W\colon C_n\to\Z_{\ge0}$ and $a,b\in C_n$. Then
+\[
+ (1-x^a)(1-x^b)W=0
+ \quad\Longleftrightarrow\quad
+ W=U+V,
+\]
+where $U,V$ are nonnegative integer functions satisfying
+$x^aU=U$ and $x^bV=V$. If $W$ has total mass $m$, then
+\[
+ m=\ord(a)\sum_{C_n/\langle a\rangle}U
+   +\ord(b)\sum_{C_n/\langle b\rangle}V,
+\]
+where the sums take one value per coset.
+\end{lemma}
+\begin{proof}
+The reverse direction follows by annihilating the two summands. For the
+forward direction use the characters $\chi_k(t)=\exp(2\pi i kt/n)$,
+$0\le k<n$. Translation is diagonal on these characters, and a product
+eigenvalue $(1-\chi_k(-a))(1-\chi_k(-b))$ vanishes precisely when at least
+one of its factors does. Hence the complex kernel of the product is the
+sum of the two periodic subspaces. Taking real parts gives real periodic
+functions $U_0,V_0$ with $W=U_0+V_0$.
+
+This alone does not give nonnegative integral summands. Put
+$H=\langle a\rangle$, $J=\langle b\rangle$ and $L=H+J$, and work
+in one coset of $L$. List its $H$-cosets by $i$ and its $J$-cosets by $j$.
+Every $H$-coset meets every $J$-coset: the difference between their
+representatives belongs to $H+J$. All intersections are nonempty, have
+the same size $|H\cap J|$, and partition the component. The function
+$W=U_0+V_0$ is constant on an intersection; call its integer value $w_{ij}$.
+It satisfies the rectangle identities
+\[
+ w_{ij}-w_{ij_0}=w_{i_0j}-w_{i_0j_0}
+ \qquad\text{for all }i,j.
+\]
+Choose $j_0$ and set $m_0=\min_i w_{ij_0}$,
+\[
+ u_i=w_{ij_0}-m_0,\qquad
+ v_j=w_{i_0j}-w_{i_0j_0}+m_0.
+\]
+These numbers are integral, $u_i\ge0$, and the rectangle identities give
+$v_j=\min_i w_{ij}\ge0$ and $w_{ij}=u_i+v_j$. Assign $u_i$ to its whole
+$H$-coset and $v_j$ to its whole $J$-coset. Repeat on each $L$-coset.
+The resulting $U,V$ are the required nonnegative integral functions.
+Summing their constant values along cosets proves the mass formula.
+\end{proof}
+
+\begin{proposition}[Exactness of D within the dyad shape]\label{prop:dyadshape}
+Suppose independent rigid motions align a six-pair to
+\[
+ X=C\sqcup\{0,a+b\},\qquad Y=C\sqcup\{a,b\},
+\]
+where $|C|=4$ and $R=\{0,a,b,a+b\}$ consists of four distinct elements
+outside $C$. The pair is homometric if and only if it has the periodic
+weights and orbit selections specified in construction D.
+\end{proposition}
+\begin{proof}
+Write $\rho(C)=x^{a+b}C^*$ and $K=C+\rho(C)+1_R$.
+The expansion \eqref{eq:dyad} and invertibility of $x^{-a-b}$ show that
+homometry is equivalent to $(1-x^a)(1-x^b)K=0$. The function $K$ is
+nonnegative, integral, has mass twelve, and is fixed by $\rho$.
+Its coefficients are one on $R$ and belong to $\{0,1,2\}$ off $R$.
+At a $\rho$-fixed point off $R$ its coefficient is twice the coefficient
+of $C$, and therefore belongs to $\{0,2\}$. Lemma~\ref{lem:periodic}
+supplies exactly the required weights.
+
+Conversely, admissible weights give a $K$ with these properties. On each
+two-point $\rho$-orbit, choose no point, one point, or both points according
+as its coefficient is zero, one, or two. At a fixed point choose it
+precisely when its coefficient is two. This produces a binary set $C$
+off $R$ with $C+\rho(C)=K-1_R$. Summing coefficients gives
+$2|C|=12-4=8$, so its cardinality is four. The dyad identity now gives
+homometry. The same selection rule recovers every $C$ in the forward
+direction. The final $\TI$ test decides whether it is a Z-pair.
+\end{proof}
+
+If $\ord(a)>12$ then its periodic summand must vanish, because a nonzero
+nonnegative integer weight would alone contribute more than twelve.
+Thus $K$ is $b$-periodic and $\ord(b)$ divides twelve. If both orders
+exceed twelve, the construction is impossible. These are consequences
+of the exact mass formula, not search caps. This proposition classifies
+the displayed exchange shape; it does not assert that every six-pair
+can be aligned to that shape.
+
+\subsection{Coefficient proof of half-per-coset complementation}
+Let $H$ have even order $h$, and let $A$ contain $h/2$ points in each
+of $m=12/h$ selected $H$-cosets. Write $S$ for their full union. For
+any $t\in C_n$, let $N_t$ count the ordered pairs of selected cosets
+$(K,J)$ with $K=t+J$. Then direct coefficient counting gives
+\[
+ (SS^*)(t)=hN_t,\qquad
+ (AS^*)(t)=(SA^*)(t)=\tfrac h2N_t.
+\]
+For example, for each such pair $(K,J)$ exactly $h/2$ choices of a point
+of $A\cap K$ have their difference-$t$ partner in $J$. Consequently
+$AS^*+SA^*=SS^*$, and expansion of $(S-A)(S-A)^*$ proves L7.
+The equality of the two cross coefficients here follows from the
+half-coset hypothesis, rather than from a general symmetry assumption
+on $A$. The number of selected cosets is integral precisely for
+$h\in\{2,4,6,12\}$ in the six-point construction.
+
+\section{The exact weighted real-line obligation}\label{sec:linefull}
+
+The following exposition states the complete mathematical formula whose
+unsatisfiability is used in BF. It is included so that the real-domain
+claim can be evaluated independently of a program's normal-form names.
+A six-atom multiset is a list of six real positions with repetitions
+allowed; the fifteen unordered pairs refer to distinct labelled atoms,
+even when their positions coincide.
+
+\begin{lemma}[Diameter normalization]\label{lem:linenorm}
+Every noncongruent homometric pair of six-atom real multisets has positive
+common diameter $L$. After independent translations, reflections and
+division by $L$, followed if necessary by interchange of endpoints, it
+has the form
+\[
+ A=(0,a_1,a_2,a_3,r,1),\qquad B=(0,b_1,b_2,b_3,r,1),
+\]
+with weakly increasing coordinates, $r\ge1-a_1$, $r\ge1-b_1$, and
+$(a_1,a_2,a_3)<_{\rm lex}(b_1,b_2,b_3)$. The two lists are not related
+by reflection about $1/2$.
+\end{lemma}
+\begin{proof}
+The largest labelled pair distance is the diameter, so homometry gives
+the same diameter for both lists. Diameter zero would give two congruent
+lists with all six atoms at one point. Anchor the minima at zero and
+the maxima at one. Remove one labelled endpoint-edge occurrence of
+length one from the common multiset of distances. In either list the
+largest remaining value is $\max(a_4,1-a_1)$: both those endpoint
+distances remain, and every other edge is no larger than one of them.
+This argument still holds if an endpoint is repeated or the remaining
+maximum is also one. Reflect each list independently to put its shared
+remaining maximum at coordinate four. The two lists are unequal, since
+equality would be a congruence; lexicographic interchange is therefore
+available. Reflection is excluded by the original noncongruence.
+\end{proof}
+
+Put $z=(a_1,a_2,a_3,r,1,b_1,b_2,b_3,r,1)$. The counterexample formula
+$\Phi(z)$ is the conjunction of the following predicates:
+\begin{enumerate}
+\item Each displayed list is weakly increasing and the two inequalities
+$r\ge1-a_1$, $r\ge1-b_1$ hold.
+\item The strict lexicographic inequality of Lemma~\ref{lem:linenorm}
+holds, and
+$\neg\bigwedge_{i=1}^{4}(A_i=1-B_{5-i})$ holds.
+\item With $d_{ij}=A_j-A_i$ and $e_{kl}=B_l-B_k$, for every labelled
+$i<j$,
+\[
+ \sum_{k<l}[d_{kl}=d_{ij}]
+   =\sum_{k<l}[e_{kl}=d_{ij}].
+\]
+Here $[P]$ is one if $P$ holds and zero otherwise.
+\item The vector $z$ belongs to neither of the two linear planes given
+by the two height lists displayed in BF.
+\end{enumerate}
+The indices in the last condition run through the ten coordinates after
+omitting the two anchored zeros. If a template has coefficient pairs
+$(u_k,v_k)$, choose $i,j$ with $\Delta=u_iv_j-v_iu_j\ne0$. Membership
+in its plane is the conjunction, for all ten indices $k$, of
+\[
+ \Delta z_k=(u_kv_j-v_ku_j)z_i+(-u_kv_i+v_ku_i)z_j.
+\]
+Thus nonmembership is the negation of a specified finite conjunction;
+there is no bounded parameter grid or rationality condition.
+
+\begin{lemma}[Encoding equivalence]\label{lem:lineencode}
+$\Phi$ is satisfiable over the reals if and only if there is a normalized
+noncongruent homometric six-atom pair outside both displayed planes.
+\end{lemma}
+\begin{proof}
+Only the distance-count and plane predicates need explanation. The
+distance equations give equality of multiplicity for every value occurring
+among the fifteen $A$ edges, including zero. The required multiplicities
+sum to fifteen, so there is no room for a further $B$ value. Conversely,
+equal multisets satisfy every equation. Equalities among labelled atoms
+are retained; the directed autocorrelation adds six diagonal zeros and
+twice the unordered zero distances to both sides. Cramer's rule shows
+that the displayed plane equations are exactly the existence of real
+parameters $p,q$ with $z_k=u_kp+v_kq$. The other predicates are the
+normalization and exclusion conditions already proved.
+\end{proof}
+
+\paragraph{Finite solver obligation U.}
+The exact formula $\Phi$ is unsatisfiable. This is the saved exact
+linear-real-arithmetic obligation checked by the weighted builder and
+a separate consecutive-gap/occurrence-bijection encoding. Its truth at
+all real positions is a solver dependency of this computer-assisted
+proof. A bounded integer recount does not establish U. Saved Z3 and
+cvc5 results, input hashes and internal proof-checking settings are
+specified in the evidence inventory; their proof objects have not been
+translated into an independent general-purpose proof assistant.
+
+Accepting U, Lemmas~\ref{lem:linenorm} and~\ref{lem:lineencode} put every
+pair in one of the two planes. Recovering the parameters in the first
+plane gives $p=A_5-A_4$, $q=A_2$. The weak consecutive gaps force
+$p\ge0$ and $q\ge3p$; $p=0$ makes the lists equal. In the second plane,
+$p=A_4-A_3$, $q=A_1+p$; the gaps force $p>0$,
+$3p/2\le q\le2p$, and the upper endpoint makes the lists equal.
+Thus the exact domains are the relaxed chambers stated in BF. Their
+formal positive-distance identities prove soundness even on the allowed
+repeated-coordinate boundaries. For completeness their consecutive gap
+lists are, respectively,
+\begin{align*}
+ A_1 &: (q-2p,2p,q-3p,q+p,p),\\
+ B_1 &: (q-p,2p,q,q-3p,p),\\
+ A_2 &: (q-p,2p,2q-3p,p,2p-q),\\
+ B_2 &: (p,2q-2p,3p-q,2q-3p,2p-q).
+\end{align*}
+The first coordinates after zero in the first pair differ by $p>0$.
+Reflecting $A_1$ makes that coordinate $p$, whereas $B_1$ has
+$q-p\ge2p$. In the second pair the two coordinates are $q-p$ and $p$,
+which differ because $q<2p$; the reflected $A_2$ has coordinate
+$2p-q\le p/2<p$. Anchored equal-diameter lists can be congruent only by
+equality or this reflection. Thus both forms are noncongruent, including
+their allowed repeated-coordinate boundaries. Integer input coordinates recover integer
+$p,q$ after undoing the diameter normalization: the formulas use only
+integer point differences. For distinct six-sets the lower bounds become
+strict. This is the full logical passage from U to Iw and I.
+
+\section{Integer shadows and the large-prime boundary}\label{sec:shadowfull}
+
+\begin{proposition}\label{prop:shadowexact}
+Assuming the line obligation U, a cyclic Z-pair is an integer shadow
+if and only if representatives are an admissible modular Bloom pair.
+\end{proposition}
+\begin{proof}
+Apply the distinct-point line theorem I to any integer lifts and reduce
+its integer rigid motions and recovered integer parameters modulo $n$.
+For the converse lift the two modular parameters to any integers $p,q$.
+Six distinct residues in each formula force six distinct integer terms.
+The formal Laurent identity for B is valid in $\Z[x,x^{-1}]$, so those
+integer sets are homometric. An integer congruence would reduce to a
+cyclic $\TI$ congruence; the latter has been excluded. This also explains
+why exhaustive testing of the $n^2$ modular parameter pairs, with rigid
+alignments, is an exact shadow test despite unbounded integer lifts.
+\end{proof}
+
+\begin{corollary}\label{cor:largeprime}
+If every prime divisor of $n$ is greater than 131, every cyclic six-point
+Z-pair is an admissible modular Bloom image, under the same line-solver
+qualification.
+\end{corollary}
+\begin{proof}
+Take its universal presentation $G_M=\Z^d\oplus T$ and map
+$f\colon G_M\to C_n$. The torsion image has order dividing both $n$
+and $|T|\le135$. The smallest prime above 131 is 137, so this image
+is trivial. The pair factors through the free quotient. Its six vertices
+in each list remain distinct, since their images in $C_n$ are distinct.
+Here $d>0$, because a finite presentation with trivial image cannot
+contain a six-set.
+
+Choose a basis of the free quotient and any integer representatives
+$c_1,\ldots,c_d$ of its images under $f$. The integer functional
+$\lambda(w)=\sum_j c_jw_j$ reduces modulo $n$ to $f$. Any within-endpoint
+difference $w$ has nonzero image under $f$, so $\lambda(w)$ is a nonzero
+integer. Thus $\lambda$ is injective on each six-element endpoint, with
+no genericity assumption. Homomorphic transport gives integer homometric
+six-sets reducing to the original cyclic pair.
+Proposition~\ref{prop:shadowexact} finishes.
+\end{proof}
+
+This sufficient boundary is not an enumeration formula. In particular,
+deducing $(p-1)(p-11)/12$ at primes requires a separate proof of parameter
+admissibility, all identifications between parameter images, and all
+exceptional stabilizers. That counting problem is not settled merely by
+the large-prime corollary or by matching finite numerical values.
+
+\subsection{What the rigid-template certificates additionally prove}
+The soundness of an R edge requires only equality of its fifteen unsigned
+differences modulo its listed $q$. The stronger claim that a faithful seed
+image is purely cyclic uses an additional, pattern-restricted statement.
+We give its exact finite contract to keep these two uses separate.
+
+For each row $(q,X,Y)$ of Table~\ref{tab:rigid}, order its six coordinates
+as printed and exhaust all bijections of $\mathcal E$ and all signs
+compatible with those coordinates modulo $q$. Compatibility means the
+row relation~\eqref{eq:formal-matching-row} evaluates to zero modulo $q$;
+both signs are retained for an involution. The saved arithmetic witnesses
+must, for every such matching and with no omitted or duplicate label list,
+supply integer unimodular $U,V$ satisfying
+\[
+ UMV=\operatorname{diag}(1,1,1,1,1,1,1,1,1,q),
+\]
+with the five additional rows zero. If $w$ is the last column of $V$ and
+$v_{\rm seed}$ is the ten-coordinate anchored seed vector, also require
+\[
+ \gcd(w_1,q)=1,\qquad w_i\equiv w_1(v_{\rm seed})_i\pmod q
+ \quad(1\le i\le10).
+\]
+The seed's first nonanchored coordinate is one. These predicates are
+checked by integer multiplication, determinants and congruences. The
+numbers of compatible matchings, in table order, are
+$192,96,48,48,48,48,16,12,8,8,4,4,4$, totaling $536$.
+
+\begin{proposition}[Rigidity restricted to the seed matching patterns]
+Under the preceding finite verification, every realization of a compatible
+seed matching in any abelian group is the displayed seed multiplied by
+one element $t$ with $qt=0$. Every faithful cyclic image of each listed
+seed is purely cyclic.
+\end{proposition}
+\begin{proof}
+The unimodular diagonal identity identifies its universal presentation
+with $C_q$. All old vertices are multiples of the generator, with
+coefficients $w_i$. Replacing the generator by $w_1$ times itself is
+invertible modulo $q$ and gives exactly $v_{\rm seed}$. Thus every
+realization has the asserted form. The allowed orders in the table are
+checked by reducing both seed lists to each divisor of $q$, requiring
+six distinct coordinates and different $\TI$ classes. By the subgroup
+equivalence argument in Lemma~\ref{lem:inflate}, that check is valid in
+every ambient cyclic group.
+
+If the seed itself had homometric six-point integer lifts, their equal
+absolute edge lengths would give one of the exhausted signed matchings
+after reduction modulo $q$. Its anchored integer coordinates would lie
+in the kernel of a rank-ten $M$, hence would all be zero, contradicting
+six distinct points. Now let a faithful image lie in $C_n$, with
+$t=(n/q)u$ and $\gcd(u,q)=1$. Anchor hypothetical integer lifts at their
+points mapping to zero. All their coordinates are divisible by $n/q$.
+Divide by $n/q$, then multiply by any integer inverse of $u$ modulo $q$.
+These operations preserve integer homometry and distinctness and would
+give integer lifts of the original seed, a contradiction.
+\end{proof}
+
+The proposition concerns the listed signed matching patterns, not all
+six-point pairs. Proper images can admit additional matching patterns;
+their pure cyclicity does not follow from the faithful-image argument.
+In particular, this verifies the 21-EDO benchmark's pure cyclicity without
+assuming that a cyclic factor flip is an integer-line factorization.

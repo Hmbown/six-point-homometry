@@ -1,0 +1,1097 @@
+{
+  "status": "EXPLORATORY until independent span and matching completeness audit",
+  "directions": 120,
+  "spans": 4176,
+  "orbits": [
+    {
+      "index": 0,
+      "rows": [],
+      "size": 1,
+      "heights": [
+        0,
+        1,
+        3,
+        9,
+        27,
+        81
+      ],
+      "matching_count": 1,
+      "distance_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "distinct_heights": 6
+    },
+    {
+      "index": 1,
+      "rows": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          -1
+        ]
+      ],
+      "size": 15,
+      "heights": [
+        0,
+        1,
+        3,
+        9,
+        27,
+        27
+      ],
+      "matching_count": 32,
+      "distance_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "distinct_heights": 5
+    },
+    {
+      "index": 2,
+      "rows": [
+        [
+          0,
+          0,
+          0,
+          1,
+          -2,
+          1
+        ]
+      ],
+      "size": 60,
+      "heights": [
+        0,
+        1,
+        4,
+        -32,
+        16,
+        64
+      ],
+      "matching_count": 2,
+      "distance_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "distinct_heights": 6
+    },
+    {
+      "index": 3,
+      "rows": [
+        [
+          0,
+          0,
+          1,
+          -1,
+          -1,
+          1
+        ]
+      ],
+      "size": 45,
+      "heights": [
+        0,
+        1,
+        -15,
+        3,
+        9,
+        27
+      ],
+      "matching_count": 4,
+      "distance_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "distinct_heights": 6
+    },
+    {
+      "index": 4,
+      "rows": [
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          -1
+        ]
+      ],
+      "size": 20,
+      "heights": [
+        0,
+        1,
+        3,
+        9,
+        9,
+        9
+      ],
+      "matching_count": 10368,
+      "distance_multiplicities": [
+        3,
+        1,
+        1,
+        1,
+        3,
+        3,
+        3
+      ],
+      "distinct_heights": 4
+    },
+    {
+      "index": 5,
+      "rows": [
+        [
+          0,
+          0,
+          1,
+          -2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          -1
+        ]
+      ],
+      "size": 180,
+      "heights": [
+        0,
+        1,
+        -8,
+        4,
+        16,
+        16
+      ],
+      "matching_count": 96,
+      "distance_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        2,
+        2,
+        2
+      ],
+      "distinct_heights": 5
+    },
+    {
+      "index": 6,
+      "rows": [
+        [
+          0,
+          0,
+          1,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          -1
+        ]
+      ],
+      "size": 45,
+      "heights": [
+        0,
+        1,
+        3,
+        3,
+        9,
+        9
+      ],
+      "matching_count": 3072,
+      "distance_multiplicities": [
+        2,
+        1,
+        2,
+        2,
+        4,
+        2,
+        2
+      ],
+      "distinct_heights": 4
+    },
+    {
+      "index": 7,
+      "rows": [
+        [
+          0,
+          0,
+          1,
+          0,
+          -4,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          -2,
+          1
+        ]
+      ],
+      "size": 360,
+      "heights": [
+        0,
+        1,
+        -32,
+        -8,
+        4,
+        16
+      ],
+      "matching_count": 4,
+      "distance_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "distinct_heights": 6
+    },
+    {
+      "index": 8,
+      "rows": [
+        [
+          0,
+          0,
+          1,
+          0,
+          -3,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          -2,
+          1
+        ]
+      ],
+      "size": 180,
+      "heights": [
+        0,
+        1,
+        -20,
+        -8,
+        4,
+        16
+      ],
+      "matching_count": 12,
+      "distance_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1
+      ],
+      "distinct_heights": 6
+    },
+    {
+      "index": 9,
+      "rows": [
+        [
+          0,
+          0,
+          1,
+          0,
+          -2,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          -1,
+          0
+        ]
+      ],
+      "size": 90,
+      "heights": [
+        0,
+        1,
+        -8,
+        4,
+        4,
+        16
+      ],
+      "matching_count": 192,
+      "distance_multiplicities": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        4,
+        1,
+        1,
+        1
+      ],
+      "distinct_heights": 5
+    },
+    {
+      "index": 10,
+      "rows": [
+        [
+          0,
+          1,
+          -2,
+          0,
+          -1,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          -2
+        ]
+      ],
+      "size": 360,
+      "heights": [
+        0,
+        -13,
+        1,
+        15,
+        3,
+        9
+      ],
+      "matching_count": 4,
+      "distance_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "distinct_heights": 6
+    },
+    {
+      "index": 11,
+      "rows": [
+        [
+          0,
+          1,
+          -2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          -1,
+          0
+        ]
+      ],
+      "size": 180,
+      "heights": [
+        0,
+        -7,
+        1,
+        3,
+        3,
+        9
+      ],
+      "matching_count": 64,
+      "distance_multiplicities": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "distinct_heights": 5
+    },
+    {
+      "index": 12,
+      "rows": [
+        [
+          0,
+          1,
+          -2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          -2
+        ]
+      ],
+      "size": 360,
+      "heights": [
+        0,
+        -7,
+        1,
+        15,
+        3,
+        9
+      ],
+      "matching_count": 4,
+      "distance_multiplicities": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "distinct_heights": 6
+    },
+    {
+      "index": 13,
+      "rows": [
+        [
+          0,
+          1,
+          -1,
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          -1
+        ]
+      ],
+      "size": 180,
+      "heights": [
+        0,
+        -5,
+        1,
+        3,
+        9,
+        9
+      ],
+      "matching_count": 288,
+      "distance_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        3,
+        2,
+        2
+      ],
+      "distinct_heights": 5
+    },
+    {
+      "index": 14,
+      "rows": [
+        [
+          0,
+          1,
+          -1,
+          0,
+          -2,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          -2,
+          1
+        ]
+      ],
+      "size": 360,
+      "heights": [
+        0,
+        -23,
+        1,
+        -8,
+        4,
+        16
+      ],
+      "matching_count": 8,
+      "distance_multiplicities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1
+      ],
+      "distinct_heights": 6
+    },
+    {
+      "index": 15,
+      "rows": [
+        [
+          0,
+          1,
+          -1,
+          0,
+          -1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          -2,
+          1
+        ]
+      ],
+      "size": 360,
+      "heights": [
+        0,
+        -11,
+        1,
+        -8,
+        4,
+        16
+      ],
+      "matching_count": 24,
+      "distance_multiplicities": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        3,
+        2,
+        1,
+        1,
+        1
+      ],
+      "distinct_heights": 6
+    },
+    {
+      "index": 16,
+      "rows": [
+        [
+          0,
+          1,
+          0,
+          -3,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          -2,
+          0,
+          1
+        ]
+      ],
+      "size": 360,
+      "heights": [
+        0,
+        -17,
+        -14,
+        1,
+        4,
+        16
+      ],
+      "matching_count": 8,
+      "distance_multiplicities": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "distinct_heights": 6
+    },
+    {
+      "index": 17,
+      "rows": [
+        [
+          0,
+          1,
+          0,
+          -2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          -2,
+          1,
+          0
+        ]
+      ],
+      "size": 90,
+      "heights": [
+        0,
+        -14,
+        -2,
+        1,
+        4,
+        16
+      ],
+      "matching_count": 16,
+      "distance_multiplicities": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "distinct_heights": 6
+    },
+    {
+      "index": 18,
+      "rows": [
+        [
+          1,
+          -2,
+          0,
+          -1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          -1,
+          -1
+        ]
+      ],
+      "size": 360,
+      "heights": [
+        0,
+        11,
+        22,
+        2,
+        6,
+        18
+      ],
+      "matching_count": 8,
+      "distance_multiplicities": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "distinct_heights": 6
+    },
+    {
+      "index": 19,
+      "rows": [
+        [
+          1,
+          -2,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          -2,
+          1,
+          0
+        ]
+      ],
+      "size": 90,
+      "heights": [
+        0,
+        25,
+        -6,
+        2,
+        10,
+        50
+      ],
+      "matching_count": 4,
+      "distance_multiplicities": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "distinct_heights": 6
+    },
+    {
+      "index": 20,
+      "rows": [
+        [
+          1,
+          -1,
+          -1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          -1,
+          0
+        ]
+      ],
+      "size": 45,
+      "heights": [
+        0,
+        8,
+        1,
+        3,
+        3,
+        9
+      ],
+      "matching_count": 128,
+      "distance_multiplicities": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        1
+      ],
+      "distinct_heights": 5
+    },
+    {
+      "index": 21,
+      "rows": [
+        [
+          1,
+          -1,
+          -1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          -2
+        ]
+      ],
+      "size": 180,
+      "heights": [
+        0,
+        15,
+        1,
+        28,
+        4,
+        16
+      ],
+      "matching_count": 8,
+      "distance_multiplicities": [
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "distinct_heights": 6
+    },
+    {
+      "index": 22,
+      "rows": [
+        [
+          1,
+          -1,
+          0,
+          -2,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          -1,
+          -1
+        ]
+      ],
+      "size": 180,
+      "heights": [
+        0,
+        18,
+        19,
+        1,
+        4,
+        16
+      ],
+      "matching_count": 16,
+      "distance_multiplicities": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      "distinct_heights": 6
+    },
+    {
+      "index": 23,
+      "rows": [
+        [
+          1,
+          -1,
+          0,
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          -1,
+          -1,
+          1
+        ]
+      ],
+      "size": 60,
+      "heights": [
+        0,
+        8,
+        -5,
+        1,
+        3,
+        9
+      ],
+      "matching_count": 48,
+      "distance_multiplicities": [
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        3,
+        1,
+        1,
+        1
+      ],
+      "distinct_heights": 6
+    },
+    {
+      "index": 24,
+      "rows": [
+        [
+          1,
+          0,
+          -1,
+          -1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          -1,
+          -1,
+          1,
+          0
+        ]
+      ],
+      "size": 15,
+      "heights": [
+        0,
+        12,
+        15,
+        1,
+        4,
+        16
+      ],
+      "matching_count": 64,
+      "distance_multiplicities": [
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        2,
+        1
+      ],
+      "distinct_heights": 6
+    }
+  ],
+  "total_orbit_matchings": 14475,
+  "seconds": 0.15772500005550683
+}
