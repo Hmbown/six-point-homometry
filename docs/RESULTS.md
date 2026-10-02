@@ -20,6 +20,47 @@ are classical at every support size; Rosenblatt's cyclic factorization is
 also all-cardinality prior art. The six-point result supplies additional
 constructive structure within the binary constraint.
 
+## General constructive and algorithmic continuation
+
+**[PROVED], in-house, no novelty claim.**
+[Theorem GM](general_matching/GENERAL_MATCHING.md) represents every
+homometric pair of k-element sets in any abelian group by a universal signed
+edge-matching presentation. Its torsion order is at most T_k, the maximum
+spanning-tree count of a simple k-vertex graph with min(2k−2,binom(k,2))
+edges, and at most floor(4^(k−1)/k). This holds at every rank. Its cyclic
+torsion image has bounded order, and a compatible matching with torsion
+order coprime to n admits an exact residue-preserving integer lift.
+The [separate review](general_matching/GENERAL_MATCHING_REVIEW.md)
+accepts the argument. The raw factorial matching menu is not a compact
+structural grammar or an efficient general inverse algorithm.
+
+**[COMPUTED], two exhaustive methods.** The exact tree maximum at k7 is432;
+all35 labelled maximizing graphs are K3,4. The
+[graph-bound tool and portable certificates](../tools/general_matching/README.md)
+compare all293930 eligible graphs by determinants and independent
+Prüfer-tree accumulation. This is an extremal graph calculation, not a
+classification or count of seven-point homometry families.
+
+**[PROVED], in-house; [COMPUTED] implementation.**
+[Theorem IG](general_matching/INVERSE_GRID.md) proves exact binary
+reconstruction from directed pair counts on every finite product of cyclic
+groups by sparse finite search. The [tool](../tools/inverse_grid/README.md)
+returns translation/global-inversion classes, explicit complete/partial
+status, and trusted resumable states. The [fresh attack](general_matching/INVERSE_GRID_REVIEW.md)
+checks the proof, independent small-grid enumeration, a separate turnpike
+control and interruption/resume correctness. Worst-case cost is exponential,
+time limits are soft, and deliberate checkpoint manipulation lies outside
+the trust contract. Noise, continuous coordinates and weighted occupancies
+are outside the interface.
+
+[Literature comparison](general_matching/LITERATURE.md) records classical
+rectification and universal-group antecedents, required-venue searches,
+and the unread full Grynkiewicz chapter. Historical priority is unresolved.
+The new tools/docs have [dated authored provenance](GENERAL_WORK_PROVENANCE.json);
+the historical export manifest and inherited certificate bytes are preserved.
+The [local verification receipt](GENERAL_VERIFICATION.json) records all19
+packaged checks passing, with exact commands and tested source hashes.
+
 ## Definitions
 
 For a positive integer $n$, write $\mathbb Z_n=\mathbb Z/n\mathbb Z$.

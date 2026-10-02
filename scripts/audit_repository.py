@@ -13,6 +13,7 @@ import gzip
 import hashlib
 import json
 import re
+import struct
 import subprocess
 import sys
 import zlib
@@ -31,6 +32,11 @@ HASH = re.compile(r"[0-9a-f]{64}\Z")
 TEXT_SUFFIXES = {".md", ".txt", ".py", ".c", ".cpp", ".h", ".hpp", ".json", ".toml", ".yml", ".yaml", ".tex", ".smt2", ".log", ".diff", ".csv", ".sh"}
 PUBLIC_SUFFIXES = TEXT_SUFFIXES | {".gz", ".rst", ".ini", ".cfg", ".pdf"}
 PUBLIC_BASENAMES = {".gitignore", ".gitattributes", ".gitkeep", "LICENSE", "CITATION", "Makefile"}
+GRAPH_CHECKPOINT_HEADER = struct.Struct("<8sIIQQ")
+GRAPH_CHECKPOINTS = {
+    "tools/general_matching/evidence/k7-provenance-v2/bareiss.bin.gz": (1, 293930),
+    "tools/general_matching/evidence/k7-provenance-v2/pruefer.bin.gz": (2, 16807),
+}
 
 # A file's presence is a separate obligation from its integrity.  These are
 # the headline results and the principal dependencies stated in their proofs.
@@ -78,6 +84,18 @@ REQUIRED_FILES = {
 }
 REQUIRED_FILES.update(f"results/2026-09-30-six-pair-mechanisms/n{n}.json" for n in range(12, 136))
 REQUIRED_FILES.update(f"results/2026-09-30-six-large-census/n{n}.json" for n in range(12, 136))
+# This tool is newly authored after the extraction checkpoint. Its presence
+# and public hashes are required without pretending it is inherited history.
+REQUIRED_FILES.update({
+    "tools/inverse_grid/README.md", "tools/inverse_grid/PROVENANCE.json",
+    "tools/inverse_grid/src/inverse_grid.py",
+    "tools/inverse_grid/src/benchmark_inverse_grid.py",
+    "tools/inverse_grid/tests/test_inverse_grid.py",
+    "tools/inverse_grid/tests/test_inverse_grid_review.py",
+    "tools/inverse_grid/tests/test_inverse_grid_benchmark.py",
+    "tools/inverse_grid/examples/tetrachord-12.json",
+    "tools/inverse_grid/examples/eight-sites-16.json",
+})
 
 
 def public_paths(root: Path) -> list[str]:
@@ -99,7 +117,44 @@ def safe_relative(value: object) -> bool:
     return not p.is_absolute() and ".." not in p.parts and p.as_posix() == value
 
 
-def digest_file(path: Path) -> tuple[str, int, set[str]]:
+def graph_checkpoint_hygiene(handle, expected: tuple[int, int]) -> set[str]:
+    """Validate only the two documented complete seven-vertex table formats.
+
+    Streaming bounds allocation independently of any supplied header length.
+    Format/range validation does not replay the graph-count mathematics.
+    """
+    hygiene = set()
+    header = handle.read(GRAPH_CHECKPOINT_HEADER.size)
+    if len(header) != GRAPH_CHECKPOINT_HEADER.size:
+        return {"invalid compressed graph checkpoint header"}
+    magic, k, method, processed, length = GRAPH_CHECKPOINT_HEADER.unpack(header)
+    if (magic != b"GTBOUND1" or k != 7 or (method, processed) != expected
+            or length != 1 << 21):
+        return {"invalid compressed graph checkpoint header"}
+    payload_bytes = 0
+    expected_bytes = 4 * (1 << 21)
+    tail = header
+    while chunk := handle.read(1024 * 1024):
+        window = tail + chunk
+        if PRIVATE_PATH.search(window):
+            hygiene.add("private absolute path in compressed graph checkpoint")
+        if SECRET_CONTENT.search(window):
+            hygiene.add("credential or private-key content in compressed graph checkpoint")
+        tail = window[-8192:]
+        payload_bytes += len(chunk)
+        if payload_bytes > expected_bytes:
+            hygiene.add("invalid compressed graph checkpoint payload length")
+            break
+        if len(chunk) % 4:
+            hygiene.add("invalid compressed graph checkpoint payload length")
+        elif any(value > 7**5 for (value,) in struct.iter_unpack("<I", chunk)):
+            hygiene.add("compressed graph checkpoint count exceeds Cayley bound")
+    if payload_bytes != expected_bytes:
+        hygiene.add("invalid compressed graph checkpoint payload length")
+    return hygiene
+
+
+def digest_file(path: Path, relative: str | None = None) -> tuple[str, int, set[str]]:
     digest = hashlib.sha256()
     size = 0
     hygiene = set()
@@ -114,22 +169,27 @@ def digest_file(path: Path) -> tuple[str, int, set[str]]:
             if SECRET_CONTENT.search(window):
                 hygiene.add("credential or private-key content")
             tail = window[-8192:]
-    # Certificates can be large gzip-compressed text.  Scan the actual public
-    # content as well as the container, rather than trusting a filename.
+    # Scan actual decompressed content as well as the container. Binary tables
+    # are permitted only at two exact documented paths with validated headers.
     if path.suffix.lower() == ".gz":
-        if len(path.suffixes) < 2 or path.suffixes[-2].lower() not in {".json", ".proof", ".smt2", ".txt"}:
+        graph_checkpoint = GRAPH_CHECKPOINTS.get(relative)
+        text_certificate = len(path.suffixes) >= 2 and path.suffixes[-2].lower() in {".json", ".proof", ".smt2", ".txt"}
+        if not text_certificate and graph_checkpoint is None:
             hygiene.add("undocumented compressed archive")
         else:
             try:
                 tail = b""
                 with gzip.open(path, "rb") as handle:
-                    while chunk := handle.read(1024 * 1024):
-                        window = tail + chunk
-                        if PRIVATE_PATH.search(window):
-                            hygiene.add("private absolute path in compressed text")
-                        if SECRET_CONTENT.search(window):
-                            hygiene.add("credential or private-key content in compressed text")
-                        tail = window[-8192:]
+                    if graph_checkpoint is not None:
+                        hygiene.update(graph_checkpoint_hygiene(handle, graph_checkpoint))
+                    else:
+                        while chunk := handle.read(1024 * 1024):
+                            window = tail + chunk
+                            if PRIVATE_PATH.search(window):
+                                hygiene.add("private absolute path in compressed text")
+                            if SECRET_CONTENT.search(window):
+                                hygiene.add("credential or private-key content in compressed text")
+                            tail = window[-8192:]
             except (OSError, EOFError, zlib.error):
                 hygiene.add("invalid compressed certificate")
     return digest.hexdigest(), size, hygiene
@@ -252,10 +312,10 @@ def audit_repository(root: Path, *, required_files: set[str] | None = None) -> d
             errors.append(f"{relative}: media or application asset outside mathematics package")
         if suffix in SECRET_SUFFIXES or path.name.lower() in {".ds_store", "id_rsa", "id_ed25519", "credentials.json", "secrets.json", "token.json"} or path.name.startswith(".env"):
             errors.append(f"{relative}: secret or machine-local artifact")
-        digest, size, hygiene = digest_file(path)
+        digest, size, hygiene = digest_file(path, relative)
         digests[relative] = (digest, size)
         errors.extend(f"{relative}: {finding}" for finding in sorted(hygiene))
-        if suffix == ".md" or (suffix == ".py" and relative.startswith(("src/", "scripts/", "tests/"))):
+        if suffix == ".md" or (suffix == ".py" and relative.startswith(("src/", "scripts/", "tests/", "tools/"))):
             try:
                 content = path.read_text(encoding="utf-8")
             except UnicodeError:

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-01",
+  "scope": "Newly authored AI-assisted research and implementation; not inherited historical export. Internal review is not external peer review. No novelty claim.",
+  "documents": [
+    {
+      "path": "docs/general_matching/GENERAL_MATCHING.md",
+      "parent_source": "notes/2026-10-01-general-matching-reduction.md",
+      "parent_sha256": "4ae9987f954749d28a53d1c93099df2df57aee0a5d98232d5dffbe53e937c20b",
+      "exported_sha256": "b8f2e1aad2469babf2945dead5f56c15947a0d55543553b307ccd62035c9eed9",
+      "transform": "repository-relative documentation and implementation paths; mathematical argument unchanged"
+    },
+    {
+      "path": "docs/general_matching/GENERAL_MATCHING_REVIEW.md",
+      "parent_source": "notes/2026-10-01-general-matching-reduction-review.md",
+      "parent_sha256": "a37f4629b952d9511138a66ed6fb7023d3aaa4f7ca2d4e07a18a5dc8a0545d36",
+      "exported_sha256": "c68000d0a4c170316cd5313b1756bedb7e3ff5474c0d18f9748ecca433c8031d",
+      "transform": "repository-relative documentation and implementation paths; mathematical argument unchanged; appended packaging note distinguishes reviewed pre-correction driver from shipped corrected driver"
+    },
+    {
+      "path": "docs/general_matching/LITERATURE.md",
+      "parent_source": "notes/2026-10-01-general-reduction-literature.md",
+      "parent_sha256": "399a8f5bb798b5423aa3a1618a6616adbfde651e4a0e4391718ecf161533e3d7",
+      "exported_sha256": "399a8f5bb798b5423aa3a1618a6616adbfde651e4a0e4391718ecf161533e3d7",
+      "transform": "repository-relative documentation and implementation paths; mathematical argument unchanged"
+    },
+    {
+      "path": "docs/general_matching/INVERSE_GRID.md",
+      "parent_source": "notes/2026-10-01-inverse-grid.md",
+      "parent_sha256": "a9ffbbe5038cb757a82010535a59f49f8d576f304c984fe7116cb43a0ed7ae71",
+      "exported_sha256": "7da0f3ba9eaa22ce87a52af3b4365dd52461044520eddb6eb14cf736ce86101e",
+      "transform": "repository-relative documentation and implementation paths; mathematical argument unchanged"
+    },
+    {
+      "path": "docs/general_matching/INVERSE_GRID_REVIEW.md",
+      "parent_source": "notes/2026-10-01-inverse-grid-review.md",
+      "parent_sha256": "9a77be9755891faa03ccd4836d7a541f9cdb822bc3842edc1d5e5e8ea8d1c41b",
+      "exported_sha256": "884c6de7757c072aa201dcfedd0f22093ee42491a173c490050bdffa8a979552",
+      "transform": "repository-relative documentation and implementation paths; mathematical argument unchanged"
+    }
+  ],
+  "parent_research_checkpoint": "a1ff8b4a910d89ec9c8c70de618905980f275cf2"
+}

@@ -1,0 +1,35 @@
+{"estimate_before_run": {"complete_graph_edges": 21, "count_table_bytes_per_method": 8388608, "graph_edges": 12, "labelled_graphs": 293930, "planned_wall_seconds_upper_estimate": 60, "pruefer_sequences": 16807, "superset_additions": 84119035, "supersets_per_tree": 5005, "vertices": 7}, "invocation": {"limit": 1000, "methods": ["bareiss", "pruefer"], "resume": false, "started_utc": "2026-10-02T01:31:28.794474+00:00"}}
+{"command": [".reproduction/general-matching-archive/general_tree_bound", "7", "bareiss", ".reproduction/general-matching-archive/bareiss.bin", ".reproduction/general-matching-archive/bareiss.json", "1000"]}
+START k=7 method=bareiss resumed=0 total=293930 limit=1000 table_bytes=8388608
+FINISH k=7 method=bareiss processed=1000/293930 seconds=0.003883 complete=false
+{"command": [".reproduction/general-matching-archive/general_tree_bound", "7", "pruefer", ".reproduction/general-matching-archive/pruefer.bin", ".reproduction/general-matching-archive/pruefer.json", "1000"]}
+START k=7 method=pruefer resumed=0 total=16807 limit=1000 table_bytes=8388608
+PROGRESS k=7 method=pruefer processed=1000/16807 seconds=0.024200 checkpoint=saved
+FINISH k=7 method=pruefer processed=1000/16807 seconds=0.027698 complete=false
+{"estimate_before_run": {"complete_graph_edges": 21, "count_table_bytes_per_method": 8388608, "graph_edges": 12, "labelled_graphs": 293930, "planned_wall_seconds_upper_estimate": 60, "pruefer_sequences": 16807, "superset_additions": 84119035, "supersets_per_tree": 5005, "vertices": 7}, "invocation": {"limit": null, "methods": ["bareiss", "pruefer"], "resume": true, "started_utc": "2026-10-02T01:31:36.710175+00:00"}}
+{"command": [".reproduction/general-matching-archive/general_tree_bound", "7", "bareiss", ".reproduction/general-matching-archive/bareiss.bin", ".reproduction/general-matching-archive/bareiss.json"]}
+START k=7 method=bareiss resumed=1000 total=293930 limit=292930 table_bytes=8388608
+PROGRESS k=7 method=bareiss processed=50000/293930 seconds=0.014599 checkpoint=saved
+PROGRESS k=7 method=bareiss processed=100000/293930 seconds=0.022885 checkpoint=saved
+PROGRESS k=7 method=bareiss processed=150000/293930 seconds=0.030672 checkpoint=saved
+PROGRESS k=7 method=bareiss processed=200000/293930 seconds=0.038533 checkpoint=saved
+PROGRESS k=7 method=bareiss processed=250000/293930 seconds=0.047401 checkpoint=saved
+FINISH k=7 method=bareiss processed=293930/293930 seconds=0.054428 complete=true
+{"command": [".reproduction/general-matching-archive/general_tree_bound", "7", "pruefer", ".reproduction/general-matching-archive/pruefer.bin", ".reproduction/general-matching-archive/pruefer.json"]}
+START k=7 method=pruefer resumed=1000 total=16807 limit=15807 table_bytes=8388608
+PROGRESS k=7 method=pruefer processed=2000/16807 seconds=0.023690 checkpoint=saved
+PROGRESS k=7 method=pruefer processed=3000/16807 seconds=0.045552 checkpoint=saved
+PROGRESS k=7 method=pruefer processed=4000/16807 seconds=0.068255 checkpoint=saved
+PROGRESS k=7 method=pruefer processed=5000/16807 seconds=0.090363 checkpoint=saved
+PROGRESS k=7 method=pruefer processed=6000/16807 seconds=0.111830 checkpoint=saved
+PROGRESS k=7 method=pruefer processed=7000/16807 seconds=0.133269 checkpoint=saved
+PROGRESS k=7 method=pruefer processed=8000/16807 seconds=0.154811 checkpoint=saved
+PROGRESS k=7 method=pruefer processed=9000/16807 seconds=0.176606 checkpoint=saved
+PROGRESS k=7 method=pruefer processed=10000/16807 seconds=0.198056 checkpoint=saved
+PROGRESS k=7 method=pruefer processed=11000/16807 seconds=0.220463 checkpoint=saved
+PROGRESS k=7 method=pruefer processed=12000/16807 seconds=0.242034 checkpoint=saved
+PROGRESS k=7 method=pruefer processed=13000/16807 seconds=0.264220 checkpoint=saved
+PROGRESS k=7 method=pruefer processed=14000/16807 seconds=0.285776 checkpoint=saved
+PROGRESS k=7 method=pruefer processed=15000/16807 seconds=0.307337 checkpoint=saved
+PROGRESS k=7 method=pruefer processed=16000/16807 seconds=0.328732 checkpoint=saved
+FINISH k=7 method=pruefer processed=16807/16807 seconds=0.346837 complete=true

@@ -11,6 +11,40 @@ They do not imply that every result in a cited paper has been independently
 verified. Restricted results on the real line, collision-free distances,
 fixed supports and generic bases have different hypotheses.
 
+## General reduction and rectification antecedents
+
+**Y. F. Bilu, V. F. Lev and I. Z. Ruzsa.** “Rectification principles in
+additive number theory.” Discrete & Computational Geometry19(1998),343–353.
+[DOI](https://doi.org/10.1007/PL00009351) ·
+[Primary author preprint](https://math.haifa.ac.il/seva/Papers/rectif.dvi).
+Theorem3.1 and its exact rectification scope were read.
+
+**V. F. Lev.** “The rectifiability threshold in abelian groups.”
+Combinatorica28(4)(2008),491–497.
+[Primary author preprint](https://math.haifa.ac.il/seva/Papers/recthrsh.dvi).
+The full primary proof, including Theorem1, was read. General large-prime
+integer rectification is prior art; our incidence-specific bound is not
+presented as the first such principle.
+
+**S. V. Konyagin and V. F. Lev.** “Combinatorics and linear algebra of
+Freiman's isomorphism.” Mathematika47(2000),39–51.
+[Primary author preprint](https://math.haifa.ac.il/seva/Papers/colifr.dvi).
+Sections1–2 were read. Relation matrices and generic integer projection
+are established techniques.
+
+**D. J. Grynkiewicz.** *Structural Additive Theory*, chapter20,
+“Freiman Homomorphisms Revisited,”299–365(2013).
+[Publisher abstract](https://link.springer.com/chapter/10.1007/978-3-319-00416-7_20).
+The abstract was read; the full chapter was inaccessible. No theorem from
+it is used as a proof dependency. Its universal-group and torsion topics
+are an unresolved historical comparison target. The complete reading and
+required-venue search log is in
+[the general reduction literature note](general_matching/LITERATURE.md).
+
+No novelty is claimed for the exhaustive exact-grid reconstruction tool.
+The new GM/IG arguments provide stated reductions and a tested interface,
+without asserting a compact arbitrary-cardinality classification.
+
 ## Classical six-point constructions
 
 **Joseph Rosenblatt and Paul D. Seymour.** “The Structure of Homometric

@@ -1,0 +1,135 @@
+{
+  "schema": "homometry.authored-tool-provenance/v1",
+  "authored_date": "2026-10-01",
+  "description": "New general signed-matching graph-bound tools and in-house evidence added after the historical extraction. These are authored additions, not inherited assets from EXPORT_MANIFEST.source_checkpoint. Origin paths refer to the separate parent research archive, which is not needed at runtime.",
+  "inherited_export_manifest_sha256_at_packaging": "cc1618c944ef8954853ae9c3c164e41c5f16a395cb60239ac3343bff2998031e",
+  "trusted_hash_boundary": "Checkpoint hashes detect payload changes relative to an intact recorded manifest; manifests are local provenance records, not signed authenticity or proof certificates.",
+  "entries": [
+    {
+      "path": "src/general_tree_bound.c",
+      "origin_path": "src/general_tree_bound.c",
+      "origin_sha256": "3f6cafab197d44489b613a57c37522ba6014fc8a35c09b03cb634c4643a7bddc",
+      "packaged_sha256": "3f6cafab197d44489b613a57c37522ba6014fc8a35c09b03cb634c4643a7bddc",
+      "origin_bytes": 12257,
+      "packaged_bytes": 12257,
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "src/general_tree_bound.py",
+      "origin_path": "src/general_tree_bound.py",
+      "origin_sha256": "ebabc2a4e1a96ef69a2d5fad877b24ea6e4fa5fc8be96e9cde0b5557dd1323ab",
+      "packaged_sha256": "ebabc2a4e1a96ef69a2d5fad877b24ea6e4fa5fc8be96e9cde0b5557dd1323ab",
+      "origin_bytes": 17494,
+      "packaged_bytes": 17494,
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "tests/test_general_tree_bound.py",
+      "origin_path": "tests/test_general_tree_bound.py",
+      "origin_sha256": "103fa08a70f351a25aae26389170aa38ccb3c13573f54b30b7986c19ee2b7363",
+      "packaged_sha256": "074011f7244c6382e8b6d2a8ebd3f06e0199e69ceca75a4b0fa538791fe843aa",
+      "origin_bytes": 13218,
+      "packaged_bytes": 13267,
+      "adaptation": "Added only an explicit inherited child src import path; local tool ROOT/src and all test algorithms remain unchanged. No PYTHONPATH or parent workspace dependency."
+    },
+    {
+      "path": "tests/test_general_matching_reduction_review.py",
+      "origin_path": "tests/test_general_matching_reduction_review.py",
+      "origin_sha256": "edca8df4be659fe50b6ad3bed4b3623b176c4d6f3c5836fda87d2b0f5343067a",
+      "packaged_sha256": "556ec65d673b8b752303fcdb662df3ffd8e2abdfc5f0112ab5a8b1e6306507a7",
+      "origin_bytes": 10802,
+      "packaged_bytes": 10895,
+      "adaptation": "Added only an explicit inherited child src import path; local tool ROOT/src and all test algorithms remain unchanged. No PYTHONPATH or parent workspace dependency."
+    },
+    {
+      "path": "evidence/k7-provenance-v2/archive-provenance.json",
+      "origin_path": "results/2026-10-01-general-tree-bound/k7-provenance-v2/archive-provenance.json",
+      "origin_sha256": "29f635e544afbb7073ad16c0faadf188b1b09fd6cb53985cd0e2faa4005db15b",
+      "packaged_sha256": "29f635e544afbb7073ad16c0faadf188b1b09fd6cb53985cd0e2faa4005db15b",
+      "origin_bytes": 1182,
+      "packaged_bytes": 1182,
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "evidence/k7-provenance-v2/bareiss.bin.gz",
+      "origin_path": "results/2026-10-01-general-tree-bound/k7-provenance-v2/bareiss.bin.gz",
+      "origin_sha256": "da42292ed529d60e794dacd7e82bc32a116e1f6d025051408ba844bc02e2e2d2",
+      "packaged_sha256": "da42292ed529d60e794dacd7e82bc32a116e1f6d025051408ba844bc02e2e2d2",
+      "origin_bytes": 440309,
+      "packaged_bytes": 440309,
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "evidence/k7-provenance-v2/bareiss.json",
+      "origin_path": "results/2026-10-01-general-tree-bound/k7-provenance-v2/bareiss.json",
+      "origin_sha256": "79b13e9339b801c493633f660da2847e2701da96dea358e0f44d3bd3e40778ed",
+      "packaged_sha256": "79b13e9339b801c493633f660da2847e2701da96dea358e0f44d3bd3e40778ed",
+      "origin_bytes": 1122,
+      "packaged_bytes": 1122,
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "evidence/k7-provenance-v2/build.json",
+      "origin_path": "results/2026-10-01-general-tree-bound/k7-provenance-v2/build.json",
+      "origin_sha256": "f8ff4da2ee6fa68f1f44c1b3ab1e796f0bcf94a8018e10829a293fb982aadfa4",
+      "packaged_sha256": "fd355f370e964da9c4c096647b6faa084d924df9a05645a402280181b1a30b60",
+      "origin_bytes": 847,
+      "packaged_bytes": 800,
+      "adaptation": "Replaced only private absolute source/output command paths with repository-relative packaged source and ignored .reproduction/general-matching-archive paths. Original compiler metadata, count counters, timings and recorded source/binary hashes are unchanged."
+    },
+    {
+      "path": "evidence/k7-provenance-v2/comparison.json",
+      "origin_path": "results/2026-10-01-general-tree-bound/k7-provenance-v2/comparison.json",
+      "origin_sha256": "ffc292e4d994b649acadb750c1118d8bff25173eb485b11f4e3c100450a713f6",
+      "packaged_sha256": "ffc292e4d994b649acadb750c1118d8bff25173eb485b11f4e3c100450a713f6",
+      "origin_bytes": 2783,
+      "packaged_bytes": 2783,
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "evidence/k7-provenance-v2/manifest.json",
+      "origin_path": "results/2026-10-01-general-tree-bound/k7-provenance-v2/manifest.json",
+      "origin_sha256": "0978687cb185786ebc13b095d81fc8e9917e2c91bd2661cc72366524787da473",
+      "packaged_sha256": "0978687cb185786ebc13b095d81fc8e9917e2c91bd2661cc72366524787da473",
+      "origin_bytes": 1339,
+      "packaged_bytes": 1339,
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "evidence/k7-provenance-v2/progress.log",
+      "origin_path": "results/2026-10-01-general-tree-bound/k7-provenance-v2/progress.log",
+      "origin_sha256": "cdc4599f0174bd18b63baaae8c09ce8cd20b87058e15cc9f8b9f56efb7606599",
+      "packaged_sha256": "82343733bc66bee968863e00228380e7c6a2806abf489496bdebb8c1953a6589",
+      "origin_bytes": 4579,
+      "packaged_bytes": 4063,
+      "adaptation": "Replaced only private absolute source/output command paths with repository-relative packaged source and ignored .reproduction/general-matching-archive paths. Original compiler metadata, count counters, timings and recorded source/binary hashes are unchanged."
+    },
+    {
+      "path": "evidence/k7-provenance-v2/pruefer.bin.gz",
+      "origin_path": "results/2026-10-01-general-tree-bound/k7-provenance-v2/pruefer.bin.gz",
+      "origin_sha256": "09e8ec197049908a31df85189ab43586f0901aba61465c16ca22a7869f5db090",
+      "packaged_sha256": "09e8ec197049908a31df85189ab43586f0901aba61465c16ca22a7869f5db090",
+      "origin_bytes": 440309,
+      "packaged_bytes": 440309,
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "evidence/k7-provenance-v2/pruefer.json",
+      "origin_path": "results/2026-10-01-general-tree-bound/k7-provenance-v2/pruefer.json",
+      "origin_sha256": "a46f4f7d5063c35c809d70602f9f10cac1baf3f9ae61b101b2b3c3ac91832dc6",
+      "packaged_sha256": "a46f4f7d5063c35c809d70602f9f10cac1baf3f9ae61b101b2b3c3ac91832dc6",
+      "origin_bytes": 1127,
+      "packaged_bytes": 1127,
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "evidence/tests-provenance-final.json",
+      "origin_path": "results/2026-10-01-general-tree-bound/tests-provenance-final.json",
+      "origin_sha256": "dd3e1ab29e8712f4c08e2b27ad4ba4c1f437b099898e4158acff438292cc8aeb",
+      "packaged_sha256": "dd3e1ab29e8712f4c08e2b27ad4ba4c1f437b099898e4158acff438292cc8aeb",
+      "origin_bytes": 1766,
+      "packaged_bytes": 1766,
+      "adaptation": "unchanged"
+    }
+  ]
+}

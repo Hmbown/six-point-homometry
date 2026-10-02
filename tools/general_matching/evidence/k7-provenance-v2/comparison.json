@@ -1,0 +1,165 @@
+{
+  "additional_controls": [
+    "Python Fraction cofactor on maximizing graph",
+    "Direct acyclic edge subsets on maximizing graph",
+    "Total graph/tree incidences by double counting"
+  ],
+  "all_masks_compared": 2097152,
+  "complete_graph_trees": 16807,
+  "graph_edges": 12,
+  "graph_tree_incidence_sum": 84119035,
+  "histogram": {
+    "0": 3185,
+    "125": 735,
+    "180": 7560,
+    "185": 15120,
+    "192": 1890,
+    "200": 2520,
+    "209": 15120,
+    "216": 2520,
+    "224": 7770,
+    "225": 4830,
+    "236": 2520,
+    "240": 630,
+    "242": 840,
+    "243": 840,
+    "245": 2520,
+    "248": 2520,
+    "255": 1260,
+    "256": 1330,
+    "257": 10080,
+    "260": 5040,
+    "264": 2520,
+    "272": 7560,
+    "273": 1260,
+    "275": 420,
+    "276": 3780,
+    "278": 5040,
+    "279": 5040,
+    "281": 5040,
+    "284": 5040,
+    "285": 2520,
+    "287": 2520,
+    "288": 6930,
+    "289": 5040,
+    "291": 2520,
+    "296": 5040,
+    "297": 7560,
+    "299": 5040,
+    "300": 1890,
+    "305": 5040,
+    "308": 5040,
+    "313": 5040,
+    "315": 6300,
+    "320": 10815,
+    "321": 5040,
+    "323": 2520,
+    "324": 10500,
+    "325": 630,
+    "326": 5040,
+    "327": 2520,
+    "329": 5040,
+    "330": 2520,
+    "335": 2520,
+    "336": 3780,
+    "338": 5040,
+    "339": 5040,
+    "340": 2520,
+    "344": 2520,
+    "345": 1260,
+    "351": 840,
+    "352": 1260,
+    "353": 5040,
+    "354": 5040,
+    "355": 2520,
+    "360": 3780,
+    "361": 840,
+    "368": 5040,
+    "372": 2520,
+    "377": 2520,
+    "385": 1260,
+    "386": 5040,
+    "392": 840,
+    "399": 1260,
+    "400": 2520,
+    "408": 1260,
+    "432": 35
+  },
+  "invocation_wall_seconds": 0.7727605420004693,
+  "labelled_graphs": 293930,
+  "maximizer_count": 35,
+  "maximizing_graph": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ]
+  ],
+  "maximizing_graph_degree_sequence": [
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4
+  ],
+  "maximizing_graph_mask": 1009167,
+  "maximum": 432,
+  "methods": [
+    "Laplacian cofactor/Bareiss for every graph",
+    "Every Prufer tree accumulated into every eligible edge superset"
+  ],
+  "pointwise_agreement": true,
+  "scope": "Every labelled simple graph on k vertices with exactly 2k-2 edges; k<=7 only.",
+  "source_hashes": {
+    "c_source_sha256": "3f6cafab197d44489b613a57c37522ba6014fc8a35c09b03cb634c4643a7bddc",
+    "python_source_sha256": "ebabc2a4e1a96ef69a2d5fad877b24ea6e4fa5fc8be96e9cde0b5557dd1323ab",
+    "vertices": 7
+  },
+  "status": "COMPUTED",
+  "vertices": 7
+}

@@ -1,0 +1,19 @@
+{
+  "binary_sha256": "af60581357dfe8345a4f4e0715fbb3e5140113c666c01a63197f46adf624dde4",
+  "c_source_sha256": "3f6cafab197d44489b613a57c37522ba6014fc8a35c09b03cb634c4643a7bddc",
+  "compile_command": [
+    "/usr/bin/clang",
+    "-O3",
+    "-std=c11",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "tools/general_matching/src/general_tree_bound.c",
+    "-o",
+    ".reproduction/general-matching-archive/general_tree_bound"
+  ],
+  "compile_stderr": "",
+  "compile_stdout": "",
+  "compiler_version": "Apple clang version 17.0.0 (clang-1700.6.3.2)\nTarget: arm64-apple-darwin25.1.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "python_source_sha256": "ebabc2a4e1a96ef69a2d5fad877b24ea6e4fa5fc8be96e9cde0b5557dd1323ab"
+}

@@ -173,6 +173,49 @@ be expensive. `src/six_large_census.py` compiles from source and supports
 modulus first before scheduling a large range. A resumed completed record
 does not establish fresh enumeration.
 
+## General exact-grid tool and reduction
+
+The [new inverse tool](../tools/inverse_grid/README.md) runs without installed
+packages; it uses exact integers and sparse directed pair counts. From the
+repository root:
+
+```sh
+python -S tools/inverse_grid/tests/test_inverse_grid.py
+python -S tools/inverse_grid/tests/test_inverse_grid_review.py
+python -S tools/inverse_grid/tests/test_inverse_grid_benchmark.py
+python -S tools/inverse_grid/src/benchmark_inverse_grid.py --out .reproduction/inverse-grid-benchmarks --max-nodes 100000 --timeout 5
+```
+
+The three inverse test programs also join the default wrapper suite.
+The original program exhausts independent small grids and compares all
+immutable reference fibres for every cardinality at n4..14. The separate
+review includes different grids, impossible inputs, a separate large-grid
+turnpike control, source identity and interruption/resume fixtures. Fresh
+result replay uses the same solver; only these separate controls and the
+written proof supply independent evidence.
+
+The optional general suite additionally checks the new signed-matching
+reduction and two exact graph-bound programs:
+
+```sh
+python scripts/verify.py --suite general --out .reproduction/general-verification
+```
+
+This optional suite needs an existing C11 compiler and the already pinned
+SymPy dependency. The [graph tool guide](../tools/general_matching/README.md)
+gives fresh exhaustive runs, partial/resume commands and portable archived
+checkpoint checks. It supports only k4..7; this computational cap does not
+limit the separate general reduction theorem. Saved tree counts are not
+a homometry-family census. Defaults still need no compiler or external solver.
+
+Read [the full GM proof](general_matching/GENERAL_MATCHING.md),
+[its attack](general_matching/GENERAL_MATCHING_REVIEW.md),
+[the inverse proof](general_matching/INVERSE_GRID.md), and
+[its attack](general_matching/INVERSE_GRID_REVIEW.md) to assess the general
+claims. Their status is in-house written proof with separate review;
+historical novelty, external peer review, a compact all-cardinality grammar
+and efficient worst-case inverse recovery remain unresolved.
+
 ## Verification boundaries
 
 Package hashes certify exported bytes. Tests certify their stated arithmetic

@@ -1,0 +1,70 @@
+{
+  "schema": "homometry.authored-tool-provenance/v1",
+  "authored_date": "2026-10-01",
+  "description": "New inverse-grid research tool added after the historical extraction; these files are not inherited assets from EXPORT_MANIFEST.source_checkpoint. Origin paths refer to the separate parent working research archive; it is not required at runtime.",
+  "entries": [
+    {
+      "path": "src/inverse_grid.py",
+      "origin_path": "src/inverse_grid.py",
+      "origin_sha256": "12a378c6f7a64ba7d85846771495a9e9ef96b562aee585eb482cdd1a345eda92",
+      "packaged_sha256": "12a378c6f7a64ba7d85846771495a9e9ef96b562aee585eb482cdd1a345eda92",
+      "origin_bytes": 20291,
+      "packaged_bytes": 20291,
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "src/benchmark_inverse_grid.py",
+      "origin_path": "src/benchmark_inverse_grid.py",
+      "origin_sha256": "bbd0e56eda541fde3d2a45f667a43cfcd22df89f075f43f29d9f1530f350fe17",
+      "packaged_sha256": "bbd0e56eda541fde3d2a45f667a43cfcd22df89f075f43f29d9f1530f350fe17",
+      "origin_bytes": 5176,
+      "packaged_bytes": 5176,
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "tests/test_inverse_grid.py",
+      "origin_path": "tests/test_inverse_grid.py",
+      "origin_sha256": "9604a8da10f1e7a0507676190cab1fd77133a202b50eff0be9756add3db14ee5",
+      "packaged_sha256": "b648f01455c1ef31f9cdd2fdf01293acd2b0e31396be89a4bd2c0dc7022a13bf",
+      "origin_bytes": 9445,
+      "packaged_bytes": 9491,
+      "adaptation": "Added the child reference source path before the immutable homometry import and removed one extra trailing blank line; local tool ROOT/src import, CLI paths, and test algorithms are unchanged."
+    },
+    {
+      "path": "tests/test_inverse_grid_review.py",
+      "origin_path": "tests/test_inverse_grid_review.py",
+      "origin_sha256": "c9e210693cc97e3a540437bdd429041ea0f2aabe5da300e069aa7d66957b3759",
+      "packaged_sha256": "c9e210693cc97e3a540437bdd429041ea0f2aabe5da300e069aa7d66957b3759",
+      "origin_bytes": 15960,
+      "packaged_bytes": 15960,
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "tests/test_inverse_grid_benchmark.py",
+      "origin_path": "tests/test_inverse_grid_benchmark.py",
+      "origin_sha256": "7bf0e9d293734b6773eacb949cf7e15190a6ebfad15f4b3ef96c3bef188aa20b",
+      "packaged_sha256": "7bf0e9d293734b6773eacb949cf7e15190a6ebfad15f4b3ef96c3bef188aa20b",
+      "origin_bytes": 1386,
+      "packaged_bytes": 1386,
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "examples/tetrachord-12.json",
+      "origin_path": "results/2026-10-01-inverse-grid/tetrachord-12/input.json",
+      "origin_sha256": "f40dfc7068d9ec12a898cb345a1c84d8653ec173fb6ccdc16ea72ecb45ddfe75",
+      "packaged_sha256": "f40dfc7068d9ec12a898cb345a1c84d8653ec173fb6ccdc16ea72ecb45ddfe75",
+      "origin_bytes": 884,
+      "packaged_bytes": 884,
+      "adaptation": "unchanged"
+    },
+    {
+      "path": "examples/eight-sites-16.json",
+      "origin_path": "results/2026-10-01-inverse-grid/eight-sites-16/input.json",
+      "origin_sha256": "e012a550cf19eac430e8b820b683bd4f5220846890ef5e44aa0be6b15026873e",
+      "packaged_sha256": "e012a550cf19eac430e8b820b683bd4f5220846890ef5e44aa0be6b15026873e",
+      "origin_bytes": 1152,
+      "packaged_bytes": 1152,
+      "adaptation": "unchanged"
+    }
+  ]
+}

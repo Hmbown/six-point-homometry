@@ -6,7 +6,9 @@ $\mathbb Z/n\mathbb Z$, up to translation and reflection.
 
 It contains a computer-assisted generating grammar for **every cyclic
 modulus**, an exact classification and count for the **classical Bloom
-construction**, and extensions to weighted cyclic phase retrieval. Full
+construction**, and extensions to weighted cyclic phase retrieval. It also
+includes a general signed-matching reduction and an exact inverse tool for
+binary configurations on periodic grids of any dimension and cardinality. Full
 arguments, separate adversarial reviews, checking code and computational
 certificates are included.
 
@@ -24,6 +26,8 @@ other classical antecedents are explicitly credited.
 | **AP: classical Bloom pair classification** | Classifies the parameter fibres of the classical two-parameter construction for every $n$, including even and composite moduli. | [Proof](notes/2026-10-01-six-bloom-primary.md) · [Separate review](notes/2026-10-01-six-primary-review.md) |
 | **Exact Bloom count** | Counts distinct nontrivial unordered pair edges in that construction: $B(n)=\lvert\Omega_n\rvert/12-2[12\mid n]$. This is a count of one construction's pair edges. | [Support formula and proof](notes/2026-10-01-six-bloom-support.md) |
 | **Weighted phase-retrieval extensions** | Same-support ambiguity, reconstruction and stability modulo subgroup freedoms; aperiodic positive ambiguity; an exact six-support comparison. | [Subgroup proof](notes/2026-10-01-weighted-subgroup.md) · [Six-support proof](notes/2026-10-01-weighted-six-incidence.md) |
+| **General reduction GM** | Every cardinality and abelian group; bounded torsion at every rank, cyclic cylinder reduction, and matching-specific exact integer lifts. A compact all-cardinality grammar remains open. | [Proof](docs/general_matching/GENERAL_MATCHING.md) · [Review](docs/general_matching/GENERAL_MATCHING_REVIEW.md) |
+| **Exact inverse tool IG** | Reconstructs all binary configurations on finite periodic grids, modulo translation/global inversion, with explicit complete/partial results. Worst-case search is exponential. | [Use the tool](tools/inverse_grid/README.md) · [Proof](docs/general_matching/INVERSE_GRID.md) · [Benchmarks](docs/INVERSE_GRID_BENCHMARKS.md) |
 
 [Condensed proof outline](docs/PROOF_OUTLINE.md) · [Detailed result map](docs/RESULTS.md)
 · [References and attribution](docs/REFERENCES.md)
@@ -53,6 +57,20 @@ translation/reflection classes. The certificate driver explains this pair
 and can replay the explanation independently of the discovery search.
 
 ## Try it
+
+The new exact inverse tool uses only the Python standard library. From the
+repository root, recover every arrangement compatible with the example's
+pair counts and replay the result:
+
+```sh
+python -S tools/inverse_grid/src/inverse_grid.py solve --input tools/inverse_grid/examples/tetrachord-12.json --out .reproduction/inverse-example.json --checkpoint .reproduction/inverse-state.json
+python -S tools/inverse_grid/src/inverse_grid.py verify --input .reproduction/inverse-example.json --recompute
+```
+
+It returns both four-point classes. For your own exact data, provide the
+grid periods and directed displacement counts, including diagonals;
+omitted bins mean zero. The [tool guide](tools/inverse_grid/README.md)
+includes multidimensional inputs, the Python API, limits and resume commands.
 
 Use **Python 3.12**. From a clone of this repository:
 

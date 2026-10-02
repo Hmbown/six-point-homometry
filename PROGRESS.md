@@ -1,5 +1,72 @@
 # Mathematics package progress
 
+## 1 October2026 — general constructive reduction and exact-grid tool
+
+Plan carried forward from the parent research task and user selection of
+exact pair counts on a periodic grid:
+
+- Prove and separately attack an arbitrary-cardinality signed-matching reduction, keeping the remaining compact-grammar gap explicit.
+- Deliver sparse exact binary reconstruction on products of cyclic groups with complete/partial status, limits, replay and trusted resumable checkpoints.
+- Compare against immutable reference fibres and independent multidimensional/turnpike enumeration; attack interruption and provenance behavior.
+- Package new work as dated authored docs/tools, preserving historical export bytes and the original dependency contract; run the default and optional general checks before a local checkpoint.
+- Keep local performance, mathematical proof, historical novelty and external validation distinct; no publication, license, visibility or outreach action.
+
+**[PROVED], in-house.** New GM/IG full proofs and separate adversarial
+reviews are in `docs/general_matching/`. GM's torsion bound applies at
+every rank and every cardinality, with a cyclic cylinder reduction and
+matching-specific integer-lift criterion. IG gives exact exhaustive
+binary-grid reconstruction, with exponential worst-case search. Neither
+is described as a compact all-cardinality grammar or a historical novelty.
+Classical rectification/universal-group antecedents and source access
+limits are in the adjacent literature note and REFERENCES.
+
+**[COMPUTED].** `tools/inverse_grid/` provides a standard-library JSON CLI
+and Python API. Original tests compare1511 immutable-reference fibres and
+506 independently enumerated grid fibres; a fresh review checks557 other
+fibres, impossible targets, separate integer turnpike, loaded-source
+identity and interruptions at every node and commit boundary. The two
+review findings were repaired before packaging: interrupted active branches
+are retained, and resident code keeps its loaded-source identity. Source
+bytes match the parent tested implementation; copied tests explicitly
+locate this package's inherited reference code.
+
+`tools/general_matching/` supplies two exhaustive graph-bound methods,
+their focused tests and corrected portable k7 certificates. The maximum
+is432 over293930 eligible graphs, with35 labelled K3,4 maximizers. Prior
+checkpoint hashes are checked before any resume mutation; the corrected
+tables are byte-identical to the originals. This is a graph bound, not
+a seven-point homometry census. Full claims/controls are in that tool guide.
+
+The default wrapper now checks the inverse tool without adding a compiler
+dependency. Optional `--suite general` adds signed-matching and C11 graph
+tests. Newly authored paths are recorded in their tool provenance notices,
+`docs/GENERAL_WORK_PROVENANCE.json` and the full PUBLIC_MANIFEST; the original
+EXPORT_MANIFEST and all inherited certificate/reference bytes are preserved.
+Exact verification receipt and local checkpoint follow below.
+
+**Final local verification passed.** Command:
+
+```sh
+../.venv/bin/python scripts/verify.py --suite general --out .reproduction/general-verification-20261001
+```
+
+All19 commands passed in a disposable copy: the complete default suite,
+the three new inverse programs, and both general reduction/graph programs.
+The [receipt](docs/GENERAL_VERIFICATION.json) records every exit/timing,
+tested source hashes, log digests and the pre-receipt package manifest hash.
+The package audit passed with2485 files,94 Markdown documents and all2428
+inherited hashes matching. Adding this receipt and final documentation
+does not change tested source bytes; the final package manifest is refreshed
+and its audit rerun before the local checkpoint. Archived graph tests
+independently compared the complete portable k7 tables; fresh partial/resume
+also reproduced432/35. Hosted CI and external mathematical validation are
+unobserved by this task; older full structural/solver gates retain their
+previously recorded scopes.
+
+Parent research checkpoint: `a1ff8b4a910d89ec9c8c70de618905980f275cf2`.
+This child checkpoint adds general math/tools and authored provenance
+locally, preserving the historical export manifest and certificate bytes.
+
 ## 1 October 2026 — universal framing and supplied outside review plan
 
 - State and prove the established universal autocorrelation equivalence on finite abelian groups, with zero-frequency and binary-admissibility conditions explicit.

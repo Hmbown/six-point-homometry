@@ -1,0 +1,104 @@
+{
+  "schema": "homometry.grid-input/v1",
+  "shape": [
+    16
+  ],
+  "pair_counts": [
+    {
+      "shift": [
+        0
+      ],
+      "count": 8
+    },
+    {
+      "shift": [
+        1
+      ],
+      "count": 4
+    },
+    {
+      "shift": [
+        2
+      ],
+      "count": 3
+    },
+    {
+      "shift": [
+        3
+      ],
+      "count": 3
+    },
+    {
+      "shift": [
+        4
+      ],
+      "count": 4
+    },
+    {
+      "shift": [
+        5
+      ],
+      "count": 4
+    },
+    {
+      "shift": [
+        6
+      ],
+      "count": 3
+    },
+    {
+      "shift": [
+        7
+      ],
+      "count": 5
+    },
+    {
+      "shift": [
+        8
+      ],
+      "count": 4
+    },
+    {
+      "shift": [
+        9
+      ],
+      "count": 5
+    },
+    {
+      "shift": [
+        10
+      ],
+      "count": 3
+    },
+    {
+      "shift": [
+        11
+      ],
+      "count": 4
+    },
+    {
+      "shift": [
+        12
+      ],
+      "count": 4
+    },
+    {
+      "shift": [
+        13
+      ],
+      "count": 3
+    },
+    {
+      "shift": [
+        14
+      ],
+      "count": 3
+    },
+    {
+      "shift": [
+        15
+      ],
+      "count": 4
+    }
+  ]
+}

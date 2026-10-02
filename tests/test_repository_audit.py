@@ -2,6 +2,7 @@
 import hashlib
 import gzip
 import importlib.util
+from io import BytesIO
 import json
 from pathlib import Path
 import tempfile
@@ -133,6 +134,86 @@ class RepositoryAuditTests(unittest.TestCase):
         self.make_manifests()
         self.assert_finding("invalid compressed certificate")
 
+    def graph_archive(self, relative, header, *, payload_bytes=0, prefix=b""):
+        destination = self.root / relative
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        with gzip.open(destination, "wb") as handle:
+            handle.write(header)
+            handle.write(prefix)
+            remaining = payload_bytes - len(prefix)
+            while remaining > 0:
+                chunk = min(remaining, 1024 * 1024)
+                handle.write(b"\0" * chunk)
+                remaining -= chunk
+        return destination
+
+    def graph_header(self, method=1, processed=293930, length=1 << 21,
+                     magic=b"GTBOUND1", k=7):
+        return audit.GRAPH_CHECKPOINT_HEADER.pack(magic, k, method, processed, length)
+
+    def test_documented_complete_graph_checkpoint_formats_pass(self):
+        for relative, (method, processed) in audit.GRAPH_CHECKPOINTS.items():
+            self.graph_archive(relative, self.graph_header(method, processed),
+                               payload_bytes=4 * (1 << 21))
+        self.make_manifests()
+        report = self.run_audit()
+        self.assertTrue(report["passed"], report)
+        self.assertEqual(report["inherited_files"], 1)
+
+    def test_binary_graph_archives_require_exact_location_and_name(self):
+        for relative in (
+            "tools/general_matching/evidence/other/bareiss.bin.gz",
+            "tools/general_matching/evidence/k7-provenance-v2/renamed.bin.gz",
+            "bareiss.bin.gz",
+        ):
+            self.graph_archive(relative, self.graph_header())
+        self.make_manifests()
+        self.assert_finding("undocumented compressed archive")
+
+    def test_graph_checkpoint_bad_headers_reject_before_payload_read(self):
+        headers = (
+            self.graph_header(magic=b"BADMAGIC"), self.graph_header(k=6),
+            self.graph_header(method=2), self.graph_header(processed=293929),
+            self.graph_header(length=1 << 20), self.graph_header()[:-1],
+        )
+        for header in headers:
+            stream = BytesIO(header)
+            findings = audit.graph_checkpoint_hygiene(stream, (1, 293930))
+            self.assertIn("invalid compressed graph checkpoint header", findings)
+            self.assertEqual(stream.tell(), len(header))
+        # Check the actual package path dispatch, not only the helper.
+        relative = next(iter(audit.GRAPH_CHECKPOINTS))
+        self.graph_archive(relative, headers[0])
+        self.make_manifests()
+        self.assert_finding("invalid compressed graph checkpoint header")
+
+    def test_graph_checkpoint_truncated_payload_is_rejected(self):
+        relative = next(iter(audit.GRAPH_CHECKPOINTS))
+        self.graph_archive(relative, self.graph_header(), payload_bytes=4)
+        self.make_manifests()
+        self.assert_finding("invalid compressed graph checkpoint payload length")
+
+    def test_graph_checkpoint_count_range_and_excess_payload_are_rejected(self):
+        relative = next(iter(audit.GRAPH_CHECKPOINTS))
+        destination = self.graph_archive(relative, self.graph_header(),
+            payload_bytes=4 * (1 << 21), prefix=(7**5 + 1).to_bytes(4, "little"))
+        findings = audit.digest_file(destination, relative)[2]
+        self.assertIn("compressed graph checkpoint count exceeds Cayley bound", findings)
+        self.graph_archive(relative, self.graph_header(), payload_bytes=4 * (1 << 21) + 4)
+        findings = audit.digest_file(destination, relative)[2]
+        self.assertIn("invalid compressed graph checkpoint payload length", findings)
+
+    def test_compressed_graph_checkpoint_hygiene_is_still_scanned(self):
+        relative = next(iter(audit.GRAPH_CHECKPOINTS))
+        private_path = b"/" + b"Users" + b"/private-user/workspace"
+        credential = b"ghp" + b"_" + b"a" * 36
+        destination = self.graph_archive(relative, self.graph_header(),
+                                          prefix=private_path + b" " + credential)
+        findings = audit.digest_file(destination, relative)[2]
+        self.assertIn("private absolute path in compressed graph checkpoint", findings)
+        self.assertIn("credential or private-key content in compressed graph checkpoint", findings)
+        self.assertIn("invalid compressed graph checkpoint payload length", findings)
+
     def test_binary_markdown_is_a_finding(self):
         (self.root / "README.md").write_bytes(b"\xff\xfe")
         self.make_manifests()
@@ -140,6 +221,18 @@ class RepositoryAuditTests(unittest.TestCase):
 
     def test_parent_runtime_path_is_rejected(self):
         self.put("scripts/example.py", "from pathlib import Path\nROOT = Path(__file__).resolve().parents[2]\n")
+        self.make_manifests()
+        self.assert_finding("ancestor outside standalone")
+
+    def test_new_tool_is_public_content_without_false_inherited_provenance(self):
+        self.put("tools/inverse_grid/src/example.py", "def identity(value):\n    return value\n")
+        self.make_manifests()
+        report = self.run_audit()
+        self.assertTrue(report["passed"], report)
+        self.assertEqual(report["inherited_files"], 1)
+
+    def test_tool_runtime_escape_is_rejected(self):
+        self.put("tools/inverse_grid/src/example.py", "from pathlib import Path\nROOT = Path(__file__).resolve().parents[4]\n")
         self.make_manifests()
         self.assert_finding("ancestor outside standalone")
 

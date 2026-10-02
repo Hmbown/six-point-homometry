@@ -1,0 +1,46 @@
+{
+  "checkpoint_format": "GTBOUND1 + little-endian u32 k/method + u64 processed/length + u32 counts",
+  "checkpoint_sha256": {
+    "bareiss": "b4f2a4c28afcc097907306b2247f261f539ea1d863f2bdc852d5a2d431743931",
+    "pruefer": "cb60fb93eaa6a314a778ababb5d3e742091954c438973d806aefd07c4ba9a219"
+  },
+  "complete_two_method_comparison": true,
+  "estimate": {
+    "complete_graph_edges": 21,
+    "count_table_bytes_per_method": 8388608,
+    "graph_edges": 12,
+    "labelled_graphs": 293930,
+    "planned_wall_seconds_upper_estimate": 60,
+    "pruefer_sequences": 16807,
+    "superset_additions": 84119035,
+    "supersets_per_tree": 5005,
+    "vertices": 7
+  },
+  "identity": {
+    "c_source_sha256": "3f6cafab197d44489b613a57c37522ba6014fc8a35c09b03cb634c4643a7bddc",
+    "python_source_sha256": "ebabc2a4e1a96ef69a2d5fad877b24ea6e4fa5fc8be96e9cde0b5557dd1323ab",
+    "vertices": 7
+  },
+  "invocations": [
+    {
+      "limit": 1000,
+      "methods": [
+        "bareiss",
+        "pruefer"
+      ],
+      "resume": false,
+      "started_utc": "2026-10-02T01:31:28.794474+00:00"
+    },
+    {
+      "limit": null,
+      "methods": [
+        "bareiss",
+        "pruefer"
+      ],
+      "resume": true,
+      "started_utc": "2026-10-02T01:31:36.710175+00:00"
+    }
+  ],
+  "last_invocation_wall_seconds": 0.7727605420004693,
+  "status": "COMPUTED"
+}

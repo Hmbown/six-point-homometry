@@ -1,0 +1,23 @@
+{
+  "bareiss.bin": {
+    "count_payload_sha256": "17d65a87a5b9a926f5ebf6e2d61945f085818f8d2c1166fa7c93551b2c655985",
+    "decompression_reproduces_raw_exactly": true,
+    "gzip_bytes": 440309,
+    "gzip_sha256": "da42292ed529d60e794dacd7e82bc32a116e1f6d025051408ba844bc02e2e2d2",
+    "matches_original_v1_checkpoint_byte_for_byte": true,
+    "raw_bytes": 8388640,
+    "raw_sha256": "b4f2a4c28afcc097907306b2247f261f539ea1d863f2bdc852d5a2d431743931"
+  },
+  "c_source_sha256": "3f6cafab197d44489b613a57c37522ba6014fc8a35c09b03cb634c4643a7bddc",
+  "pruefer.bin": {
+    "count_payload_sha256": "17d65a87a5b9a926f5ebf6e2d61945f085818f8d2c1166fa7c93551b2c655985",
+    "decompression_reproduces_raw_exactly": true,
+    "gzip_bytes": 440309,
+    "gzip_sha256": "09e8ec197049908a31df85189ab43586f0901aba61465c16ca22a7869f5db090",
+    "matches_original_v1_checkpoint_byte_for_byte": true,
+    "raw_bytes": 8388640,
+    "raw_sha256": "cb60fb93eaa6a314a778ababb5d3e742091954c438973d806aefd07c4ba9a219"
+  },
+  "python_source_sha256": "ebabc2a4e1a96ef69a2d5fad877b24ea6e4fa5fc8be96e9cde0b5557dd1323ab",
+  "test_source_sha256": "103fa08a70f351a25aae26389170aa38ccb3c13573f54b30b7986c19ee2b7363"
+}

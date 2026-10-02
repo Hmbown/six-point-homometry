@@ -1,0 +1,62 @@
+{
+  "seconds": 3.664916916997754,
+  "status": "COMPUTED",
+  "tests": {
+    "test_checkpoint_resume": {
+      "complete_resume_preserves_payload": true,
+      "partial_items_per_method": 3,
+      "resume_matches_fresh_run": true
+    },
+    "test_corrupt_checkpoint": {
+      "malformed_checkpoint_controls": 7
+    },
+    "test_input_controls": {
+      "malformed_graphs_cardinalities_methods_rejected": true
+    },
+    "test_persisted_seven_vertex_result": {
+      "all_maximizers_are_complete_bipartite_K3_4": true,
+      "independent_python_sample_controls": 100,
+      "persisted_global_pass": {
+        "all_masks_compared": 2097152,
+        "labelled_graphs": 293930,
+        "maximizer_count": 35,
+        "maximum": 432,
+        "vertices": 7
+      }
+    },
+    "test_resume_payload_provenance": {
+      "missing_recorded_checkpoint_rejected": true,
+      "single_method_resume_preserves_other_digest": true,
+      "unrequested_method_checkpoint_also_verified": true,
+      "valid_shaped_count_corruption_rejected_before_any_output_mutation": true
+    },
+    "test_seven_vertex_controls": {
+      "permutation_and_edge_order_controls": true,
+      "seven_vertex_small_controls": 84
+    },
+    "test_small_graph_exhaustion": {
+      "every_graph_python_controls": 3049,
+      "inherited_k6_histogram_agrees": true,
+      "passes": [
+        {
+          "labelled_graphs": 1,
+          "maximizer_count": 1,
+          "maximum": 16,
+          "vertices": 4
+        },
+        {
+          "labelled_graphs": 45,
+          "maximizer_count": 15,
+          "maximum": 45,
+          "vertices": 5
+        },
+        {
+          "labelled_graphs": 3003,
+          "maximizer_count": 60,
+          "maximum": 135,
+          "vertices": 6
+        }
+      ]
+    }
+  }
+}

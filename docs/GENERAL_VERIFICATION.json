@@ -1,0 +1,238 @@
+{
+  "suite": "general",
+  "all_commands_passed": true,
+  "commands": [
+    {
+      "command": [
+        "python",
+        "scripts/audit_repository.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "00-audit_repository.log",
+      "wall_seconds": 20.074379083998792
+    },
+    {
+      "command": [
+        "python",
+        "tests/test_env.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "01-test_env.log",
+      "wall_seconds": 0.12407037500088336
+    },
+    {
+      "command": [
+        "python",
+        "tests/run_tests.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "02-run_tests.log",
+      "wall_seconds": 1.5216367499961052
+    },
+    {
+      "command": [
+        "python",
+        "tests/test_six_bloom_support.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "03-test_six_bloom_support.log",
+      "wall_seconds": 0.22599462500511436
+    },
+    {
+      "command": [
+        "python",
+        "tests/test_six_bloom_primary.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "04-test_six_bloom_primary.log",
+      "wall_seconds": 0.8281867080004304
+    },
+    {
+      "command": [
+        "python",
+        "tests/test_six_bloom_primary_review.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "05-test_six_bloom_primary_review.log",
+      "wall_seconds": 0.4804264999984298
+    },
+    {
+      "command": [
+        "python",
+        "tests/test_six_generate.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "06-test_six_generate.log",
+      "wall_seconds": 0.3751250409986824
+    },
+    {
+      "command": [
+        "python",
+        "tests/test_six_generate_review.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "07-test_six_generate_review.log",
+      "wall_seconds": 0.5809059169987449
+    },
+    {
+      "command": [
+        "python",
+        "tests/test_weighted_subgroup.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "08-test_weighted_subgroup.log",
+      "wall_seconds": 0.6906323750008596
+    },
+    {
+      "command": [
+        "python",
+        "tests/test_weighted_subgroup_review.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "09-test_weighted_subgroup_review.log",
+      "wall_seconds": 19.70108858399908
+    },
+    {
+      "command": [
+        "python",
+        "tests/test_weighted_six_incidence.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "10-test_weighted_six_incidence.log",
+      "wall_seconds": 0.943584540997108
+    },
+    {
+      "command": [
+        "python",
+        "tests/test_weighted_six_review.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "11-test_weighted_six_review.log",
+      "wall_seconds": 0.7709839170056512
+    },
+    {
+      "command": [
+        "python",
+        "tests/test_repository_audit.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "12-test_repository_audit.log",
+      "wall_seconds": 2.9387124580025556
+    },
+    {
+      "command": [
+        "python",
+        "tests/test_verify_runner.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "13-test_verify_runner.log",
+      "wall_seconds": 0.8566928329964867
+    },
+    {
+      "command": [
+        "python",
+        "tools/inverse_grid/tests/test_inverse_grid.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "14-test_inverse_grid.log",
+      "wall_seconds": 19.395722999994177
+    },
+    {
+      "command": [
+        "python",
+        "tools/inverse_grid/tests/test_inverse_grid_review.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "15-test_inverse_grid_review.log",
+      "wall_seconds": 4.339536042003601
+    },
+    {
+      "command": [
+        "python",
+        "tools/inverse_grid/tests/test_inverse_grid_benchmark.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "16-test_inverse_grid_benchmark.log",
+      "wall_seconds": 0.06931858299503801
+    },
+    {
+      "command": [
+        "python",
+        "tools/general_matching/tests/test_general_tree_bound.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "17-test_general_tree_bound.log",
+      "wall_seconds": 4.331783250003355
+    },
+    {
+      "command": [
+        "python",
+        "tools/general_matching/tests/test_general_matching_reduction_review.py"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "log": "18-test_general_matching_reduction_review.log",
+      "wall_seconds": 0.532314124997356
+    }
+  ],
+  "temporary_copy": true,
+  "wall_seconds": 79.63573574999464,
+  "full_exhaustive_regeneration": false,
+  "tested_public_manifest_sha256": "96610db1a73b50f0b47804abe877f3aa39db463f5e0b22c97ece3f5191671f03",
+  "scope": "Local 19-command disposable-copy verification; no hosted CI, external peer review, line-solver regeneration or full historical census regeneration inferred. Later additions are this receipt and documentation of the result; tested implementation bytes are unchanged. The author test had only a trailing blank line removed after verification; its Python syntax tree is identical.",
+  "tested_source_sha256": {
+    "tools/inverse_grid/src/inverse_grid.py": "12a378c6f7a64ba7d85846771495a9e9ef96b562aee585eb482cdd1a345eda92",
+    "tools/inverse_grid/src/benchmark_inverse_grid.py": "bbd0e56eda541fde3d2a45f667a43cfcd22df89f075f43f29d9f1530f350fe17",
+    "tools/general_matching/src/general_tree_bound.py": "ebabc2a4e1a96ef69a2d5fad877b24ea6e4fa5fc8be96e9cde0b5557dd1323ab",
+    "tools/general_matching/src/general_tree_bound.c": "3f6cafab197d44489b613a57c37522ba6014fc8a35c09b03cb634c4643a7bddc",
+    "scripts/audit_repository.py": "0e3cf17ab4450fa012eab59f43b1657d5478aa0f94091046c4e9472c7594d557",
+    "scripts/verify.py": "90a4a2d88e1be9e38b6834e4d68019d591a6d8535d23bd3a31d0920ba1fd423a"
+  },
+  "log_sha256": {
+    "00-audit_repository.log": "39d10cfbf5a39ce91ff2dcaa3545de0ac0c47160ba8b01010ac562d71bed4f7c",
+    "01-test_env.log": "ce9bbe28af36f3cfabcb77f148a1806c438148c6702c99286c984057ce83c017",
+    "02-run_tests.log": "7cc6eeb86df7d34b640b4948b159d66ac3045238605818e04bba52376919feab",
+    "03-test_six_bloom_support.log": "7c1198a9087a25ebe1bacf50e50d853b217502424fc3c7a9986ef3d97e601086",
+    "04-test_six_bloom_primary.log": "8a882a1d4f9f5d215828a479a833f641f46181f95610be88f07cf7ee6dac647b",
+    "05-test_six_bloom_primary_review.log": "1f06d39de1e2ea9f3bf04063772e31ded8b6d53509ec98f1f3ff92ed8acf692e",
+    "06-test_six_generate.log": "662bf3b526a377d4158eff40b70f155c694aae03b7d08fd8b2517088c2ec12a8",
+    "07-test_six_generate_review.log": "9db51a57f1db9839a2342378a9775f56b669be11f269c66a40d5c3e42401433a",
+    "08-test_weighted_subgroup.log": "d54e5ef5d6b2e6d86d5b204b6c478c8b60214c2c059c760482fcc0dfbe7273e5",
+    "09-test_weighted_subgroup_review.log": "7aab5950663a0f1eb16eef269e37184a39f2fbcc97236a07ed06f3b170322a2d",
+    "10-test_weighted_six_incidence.log": "0c43f7c3afefbf12f5ecfcbf6ee2b677a127cfbf2f5f9765414faaf65d7baa5f",
+    "11-test_weighted_six_review.log": "bc41ccc2b4c9cbec78e6b354bb9c8d43c944c9f8c326a62cad97db5a9b0021dd",
+    "12-test_repository_audit.log": "b4f33a5e4a3b00a2dfeff9cf2860636f867311dee5763e43bc3d276a6b40cd85",
+    "13-test_verify_runner.log": "5be01874cf76de958e759d130384f09c5f5b86e39ec22385ed30a10ac8ce96b4",
+    "14-test_inverse_grid.log": "8d1087f16b0b37376f1804938bf8a59bb42b879a92a00ee9248e2d8890f5d855",
+    "15-test_inverse_grid_review.log": "c9ce888fb14d61c3ec101316607914284349d4fcfb56106787de53a7496f1f95",
+    "16-test_inverse_grid_benchmark.log": "cc4ce8d54ec0f6a2d972abf34157488e5e132e9d71efaebb422979f2bf3356f8",
+    "17-test_general_tree_bound.log": "e72e08cbfe5446e0c4c7452937fb77b5d2cf256d45c36b18e638ca5848238c62",
+    "18-test_general_matching_reduction_review.log": "ae5e73ce276ccf2d5011c7b3439b924912353fbb640c503706c858ea72c063be"
+  },
+  "after_verification_adjustments": [
+    {
+      "path": "tools/inverse_grid/tests/test_inverse_grid.py",
+      "before_sha256": "19454e9c927ef7b77838c731c4b08fcb4c2a019c3b80b4a1fe21320dfd9ccf68",
+      "after_sha256": "b648f01455c1ef31f9cdd2fdf01293acd2b0e31396be89a4bd2c0dc7022a13bf",
+      "change": "Remove one trailing blank line; exact Python AST equality checked."
+    }
+  ]
+}

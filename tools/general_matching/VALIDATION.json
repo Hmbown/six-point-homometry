@@ -1,0 +1,43 @@
+{
+  "all_declared_packaged_and_origin_hashes_verified_after_redaction": true,
+  "archived_count_tests": {
+    "groups_passed": 7,
+    "seconds": 3.7484481670035166
+  },
+  "core_sources_and_gzip_archives_preserved_byte_for_byte": true,
+  "core_sources_byte_identical_to_origin": true,
+  "date": "2026-10-01",
+  "environment_control": "PYTHONPATH removed for every packaged execution",
+  "fresh_and_archived_raw_tables_byte_identical": true,
+  "fresh_count_tests": {
+    "groups_passed": 7,
+    "seconds": 3.573093583996524
+  },
+  "fresh_k7_counts": {
+    "all_masks_compared": 2097152,
+    "labelled_graphs": 293930,
+    "maximizer_count": 35,
+    "maximum": 432,
+    "pointwise_agreement": true
+  },
+  "fresh_partial_then_resume_items_per_method": 1000,
+  "independent_reduction_review_tests": {
+    "groups_passed": 6,
+    "low_cardinality_abelian_examples": 458,
+    "seconds": 0.4964562079985626,
+    "smith_full_identity_modular_lift_cases": 109
+  },
+  "inherited_export_manifest_sha256": "cc1618c944ef8954853ae9c3c164e41c5f16a395cb60239ac3343bff2998031e",
+  "inherited_export_manifest_unchanged": true,
+  "packaged_authored_file_digests_verified": 14,
+  "parent_original_records_preserved_byte_for_byte": true,
+  "private_absolute_source_output_paths_redacted": [
+    "evidence/k7-provenance-v2/build.json",
+    "evidence/k7-provenance-v2/progress.log"
+  ],
+  "private_home_and_volume_path_scan_matches": 0,
+  "runtime_outputs": ".reproduction/general-matching-{archive,fresh} (ignored local paths)",
+  "status": "COMPUTED",
+  "tracked_uncompressed_checkpoints_or_executables": false,
+  "working_directory": "math-only repository root"
+}
