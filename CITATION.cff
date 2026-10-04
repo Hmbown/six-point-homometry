@@ -14,6 +14,9 @@ authors:
 version: 2026.10.04
 date-released: 2026-10-04
 repository-code: https://github.com/Hmbown/six-point-homometry
+license:
+  - MIT
+  - CC-BY-4.0
 keywords:
   - homometric sets
   - Z-relation

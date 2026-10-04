@@ -137,6 +137,7 @@ Internal review is evidence of scrutiny, not external validation.
 The included manuscript PDFs are earlier working expositions; the linked
 proof notes above give the latest scopes. To reference this work, cite the
 repository revision and the specific theorem/proof note; `CITATION.cff`
-gives the metadata and `docs/RELEASE.md` the archiving steps. No reuse
-license has been selected yet. Questions and mathematical corrections can
-be recorded as repository issues.
+gives the metadata and `docs/RELEASE.md` the archiving steps. Code is
+under the MIT license and the written mathematics, documentation, data and
+certificates under CC BY 4.0 (`LICENSE`, `LICENSE-CC-BY-4.0`). Questions
+and mathematical corrections can be recorded as repository issues.

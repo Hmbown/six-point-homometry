@@ -81,7 +81,7 @@ def main() -> int:
             if source.exists():
                 shutil.copytree(source, scratch/name,
                                 ignore=shutil.ignore_patterns('__pycache__', '*.pyc'))
-        for name in ('README.md', 'REPORT.md', 'AGENTS.md', 'PROGRESS.md', 'CITATION.cff',
+        for name in ('README.md', 'REPORT.md', 'AGENTS.md', 'PROGRESS.md', 'CITATION.cff', 'LICENSE', 'LICENSE-CC-BY-4.0',
                      '.zenodo.json', '.gitignore', 'requirements.txt', 'requirements-solvers.txt'):
             if (ROOT/name).exists():
                 shutil.copy2(ROOT/name, scratch/name)

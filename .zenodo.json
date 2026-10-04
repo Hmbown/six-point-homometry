@@ -16,7 +16,9 @@
     "computer-assisted proof",
     "Lean 4"
   ],
+  "license": "mit",
+  "access_right": "open",
   "version": "2026.10.04",
   "language": "eng",
-  "notes": "A license must be selected by the owner before an open-access deposit; see docs/RELEASE.md."
+  "notes": "Code is MIT licensed; the written mathematics, documentation, data and certificates are CC BY 4.0 (see LICENSE and LICENSE-CC-BY-4.0)."
 }

@@ -31,7 +31,7 @@ SECRET_CONTENT = re.compile(rb"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----
 HASH = re.compile(r"[0-9a-f]{64}\Z")
 TEXT_SUFFIXES = {".md", ".txt", ".py", ".c", ".cpp", ".h", ".hpp", ".json", ".toml", ".yml", ".yaml", ".tex", ".smt2", ".log", ".diff", ".csv", ".sh"}
 PUBLIC_SUFFIXES = TEXT_SUFFIXES | {".gz", ".rst", ".ini", ".cfg", ".pdf", ".lean", ".cff"}
-PUBLIC_BASENAMES = {".gitignore", ".gitattributes", ".gitkeep", "LICENSE", "CITATION", "Makefile", "lean-toolchain", ".zenodo.json"}
+PUBLIC_BASENAMES = {".gitignore", ".gitattributes", ".gitkeep", "LICENSE", "LICENSE-CC-BY-4.0", "CITATION", "Makefile", "lean-toolchain", ".zenodo.json"}
 GRAPH_CHECKPOINT_HEADER = struct.Struct("<8sIIQQ")
 GRAPH_CHECKPOINTS = {
     "tools/general_matching/evidence/k7-provenance-v2/bareiss.bin.gz": (1, 293930),
@@ -88,7 +88,7 @@ REQUIRED_FILES.update(f"results/2026-09-30-six-large-census/n{n}.json" for n in 
 # and public hashes are required without pretending it is inherited history.
 # Release-preparation assets added 4 October 2026 (owner-directed).
 REQUIRED_FILES.update({
-    "CITATION.cff", "docs/LR_CHECKER_SPECIFICATION.md", "docs/RELEASE.md",
+    "CITATION.cff", "LICENSE", "LICENSE-CC-BY-4.0", "docs/LR_CHECKER_SPECIFICATION.md", "docs/RELEASE.md",
     "formal/README.md", "formal/SixPointHomometry/Soundness.lean",
     "formal/SixPointHomometry/FiniteUnion.lean",
     "tools/iw_enumeration/README.md", "tools/iw_enumeration/iw_sorted_order_enumeration.py",

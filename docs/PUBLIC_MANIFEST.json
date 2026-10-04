@@ -13,8 +13,8 @@
     },
     {
       "path": ".zenodo.json",
-      "sha256": "c8bca84e8a473f1c9436c93c8f66f49206df709b0f7d26d2f1b6920eef504562",
-      "bytes": 1373
+      "sha256": "51d7d15c08aebe68e72725c9e4543a20257a829b434a834f8d04b3a61fee787b",
+      "bytes": 1462
     },
     {
       "path": "AGENTS.md",
@@ -23,18 +23,28 @@
     },
     {
       "path": "CITATION.cff",
-      "sha256": "15d97a128dad7905b8548698bf20087de4c6edac536a46e39a36c09680cdee45",
-      "bytes": 1452
+      "sha256": "c46a67fd9d319bbb1e22b9dbc5801fac7546ddb7891d07c2128f24d69a2f5dc7",
+      "bytes": 1483
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "ee305617bb70d2e5daafdbb41a81de516101efc474ad158b630ae51c4af1a433",
+      "bytes": 1521
+    },
+    {
+      "path": "LICENSE-CC-BY-4.0",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "bytes": 18657
     },
     {
       "path": "PROGRESS.md",
-      "sha256": "829af3d41ab55aa2e114a3c9ff464e912f0ffcbd8ca88591796d47c48a382e09",
-      "bytes": 16748
+      "sha256": "cca40123fc3c16b23053c014710f0ba196d4ab9ad258de5fb1705838a3528a86",
+      "bytes": 17098
     },
     {
       "path": "README.md",
-      "sha256": "43fce4b839206851c235a530a17da685600ebe2e3356ba5c10a89474147192e8",
-      "bytes": 9124
+      "sha256": "a346486faec6227c93599e2b2248e9581d10a2aa94b04a293879e9a8fa227e0c",
+      "bytes": 9230
     },
     {
       "path": "REPORT.md",
@@ -98,8 +108,8 @@
     },
     {
       "path": "docs/RELEASE.md",
-      "sha256": "91cebb51d78555da6fed7b76a2373a95297c02fdee7b4cf7549e4dd6e91099c8",
-      "bytes": 2371
+      "sha256": "24e043b991c8406155782439861a214e7cc58c5fbdf868e884f9432bb8bdda98",
+      "bytes": 3963
     },
     {
       "path": "docs/REPRODUCING.md",
@@ -11858,8 +11868,8 @@
     },
     {
       "path": "scripts/audit_repository.py",
-      "sha256": "e46335bd5c06da39d434910e5a57879c7c44e2aae04c5cfb96f719bbf88c0fae",
-      "bytes": 24347
+      "sha256": "a3e0c5bcc968e021575ef7fab6ff4aa80dc87603fa80cd49faef31d5b3366dc6",
+      "bytes": 24400
     },
     {
       "path": "scripts/make_release_archive.py",
@@ -11873,8 +11883,8 @@
     },
     {
       "path": "scripts/verify.py",
-      "sha256": "f446fe276f5fe87cc5a71647990490da0cd9ed333b493d22f8f39ae3b0e6a371",
-      "bytes": 5564
+      "sha256": "4ff17c4accdd0ff745d43179a7e570051a8652f838c3510d0fa87562b0b92d2c",
+      "bytes": 5596
     },
     {
       "path": "src/fastcensus.c",
