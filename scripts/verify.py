@@ -75,13 +75,13 @@ def main() -> int:
     # Never copy a virtual environment, .git directory or previous run output.
     with tempfile.TemporaryDirectory(prefix='homometry-verification-') as directory:
         scratch = Path(directory)
-        for name in ('src', 'tests', 'results', 'data', 'notes', 'docs', 'scripts', 'tools', '.github'):
+        for name in ('src', 'tests', 'results', 'data', 'notes', 'docs', 'scripts', 'tools', 'formal', '.github'):
             source = ROOT/name
             if source.exists():
                 shutil.copytree(source, scratch/name,
                                 ignore=shutil.ignore_patterns('__pycache__', '*.pyc'))
-        for name in ('README.md', 'REPORT.md', 'AGENTS.md', 'PROGRESS.md',
-                     '.gitignore', 'requirements.txt', 'requirements-solvers.txt'):
+        for name in ('README.md', 'REPORT.md', 'AGENTS.md', 'PROGRESS.md', 'CITATION.cff',
+                     '.zenodo.json', '.gitignore', 'requirements.txt', 'requirements-solvers.txt'):
             if (ROOT/name).exists():
                 shutil.copy2(ROOT/name, scratch/name)
         for index, command in enumerate(commands):

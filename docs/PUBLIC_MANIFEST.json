@@ -11873,8 +11873,8 @@
     },
     {
       "path": "scripts/verify.py",
-      "sha256": "80f643229c48ff580877472c5e435650526122e6de1120f7f6644190f2ab3bb7",
-      "bytes": 5464
+      "sha256": "7c0f0d134253e4a07a737c135286ec1984eba9925d01b6a22c744a2ddc1b0da0",
+      "bytes": 5506
     },
     {
       "path": "src/fastcensus.c",
