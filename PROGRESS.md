@@ -58,14 +58,24 @@ and the structure of Z-related sets"). Nothing read states a six-point
 generating theorem or the repeated-distance classification. REFERENCES.md
 and the manuscript bibliography updated with exact reading scopes.
 
-**Task 3, second derivation of Iw — tool built and tested; six-point run
-in progress.** `tools/iw_enumeration/` (standard library only): exact
-rational branch-and-bound over inclusion-respecting sorted interval orders
-with exact simplex and affine-hull containment in the 16 Bloom lines or the
-congruent locus. Four points: 161 nodes, all congruent. Five points:
-30,499 nodes, all congruent, 64 s on 13 processes. Unit tests pass and are
-wired into `scripts/verify.py`. Six-point run launched 07:50 with 12
-processes; outcome recorded below when it completes.
+**Task 3, independent check of Iw — done by proof-checker replay; the
+enumeration route failed at six atoms.** `tools/proof_replay/`: the three
+saved cvc5 1.4.1 CPC proofs (Theorem I in the builder's count encoding and
+the reviewer's gap/bijection encoding; Theorem Iw in the gap/bijection
+encoding) check as `correct` in Ethos 0.2.5 built at commit
+`08e4aa40c4f8a6e00833f10e8d8985777e424027`, the commit cvc5 1.4.1 pins,
+against the CPC signature from the cvc5 1.4.1 source, with
+`--require-proof-of-false`; a separate script matches each proof's
+assumptions to the saved SMT problem (965 = 965, 1,175 = 1,175, and 30 of
+31 with one unused assertion). Hashes and commands are in
+`tools/proof_replay/evidence/replay.json`. `tools/iw_enumeration/`
+(standard library, exact rational branch-and-bound over sorted interval
+orders) re-derives the four- and five-atom statements (161 and 30,499
+nodes, every branch congruent) but does not terminate for six: nodes per
+level 1, 25, 400, 4,624, 44,086 smallest-first and 1, 1, 4, 16, 100, 624,
+4,096 largest-first, with almost no LP cuts, because of configurations with
+many tied lengths. Recorded as a negative result; the tool and its tests
+stay.
 
 **Task 4, Lean 4 — done for the elementary core.** `formal/` compiles with
 zero errors and zero `sorry` against Lean 4.31.0 / Mathlib
@@ -86,8 +96,9 @@ license, DOI, visibility change or submission was made.
 Verification commands run today: `scripts/update_manifests.py` (audit
 pass), `tools/iw_enumeration/tests/test_iw_enumeration.py`,
 `lake env lean --root=formal` on all three Lean files from a Mathlib checkout
-at the pinned commit, `pdflatex` twice on the manuscript, and
-`scripts/verify.py` (see the commit that records its result).
+at the pinned commit, `pdflatex` twice on the manuscript,
+`tools/proof_replay/replay_cpc_proofs.py` (all three proofs REPLAYED), and
+`scripts/verify.py` (19 commands pass).
 
 
 ## 1 October2026 — general constructive reduction and exact-grid tool

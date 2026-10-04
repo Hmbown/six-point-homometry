@@ -6,7 +6,7 @@
       "name": "Bown, Hunter"
     }
   ],
-  "description": "<p>For every positive integer n, the translation/reflection classes of six-element subsets of Z/nZ with equal pairwise-distance multisets are exactly the connected components of an explicit construction graph (Theorem G). This archive contains the written proofs, separate adversarial reviews, exact computational certificates, two independent derivations of the weighted six-atom line theorem, Lean 4 proofs of the elementary soundness lemmas, and an exact count of the classical Bloom construction's pair edges for every modulus.</p><p>The research, code and reviews were produced with substantial AI assistance under the author's direction. The work has not been externally peer reviewed; see docs/RESULTS.md for the exact status of each claim and docs/REFERENCES.md for classical attribution.</p>",
+  "description": "<p>For every positive integer n, the translation/reflection classes of six-element subsets of Z/nZ with equal pairwise-distance multisets are exactly the connected components of an explicit construction graph (Theorem G). This archive contains the written proofs, separate adversarial reviews, exact computational certificates, an independent proof-checker replay of the six-atom line theorem's certificates, Lean 4 proofs of the elementary soundness lemmas, and an exact count of the classical Bloom construction's pair edges for every modulus.</p><p>The research, code and reviews were produced with substantial AI assistance under the author's direction. The work has not been externally peer reviewed; see docs/RESULTS.md for the exact status of each claim and docs/REFERENCES.md for classical attribution.</p>",
   "keywords": [
     "homometric sets",
     "Z-relation",

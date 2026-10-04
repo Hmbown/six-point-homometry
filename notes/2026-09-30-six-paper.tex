@@ -1867,10 +1867,13 @@ accompanying repository. First, the soundness of L2, L3$^*$, L4, L5 and L7,
 the exact dyad identity, the Bloom factorization and the
 finite-union-of-subspaces step of Section~\ref{sec:grammar} onward are proved in
 Lean~4 against Mathlib, with no \texttt{sorry}, in the directory
-\code{formal/}. Second, Theorem~Iw has a solver-free derivation by an
-exhaustive exact branch-and-bound over sorted interval orders, in
-\code{tools/iw\_enumeration/}; its record states the outcome of the six-atom
-run. Four historical sources (Yovanof 1988, Soderberg 1995, Patterson 1944,
+\code{formal/}. Second, the three cvc5 proof certificates behind Theorems~I and~Iw were
+replayed in Ethos, a proof checker separate from cvc5, against the CPC
+signature of the cvc5 source, with each proof's assumptions matched to the
+saved problem (\code{tools/proof\_replay/}); an attempted solver-free
+re-derivation by branch-and-bound over sorted interval orders succeeds for
+four and five atoms but does not terminate for six
+(\code{tools/iw\_enumeration/}). Four historical sources (Yovanof 1988, Soderberg 1995, Patterson 1944,
 Bullough 1961/1964) were checked at first hand to the extent their texts
 were accessible; Yovanof's thesis classifies only distinct-distance rulers
 \cite{yovanof}, and none of the sources read states a six-point generating

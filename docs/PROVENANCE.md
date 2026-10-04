@@ -46,8 +46,10 @@ from AI language-model agents working under the author's direction, and the
 agents wrote first drafts of most proofs and documents. This disclosure
 replaces the earlier "Homometry Program" placeholder. It changes no
 mathematical statement. The same date added Lean 4 proofs of the elementary
-soundness lemmas (`formal/`), a second, solver-free derivation of Theorem Iw
-(`tools/iw_enumeration/`), a prose specification of the low-rank checkers
+soundness lemmas (`formal/`), an independent Ethos replay of the cvc5
+certificates behind Theorems I and Iw (`tools/proof_replay/`), an attempted
+solver-free re-derivation of Iw that terminates for four and five atoms but
+not six (`tools/iw_enumeration/`), a prose specification of the low-rank checkers
 (`docs/LR_CHECKER_SPECIFICATION.md`), a primary-source check of four
 historical references (`docs/literature/`), and citation and release files
 (`CITATION.cff`, `.zenodo.json`, `docs/RELEASE.md`). No license, DOI,

@@ -1,4 +1,4 @@
-# A second, solver-free derivation of Theorem Iw
+# An attempted solver-free derivation of Theorem Iw
 
 Author: Hunter Bown, with AI assistance. Added 4 October 2026.
 
@@ -8,9 +8,12 @@ not congruent by translation or reflection form a Bloom pair, with repeated
 atoms allowed. The archived proof is an SMT unsatisfiability certificate
 (Z3 and cvc5 on one encoding; cvc5 with proof checking on an independently
 written encoding). A solver certificate is only as good as its encoding, so
-the theorem is re-derived here by a different method with no solver, no
-floating point and no third-party library: an exhaustive branch-and-bound
-over sorted orders with exact rational arithmetic.
+this tool attempts to re-derive the theorem by a different method with no
+solver, no floating point and no third-party library: an exhaustive
+branch-and-bound over sorted orders with exact rational arithmetic. It
+succeeds for four and five atoms and does not terminate for six; see the
+result section for the growth data and for the independent check that was
+done instead.
 
 The theorem matters for Theorem G because branch BF of the completeness
 proof feeds a real projection of the universal pair into Iw.
@@ -73,10 +76,30 @@ systems, so only the first is branched on.
   repeated-atom pair `{0,1,3,3,7,8}/{0,2,4,7,7,8}`, detection of implicit
   equalities, and the four-point run.
 
-## Result for six points
+## Result for six points: not achieved by this method
 
-See the section appended below after the run, and
-`evidence/summary-6.json` / `evidence/log-6.txt` for the raw record.
+The six-point run does not finish. Depth-limited probes show why: with
+lengths processed smallest-first the number of feasible nodes per level is
+1, 25, 400, 4,624, 44,086 (about tenfold per level, fifteen levels); with
+lengths processed largest-first it is 1, 1, 4, 16, 100, 624, 4,096 (about
+sixfold per level from level four). The linear-programming cut almost never
+fires in the first half of the tree. The cause is configurations with many
+tied lengths (for example equally spaced or heavily coincident atoms), where
+the number of consistent weak orderings is a product of factorials of
+multiplicities. No ordering-based enumeration of this kind can finish at six
+points in reasonable time, and the tool reports this rather than any partial
+six-point verdict.
+
+What the tool does establish, exactly and without a solver: the four-point
+and five-point cases of the same statement (every pair of four- or five-atom
+real multisets with equal autocorrelation is congruent), and the unit-tested
+ingredients listed above. The attempted six-point runs are recorded in
+`evidence/log-6.txt`.
+
+The independent check of Theorem Iw that was actually carried out on
+4 October 2026 is therefore different: the saved cvc5 proof certificates
+(Alethe format) were replayed in an independent proof checker; see
+`docs/RESULTS.md` and `evidence/` for the outcome and exact commands.
 
 ## Running
 

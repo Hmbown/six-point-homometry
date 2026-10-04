@@ -17,8 +17,8 @@ with substantial AI assistance under the author's direction, with internal
 adversarial review; see [provenance](docs/PROVENANCE.md). The principal
 proofs are tagged **[PROVED], in-house, computer-assisted**. The elementary
 soundness lemmas and one reduction step are additionally machine-checked in
-Lean 4 ([formal/](formal/README.md)); the weighted six-atom line theorem has
-a second, solver-free derivation ([tools/iw_enumeration/](tools/iw_enumeration/README.md)).
+Lean 4 ([formal/](formal/README.md)); the cvc5 proof certificates of the weighted six-atom line theorem
+replay in the independent Ethos checker ([tools/proof_replay/](tools/proof_replay/README.md)).
 External peer review and historical novelty remain unresolved. The Bloom
 construction and other classical antecedents are explicitly credited, and
 four historical sources were checked at first hand on 4 October 2026
@@ -36,7 +36,8 @@ four historical sources were checked at first hand on 4 October 2026
 | **Exact inverse tool IG** | Reconstructs all binary configurations on finite periodic grids, modulo translation/global inversion, with explicit complete/partial results. Worst-case search is exponential. | [Use the tool](tools/inverse_grid/README.md) · [Proof](docs/general_matching/INVERSE_GRID.md) · [Benchmarks](docs/INVERSE_GRID_BENCHMARKS.md) |
 
 | **Lean-checked soundness** | L2, L3\*, L4, L5, L7, the dyad identity and the Bloom factorization are proved in `ℤ[G]` for every abelian group `G`; the finite-union-of-subspaces step is proved for every infinite field. No `sorry`. | [formal/README.md](formal/README.md) |
-| **Second derivation of Iw** | Exhaustive exact branch-and-bound over sorted interval orders, no SMT solver, standard library only. Result recorded in the tool's README. | [tools/iw_enumeration](tools/iw_enumeration/README.md) |
+| **Independent replay of the Iw certificates** | The three saved cvc5 proofs (both encodings of Theorem I, and Theorem Iw) check as `correct` in Ethos, a separate proof checker, at the checker commit cvc5 1.4.1 pins, with the proofs' assumptions matched to the SMT problems. | [tools/proof_replay](tools/proof_replay/README.md) |
+| **Attempted solver-free derivation of Iw** | Exact branch-and-bound over sorted interval orders: succeeds for four and five atoms, does not terminate for six; growth data recorded. | [tools/iw_enumeration](tools/iw_enumeration/README.md) |
 | **What the LR checkers verify** | Prose specification of every obligation checked by the two independent low-rank checkers, and of what remains prose. | [docs/LR_CHECKER_SPECIFICATION.md](docs/LR_CHECKER_SPECIFICATION.md) |
 
 [Condensed proof outline](docs/PROOF_OUTLINE.md) · [Detailed result map](docs/RESULTS.md)

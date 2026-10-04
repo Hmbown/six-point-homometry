@@ -463,7 +463,8 @@ def contained_in(hull_eqs, target_eqs):
 
 
 class Search:
-    def __init__(self, n_points: int, log):
+    def __init__(self, n_points: int, log, largest_first: bool = True):
+        self.largest_first = largest_first
         self.sp = Space(n_points)
         self.N = n_points
         self.V = self.sp.V
@@ -495,12 +496,46 @@ class Search:
         return ineqs
 
     def minimal_unplaced(self, placed):
+        """Unplaced intervals all of whose proper sub-intervals are placed."""
         out = []
         for (i, j) in self.edges:
             if (i, j) in placed:
                 continue
             if j - i == 1 or ((i, j - 1) in placed and (i + 1, j) in placed):
                 out.append((i, j))
+        return out
+
+    def maximal_unplaced(self, placed):
+        """Unplaced intervals all of whose proper super-intervals are placed."""
+        N = self.N
+        out = []
+        for (i, j) in self.edges:
+            if (i, j) in placed:
+                continue
+            if (i == 0 or (i - 1, j) in placed) and (j == N - 1 or (i, j + 1) in placed):
+                out.append((i, j))
+        return out
+
+    def frontier(self, placed):
+        return self.maximal_unplaced(placed) if self.largest_first else self.minimal_unplaced(placed)
+
+    def order_ineqs(self, e, lastA, minA, minB):
+        """Sorted-order constraints for placing A-edge e as the next length."""
+        out = []
+        if self.largest_first:
+            if lastA is not None:
+                out.append(sub(self.dA[lastA], self.dA[e]))
+            for m in minA:
+                out.append(sub(self.dA[e], self.dA[m]))
+            for m in minB:
+                out.append(sub(self.dA[e], self.dB[m]))
+        else:
+            if lastA is not None:
+                out.append(sub(self.dA[e], self.dA[lastA]))
+            for m in minA:
+                out.append(sub(self.dA[m], self.dA[e]))
+            for m in minB:
+                out.append(sub(self.dB[m], self.dA[e]))
         return out
 
     def dedupe(self, cands, d, eqs):
@@ -522,28 +557,16 @@ class Search:
         self.recurse(frozenset(), frozenset(), [], self.domain(), None, 0)
         return self.stats
 
-    def first_level(self):
-        """The root's feasible (A-edge, B-edge) choices for the smallest length,
-        each with the state it induces.  Used to split the search over processes."""
-        out = []
-        eqs = []
-        ineqs = self.domain()
-        candA = self.dedupe(self.minimal_unplaced(frozenset()), self.dA, eqs)
-        candB = self.dedupe(self.minimal_unplaced(frozenset()), self.dB, eqs)
-        for e in candA:
-            newA = frozenset([e])
-            minA = self.minimal_unplaced(newA)
-            for f in candB:
-                newB = frozenset([f])
-                minB = self.minimal_unplaced(newB)
-                new_eqs = eqs + [sub(self.dA[e], self.dB[f])]
-                new_ineqs = list(ineqs)
-                for m in minA:
-                    new_ineqs.append(sub(self.dA[m], self.dA[e]))
-                for m in minB:
-                    new_ineqs.append(sub(self.dB[m], self.dA[e]))
-                out.append((e, f, new_eqs, new_ineqs))
-        return out
+    def first_level(self, split_depth=3):
+        """Feasible, not-yet-closed states at `split_depth`, each a task for one
+        process.  Branches closed (infeasible or good) above the split depth are
+        counted in the driver's own stats."""
+        tasks = []
+        self.split_depth = split_depth
+        self._tasks = tasks
+        self.recurse(frozenset(), frozenset(), [], self.domain(), None, 0)
+        del self.split_depth
+        return tasks
 
     def recurse(self, placedA, placedB, eqs, ineqs, lastA, depth):
         self.stats["nodes"] += 1
@@ -552,22 +575,19 @@ class Search:
         if depth == len(self.edges):
             self.leaf(eqs, ineqs)
             return
-        candA = self.dedupe(self.minimal_unplaced(placedA), self.dA, eqs)
-        candB = self.dedupe(self.minimal_unplaced(placedB), self.dB, eqs)
+        if getattr(self, "split_depth", None) == depth and depth > 0:
+            self._tasks.append((placedA, placedB, eqs, ineqs, lastA, depth))
+            return
+        candA = self.dedupe(self.frontier(placedA), self.dA, eqs)
+        candB = self.dedupe(self.frontier(placedB), self.dB, eqs)
         for e in candA:
             newA = placedA | {e}
-            minA = self.minimal_unplaced(newA)
+            minA = self.frontier(newA)
             for f in candB:
                 newB = placedB | {f}
-                minB = self.minimal_unplaced(newB)
+                minB = self.frontier(newB)
                 new_eqs = eqs + [sub(self.dA[e], self.dB[f])]
-                new_ineqs = list(ineqs)
-                if lastA is not None:
-                    new_ineqs.append(sub(self.dA[e], self.dA[lastA]))
-                for m in minA:
-                    new_ineqs.append(sub(self.dA[m], self.dA[e]))
-                for m in minB:
-                    new_ineqs.append(sub(self.dB[m], self.dA[e]))
+                new_ineqs = ineqs + self.order_ineqs(e, lastA, minA, minB)
                 if not feasible(new_eqs, new_ineqs, self.V):
                     self.stats["infeasible"] += 1
                     continue
@@ -599,23 +619,15 @@ class Search:
 
 
 def _worker(args):
-    n_points, e, f, eqs, ineqs = args
-    s = Search(n_points, lambda m: None)
-    s.stats["nodes"] = 0
-    if not feasible(eqs, ineqs, s.V):
-        s.stats["infeasible"] += 1
-    else:
-        name = s.good(eqs)
-        if name is not None:
-            s.stats["good_prunes"] += 1
-            s.stats["target_hits"][name] = 1
-        else:
-            s.recurse(frozenset([e]), frozenset([f]), eqs, ineqs, e, 1)
-    return (e, f, s.stats, {str(k): v for k, v in s.leaf_lines.items()})
+    n_points, largest_first, state = args
+    placedA, placedB, eqs, ineqs, lastA, depth = state
+    s = Search(n_points, lambda m: None, largest_first)
+    s.recurse(placedA, placedB, eqs, ineqs, lastA, depth)
+    return (sorted(placedA), sorted(placedB), s.stats, {str(k): v for k, v in s.leaf_lines.items()})
 
 
 def merge(stats_list):
-    total = {"nodes": 1, "infeasible": 0, "good_prunes": 0, "leaves": 0, "dedupe_skips": 0,
+    total = {"nodes": 0, "infeasible": 0, "good_prunes": 0, "leaves": 0, "dedupe_skips": 0,
              "leaf_hull_dims": {}, "target_hits": {}, "counterexamples": [], "branches": []}
     lines = {}
     for e, f, st, ll in stats_list:
@@ -626,7 +638,7 @@ def merge(stats_list):
         for k, v in st["target_hits"].items():
             total["target_hits"][k] = total["target_hits"].get(k, 0) + v
         total["counterexamples"].extend(st["counterexamples"])
-        total["branches"].append({"a_edge": list(e), "b_edge": list(f), "nodes": st["nodes"], "leaves": st["leaves"]})
+        total["branches"].append({"a_edges": [list(x) for x in e], "b_edges": [list(x) for x in f], "nodes": st["nodes"], "leaves": st["leaves"]})
         lines.update(ll)
     return total, lines
 
@@ -637,7 +649,11 @@ def main():
     ap.add_argument("--points", type=int, default=6)
     ap.add_argument("--jobs", type=int, default=max(1, mp.cpu_count() - 1))
     ap.add_argument("--out", type=Path, default=TOOL_DIR / "evidence")
+    ap.add_argument("--order", choices=("largest", "smallest"), default="largest",
+                    help="process lengths from the largest (default) or the smallest")
+    ap.add_argument("--split-depth", type=int, default=4, help="depth at which branches are handed to processes")
     args = ap.parse_args()
+    largest_first = args.order == "largest"
     args.out.mkdir(parents=True, exist_ok=True)
     logf = open(args.out / f"log-{args.points}.txt", "a")
 
@@ -649,10 +665,11 @@ def main():
 
     t0 = time.monotonic()
     log(f"start points={args.points} jobs={args.jobs}")
-    s = Search(args.points, log)
-    log(f"targets={len(s.targets)} ({sum(1 for n,_ in s.targets if n.startswith('bloom'))} Bloom lines, 2 congruent subspaces)")
-    tasks = [(args.points, e, f, eqs, ineqs) for e, f, eqs, ineqs in s.first_level()]
-    log(f"first-level branches: {len(tasks)}")
+    s = Search(args.points, log, largest_first)
+    log(f"order={args.order} targets={len(s.targets)} ({sum(1 for n,_ in s.targets if n.startswith('bloom'))} Bloom lines, 2 congruent subspaces)")
+    states = s.first_level(args.split_depth)
+    tasks = [(args.points, largest_first, st) for st in states]
+    log(f"driver: nodes={s.stats['nodes']} infeasible={s.stats['infeasible']} good={s.stats['good_prunes']} to depth {args.split_depth}; tasks={len(tasks)}")
     results = []
     with mp.Pool(args.jobs) as pool:
         for r in pool.imap_unordered(_worker, tasks):
@@ -660,6 +677,13 @@ def main():
             e, f, st, _ = r
             log(f"branch A{e} B{f} done: nodes={st['nodes']} leaves={st['leaves']} good={st['good_prunes']} infeasible={st['infeasible']} ce={len(st['counterexamples'])} ({len(results)}/{len(tasks)}) t={time.monotonic()-t0:.0f}s")
     stats, lines = merge(results)
+    # add the driver's own counts above the split depth
+    for k in ("nodes", "infeasible", "good_prunes", "dedupe_skips"):
+        stats[k] += s.stats[k]
+    for k, v in s.stats["target_hits"].items():
+        stats["target_hits"][k] = stats["target_hits"].get(k, 0) + v
+    stats["order"] = args.order
+    stats["split_depth"] = args.split_depth
     stats["seconds"] = time.monotonic() - t0
     stats["points"] = args.points
     stats["jobs"] = args.jobs

@@ -292,12 +292,21 @@ infinite field. Files and the pinned Mathlib commit:
 [formal/README.md](../formal/README.md). These are the lemmas a reader
 could check by hand; the finite certificate computations are not formalized.
 
-**[COMPUTED, second method].** Theorem Iw has a solver-free derivation by
-exhaustive exact branch-and-bound over inclusion-respecting sorted orders
-of the fifteen interval lengths, with exact rational LP and affine-hull
-containment in the sixteen Bloom lines or the congruent locus. Four- and
-five-point controls close every branch as congruent. The six-point result
-and its raw record are in
+**[COMPUTED, independent proof checker].** The three saved cvc5 1.4.1
+proof certificates behind Theorems I and Iw (the original count encoding
+and the reviewer's gap/bijection encoding of I, and the gap/bijection
+encoding of Iw) were replayed in Ethos, a proof checker separate from cvc5,
+built at the exact commit cvc5 1.4.1 pins, against the CPC signature from
+the cvc5 1.4.1 source. All three check as `correct` with a required final
+`false`, and each proof's free assumptions were matched to the saved SMT
+problem's assertions. The remaining trust is Ethos, the CPC signature and
+the encodings themselves; see
+[tools/proof_replay/README.md](../tools/proof_replay/README.md).
+
+**[COMPUTED, negative].** An attempted solver-free derivation of Iw by
+exact branch-and-bound over sorted interval orders succeeds for four and
+five atoms (every pair congruent) but does not terminate for six; the
+growth data are in
 [tools/iw_enumeration/README.md](../tools/iw_enumeration/README.md).
 
 **[Specification].** [LR_CHECKER_SPECIFICATION.md](LR_CHECKER_SPECIFICATION.md)

@@ -93,6 +93,9 @@ REQUIRED_FILES.update({
     "formal/SixPointHomometry/FiniteUnion.lean",
     "tools/iw_enumeration/README.md", "tools/iw_enumeration/iw_sorted_order_enumeration.py",
     "tools/iw_enumeration/tests/test_iw_enumeration.py",
+    "tools/proof_replay/README.md", "tools/proof_replay/replay_cpc_proofs.py",
+    "tools/proof_replay/check_assumptions.py", "tools/proof_replay/evidence/replay.json",
+    "tools/proof_replay/tests/test_check_assumptions.py",
 })
 REQUIRED_FILES.update({
     "tools/inverse_grid/README.md", "tools/inverse_grid/PROVENANCE.json",
