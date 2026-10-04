@@ -6,7 +6,9 @@ and an exact classification and count of the classical two-parameter
 six-point construction. A separate extension treats real weighted signals.
 
 The status **[PROVED]** here means a written in-house argument with a
-separate adversarial review. The work and reviews were AI-assisted.
+separate adversarial review. The author is Hunter Bown; the work and
+reviews were produced with substantial AI assistance (see
+[PROVENANCE.md](PROVENANCE.md)).
 Computer-assisted arguments retain their certificate, runtime and solver
 dependencies. This is a research proof package, without external peer review
 or complete proof-assistant certification. Historical novelty remains
@@ -278,6 +280,36 @@ They rule out local injectivity and a positive lower Lipschitz bound near
 equal strengths. This is a special amplitude locus, not a generic-amplitude
 counterexample. The other twelve template-local conclusions in that note
 remain **[OPEN: review pending]**.
+
+## Machine-checked and independently re-derived components (4 October 2026)
+
+**[PROVED, Lean 4 / Mathlib, no `sorry`].** The soundness identities for
+L2, L3\*, L4, L5 and L7, the exact dyad identity and soundness of D, and
+the Bloom factorization `X X* = Y Y*` are proved in `ℤ[G]` for every
+additive commutative group `G`, for arbitrary ring elements. The
+finite-union-of-proper-subspaces step of Section 3.3 is proved for every
+infinite field. Files and the pinned Mathlib commit:
+[formal/README.md](../formal/README.md). These are the lemmas a reader
+could check by hand; the finite certificate computations are not formalized.
+
+**[COMPUTED, second method].** Theorem Iw has a solver-free derivation by
+exhaustive exact branch-and-bound over inclusion-respecting sorted orders
+of the fifteen interval lengths, with exact rational LP and affine-hull
+containment in the sixteen Bloom lines or the congruent locus. Four- and
+five-point controls close every branch as congruent. The six-point result
+and its raw record are in
+[tools/iw_enumeration/README.md](../tools/iw_enumeration/README.md).
+
+**[Specification].** [LR_CHECKER_SPECIFICATION.md](LR_CHECKER_SPECIFICATION.md)
+states in prose exactly what the two independent low-rank checkers verify,
+what they take as input, and which steps remain prose arguments.
+
+**[Literature].** Yovanof's 1988 thesis was read in part at first hand: it
+classifies only distinct-distance six-mark rulers and makes no attempt at
+the cyclic or repeated-distance cases. Soderberg 1995, Patterson 1944 and
+Bullough 1961/1964 were reached only in part or by abstract; see
+[REFERENCES.md](REFERENCES.md) and the
+[access log](literature/2026-10-04-four-sources-primary-check.md).
 
 ## What remains open
 

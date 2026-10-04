@@ -406,12 +406,14 @@
     {
       "path": "notes/2026-09-30-six-paper.tex",
       "upstream_sha256": "b5ad4f4748d943a5d35fd1995cc7a631475840dd4d1ddae711159abf119eb372",
-      "exported_sha256": "b5ad4f4748d943a5d35fd1995cc7a631475840dd4d1ddae711159abf119eb372",
+      "exported_sha256": "b8bd47490a83bc5655bf00af6c5653a7715d80c563b5ee7f53721bfdb9ea652a",
       "upstream_bytes": 98737,
-      "exported_bytes": 98737,
-      "transform": "unchanged",
+      "exported_bytes": 101225,
+      "transform": "scope-edit",
       "redaction_count": 0,
-      "scope_edits": []
+      "scope_edits": [
+        "Named human author (Hunter Bown) and AI-assistance disclosure in the title block and authorship section; added citations and bibliography entries for Yovanof 1988, Soderberg 1995, Patterson 1944 and Bullough 1961 after a first-hand source check. No mathematical statement changed."
+      ]
     },
     {
       "path": "notes/2026-09-30-six-prime-literature.md",

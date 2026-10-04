@@ -30,8 +30,8 @@ PRIVATE_PATH = re.compile(rb"/(?:Users|Volumes|home)/[A-Za-z0-9_.-]+(?:[/\\][^\s
 SECRET_CONTENT = re.compile(rb"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|\b(?:ghp_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,}|AKIA[A-Z0-9]{16}|sk-(?:proj-)?[A-Za-z0-9_-]{30,})\b")
 HASH = re.compile(r"[0-9a-f]{64}\Z")
 TEXT_SUFFIXES = {".md", ".txt", ".py", ".c", ".cpp", ".h", ".hpp", ".json", ".toml", ".yml", ".yaml", ".tex", ".smt2", ".log", ".diff", ".csv", ".sh"}
-PUBLIC_SUFFIXES = TEXT_SUFFIXES | {".gz", ".rst", ".ini", ".cfg", ".pdf"}
-PUBLIC_BASENAMES = {".gitignore", ".gitattributes", ".gitkeep", "LICENSE", "CITATION", "Makefile"}
+PUBLIC_SUFFIXES = TEXT_SUFFIXES | {".gz", ".rst", ".ini", ".cfg", ".pdf", ".lean", ".cff"}
+PUBLIC_BASENAMES = {".gitignore", ".gitattributes", ".gitkeep", "LICENSE", "CITATION", "Makefile", "lean-toolchain", ".zenodo.json"}
 GRAPH_CHECKPOINT_HEADER = struct.Struct("<8sIIQQ")
 GRAPH_CHECKPOINTS = {
     "tools/general_matching/evidence/k7-provenance-v2/bareiss.bin.gz": (1, 293930),
@@ -86,6 +86,14 @@ REQUIRED_FILES.update(f"results/2026-09-30-six-pair-mechanisms/n{n}.json" for n 
 REQUIRED_FILES.update(f"results/2026-09-30-six-large-census/n{n}.json" for n in range(12, 136))
 # This tool is newly authored after the extraction checkpoint. Its presence
 # and public hashes are required without pretending it is inherited history.
+# Release-preparation assets added 4 October 2026 (owner-directed).
+REQUIRED_FILES.update({
+    "CITATION.cff", "docs/LR_CHECKER_SPECIFICATION.md", "docs/RELEASE.md",
+    "formal/README.md", "formal/SixPointHomometry/Soundness.lean",
+    "formal/SixPointHomometry/FiniteUnion.lean",
+    "tools/iw_enumeration/README.md", "tools/iw_enumeration/iw_sorted_order_enumeration.py",
+    "tools/iw_enumeration/tests/test_iw_enumeration.py",
+})
 REQUIRED_FILES.update({
     "tools/inverse_grid/README.md", "tools/inverse_grid/PROVENANCE.json",
     "tools/inverse_grid/src/inverse_grid.py",

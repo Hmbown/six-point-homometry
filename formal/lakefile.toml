@@ -1,0 +1,11 @@
+name = "SixPointHomometry"
+version = "0.1.0"
+defaultTargets = ["SixPointHomometry"]
+
+[[lean_lib]]
+name = "SixPointHomometry"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "5d1abc4cd8c71e2a463fb58d0e406decab077bdd"

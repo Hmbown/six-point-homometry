@@ -36,3 +36,19 @@ Third-party papers are referenced by source links instead of being bundled.
 The original research archive is retained separately by its owner. It is not
 a dependency of this checkout. No authorship, reuse license, journal
 acceptance or external validation is created by publishing this package.
+
+## Authorship, 4 October 2026
+
+The owner of the research archive, **Hunter Bown**, is the author of this
+package and is responsible for its claims. The mathematics, code, exposition
+and in-house adversarial reviews were produced with substantial assistance
+from AI language-model agents working under the author's direction, and the
+agents wrote first drafts of most proofs and documents. This disclosure
+replaces the earlier "Homometry Program" placeholder. It changes no
+mathematical statement. The same date added Lean 4 proofs of the elementary
+soundness lemmas (`formal/`), a second, solver-free derivation of Theorem Iw
+(`tools/iw_enumeration/`), a prose specification of the low-rank checkers
+(`docs/LR_CHECKER_SPECIFICATION.md`), a primary-source check of four
+historical references (`docs/literature/`), and citation and release files
+(`CITATION.cff`, `.zenodo.json`, `docs/RELEASE.md`). No license, DOI,
+public visibility or external review exists at this date.

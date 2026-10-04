@@ -6,7 +6,7 @@
 \usepackage{xcolor}
 \usepackage{xurl}
 \usepackage[colorlinks=true,linkcolor=blue!45!black,citecolor=blue!45!black,urlcolor=blue!45!black]{hyperref}
-\hypersetup{pdftitle={A generating grammar for six-point homometry in finite cyclic groups},pdfauthor={Homometry Program; AI-assisted working draft},pdfsubject={Computer-assisted six-point generation; review draft}}
+\hypersetup{pdftitle={A generating grammar for six-point homometry in finite cyclic groups},pdfauthor={Hunter Bown},pdfsubject={Computer-assisted six-point generation; review draft prepared with AI assistance}}
 \usepackage{enumitem}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{lemma}[theorem]{Lemma}
@@ -29,13 +29,13 @@
 \setlength{\emergencystretch}{3em}
 \setlist{itemsep=3pt,topsep=5pt}
 \title{A generating grammar for six-point homometry\protect\\in finite cyclic groups}
-\author{Homometry Program\\\small Working manuscript prepared with AI assistance}
-\date{30 September 2026\\\small Extended proof revision}
+\author{Hunter Bown\\\small \texttt{hmbown@gmail.com}}
+\date{4 October 2026\\\small Revision with named authorship and machine-checked lemmas}
 \begin{document}
 \maketitle
 \begin{center}
-\small\textbf{Review draft.} Computer-assisted, in-house proof; external specialist review\newline
-and historical priority remain unresolved. Authorship to be settled before submission.
+\small\textbf{Review draft.} Computer-assisted proof prepared with substantial AI assistance;\newline
+external specialist review and historical priority remain unresolved. Not submitted.
 \end{center}
 \begin{abstract}
 Two subsets of a finite cyclic group are homometric when their unordered
@@ -74,13 +74,15 @@ joint with Berman \cite[Theorem 3.9]{rosenblatt}. Erickson and Jones give
 seven five-point types, including a triple family \cite{ej}.
 General constructions and finite enumeration also precede this work
 \cite{jj,mandereau}. The exact two-parameter six-point formula and its
-signed factorization appear as Family N in Yovanof--Golomb
-\cite[p.~47]{yg}; the distinct-distance context of that paper is not used
+signed factorization appear as Family N in Yovanof's thesis
+\cite[p.~156]{yovanof} and in Yovanof--Golomb \cite[p.~47]{yg}; the distinct-distance context of that paper is not used
 to infer weighted completeness here. The repeated-distance example at
 $(p,q)=(1,4)$ is attributed to Hosemann and Bagchi (1954) in
 Lemke--Skiena--Smith \cite[Table~1]{lss}. Classical block translations
 appear in the Callender--Hall handout \cite[Cases~3--4]{ch}, which credits
-Bullough for Cases~4a/4b. Goyette describes translation and reflection
+Bullough \cite{bullough1} for Cases~4a/4b; Soderberg's dual inversion
+\cite{soderberg} and Patterson's complementation theorems and examples
+\cite{patterson} are further antecedents of the block and complement moves. Goyette describes translation and reflection
 formulations \cite[Formulas~3.2 and~3.5]{goyette}; his proposed criteria
 are explicitly empirical, so they are not proof dependencies here.
 The symbolic-matching treatment of the six-point integer mechanism is also
@@ -1852,15 +1854,32 @@ formulas. Higher cardinalities remain outside this theorem. The project's
 separate all-cardinality census and higher-deck definition issues have no
 role in the proof and retain their recorded limitations.
 
-\section*{Authorship, assistance and sharing status}
-This working manuscript was prepared within the Homometry Program with
-AI-assisted research, code, mathematical exposition and separate in-house
-agent reviews. These reviews are not external peer review. No human author,
-affiliation or approval is inferred by the provisional title block. Before
-submission or public claims, a human mathematician should inspect the
-universal presentation cover, weighted-line encodings, lattice checkers,
-specialization lemmas and prior-art comparison. This manuscript has not
-been submitted or published.
+\section*{Authorship, AI assistance and status}
+The author, Hunter Bown, set the research questions and standards of this
+programme and is responsible for its claims. The mathematics, code,
+exposition and the separate in-house adversarial reviews were produced with
+substantial assistance from AI language-model agents working under the
+author's direction; the agents wrote first drafts of most proofs and of this
+text. Those in-house reviews are not external peer review.
+
+Two independent safeguards were added on 4 October 2026 and are part of the
+accompanying repository. First, the soundness of L2, L3$^*$, L4, L5 and L7,
+the exact dyad identity, the Bloom factorization and the
+finite-union-of-subspaces step of Section~\ref{sec:grammar} onward are proved in
+Lean~4 against Mathlib, with no \texttt{sorry}, in the directory
+\code{formal/}. Second, Theorem~Iw has a solver-free derivation by an
+exhaustive exact branch-and-bound over sorted interval orders, in
+\code{tools/iw\_enumeration/}; its record states the outcome of the six-atom
+run. Four historical sources (Yovanof 1988, Soderberg 1995, Patterson 1944,
+Bullough 1961/1964) were checked at first hand to the extent their texts
+were accessible; Yovanof's thesis classifies only distinct-distance rulers
+\cite{yovanof}, and none of the sources read states a six-point generating
+theorem for all cyclic groups.
+
+Before submission or public claims, a human specialist should still inspect
+the universal presentation cover, the weighted-line encodings, the lattice
+checkers, the specialization lemmas and the prior-art comparison. This
+manuscript has not been submitted or published.
 
 \begin{thebibliography}{99}
 \small
@@ -1937,6 +1956,31 @@ J. Goyette,
 Ph.D. thesis, University of Rochester (2012).
 Chapter~3, especially Formulas~3.2 and~3.5; the proposed criteria
 are explicitly empirical (p.~122, footnote~2).
+
+\bibitem{yovanof}
+G.~S. Yovanof, \emph{Homometric Structures}, Ph.D. dissertation,
+University of Southern California (1988).
+\href{https://doi.org/10.25549/usctheses-c3-279207}{doi:10.25549/usctheses-c3-279207}.
+Read in part in the library viewer (contents, abstract, \S\S2.7, 4.1, 4.3--4.4, 7.1);
+Family~N, p.~156, is proved unique for six-mark rulers with all distances distinct.
+
+\bibitem{soderberg}
+S. Soderberg, \emph{Z-Related Sets as Dual Inversions}, Journal of Music
+Theory \textbf{39}(1) (1995), 77--100.
+\href{https://doi.org/10.2307/843899}{doi:10.2307/843899}.
+Page~77 read; the construction is otherwise known here through Goyette.
+
+\bibitem{patterson}
+A.~L. Patterson, \emph{Ambiguities in the X-Ray Analysis of Crystal
+Structures}, Physical Review \textbf{65} (1944), 195--201.
+\href{https://doi.org/10.1103/PhysRev.65.195}{doi:10.1103/PhysRev.65.195}.
+Abstract read; contents known through secondary sources.
+
+\bibitem{bullough1}
+R.~K. Bullough, \emph{On homometric sets. I. Some general theorems},
+Acta Crystallographica \textbf{14} (1961), 257--268.
+\href{https://doi.org/10.1107/S0365110X61000838}{doi:10.1107/S0365110X61000838}.
+First page read; the remainder was inaccessible.
 
 \end{thebibliography}
 \end{document}

@@ -30,6 +30,7 @@ QUICK = (
     'tools/inverse_grid/tests/test_inverse_grid.py',
     'tools/inverse_grid/tests/test_inverse_grid_review.py',
     'tools/inverse_grid/tests/test_inverse_grid_benchmark.py',
+    'tools/iw_enumeration/tests/test_iw_enumeration.py',
 )
 CERTIFICATES = (
     'tests/test_six_cylinder_branches_review.py',

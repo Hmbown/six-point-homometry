@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: >-
+  If you refer to this work, cite the repository revision (commit hash) and
+  the specific theorem note, for example notes/2026-09-30-six-generation.md
+  for Theorem G. A DOI will be added here once a release is archived.
+type: software
+title: >-
+  Six-point homometry in finite cyclic groups: a computer-assisted generating
+  theorem with certificates
+authors:
+  - family-names: Bown
+    given-names: Hunter
+    email: hmbown@gmail.com
+version: 2026.10.04
+date-released: 2026-10-04
+repository-code: https://github.com/Hmbown/six-point-homometry
+keywords:
+  - homometric sets
+  - Z-relation
+  - interval content
+  - phase retrieval
+  - cyclic groups
+  - computer-assisted proof
+  - Lean 4
+abstract: >-
+  For every positive integer n, the translation/reflection classes of
+  six-element subsets of Z/nZ with equal pairwise-distance multisets are
+  exactly the connected components of an explicit construction graph
+  (Theorem G). The repository contains the written proofs, separate
+  adversarial reviews, exact computational certificates, two independent
+  derivations of the weighted six-atom line theorem, Lean 4 proofs of the
+  elementary soundness lemmas, and an exact count of the classical Bloom
+  construction's pair edges for every modulus. The research, code and
+  reviews were produced with substantial AI assistance under the author's
+  direction; the work has not been externally peer reviewed.

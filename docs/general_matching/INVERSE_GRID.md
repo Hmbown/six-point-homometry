@@ -23,7 +23,7 @@ Thus pairs are directed, diagonals are included, and `k=C(0)` is the unknown
 set's cardinality. Equalities here concern ordinary integer multiplicities.
 They are not equalities only modulo a positive-characteristic coefficient
 field. The solver uses exact integers and does not reconstruct fractional
-occupancies, species, weights, noisy diffraction, or continuous positions.
+occupancies, weights, noisy counts, or continuous positions.
 
 Solutions are returned once per orbit `A -> u+A` and `A -> u-A`. No other
 rotation, coordinate permutation, multiplier, or group automorphism is

@@ -3,7 +3,7 @@
 Date: 1 October 2026.
 
 This note isolates the established mathematical core shared by the cyclic
-set problem and ideal diffraction. It then states exactly what the
+set problem and the recovery of a function from its Fourier magnitudes. It then states exactly what the
 six-point generating theorem adds. The general equivalence is classical;
 this exposition claims no historical originality. Its full elementary proof
 received a separate adversarial read, with no correctness blocker found.
@@ -174,26 +174,19 @@ admissibility tests and prove completeness. Existence of a short
 finite grammar, minimality, and an efficient algorithm are separate
 questions; none follows from the universal equivalence or from G.
 
-## 4. What “an algorithm of a crystal” can mean
+## 4. Scope of the finite model
 
-Within a finite periodic grid model, \(f\) represents fixed scalar
-scattering weights. With all character bins and a known common scale,
-its ideal intensity data are \(|\widehat f|^2\), and their inverse transform
-is the weighted displacement correlation. Thus the universal equivalence
-describes exactly the information preserved by this measurement model.
-A multidimensional finite grid uses a product of cyclic groups.
+The equivalence in Section 1 concerns functions on a finite abelian group
+with exact, complete autocorrelation data. For a finite periodic grid, a
+product of cyclic groups, it says precisely which information
+`|f̂|²` (equivalently the displacement correlation) retains about `f` and
+which it loses: everything except Fourier phase. The quadratic-functional
+form adds that every translation-invariant pair functional is blind to the
+same ambiguity.
 
-The quadratic functional result also applies to a chosen scalar
-translation-invariant pair-interaction model. It concerns the energy of
-the specified configurations. It does not establish stability under
-deformations or equality of dynamics, vibrational spectra, electronic
-states, or quantum many-body interactions.
-
-A physical crystal can have continuous atomic positions, several species,
-frequency-dependent scattering factors, disorder and incomplete
-measurements. Those require their own models and hypotheses. The finite
-theorem gives a clean model of structural ambiguity. Predicting which
-crystal forms additionally requires interactions and formation dynamics.
+Nothing here extends to continuous coordinates, several weights per site,
+incomplete or noisy data, or any model with interactions between sites.
+Those need their own hypotheses and are outside this repository.
 
 ## 5. How the supplied outside review changes the argument
 

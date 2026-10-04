@@ -179,6 +179,88 @@ were read. Full journal wording was not independently compared. No claim
 is made about a correction, retraction, every subsequent theorem, the
 distinct-support conjecture, or its separate measure-zero assertion.
 
+## Historical sources checked 4 October 2026
+
+Primary-source check requested before any novelty wording; the full access
+log, quoted passages and page lists are in
+[the four-sources note](literature/2026-10-04-four-sources-primary-check.md).
+Reading scopes are stated exactly; paywalled pages are named as unread.
+
+**G. S. Yovanof.** *Homometric Structures.* Ph.D. dissertation (Electrical
+Engineering), University of Southern California, August 1988; advisor
+S. W. Golomb. [USC Digital Library](https://doi.org/10.25549/usctheses-c3-279207).
+Read in the library's online viewer: contents, abstract (p. xiii), §2.7
+(pp. 41–42), §4.1 (pp. 113–114), §4.3 (p. 121), §4.4 (pp. 152–157), §7.1
+(p. 323). Family N (p. 156) is proved to be the unique family of six-mark
+*spanning* rulers, that is, with all pairwise distances distinct. The thesis
+defines cyclic spanning rulers and makes "no attempt" at a cyclic
+classification, and treats no repeated-distance six-point case. This is the
+original source of the formula later printed in Yovanof–Golomb (1998).
+
+**Stephen Soderberg.** "Z-Related Sets as Dual Inversions." *Journal of
+Music Theory* **39**(1) (1995), 77–100. [DOI](https://doi.org/10.2307/843899).
+Page 77 read (publisher preview); pp. 78–100 unread. Dual inversion inverts
+two sub-blocks about different indices inside a grid built from a cyclic
+collection, stated for general $\mathbb Z_m$; it is a generative method with
+no completeness claim. Theorems 3.20/3.23 and the grid definition are known
+here only through Goyette (2012), §1.2.5.
+
+**A. L. Patterson.** "Ambiguities in the X-Ray Analysis of Crystal
+Structures." *Physical Review* **65**(5–6) (1944), 195–201.
+[DOI](https://doi.org/10.1103/PhysRev.65.195). Abstract only; full text
+paywalled. The two complementation theorems, the cyclotomic-set table for
+$n=8,\dots,16$ with pair and triple counts, the tetrad and "polygon plus
+dyad" families, and the modulus-16 six- and seven-point triples (given as
+examples without derivation) are reported through Goyette (2012) §2.1,
+Jedrzejewski–Johnson (2013) and Bullough (1961), p. 257. No general
+six-point theorem is reported by any of them.
+
+**R. K. Bullough.** "On homometric sets. I. Some general theorems." *Acta
+Crystallographica* **14**(3) (1961), 257–268.
+[DOI](https://doi.org/10.1107/S0365110X61000838). Page 257 (abstract and
+definitions) read on the publisher page; pp. 258–268 paywalled. Sharpens the
+Hosemann–Bagchi subset-generation theorem and gives sufficient conditions
+(Theorems 3–9) and explicit $r$-tuplets for weighted periodic and
+non-periodic sets. The block-translation Cases 4a/4b are attributed to this
+paper by Callender–Hall (2008); their exact wording in Bullough is unverified.
+
+**R. K. Bullough.** "On homometric sets. II. Sets obtained by singular
+transformations." *Acta Crystallographica* **17**(3) (1964), 295–308.
+[DOI](https://doi.org/10.1107/S0365110X64000718). Page 295 read; remainder
+paywalled. Affine and singular transformations of homometric sets; not a
+six-point source.
+
+**Jeremiah Goyette.** *The Z-Relation in Theory and Practice.* Ph.D.
+dissertation, University of Rochester (Eastman School of Music), 2012.
+[UR Research](http://hdl.handle.net/1802/24817). Read §§1.2.5–1.2.6, 2.1,
+3.1–3.2. Formula 3.2 (p. 120), $\Phi\uplus(x+\Psi)\ \mathrm Z\ \Phi\uplus(-x+\Psi)$,
+and Formula 3.5 (p. 127), $\Phi\uplus(x+\Psi)\ \mathrm Z\ \Phi\uplus(x-\Psi)$, are
+block-translation and block-reflection antecedents of L2–L5; the criteria on
+$\Psi$ are stated empirically ("I cannot prove this claim", p. 123 n. 2).
+
+**Clifton Callender and Rachel Hall.** "Crystallography and the structure of
+Z-related sets." Handout, Society for Music Theory annual meeting, Nashville,
+7 November 2008. [Author-hosted PDF](https://myweb.fsu.edu/ccallender/z-relationhandout.pdf).
+Read in full (4 pp.). Cases 1–4; Cases 4a/4b are credited to Bullough (1961)
+and stated in continuous pitch-class space, hence for every modulus.
+
+**T. A. Althuis and F. Göbel.** "Z-related pairs in microtonal systems."
+Memorandum 1524, Faculty of Mathematical Sciences, University of Twente,
+April 2000. [Repository PDF](https://ris.utwente.nl/ws/portalfiles/portal/5115044/1524.pdf).
+Read in full (9 pp.). Properties 1–10; compares dual inversion with the
+one-pitch shift; no six-point classification.
+
+**A. Bekir and S. W. Golomb.** "There Are No Further Counterexamples to
+S. Piccard's Theorem." *IEEE Transactions on Information Theory* **53**(8)
+(2007), 2864–2867. [DOI](https://doi.org/10.1109/TIT.2007.899468). Metadata
+and abstract verified; text unread. Distinct-distance (Golomb ruler) scope.
+
+**Outcome of this check.** None of the sources read states a complete
+six-point generating theorem for all cyclic groups, or a classification of
+six-point integer sets with repeated distances (Theorem I) or of six-atom
+multisets (Theorem Iw). The unread pages listed above keep this a bounded
+absence, not a proof of originality.
+
 ## Historical-priority limits
 
 The literature searches located no matching statement of the specific

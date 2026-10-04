@@ -1,5 +1,95 @@
 # Mathematics package progress
 
+## 4 October 2026 — owner-directed release preparation (plan)
+
+Owner direction received today: Hunter Bown is the named human author; AI
+assistance is to be disclosed plainly. Five tasks, in order of credibility
+gained per effort:
+
+1. Authorship and disclosure: name the author on the manuscript, README,
+   PROVENANCE and a CITATION file; remove physics/application framing from
+   the mathematics package (keep classical crystallographic *references*,
+   remove the measurement/"crystal" exposition). Success: no application
+   claim remains; `scripts/verify.py` still passes.
+2. Primary sources: attempt to read Yovanof 1988, Soderberg 1995,
+   Patterson 1944 and Bullough 1961/1964 (web agent, separate dated note);
+   update REFERENCES and the manuscript bibliography with whatever is
+   verified. Success: each source has an explicit access status and any
+   priority-relevant statement recorded verbatim.
+3. Second derivation of Theorem Iw by a non-SMT method: an exact rational
+   branch-and-bound over inclusion-respecting sorted orders of the fifteen
+   interval lengths, with exact LP feasibility and affine-hull containment
+   in the Bloom lines or the congruent locus. Success: every feasible leaf
+   is certified Bloom or congruent; non-vacuity controls find the Bloom
+   lines. Estimated compute: minutes to an hour, pure Python.
+4. Lean 4/Mathlib formalization of the elementary core: block-move
+   soundness (L2, L3*, L4, L5), half-coset complementation (L7), the
+   finite-union-of-proper-subspaces step, and the Laplace-expansion bound.
+   Success criterion is a compiling file with no `sorry`; partial progress
+   is recorded honestly.
+5. Prose specification of the LR quotient-DAG checker's obligations, and
+   archive packaging (CITATION.cff, .zenodo.json, release tarball with
+   hashes). Publishing a DOI or changing repository visibility is left to
+   the owner; this task prepares the deposit only.
+
+Each completed task gets its own commit in this repository.
+
+### Outcome, 4 October 2026
+
+**Task 1, authorship and scope — done.** Hunter Bown is named as author in
+the manuscript title block and authorship section, README, PROVENANCE and
+RESULTS; AI assistance is disclosed in each. `CITATION.cff` and
+`.zenodo.json` added. The measurement/"crystal" exposition in
+UNIVERSAL_THEOREM §4 was replaced by a neutral scope statement and one
+INVERSE_GRID phrase was neutralized; cited paper titles are unchanged. The
+manuscript recompiles (29 pages). The tex edit is recorded as a scope-edit
+in EXPORT_MANIFEST; `scripts/update_manifests.py` (new) regenerates
+PUBLIC_MANIFEST and records such edits. `scripts/audit_repository.py` now
+accepts `.lean`, `.cff`, `lean-toolchain` and `.zenodo.json` and requires
+the new assets. Audit: pass.
+
+**Task 2, primary sources — done to the extent accessible.** Web agent
+report in `docs/literature/2026-10-04-four-sources-primary-check.md`:
+Yovanof 1988 read in part (USC viewer; distinct-distance scope only, "no
+attempt" at cyclic sets); Soderberg 1995 p. 77 only; Patterson 1944
+abstract only; Bullough 1961/1964 first pages only. Goyette 2012 and
+Callender–Hall 2008 verified (the handout's real title is "Crystallography
+and the structure of Z-related sets"). Nothing read states a six-point
+generating theorem or the repeated-distance classification. REFERENCES.md
+and the manuscript bibliography updated with exact reading scopes.
+
+**Task 3, second derivation of Iw — tool built and tested; six-point run
+in progress.** `tools/iw_enumeration/` (standard library only): exact
+rational branch-and-bound over inclusion-respecting sorted interval orders
+with exact simplex and affine-hull containment in the 16 Bloom lines or the
+congruent locus. Four points: 161 nodes, all congruent. Five points:
+30,499 nodes, all congruent, 64 s on 13 processes. Unit tests pass and are
+wired into `scripts/verify.py`. Six-point run launched 07:50 with 12
+processes; outcome recorded below when it completes.
+
+**Task 4, Lean 4 — done for the elementary core.** `formal/` compiles with
+zero errors and zero `sorry` against Lean 4.31.0 / Mathlib
+`5d1abc4cd8c71e2a463fb58d0e406decab077bdd`: L2, L3*, L4, L5, L7 soundness,
+the exact dyad identity and D soundness, the Bloom factorization
+`X X* = Y Y*`, and the finite-union-of-proper-subspaces step (two forms).
+All stated in `ℤ[G]` for arbitrary abelian `G` and arbitrary ring elements.
+Not formalized: the 135 bound as a graph computation, the census, Iw, the
+quotient DAG. Commands and trust boundary in `formal/README.md`.
+
+**Task 5, specification and archive — done except the owner's publish
+steps.** `docs/LR_CHECKER_SPECIFICATION.md` states every obligation of the
+two low-rank checkers and what remains prose. `scripts/make_release_archive.py`
+builds a reproducible tarball with SHA-256; `docs/RELEASE.md` lists the
+owner-only decisions (license, visibility, tag) and the DOI steps. No
+license, DOI, visibility change or submission was made.
+
+Verification commands run today: `scripts/update_manifests.py` (audit
+pass), `tools/iw_enumeration/tests/test_iw_enumeration.py`,
+`lake env lean --root=formal` on all three Lean files from a Mathlib checkout
+at the pinned commit, `pdflatex` twice on the manuscript, and
+`scripts/verify.py` (see the commit that records its result).
+
+
 ## 1 October2026 — general constructive reduction and exact-grid tool
 
 Plan carried forward from the parent research task and user selection of

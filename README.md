@@ -12,11 +12,17 @@ binary configurations on periodic grids of any dimension and cardinality. Full
 arguments, separate adversarial reviews, checking code and computational
 certificates are included.
 
-**Research status:** AI-assisted working research with internal adversarial
-review. The principal proofs are tagged **[PROVED], in-house,
-computer-assisted**. External peer review, historical novelty and complete
-proof-assistant formalization remain unresolved. The Bloom construction and
-other classical antecedents are explicitly credited.
+**Author:** Hunter Bown. **Research status:** working research produced
+with substantial AI assistance under the author's direction, with internal
+adversarial review; see [provenance](docs/PROVENANCE.md). The principal
+proofs are tagged **[PROVED], in-house, computer-assisted**. The elementary
+soundness lemmas and one reduction step are additionally machine-checked in
+Lean 4 ([formal/](formal/README.md)); the weighted six-atom line theorem has
+a second, solver-free derivation ([tools/iw_enumeration/](tools/iw_enumeration/README.md)).
+External peer review and historical novelty remain unresolved. The Bloom
+construction and other classical antecedents are explicitly credited, and
+four historical sources were checked at first hand on 4 October 2026
+([log](docs/literature/2026-10-04-four-sources-primary-check.md)).
 
 ## Main results
 
@@ -28,6 +34,10 @@ other classical antecedents are explicitly credited.
 | **Weighted phase-retrieval extensions** | Same-support ambiguity, reconstruction and stability modulo subgroup freedoms; aperiodic positive ambiguity; an exact six-support comparison. | [Subgroup proof](notes/2026-10-01-weighted-subgroup.md) · [Six-support proof](notes/2026-10-01-weighted-six-incidence.md) |
 | **General reduction GM** | Every cardinality and abelian group; bounded torsion at every rank, cyclic cylinder reduction, and matching-specific exact integer lifts. A compact all-cardinality grammar remains open. | [Proof](docs/general_matching/GENERAL_MATCHING.md) · [Review](docs/general_matching/GENERAL_MATCHING_REVIEW.md) |
 | **Exact inverse tool IG** | Reconstructs all binary configurations on finite periodic grids, modulo translation/global inversion, with explicit complete/partial results. Worst-case search is exponential. | [Use the tool](tools/inverse_grid/README.md) · [Proof](docs/general_matching/INVERSE_GRID.md) · [Benchmarks](docs/INVERSE_GRID_BENCHMARKS.md) |
+
+| **Lean-checked soundness** | L2, L3\*, L4, L5, L7, the dyad identity and the Bloom factorization are proved in `ℤ[G]` for every abelian group `G`; the finite-union-of-subspaces step is proved for every infinite field. No `sorry`. | [formal/README.md](formal/README.md) |
+| **Second derivation of Iw** | Exhaustive exact branch-and-bound over sorted interval orders, no SMT solver, standard library only. Result recorded in the tool's README. | [tools/iw_enumeration](tools/iw_enumeration/README.md) |
+| **What the LR checkers verify** | Prose specification of every obligation checked by the two independent low-rank checkers, and of what remains prose. | [docs/LR_CHECKER_SPECIFICATION.md](docs/LR_CHECKER_SPECIFICATION.md) |
 
 [Condensed proof outline](docs/PROOF_OUTLINE.md) · [Detailed result map](docs/RESULTS.md)
 · [References and attribution](docs/REFERENCES.md)
@@ -125,6 +135,7 @@ Internal review is evidence of scrutiny, not external validation.
 
 The included manuscript PDFs are earlier working expositions; the linked
 proof notes above give the latest scopes. To reference this work, cite the
-repository revision and the specific theorem/proof note. No reuse license
-has been selected. Questions and mathematical corrections can be recorded
-as repository issues.
+repository revision and the specific theorem/proof note; `CITATION.cff`
+gives the metadata and `docs/RELEASE.md` the archiving steps. No reuse
+license has been selected yet. Questions and mathematical corrections can
+be recorded as repository issues.
