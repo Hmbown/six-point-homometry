@@ -38,8 +38,8 @@
     },
     {
       "path": "PROGRESS.md",
-      "sha256": "cca40123fc3c16b23053c014710f0ba196d4ab9ad258de5fb1705838a3528a86",
-      "bytes": 17098
+      "sha256": "632246ec21a6d59d6fc28e9ee202befd4579df2a960b51e98cb60bbe22e8e193",
+      "bytes": 17461
     },
     {
       "path": "README.md",
@@ -108,8 +108,8 @@
     },
     {
       "path": "docs/RELEASE.md",
-      "sha256": "24e043b991c8406155782439861a214e7cc58c5fbdf868e884f9432bb8bdda98",
-      "bytes": 3963
+      "sha256": "60b69dbed8a588bd235dff14d2bf8b53cbc1a5991ccbf720b93f34f537157dd3",
+      "bytes": 4392
     },
     {
       "path": "docs/REPRODUCING.md",

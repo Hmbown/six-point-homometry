@@ -19,8 +19,10 @@ owner on purpose.
 1. **License.** Decided 4 October 2026: MIT for code, CC BY 4.0 for the
    written mathematics, documentation, data and certificates (`LICENSE`,
    `LICENSE-CC-BY-4.0`; fields set in `CITATION.cff` and `.zenodo.json`).
-2. **Visibility.** The GitHub repository `Hmbown/six-point-homometry` is
-   private. Zenodo's GitHub integration only archives public repositories.
+2. **Visibility.** Done 4 October 2026: the former private repository,
+   which also held parent-archive branches, is now
+   `Hmbown/six-point-homometry-archive` (private); the public
+   `Hmbown/six-point-homometry` holds only this package's `main`.
 3. **What to call the release.** Suggested tag: `v2026.10.04`. The version
    strings in `CITATION.cff` and `.zenodo.json` match it.
 
@@ -31,13 +33,17 @@ owner on purpose.
 .venv/bin/python scripts/verify.py
 .venv/bin/python scripts/make_release_archive.py          # prints path and SHA-256
 
-# 2. Commit, tag and push (publishing: owner action).
-git tag -a v2026.10.04 -m "Archived release for DOI"
-git push origin main --tags
+# 2. On zenodo.org (browser): log in with GitHub, Settings -> GitHub, flip the
+#    switch next to Hmbown/six-point-homometry.  Do this BEFORE the release:
+#    Zenodo only archives releases made after the switch is on.
 
-# 3. On zenodo.org: Settings -> GitHub -> enable the repository, then publish
-#    a GitHub release for the tag. Zenodo creates the record and DOI from
-#    .zenodo.json. Alternatively upload the tarball from step 1 by hand.
+# 3. Then tag and publish a GitHub release; Zenodo creates the record and DOI
+#    from .zenodo.json within a few minutes.
+git tag -a v2026.10.04 -m "Archived release for DOI"
+git push public main --tags
+gh release create v2026.10.04 -R Hmbown/six-point-homometry --title "v2026.10.04" \
+   --notes "Computer-assisted generating theorem for six-point homometry; see README for status."
+#    Alternatively upload the tarball from step 1 by hand at zenodo.org/deposit.
 
 # 4. Paste the DOI into CITATION.cff (`doi:` field) and README.md, commit.
 ```

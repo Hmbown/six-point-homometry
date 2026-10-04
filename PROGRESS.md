@@ -99,6 +99,13 @@ the written mathematics, documentation, data and certificates. `LICENSE`,
 release guide now carries the decision and a suggested note to Erickson
 and Jones. Public visibility and the DOI remain owner actions.
 
+**Published, owner direction 4 October 2026.** The private GitHub
+repository holding the parent-archive branches was renamed
+`Hmbown/six-point-homometry-archive` (still private). A new public
+repository `Hmbown/six-point-homometry` was created and only this
+package's `main` was pushed to it. The Zenodo DOI is the owner's next
+browser step (`docs/RELEASE.md`).
+
 Verification commands run today: `scripts/update_manifests.py` (audit
 pass), `tools/iw_enumeration/tests/test_iw_enumeration.py`,
 `lake env lean --root=formal` on all three Lean files from a Mathlib checkout
